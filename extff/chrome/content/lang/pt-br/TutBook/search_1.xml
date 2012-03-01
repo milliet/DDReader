@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<search>
+<smilrefs id="id41">
+<smilref>speechgen0028.smil#tcp472</smilref>
+</smilrefs>
+<smilrefs id="id42">
+<smilref>speechgen0029.smil#tcp491</smilref>
+</smilrefs>
+<smilrefs id="id43">
+<smilref>speechgen0030.smil#tcp529</smilref>
+</smilrefs>
+<smilrefs id="id44">
+<smilref>speechgen0031.smil#tcp530</smilref>
+</smilrefs>
+<smilrefs id="id45">
+<smilref>speechgen0032.smil#tcp537</smilref>
+</smilrefs>
+<smilrefs id="id46">
+<smilref>speechgen0008.smil#tcp115</smilref>
+<smilref>speechgen0018.smil#tcp262</smilref>
+<smilref>speechgen0020.smil#tcs27</smilref>
+<smilref>speechgen0033.smil#tcp559</smilref>
+</smilrefs>
+<smilrefs id="id48">
+<smilref>speechgen0009.smil#tcp125</smilref>
+<smilref>speechgen0013.smil#tcs1</smilref>
+<smilref>speechgen0014.smil#tcp194</smilref>
+<smilref>speechgen0016.smil#tcs15</smilref>
+<smilref>speechgen0018.smil#tcp264</smilref>
+<smilref>speechgen0020.smil#tcs27</smilref>
+<smilref>speechgen0025.smil#tcp434</smilref>
+<smilref>speechgen0026.smil#tcs84</smilref>
+<smilref>speechgen0028.smil#tcp490</smilref>
+<smilref>speechgen0031.smil#tcp535</smilref>
+<smilref>speechgen0032.smil#tcs116</smilref>
+<smilref>speechgen0033.smil#tcp577</smilref>
+</smilrefs>
+<smilrefs id="id49">
+<smilref>speechgen0003.smil#tcp14</smilref>
+</smilrefs>
+<smilrefs id="id50">
+<smilref>speechgen0003.smil#tcp17</smilref>
+<smilref>speechgen0011.smil#tcp154</smilref>
+<smilref>speechgen0022.smil#tcp367</smilref>
+<smilref>speechgen0025.smil#tcp441</smilref>
+<smilref>speechgen0035.smil#tcp609</smilref>
+<smilref>speechgen0037.smil#tcp618</smilref>
+</smilrefs>
+<smilrefs id="id51">
+<smilref>speechgen0004.smil#tcp40</smilref>
+<smilref>speechgen0013.smil#tcs1</smilref>
+<smilref>speechgen0014.smil#tcp192</smilref>
+<smilref>speechgen0038.smil#tcp626</smilref>
+</smilrefs>
+<smilrefs id="id52">
+<smilref>speechgen0013.smil#tcs1</smilref>
+</smilrefs>
+<smilrefs id="id53">
+<smilref>speechgen0009.smil#tcp126</smilref>
+<smilref>speechgen0010.smil#tcp138</smilref>
+<smilref>speechgen0010.smil#tcp139</smilref>
+<smilref>speechgen0010.smil#tcp141</smilref>
+<smilref>speechgen0012.smil#tcp159</smilref>
+<smilref>speechgen0013.smil#tcs1</smilref>
+</smilrefs>
+<smilrefs id="id54">
+<smilref>speechgen0022.smil#tcp393</smilref>
+<smilref>speechgen0038.smil#tcp625</smilref>
+<smilref>speechgen0038.smil#tcp630</smilref>
+</smilrefs>
+<smilrefs id="id55">
+<smilref>speechgen0005.smil#tcp65</smilref>
+<smilref>speechgen0013.smil#tcs1</smilref>
+<smilref>speechgen0016.smil#tcs15</smilref>
+<smilref>speechgen0020.smil#tcs27</smilref>
+<smilref>speechgen0023.smil#tcs65</smilref>
+<smilref>speechgen0026.smil#tcs84</smilref>
+<smilref>speechgen0028.smil#tcp474</smilref>
+<smilref>speechgen0029.smil#tcs97</smilref>
+<smilref>speechgen0032.smil#tcs116</smilref>
+</smilrefs>
+<smilrefs id="id56">
+<smilref>speechgen0019.smil#tcp274</smilref>
+</smilrefs>
+<smilrefs id="id57">
+<smilref>speechgen0009.smil#tcp118</smilref>
+</smilrefs>
+<smilrefs id="id58">
+<smilref>speechgen0004.smil#tcp32</smilref>
+<smilref>speechgen0007.smil#tcp79</smilref>
+<smilref>speechgen0009.smil#tcp119</smilref>
+<smilref>speechgen0009.smil#tcp120</smilref>
+<smilref>speechgen0009.smil#tcp121</smilref>
+<smilref>speechgen0009.smil#tcp122</smilref>
+<smilref>speechgen0010.smil#tcp129</smilref>
+<smilref>speechgen0010.smil#tcp130</smilref>
+<smilref>speechgen0010.smil#tcp131</smilref>
+<smilref>speechgen0010.smil#tcp136</smilref>
+<smilref>speechgen0011.smil#tcp151</smilref>
+<smilref>speechgen0011.smil#tcp157</smilref>
+<smilref>speechgen0025.smil#tcp444</smilref>
+<smilref>speechgen0037.smil#tcp617</smilref>
+<smilref>speechgen0037.smil#tcp618</smilref>
+</smilrefs>
+<smilrefs id="id59">
+<smilref>speechgen0010.smil#tcp137</smilref>
+<smilref>speechgen0035.smil#tcp608</smilref>
+</smilrefs>
+<smilrefs id="id60">
+<smilref>speechgen0004.smil#tcp23</smilref>
+<smilref>speechgen0007.smil#tcp85</smilref>
+<smilref>speechgen0016.smil#tcs15</smilref>
+<smilref>speechgen0018.smil#tcp235</smilref>
+<smilref>speechgen0018.smil#tcp237</smilref>
+<smilref>speechgen0020.smil#tcs27</smilref>
+<smilref>speechgen0025.smil#tcp437</smilref>
+<smilref>speechgen0026.smil#tcs84</smilref>
+<smilref>speechgen0029.smil#tcs97</smilref>
+<smilref>speechgen0032.smil#tcs116</smilref>
+</smilrefs>
+<smilrefs id="id61">
+<smilref>speechgen0022.smil#tcp385</smilref>
+<smilref>speechgen0025.smil#tcp434</smilref>
+</smilrefs>
+<smilrefs id="id62">
+<smilref>speechgen0018.smil#tcp238</smilref>
+</smilrefs>
+<smilrefs id="id63">
+<smilref>speechgen0004.smil#tcp25</smilref>
+<smilref>speechgen0014.smil#tcp192</smilref>
+<smilref>speechgen0018.smil#tcp261</smilref>
+<smilref>speechgen0018.smil#tcp264</smilref>
+<smilref>speechgen0019.smil#tcp273</smilref>
+<smilref>speechgen0019.smil#tcp282</smilref>
+<smilref>speechgen0022.smil#tcp380</smilref>
+<smilref>speechgen0028.smil#tcp490</smilref>
+<smilref>speechgen0031.smil#tcp535</smilref>
+<smilref>speechgen0033.smil#tcp560</smilref>
+<smilref>speechgen0033.smil#tcp562</smilref>
+<smilref>speechgen0034.smil#tcp588</smilref>
+<smilref>speechgen0034.smil#tcp591</smilref>
+<smilref>speechgen0039.smil#tcp634</smilref>
+</smilrefs>
+<smilrefs id="id64">
+<smilref>speechgen0037.smil#tcp617</smilref>
+<smilref>speechgen0038.smil#tcp626</smilref>
+</smilrefs>
+<smilrefs id="id65">
+<smilref>speechgen0003.smil#tcp5</smilref>
+<smilref>speechgen0003.smil#tcp6</smilref>
+</smilrefs>
+<smilrefs id="id67">
+<smilref>speechgen0022.smil#tcp363</smilref>
+</smilrefs>
+<smilrefs id="id68">
+<smilref>speechgen0018.smil#tcp262</smilref>
+<smilref>speechgen0018.smil#tcp271</smilref>
+</smilrefs>
+<smilrefs id="id69">
+<smilref>speechgen0003.smil#tcp7</smilref>
+</smilrefs>
+<smilrefs id="id72">
+<smilref>speechgen0003.smil#tcp9</smilref>
+<smilref>speechgen0008.smil#tcp112</smilref>
+<smilref>speechgen0013.smil#tcs1</smilref>
+<smilref>speechgen0016.smil#tcs15</smilref>
+<smilref>speechgen0019.smil#tcp282</smilref>
+<smilref>speechgen0020.smil#tcs27</smilref>
+<smilref>speechgen0023.smil#tcs65</smilref>
+<smilref>speechgen0026.smil#tcs84</smilref>
+<smilref>speechgen0029.smil#tcs97</smilref>
+<smilref>speechgen0032.smil#tcs116</smilref>
+</smilrefs>
+<smilrefs id="id76">
+<smilref>speechgen0006.smil#tcp67</smilref>
+<smilref>speechgen0018.smil#tcp244</smilref>
+<smilref>speechgen0020.smil#tcs27</smilref>
+<smilref>speechgen0022.smil#tcp386</smilref>
+<smilref>speechgen0023.smil#tcs65</smilref>
+<smilref>speechgen0037.smil#tcp620</smilref>
+</smilrefs>
+<smilrefs id="id77">
+<smilref>speechgen0016.smil#tcs15</smilref>
+<smilref>speechgen0020.smil#tcs27</smilref>
+</smilrefs>
+<smilrefs id="id78">
+<smilref>speechgen0033.smil#tcp563</smilref>
+<smilref>speechgen0034.smil#tcp592</smilref>
+</smilrefs>
+<smilrefs id="id79">
+<smilref>speechgen0010.smil#tcp140</smilref>
+</smilrefs>
+<smilrefs id="id80">
+<smilref>speechgen0019.smil#tcp277</smilref>
+</smilrefs>
+</search>

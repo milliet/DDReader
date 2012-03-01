@@ -1,0 +1,85 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<dialog id="lidad-tabcmdadic" class="windowBody"
+title="DDR - Lista de comandos"
+align="top" orient="vertical"
+xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+xmlns:html="http://www.w3.org/1999/xhtml"
+buttons="none"
+buttonalign="center"
+	ondialogcancel="return clickcancel();"
+	onload="finishLoad();"
+	onkeypress="tabcmdCKeys.keypress(event);"
+>
+
+	<script type="text/javascript">
+		var RunningInsideTutorial = false;
+		var RunningInsideExercises = false;
+	</script>
+	<script src="../../../js/CPref.js" type="text/javascript"></script>
+	<script src="../../../js/CLocale.js" type="text/javascript"></script>
+	<script src="../../../js/CMsg.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CMsgIface.js" type="text/javascript"></script>
+	<script src="../../../js/CSpell.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CSpellMsg.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils_ff.js" type="text/javascript"></script>
+	<script src="../../../js/CExcept.js" type="text/javascript"></script>
+	<script src="../../../js/CTextItem.js" type="text/javascript"></script>
+	<script src="../../../js/CTextArray.js" type="text/javascript"></script>
+	<script src="../../../js/CTextLimits.js" type="text/javascript"></script>
+	<script src="../../../js/CDialogs.js" type="text/javascript"></script>
+	<script src="../../../js/CDlgManager.js" type="text/javascript"></script>
+	<script src="../../../js/CSpeak.js" type="text/javascript"></script>
+	<script src="../../../jsdlg/tabcmd_keys.js" type="text/javascript"></script>
+	<script src="../../../jsdlg/tabcmd_adic.js" type="text/javascript"></script>
+<html:link href="../800/css/LidaDDlgs.css" rel="stylesheet" type="text/css"/>
+	 <html:link href="../1024/css/LidaDDlgs.css" rel="stylesheet" type="text/css"/> 
+	<script>
+	document.styleSheets[2].disabled = CPref.interfaceRes();
+	</script>
+	<vbox>
+		<hbox align="center" class="TitBox" >
+			<label id="tabcmdadic.title" value="LISTA DE COMANDOS" class="LabelTitulo" />
+		</hbox>
+
+		<hbox pack="center"  align="top">
+			<vbox minwidth="380px">
+				<spacer class="spacer20H"  />
+				<button id="tabcmd_sole" oncommand="clicktabcmd(this.id);" label="Soletração" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="tabcmd_fonte" oncommand="clicktabcmd(this.id);" label="Tamanho de fonte" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="tabcmd_irpag" oncommand="clicktabcmd(this.id);" label="Ir para página" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="tabcmd_laudio" oncommand="clicktabcmd(this.id);" label="Chavear leitura por áudio" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="tabcmd_voz" oncommand="clicktabcmd(this.id);" label="Chavear entre vozes" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="tabcmd_rbusca" oncommand="clicktabcmd(this.id);" label="Resultados da busca" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="tabcmd_llista" oncommand="clicktabcmd(this.id);" label="Chavear leitura de listas" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="tabcmd_laut" oncommand="clicktabcmd(this.id);" label="Leitura automática do livro" onfocus="manager.foco(this);" />
+			</vbox>
+			<vbox minwidth="380px">
+				<spacer class="spacer20H"  />
+				<button id="tabcmd_rodape" oncommand="clicktabcmd(this.id);" label="Chavear notas de rodapé" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="tabcmd_lpag" oncommand="clicktabcmd(this.id);" label="Chavear números de páginas" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="tabcmd_indmark" oncommand="clicktabcmd(this.id);" label="Chavear indicador de marcador" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="tabcmd_export" oncommand="clicktabcmd(this.id);" label="Exportar anotações" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="tabcmd_cred" oncommand="clicktabcmd(this.id);" label="Créditos" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="tabcmd_atu" oncommand="clicktabcmd(this.id);" label="Atualização" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="tabcmd_basico" oncommand="clicktabcmd(this.id);" label="Comandos básicos" onfocus="manager.foco(this);" />
+			</vbox>
+		</hbox>
+		<spacer class="spacer20H"  />
+	</vbox>
+
+</dialog>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE smil
+  PUBLIC "-//NISO//DTD dtbsmil 2005-2//EN" "http://www.daisy.org/z3986/2005/dtbsmil-2005-2.dtd">
+<smil xmlns="http://www.w3.org/2001/SMIL20/">
+	  <head>
+		    <meta content="FDNC_1051" name="dtb:uid"/>
+		    <meta content="TPB Narrator" name="dtb:generator"/>
+		    <meta content="0:06:24.771" name="dtb:totalElapsedTime"/>
+		
+	  </head>
+	  <body>
+		    <seq dur="0:00:28.408" fill="remove" id="mseq">
+		       <par id="tcp154">
+            <text id="text154" src="saida.xml#dtb154"/>
+            
+         </par>
+         <par id="tcp155">
+            <text id="text155" src="saida.xml#dtb155"/>
+            
+         </par>
+         <par id="tcp156">
+            <text id="text156" src="saida.xml#dtb156"/>
+            
+         </par>
+         <par id="tcp157">
+            <text id="text157" src="saida.xml#dtb157"/>
+            
+         </par>
+         <par id="tcp158">
+            <text id="text158" src="saida.xml#dtb158"/>
+            
+         </par>
+      </seq>
+	  </body>
+</smil>

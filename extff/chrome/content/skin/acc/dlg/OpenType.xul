@@ -1,0 +1,65 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<dialog id="lidad-open" class="windowBody"
+title="DDR - Abrir livro"
+align="top" orient="vertical"
+xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+xmlns:html="http://www.w3.org/1999/xhtml"
+buttons="cancel"
+buttonalign="center"
+   buttonlabelcancel="CANCELAR"
+	ondialogcancel="return clickcancel();"
+	onload="finishLoad();"
+>
+
+	<script type="text/javascript">
+		var RunningInsideTutorial = false;
+		var RunningInsideExercises = false;
+	</script>
+	<script src="../../../js/CPref.js" type="text/javascript"></script>
+	<script src="../../../js/CLocale.js" type="text/javascript"></script>
+	<script src="../../../js/CMsg.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CMsgIface.js" type="text/javascript"></script>
+	<script src="../../../js/CSpell.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CSpellMsg.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils_ff.js" type="text/javascript"></script>
+	<script src="../../../js/CExcept.js" type="text/javascript"></script>
+	<script src="../../../js/CTextItem.js" type="text/javascript"></script>
+	<script src="../../../js/CTextArray.js" type="text/javascript"></script>
+	<script src="../../../js/CTextLimits.js" type="text/javascript"></script>
+	<script src="../../../js/CDialogs.js" type="text/javascript"></script>
+	<script src="../../../js/CDlgManager.js" type="text/javascript"></script>
+	<script src="../../../js/CSpeak.js" type="text/javascript"></script>
+	<script src="../../../jsdlg/OpenType.js" type="text/javascript"></script>
+<html:link href="../800/css/LidaDDlgs.css" rel="stylesheet" type="text/css"/>
+	 <html:link href="../1024/css/LidaDDlgs.css" rel="stylesheet" type="text/css"/> 
+	<script>
+	document.styleSheets[2].disabled = CPref.interfaceRes();
+	</script>
+	<vbox>
+		<hbox align="center" class="TitBox" >
+			<label id="opentype.title" value="ABRIR LIVRO" class="LabelTitulo"  align="center" />
+		</hbox>
+
+		<label id="opentype.tip" value="Selecione uma forma para escolher o livro a ser aberto." class="Labels"  align="center" />
+		<hbox>
+			<spacer flex="1" />
+			<vbox>
+				<spacer class="spacer20H"  />
+				<button id="butselarq" oncommand="clickbutselarq();" label="Selecionar arquivo" accesskey="a" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="butbibli" oncommand="clickbutbibli();" label="Procurar na biblioteca" accesskey="b" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="butcomp" oncommand="clickbutcomp();" label="Procurar no computador" accesskey="c" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="butint" oncommand="clickbutint();" label="Abrir da Internet" accesskey="I" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button dlgtype="cancel" id="opentype.botcancel" label="CANCELAR" onfocus="manager.foco(this);" />
+			</vbox>
+			<spacer flex="1" />
+		</hbox>
+<spacer class="spacer20H"  />
+	</vbox>
+
+</dialog>

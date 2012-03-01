@@ -1,0 +1,249 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<prefwindow id="lidad-prefs" class="windowBody"
+     title="DDR - Preferências Globais"
+     xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	 xmlns:html="http://www.w3.org/1999/xhtml"
+     onload='eventoload();'
+   ondialogaccept="return clickok();"
+   ondialogcancel="return clickcancel();"
+   style="margin-left:0; margin-right:0; margin-top:0; margin-bottom:10"
+     >
+
+	<script type="text/javascript">
+		var RunningInsideTutorial = false;
+		var RunningInsideExercises = false;
+	</script>
+	<script src="../../../js/CPref.js" type="text/javascript"></script>
+	<script src="../../../js/CLocale.js" type="text/javascript"></script>
+	<script src="../../../js/CMsg.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CMsgIface.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils_ff.js" type="text/javascript"></script>
+	<script src="../../../js/CExcept.js" type="text/javascript"></script>
+	<script src="../../../js/CTextItem.js" type="text/javascript"></script>
+	<script src="../../../js/CTextArray.js" type="text/javascript"></script>
+	<script src="../../../js/CTextLimits.js" type="text/javascript"></script>
+	<script src="../../../js/CDialogs.js" type="text/javascript"></script>
+	<script src="../../../js/CDlgManager.js" type="text/javascript"></script>
+	<script src="../../../js/CSpeak.js" type="text/javascript"></script>
+	<script src="../../../jsdlg/prefs.js" type="text/javascript"></script>
+	<html:link href="../base/css/LidaDDlgs.css" rel="stylesheet" type="text/css"/>
+	<prefpane id="lidad_globais" label="GLOBAIS" style="overflow:auto" >
+		<!--SETA AS REFERENCIAS A PREFERENCIAS-->
+		<preferences>
+			<preference id="lidad.skin_p" name="extensions.lidad.skin" type="string"/>
+			<preference id="lidad.language_p" name="extensions.lidad.language" type="string"/>
+			<preference id="lidad.fontsize_p" name="extensions.lidad.fontsize" type="int"/>
+			<preference id="lidad.maxhistoryentries_p" name="extensions.lidad.maxhistoryentries" type="int"/>
+			<preference id="lidad.voice.system_p" name="extensions.lidad.voice.system" type="string"/>
+			<preference id="lidad.voice.speed_p" name="extensions.lidad.voice.speed" type="int"/>
+			<preference id="lidad.voice.volume_p" name="extensions.lidad.voice.volume" type="int"/>
+			<preference id="lidad.echotyping_p" name="extensions.lidad.echotyping" type="bool"/>
+			<preference id="lidad.echocommands_p" name="extensions.lidad.echocommands" type="bool"/>
+			<preference id="lidad.bookmarkbeep_p" name="extensions.lidad.bookmarkbeep" type="bool"/>
+			<preference id="lidad.voice.voiceon_p" name="extensions.lidad.voice.voiceon" type="bool"/>
+			<preference id="lidad.listautonav_p" name="extensions.lidad.listautonav" type="bool"/>
+			<preference id="lidad.audio.volume_p" name="extensions.lidad.audio.volume" type="int"/>
+			<preference id="lidad.bookfolder_p" name="extensions.lidad.bookfolder" type="string"/>
+			<preference id="lidad.extendededit_p" name="extensions.lidad.extendededit" type="bool"/>
+		</preferences>
+		<vbox>
+			<hbox align="center" class="TitBox" >
+				<label value="PREFERÊNCIAS GLOBAIS" id="prefs.titulo" class="LabelTitulo" align="center" />
+			</hbox>
+			<!--desabilitados por enquanto
+  <hbox align="center">
+    <label control="skin" value="SKIN: "  class="Labels"/>
+	<menulist id="skin" preference="lidad.skin_p">
+    <menupopup>
+      <menuitem label="Acessível" value="default" preference="lidad.skin_p"/>
+      <menuitem label="Visual" value="visual" preference="lidad.skin_p"/>
+    </menupopup>
+  </menulist>
+
+  </hbox>
+-->
+			<spacer height="5" minheight="5" maxheight="5" />
+			<hbox class="hboxClass">
+				<!--IDOMA DA INTERFACE-->
+				<label control="lang" id="prefs.programlanguage" value="Idioma do programa: "  class="Labels"/>
+				<spacer flex="1"/>
+				<menulist id="lang" preference="lidad.language_p" onfocus="manager.foco(this);" oncommand="prefsclicklang(this);" >
+					<menupopup>
+						<menuitem label="Português - Brasil" value="pt-br" preference="lidad.language_p"/>
+						<menuitem label="English" value="en" preference="lidad.language_p"/>
+						<menuitem label="Español" value="es" preference="lidad.language_p"/>
+					</menupopup>
+				</menulist>
+			</hbox>
+
+			<spacer height="5" minheight="5" maxheight="5" />
+			<hbox class="hboxClass">
+				<!--VOZ DEFAULT DE SISTEMA-->
+				<label control="voiceSysDef" id="LabelvoiceSysDef" value="Voz para sistema: "  class="Labels"/>
+				<spacer flex="1"/>
+				<menulist id="voiceSysDef" preference="lidad.voice.system_p" onfocus="manager.foco(this);" oncommand="manager.foco(this);" >
+					<menupopup>
+					</menupopup>
+				</menulist>
+			</hbox>
+			<spacer height="5" minheight="5" maxheight="5" />
+			<hbox class="hboxClass">
+				<!--VELOCIDADE TTS-->
+				<label control="voiceSpeed" id="LabelvoiceSpeed" value="Velocidade TTS: "  class="Labels"/>
+				<spacer flex="1"/>
+				<menulist id="voiceSpeed" preference="lidad.voice.speed_p" onfocus="manager.foco(this);" oncommand="manager.foco(this);" >
+					<menupopup id="menuspeed">
+						<menuitem label="-10" value="-10" preference="lidad.voice.speed_p"/>
+						<menuitem label="-9" value="-9" preference="lidad.voice.speed_p"/>
+						<menuitem label="-8" value="-8" preference="lidad.voice.speed_p"/>
+						<menuitem label="-7" value="-7" preference="lidad.voice.speed_p"/>
+						<menuitem label="-6" value="-6" preference="lidad.voice.speed_p"/>
+						<menuitem label="-5" value="-5" preference="lidad.voice.speed_p"/>
+						<menuitem label="-4" value="-4" preference="lidad.voice.speed_p"/>
+						<menuitem label="-3" value="-3" preference="lidad.voice.speed_p"/>
+						<menuitem label="-2" value="-2" preference="lidad.voice.speed_p"/>
+						<menuitem label="-1" value="-1" preference="lidad.voice.speed_p"/>
+						<menuitem label="0" value="0" preference="lidad.voice.speed_p"/>
+						<menuitem label="1" value="1" preference="lidad.voice.speed_p"/>
+						<menuitem label="2" value="2" preference="lidad.voice.speed_p"/>
+						<menuitem label="3" value="3" preference="lidad.voice.speed_p"/>
+						<menuitem label="4" value="4" preference="lidad.voice.speed_p"/>
+						<menuitem label="5" value="5" preference="lidad.voice.speed_p"/>
+						<menuitem label="6" value="6" preference="lidad.voice.speed_p"/>
+						<menuitem label="7" value="7" preference="lidad.voice.speed_p"/>
+						<menuitem label="8" value="8" preference="lidad.voice.speed_p"/>
+						<menuitem label="9" value="9" preference="lidad.voice.speed_p"/>
+						<menuitem label="10" value="10" preference="lidad.voice.speed_p"/>
+					</menupopup>
+				</menulist>
+			</hbox>
+			<spacer height="5" minheight="5" maxheight="5" />
+			<hbox class="hboxClass">
+				<!--VOLUME TTS-->
+				<label control="voiceVol" id="LabelvoiceVol" value="Volume TTS: "  class="Labels"/>
+				<spacer flex="1"/>
+				<menulist id="voiceVol" preference="lidad.voice.volume_p" onfocus="manager.foco(this);" oncommand="manager.foco(this);" >
+					<menupopup id="menuvol">
+						<menuitem label="0" value="0" preference="lidad.voice.volume_p"/>
+						<menuitem label="1" value="10" preference="lidad.voice.volume_p"/>
+						<menuitem label="2" value="20" preference="lidad.voice.volume_p"/>
+						<menuitem label="3" value="30" preference="lidad.voice.volume_p"/>
+						<menuitem label="4" value="40" preference="lidad.voice.volume_p"/>
+						<menuitem label="5" value="50" preference="lidad.voice.volume_p"/>
+						<menuitem label="6" value="60" preference="lidad.voice.volume_p"/>
+						<menuitem label="7" value="70" preference="lidad.voice.volume_p"/>
+						<menuitem label="8" value="80" preference="lidad.voice.volume_p"/>
+						<menuitem label="9" value="90" preference="lidad.voice.volume_p"/>
+						<menuitem label="10" value="100" preference="lidad.voice.volume_p"/>
+					</menupopup>
+				</menulist>
+			</hbox>
+			<spacer height="5" minheight="5" maxheight="5" />
+
+			<hbox class="hboxClass">
+				<!--FONTE SIZE -->
+				<label control="fontSize" id="LabelfontSize" value="Tamanho da fonte: "  class="Labels"/>
+				<spacer flex="1"/>
+				<menulist id="fontSize" preference="lidad.fontsize_p" onfocus="manager.foco(this);" oncommand="manager.foco(this);" >
+					<menupopup id="fontS">
+						<menuitem label="100%" value="100" preference="lidad.fontsize_p"/>
+						<menuitem label="125%" value="125" preference="lidad.fontsize_p"/>
+						<menuitem label="150%" value="150" preference="lidad.fontsize_p"/>
+						<menuitem label="175%" value="175" preference="lidad.fontsize_p"/>
+						<menuitem label="200%" value="200" preference="lidad.fontsize_p"/>
+					</menupopup>
+				</menulist>
+			</hbox>
+			<spacer height="5" minheight="5" maxheight="5" />
+
+			<hbox class="hboxClass">
+				<!--MAX HISTORY -->
+				<label control="historyEntries" id="LabelhistoryEntries" value="Entradas no histórico: "  class="Labels"/>
+				<spacer flex="1"/>
+				<menulist id="historyEntries" preference="lidad.maxhistoryentries_p" onfocus="manager.foco(this);" oncommand="manager.foco(this);" >
+					<menupopup id="menuvol">
+						<menuitem label="10" value="10" preference="lidad.maxhistoryentries_p"/>
+						<menuitem label="20" value="20" preference="lidad.maxhistoryentries_p"/>
+						<menuitem label="30" value="30" preference="lidad.maxhistoryentries_p"/>
+						<menuitem label="50" value="50" preference="lidad.maxhistoryentries_p"/>
+						<menuitem label="100" value="100" preference="lidad.maxhistoryentries_p"/>
+						<menuitem label="200" value="200" preference="lidad.maxhistoryentries_p"/>
+					</menupopup>
+				</menulist>
+			</hbox>
+			<spacer height="5" minheight="5" maxheight="5" />
+			<!--ECHO TYPING -->
+			<hbox class="hboxClass">
+				<checkbox class="Labels" preference="lidad.echotyping_p" id="echotyping" label="Eco de digitação" checked="true"
+			onfocus="manager.foco(this);" oncommand="manager.foco(this);" onclick="manager.foco(this);" />
+			</hbox>
+
+			<spacer height="5" minheight="5" maxheight="5" />
+			<!--ECHO SYS -->
+			<hbox class="hboxClass">
+				<checkbox class="Labels" preference="lidad.echocommands_p" id="echocommands" label="Eco de comandos" checked="true"
+			onfocus="manager.foco(this);" oncommand="manager.foco(this);" onclick="manager.foco(this);" />
+			</hbox>
+			<spacer height="5" minheight="5" maxheight="5" />
+
+
+			<!--BOOKMARKs Beep -->
+			<hbox class="hboxClass">
+				<checkbox class="Labels" preference="lidad.bookmarkbeep_p" id="bookmarkbeep" label="Beep no marcador" checked="true"
+			onfocus="manager.foco(this);" oncommand="manager.foco(this);" onclick="manager.foco(this);" />
+			</hbox>
+
+			<!--VOZ Global 
+     desabilitados por enquanto
+		<checkbox class="Labels" preference="lidad.voice.voiceon_p" id="voiceon" label="Voz Global" checked="true"/>
+		-->
+			<!--navega auto listas -->
+			<spacer height="5" minheight="5" maxheight="5" />
+			<hbox class="hboxClass">
+				<checkbox class="Labels" preference="lidad.listautonav_p" id="listautonav" label="Navegação automática de listas" checked="true"
+				onfocus="manager.foco(this);" oncommand="manager.foco(this);" onclick="manager.foco(this);" />
+			</hbox>
+
+			<!--edicao estendida -->
+			<spacer height="5" minheight="5" maxheight="5" />
+			<hbox class="hboxClass">
+				<checkbox class="Labels" preference="lidad.extendededit_p" id="extendededit" label="Edição de texto estendida" checked="true"
+				onfocus="manager.foco(this);" oncommand="manager.foco(this);" onclick="manager.foco(this);" />
+
+			</hbox>
+			<!--frasews para exportar com anotacoes -->
+			<spacer height="5" minheight="5" maxheight="5" />
+			<hbox class="hboxClass">
+				<label control="exportphrases" id="Labelexportphrases" value="Frases a exportar com anotações: "  class="Labels"/>
+				<spacer flex="1"/>
+				<menulist id="exportphrases" preference="lidad.exportphrases_p" onfocus="manager.foco(this);" oncommand="manager.foco(this);" >
+					<menupopup id="menuexportphrases">
+						<menuitem label="0" value="0" preference="lidad.exportphrases_p"/>
+						<menuitem label="1" value="1" preference="lidad.exportphrases_p"/>
+						<menuitem label="2" value="2" preference="lidad.exportphrases_p"/>
+						<menuitem label="3" value="3" preference="lidad.exportphrases_p"/>
+						<menuitem label="4" value="4" preference="lidad.exportphrases_p"/>
+						<menuitem label="5" value="5" preference="lidad.exportphrases_p"/>
+					</menupopup>
+				</menulist>
+			</hbox>
+
+			<hbox>
+				<label id="prefs.dirBilbio" value="Diretório da biblioteca (endereço completo):" class="Labels" />
+			</hbox>
+			<hbox class="hboxClass">
+				<textbox id="bibliopath" preference="lidad.bookfolder_p" class="BiblioText" 
+				onfocus="manager.focoid('bibliopath');" />
+			</hbox>
+
+			<spacer height="5" minheight="5" maxheight="5" />
+
+			<hbox align="center">
+				<button dlgtype="accept" id="prefs.botok" label="OK" onfocus="manager.foco(this);" />
+				<button dlgtype="cancel" id="prefs.botcancel" label="CANCELAR" onfocus="manager.foco(this);" />
+			</hbox>
+		</vbox>
+	</prefpane>
+</prefwindow>

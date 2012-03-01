@@ -1,0 +1,36 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.windowBody{
+	background-color:#000000;
+	margin: 0px;
+}
+button{
+	-moz-appearance: none;
+	font: bold 24px Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-color: #FFCC00;
+	cursor: pointer;
+	padding: 4px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.frameCreditos{
+	overflow: visible;
+	visibility: visible;
+	height: 500px;
+	width: 780px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFCC00;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #FFCC00;
+}
+.frameUpdate{
+	overflow: hidden;
+	visibility: visible;
+	height: 288px;
+	width: 580px;
+}

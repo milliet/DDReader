@@ -1,0 +1,1 @@
+OBJS = e:\builds\moz2_slave\rel-m-rel-xr-w32-bld\build\obj-firefox\intl\unicharutil\util\nsUnicharUtils.obj e:\builds\moz2_slave\rel-m-rel-xr-w32-bld\build\obj-firefox\intl\unicharutil\util\nsBidiUtils.obj

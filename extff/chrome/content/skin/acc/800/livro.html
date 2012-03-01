@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>LIVRO</title>
+<link href="css/LidaD.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body bgcolor="#000000">
+<div class="AbreIndiceLivroAtivo" id="AbreIndiceLivro" onclick="window.parent.CButtons.clickNdx();">ÍNDICE</div>
+<div class="AbreMarcadoresLivro" id="AbreMarcadoresLivro" onclick="window.parent.CButtons.clickMarkersBook();">MARCADORES</div>
+<div class="AbreBuscaLivro" id="AbreBuscaLivro" onclick="window.parent.CButtons.clickAbaBusca();">BUSCA</div>
+<div class="LivroBuscaHeader" id="LivroBuscaHeader"></div><div class="LivroBusca" id="LivroBusca"></div><div style="visibility:hidden" id="LivroBuscaConv"></div>
+<div class="LivroMarcadores" id="LivroMarcadores"></div><div style="visibility:hidden" id="LivroMarcadoresConv"></div>
+<iframe src="ncx.html" class="LivroIndice" id="LivroIndice"></iframe>
+<div style="visibility:hidden" id="LivroIndiceConv"></div>
+<div class="LivroAtual" id="LivroAtual">TÍTULO DO LIVRO</div>
+<iframe src="leitura.html" class="LivroLeitura" id="LivroLeitura"></iframe>
+  
+</body>
+</html>

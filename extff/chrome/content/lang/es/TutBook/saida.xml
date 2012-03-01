@@ -1,0 +1,1153 @@
+<?xml version='1.0' encoding='utf-8'?><!DOCTYPE dtbook PUBLIC "-//NISO//DTD dtbook 2005-2//EN" "http://www.daisy.org/z3986/2005/dtbook-2005-2.dtd"><?xml-stylesheet href='dtbook.2005.basic.css' type='text/css'?><dtbook xmlns="http://www.daisy.org/z3986/2005/dtbook/" xml:lang="es" version="2005-2">
+	<head>
+		<meta name="dtb:uid" content="FDNC_1051" />
+		<meta content="Tutorial DDReader" name="dtb:title" />
+		<meta content="Tutorial DDReader" name="dc:Title" />
+		<meta name="dc:Date" content="2009-12-08" />
+		<meta name="dc:Creator" content="Pedro Milliet y Eduardo Perez" />
+		<meta name="dc:Publisher" content="FDNC" />
+		<meta content="es" name="dc:Language" />
+	</head>
+	<book>
+		<frontmatter>
+			<doctitle id="dtb1" smilref="speechgen0001.smil#tcp1">Tutorial DDReader</doctitle>
+			<docauthor smilref="speechgen0001.smil#tcp2" id="dtb2">Pedro Milliet y Eduardo Perez</docauthor>
+		</frontmatter>
+		<bodymatter>
+			<level1>
+				<h1><span id="dtb3" smilref="speechgen0002.smil#tcp3">TUTORIAL DORINA DAISY READER (DDReader).</span></h1>
+				<p class="dummy" />
+			</level1>
+			<level1>
+				<h1><span id="dtb4" smilref="speechgen0003.smil#tcp4">1.Introducción.</span></h1>
+				<p><sent><span id="dtb5" class="normalized" smilref="speechgen0003.smil#tcp5">El  <abbr class="pronuncia" title="dêderríder"><strong>DDReader</strong></abbr>es un  reproductor de Libros Digitales Accesibles  en formato DAISY 3.0. </span></sent><sent id="dtb6" smilref="speechgen0003.smil#tcp6">Este formato fue desarrollado por el  consorcio mundial
+         DAISY.ORG para la producción y distribución de libros digitales  accesibles alrededor del mundo. </sent><sent smilref="speechgen0003.smil#tcp7" id="dtb7">Como evolución del aplicativo
+         LIDA, al mismo tiempo  que adopta un nuevo formato, este aplicativo presenta recursos de navegación e interactividad desarrollados
+         con exclusividad para LIDA de la Fundación Dorina Nowill para Ciegos.
+      </sent></p>
+				<p><sent id="dtb8" smilref="speechgen0003.smil#tcp8">En este tutorial usted va a encontrar todas las informaciones necesarias para utilizar el aplicativo DDR. </sent><sent id="dtb9" smilref="speechgen0003.smil#tcp9">Si usted está leyendo este tutorial a partir del comando TUTORIAL (tecla T o el botón de ayuda de DDR), en cualquier momento  podrá volver a la  lectura del libro presionando la tecla ESC.</sent></p>
+				<p><sent id="dtb10" smilref="speechgen0003.smil#tcp10">Para navegar por los Contenidos del Tutorial, use las teclas de Flecha hacia la izquierda y derecha de su teclado. </sent><sent id="dtb11" smilref="speechgen0003.smil#tcp11">Para avanzar o retroceder por frases, use las teclas de Flecha hacia arriba o abajo de su teclado. </sent><sent smilref="speechgen0003.smil#tcp12" id="dtb12">Para pausar la lectura, use la Barra espaciadora. </sent><sent smilref="speechgen0003.smil#tcp13" id="dtb13">Para retomar la lectura use nuevamente la Barra espaciadora.  </sent><sent id="dtb14" smilref="speechgen0003.smil#tcp14">Para aumentar el volumen use la tecla Más (+) ,  para disminuir  use a tecla Menos (-). </sent><sent id="dtb15" smilref="speechgen0003.smil#tcp15">Para aumentar a velocidad de lectura use la tecla  punto (.), para disminuir la velocidad use la tecla Coma (,) . 
+         </sent><sent smilref="speechgen0003.smil#tcp16" id="dtb16">Para salir del aplicativo, en  cualquier momento,  teclee  ESC y  después confirme tecleando ENTER.  </sent><sent id="dtb17" smilref="speechgen0003.smil#tcp17">(Use el botón  de salir y  confirme con ENTER). </sent><sent smilref="speechgen0003.smil#tcp18" id="dtb18">Este comando no funciona cuando una caja de diálogo esté abierta. </sent><sent smilref="speechgen0003.smil#tcp19" id="dtb19">Tecle ESC para cerrar la caja de diálogo y  después use ESC nuevamente para cerrar el aplicativo.
+      </sent></p>
+				<p smilref="speechgen0003.smil#tcp20" id="dtb20">Ahora vamos a explicar las funciones de uso de DDR.</p>
+				<level2>
+					<h2><span id="dtb21" smilref="speechgen0004.smil#tcp21">1.1.Comandos de DDR.</span></h2>
+					<p><sent id="dtb22" smilref="speechgen0004.smil#tcp22">Los comandos principales de DDR son:
+         Tecla TAB. </sent><sent id="dtb23" smilref="speechgen0004.smil#tcp23">Activa el modo de lista de comandos. </sent><sent id="dtb24" smilref="speechgen0004.smil#tcp24">En este modo los comandos principales son activados por ENTER. </sent><sent id="dtb25" smilref="speechgen0004.smil#tcp25">Con sucesivos TABs usted puede acceder a todos los comandos principales del aplicativo. </sent><sent smilref="speechgen0004.smil#tcp26" id="dtb26">Utilice SHIFT + TAB para retornar en la lista de comandos.
+         </sent><sent id="dtb27" smilref="speechgen0004.smil#tcp27">Tecla Control + Home. </sent><sent smilref="speechgen0004.smil#tcp28" id="dtb28">Tela Inicial, (general).
+         </sent><sent id="dtb29" smilref="speechgen0004.smil#tcp29">Tecla Home. </sent><sent id="dtb30" smilref="speechgen0004.smil#tcp30">Información del  libro, (general), (sólo con un libro abierto).
+         </sent><sent smilref="speechgen0004.smil#tcp31" id="dtb31">Tecla O. </sent><sent id="dtb32" smilref="speechgen0004.smil#tcp32">Abrir libro, (general).
+         </sent><sent id="dtb33" smilref="speechgen0004.smil#tcp33">Tecla I. </sent><sent id="dtb34" smilref="speechgen0004.smil#tcp34">Índice del libro, (general), ((sólo con un libro abierto)
+         Tecla L. </sent><sent id="dtb35" smilref="speechgen0004.smil#tcp35">Leer el libro, (general), (sólo con un libro abierto)
+         Tecla M. </sent><sent id="dtb36" smilref="speechgen0004.smil#tcp36">Insertar o editar una marca, (general), (sólo con un libro abierto)
+         Tecla E. </sent><sent smilref="speechgen0004.smil#tcp37" id="dtb37">Exportar e importar las Preferencias de Configuración, o con el libro abierto, exportar favoritos y anotaciones (global).
+         </sent><sent smilref="speechgen0004.smil#tcp38" id="dtb38">Tecla C. </sent><sent smilref="speechgen0004.smil#tcp39" id="dtb39">Preferencias de Configuración general.
+         </sent><sent smilref="speechgen0004.smil#tcp40" id="dtb40">Tecla Control + C. </sent><sent smilref="speechgen0004.smil#tcp41" id="dtb41">Preferencias de Configuración del libro, (general), (sólo con un libro abierto).
+         </sent><sent smilref="speechgen0004.smil#tcp42" id="dtb42">Tecla P. búsqueda simple, (general), (sólo con un libro abierto).
+         </sent><sent smilref="speechgen0004.smil#tcp43" id="dtb43">Tecla T. </sent><sent smilref="speechgen0004.smil#tcp44" id="dtb44">Tutorial, (general).
+         </sent><sent id="dtb45" smilref="speechgen0004.smil#tcp45">Tecla ESC. </sent><sent smilref="speechgen0004.smil#tcp46" id="dtb46">Salir del aplicativo, (general).
+      </sent></p>
+				</level2>
+				<level2>
+					<h2><span smilref="speechgen0005.smil#tcp47" id="dtb47">1.2.Comandos de Navegación del DDR.</span></h2>
+					<p><sent smilref="speechgen0005.smil#tcp48" id="dtb48">Barra espaciadora (leer). </sent><sent id="dtb49" smilref="speechgen0005.smil#tcp49">Reinicia la lectura actual.
+         </sent><sent smilref="speechgen0005.smil#tcp50" id="dtb50">Barra espaciadora (pausa). </sent><sent id="dtb51" smilref="speechgen0005.smil#tcp51">Pausa la lectura actual.
+         </sent><sent id="dtb52" smilref="speechgen0005.smil#tcp52">Flecha hacia arriba. </sent><sent id="dtb53" smilref="speechgen0005.smil#tcp53">Ir a un Ítem o frase anterior.
+         </sent><sent id="dtb54" smilref="speechgen0005.smil#tcp54">Flecha hacia abajo. </sent><sent id="dtb55" smilref="speechgen0005.smil#tcp55">Ir a un próximo Ítem o frase.
+         </sent><sent smilref="speechgen0005.smil#tcp56" id="dtb56">Flecha hacia la izquierda. </sent><sent id="dtb57" smilref="speechgen0005.smil#tcp57">Ir a una sección o sub-sección anterior.
+         </sent><sent smilref="speechgen0005.smil#tcp58" id="dtb58">Flecha hacia la derecha. </sent><sent smilref="speechgen0005.smil#tcp59" id="dtb59">Ir a una próxima sección o sub-sección.
+         </sent><sent smilref="speechgen0005.smil#tcp60" id="dtb60">Tecla G o click en la caja de número de página. </sent><sent smilref="speechgen0005.smil#tcp61" id="dtb61">Abre la caja de diálogo "Ir a página".
+      </sent></p>
+				</level2>
+				<level2>
+					<h2><span id="dtb62" smilref="speechgen0006.smil#tcp62">1.3.Indicadores de Filtros y sus funciones.</span></h2>
+					<p><sent smilref="speechgen0006.smil#tcp63" id="dtb63">Tecla Control + Alt + M. </sent><sent smilref="speechgen0006.smil#tcp64" id="dtb64">Activa o desactiva la señal indicadora de Marca.
+         </sent><sent smilref="speechgen0006.smil#tcp65" id="dtb65">Tecla N. </sent><sent id="dtb66" smilref="speechgen0006.smil#tcp66">Activa o desactiva la señal indicadora de lectura de notas Pie de página.
+         </sent><sent id="dtb67" smilref="speechgen0006.smil#tcp67">Tecla Control + G. </sent><sent id="dtb68" smilref="speechgen0006.smil#tcp68">Activa o desactiva la señal indicadora de lectura de número de página.
+         </sent><sent id="dtb69" smilref="speechgen0006.smil#tcp69">Teclas de 1 a 6. </sent><sent smilref="speechgen0006.smil#tcp70" id="dtb70">Define un nivel de navegación.
+      </sent></p>
+				</level2>
+				<level2>
+					<h2><span smilref="speechgen0007.smil#tcp71" id="dtb71">1.4.Comandos extras.</span></h2>
+					<p><sent id="dtb72" smilref="speechgen0007.smil#tcp72">Tecla U. </sent><sent id="dtb73" smilref="speechgen0007.smil#tcp73">Verifica actualizaciones del  Aplicativo.
+         </sent><sent id="dtb74" smilref="speechgen0007.smil#tcp74">Tecla W. </sent><sent id="dtb75" smilref="speechgen0007.smil#tcp75">Abre el  sitio web de DDReader: DAISYLATINO.ORG.
+         </sent><sent smilref="speechgen0007.smil#tcp76" id="dtb76">Tecla R. </sent><sent id="dtb77" smilref="speechgen0007.smil#tcp77">Envía un mensaje de suporte para DDR.
+         </sent><sent smilref="speechgen0007.smil#tcp78" id="dtb78">Tecla E. </sent><sent id="dtb79" smilref="speechgen0007.smil#tcp79">Exporta o importa dados personales y  configuraciones.
+         </sent><sent id="dtb80" smilref="speechgen0007.smil#tcp80">Tecla Control + End o Tecla Q. </sent><sent smilref="speechgen0007.smil#tcp81" id="dtb81">Accede  a cuadro de créditos y licencia.
+      </sent></p>
+				</level2>
+				<level2>
+					<h2><span smilref="speechgen0008.smil#tcp82" id="dtb82">1.5.Comandos exclusivos de teclado.</span></h2>
+					<p><sent id="dtb83" smilref="speechgen0008.smil#tcp83">Tecla + . </sent><sent smilref="speechgen0008.smil#tcp84" id="dtb84">Aumenta el volumen del Texto a voz
+         Tecla - . </sent><sent id="dtb85" smilref="speechgen0008.smil#tcp85">Disminuye el volumen del Texto a voz.
+         </sent><sent id="dtb86" smilref="speechgen0008.smil#tcp86">Tecla Control + Mas (+). </sent><sent id="dtb87" smilref="speechgen0008.smil#tcp87">Aumenta el volumen de audio.
+         </sent><sent id="dtb88" smilref="speechgen0008.smil#tcp88">Tecla Control + Menos (-). </sent><sent smilref="speechgen0008.smil#tcp89" id="dtb89">Disminuye el  volumen de audio.
+         </sent><sent smilref="speechgen0008.smil#tcp90" id="dtb90">Tecla Punto (.). </sent><sent smilref="speechgen0008.smil#tcp91" id="dtb91">Aumenta la velocidad del Texto a voz.
+         </sent><sent id="dtb92" smilref="speechgen0008.smil#tcp92">Tecla Coma (,). </sent><sent smilref="speechgen0008.smil#tcp93" id="dtb93">Disminuye la velocidad del Texto a voz.
+         </sent><sent id="dtb94" smilref="speechgen0008.smil#tcp94">Tecla Z. </sent><sent smilref="speechgen0008.smil#tcp95" id="dtb95">Cambia entre lectura por audio pre-grabado o Texto a voz.
+         </sent><sent smilref="speechgen0008.smil#tcp96" id="dtb96">Tecla X. </sent><sent smilref="speechgen0008.smil#tcp97" id="dtb97">Alternar entre las voces TTS instaladas.
+         </sent><sent smilref="speechgen0008.smil#tcp98" id="dtb98">Tecla F. </sent><sent id="dtb99" smilref="speechgen0008.smil#tcp99">Alternar tamaño de fuente.
+         </sent><sent id="dtb100" smilref="speechgen0008.smil#tcp100">Tecla J. </sent><sent smilref="speechgen0008.smil#tcp101" id="dtb101">Activa o desactiva la lectura automática del  libro.
+         </sent><sent smilref="speechgen0008.smil#tcp102" id="dtb102">Tecla Control + J. </sent><sent smilref="speechgen0008.smil#tcp103" id="dtb103">Activa o desactiva la lectura automática de listas.
+         </sent><sent smilref="speechgen0008.smil#tcp104" id="dtb104">Tecla V. </sent><sent smilref="speechgen0008.smil#tcp105" id="dtb105">Vuelve al punto de lectura actual del libro.
+         </sent><sent id="dtb106" smilref="speechgen0008.smil#tcp106">Tecla A. </sent><sent id="dtb107" smilref="speechgen0008.smil#tcp107">Activa la Ayuda contextual.
+         </sent><sent id="dtb108" smilref="speechgen0008.smil#tcp108">Tecla CERO (0). </sent><sent smilref="speechgen0008.smil#tcp109" id="dtb109">Va a la próxima marca.
+         </sent><sent id="dtb110" smilref="speechgen0008.smil#tcp110">Tecla NOVE (9). </sent><sent id="dtb111" smilref="speechgen0008.smil#tcp111">Va a la marca anterior.
+      </sent></p>
+				</level2>
+			</level1>
+			<level1>
+				<h1><span id="dtb112" smilref="speechgen0009.smil#tcp112">2.Abriendo un Libro.</span></h1>
+				<p><sent id="dtb113" smilref="speechgen0009.smil#tcp113">Usted puede abrir un libro DDR de dos maneras. </sent><sent smilref="speechgen0009.smil#tcp114" id="dtb114">Si es la primera vez que va a leer el libro, usted puede usar el comando Abrir. </sent><sent id="dtb115" smilref="speechgen0009.smil#tcp115">Para eso, presione la tecla O ó de click en abrir nuevo libro. </sent><sent smilref="speechgen0009.smil#tcp116" id="dtb116">Siga las instrucciones del cuadro de diálogo. </sent><sent smilref="speechgen0009.smil#tcp117" id="dtb117">Por defecto, el directorio para almacenar
+         sus libros es Mi biblioteca en mis documentos.
+         
+         </sent><sent id="dtb118" smilref="speechgen0009.smil#tcp118">Si usted ya ha leído el libro en este computador, puede usar Historial. </sent><sent smilref="speechgen0009.smil#tcp119" id="dtb119">Para esto, teclee H o de click en tab Historial.
+      </sent></p>
+				<p><sent smilref="speechgen0009.smil#tcp120" id="dtb120">Si hubo algún error en abrir el archivo, usted recibirá un mensaje sonoro y visual. </sent><sent smilref="speechgen0009.smil#tcp121" id="dtb121">Teclee ESC para cerrar el cuadro de  diálogo y volver al aplicativo. </sent><sent smilref="speechgen0009.smil#tcp122" id="dtb122">Vamos presentar a seguir los detalles de cada operación.</sent></p>
+				<level2>
+					<h2><span smilref="speechgen0010.smil#tcp123" id="dtb123">2.1.Usando el comando Abrir.</span></h2>
+					<p><sent smilref="speechgen0010.smil#tcp124" id="dtb124">Después de teclear O u dar click en el botón de abrir nuevo libro, usted tendrá tres opciones.
+         </sent><sent id="dtb125" smilref="speechgen0010.smil#tcp125">La  primera opción usa un cuadro de diálogo para abrir archivos de Windows. </sent><sent smilref="speechgen0010.smil#tcp126" id="dtb126">Usted deberá encontrar el directorio en el que
+         está el archivo principal del libro. </sent><sent id="dtb127" smilref="speechgen0010.smil#tcp127">Este archivo tendrá una terminación OPF y contiene las informaciones necesarias para iniciar el uso del libro. </sent><sent id="dtb128" smilref="speechgen0010.smil#tcp128">Si su libro está en un CD ROM,  primero localice el
+         drive del CD, después el archivo OPF del libro. </sent><sent smilref="speechgen0010.smil#tcp129" id="dtb129">Usted  podrá usar  su aplicativo de lectura para navegar por esta caja de
+         diálogo. </sent><sent id="dtb130" smilref="speechgen0010.smil#tcp130">Una vez encontrado el archivo, de click en Abrir  de la caja de diálogo ó presione Enter en su teclado, el libro abrirá en pocos segundos, dependiendo de su tamaño y la capacidad del procesamiento de su computador.
+         </sent><sent smilref="speechgen0010.smil#tcp131" id="dtb131">Se emitirá un sonido durante el tiempo de apertura del libro.
+      </sent></p>
+					<p><sent id="dtb132" smilref="speechgen0010.smil#tcp132">La segunda opción lee automáticamente los títulos de libros almacenados en el directorio de la biblioteca y  crea una lista
+         que permite la navegación usando las teclas flecha arriba ó flecha abajo, escoja abrir el libro usando la tecla Enter. </sent><sent id="dtb133" smilref="speechgen0010.smil#tcp133">El directorio de la Biblioteca puede ser modificado, usando el cuadro de dialogo de preferencias generales. </sent><sent id="dtb134" smilref="speechgen0010.smil#tcp134">Se emitirá un
+         sonido durante el tiempo de apertura del libro.
+      </sent></p>
+					<p><sent id="dtb135" smilref="speechgen0010.smil#tcp135">La tercera opción es similar a la segunda, mas la búsqueda de títulos se hará en todos los discos duros de su computador.
+         </sent><sent id="dtb136" smilref="speechgen0010.smil#tcp136">Esta opción podrá ser bastante demorada, dependiendo del número de archivos existentes en su computador. </sent><sent id="dtb137" smilref="speechgen0010.smil#tcp137">Después de creada
+         la lista, proceda como en la segunda opción.
+      </sent></p>
+				</level2>
+				<level2>
+					<h2><span id="dtb138" smilref="speechgen0011.smil#tcp138">2.2.Usando  Historial.</span></h2>
+					<p><sent id="dtb139" smilref="speechgen0011.smil#tcp139">Cuando usted teclee H, el sistema iniciará la lectura del índice de libros leídos recientemente. </sent><sent smilref="speechgen0011.smil#tcp140" id="dtb140">El orden será los más recientes hasta los más
+         antiguos. </sent><sent smilref="speechgen0011.smil#tcp141" id="dtb141">El tamaño de  la lista de Historial puede ser configurado usando el cuadro de preferencias generales (C). </sent><sent smilref="speechgen0011.smil#tcp142" id="dtb142">El número inicial de libros presentados es de 100.
+         </sent><sent smilref="speechgen0011.smil#tcp143" id="dtb143">Usted puede navegar en la lista de libros de Historial con  las teclas flecha arriba o flecha abajo o con los botones correspondientes. </sent><sent smilref="speechgen0011.smil#tcp144" id="dtb144">Puede también pausar e retomar la lectura de la lista, usando la Barra Espaciadora. </sent><sent id="dtb145" smilref="speechgen0011.smil#tcp145">Para escoger  un libro que quiera  abrir, teclee Enter cuando escuche el título deseado o de un click sobre el título del libro. </sent><sent smilref="speechgen0011.smil#tcp146" id="dtb146">La tecla CONTROL mas las teclas  derecha ó izquierda permiten la navegación al inicio o fin de la lista.
+      </sent></p>
+					<p><sent smilref="speechgen0011.smil#tcp147" id="dtb147">Para remover una entrada del Historial, con la lista del Historial activa, utilice las teclas flecha arriba o flecha abajo para seleccionar la entrada deseada y teclee la Barra Espaciadora. </sent><sent id="dtb148" smilref="speechgen0011.smil#tcp148">Teclee DELETE para remover la entrada. </sent><sent smilref="speechgen0011.smil#tcp149" id="dtb149">Una caja de diálogo de confirmación será abierta. </sent><sent smilref="speechgen0011.smil#tcp150" id="dtb150">Confirme la remoción con ENTER o cancele utilizando ESC, o utilice los botones correspondientes.</sent></p>
+					<p><sent id="dtb151" smilref="speechgen0011.smil#tcp151">Para remover todas las entradas del Historial, con la lista del Historial activa, teclee CONTROL + DELETE. </sent><sent id="dtb152" smilref="speechgen0011.smil#tcp152">Una caja de diálogo de confirmación será abierta. </sent><sent smilref="speechgen0011.smil#tcp153" id="dtb153">Confirme la remoción con ENTER, cancele tecleando ESC, o utilice los botones correspondientes.</sent></p>
+				</level2>
+				<level2>
+					<h2><span id="dtb154" smilref="speechgen0012.smil#tcp154">2.3.Información del Libro.</span></h2>
+					<p><sent id="dtb155" smilref="speechgen0012.smil#tcp155">Después de abrir el libro, usted puede oír o leer la información del libro, como Título, Autor, Editorial, datos de la última
+         lectura y también el punto actual de lectura. </sent><sent id="dtb156" smilref="speechgen0012.smil#tcp156">Usted  puede navegar por la  información del libro,  usando las teclas flecha hacia arriba ó flecha hacia abajo o con los botones correspondientes. </sent><sent id="dtb157" smilref="speechgen0012.smil#tcp157">Como en cualquier otro modo de lectura, puede también usar la Barra espaciadora para pausar e retomar a lectura.
+         </sent><sent id="dtb158" smilref="speechgen0012.smil#tcp158">Si usted está en otro modo de libro, tal como lectura, navegando por el índice o por las marcas,  pode escoger oír los dados
+         del libro tecleando Home o presionando el  botón correspondiente.
+      </sent></p>
+				</level2>
+				<level2>
+					<h2><span smilref="speechgen0013.smil#tcp159" id="dtb159">2.4.Tabla de comandos iniciales.</span></h2>
+					<table id="dtb160" smilref="speechgen0013.smil#tcs1"><!-- **** No template for element: tbody **** -->
+						<tr smilref="speechgen0013.smil#tcs2" id="dtb161">
+							<td rowspan="1" colspan="1"><p><strong smilref="speechgen0013.smil#tcp160" id="dtb162">TECLA O BOTON DE COMANDO</strong></p>
+							</td>
+							<td rowspan="1" colspan="1"><p><strong smilref="speechgen0013.smil#tcp161" id="dtb163">OPERACIÓN</strong></p>
+							</td>
+						</tr>
+						<tr id="dtb164" smilref="speechgen0013.smil#tcs3">
+							<td rowspan="1" colspan="1"><p id="dtb165" smilref="speechgen0013.smil#tcp162">Tecla <strong>O</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p id="dtb166" smilref="speechgen0013.smil#tcp163">Abre nuevo archivo de libro.</p></td>
+						</tr>
+						<tr smilref="speechgen0013.smil#tcs4" id="dtb167">
+							<td colspan="1" rowspan="1">
+								<p id="dtb168" smilref="speechgen0013.smil#tcp164">
+                           <strong>tab HISTORIAL</strong> - tecla <strong>H</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0013.smil#tcp165" id="dtb169">Activa el Historial de últimos libros abiertos.</p></td>
+						</tr>
+						<tr id="dtb170" smilref="speechgen0013.smil#tcs5">
+							<td colspan="1" rowspan="1"><p smilref="speechgen0013.smil#tcp166" id="dtb171">Click en título de libro en Historial o teclee <strong>ENTER</strong>
+                        </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0013.smil#tcp167" id="dtb172">Abre el título escogido.</p></td>
+						</tr>
+						<tr smilref="speechgen0013.smil#tcs6" id="dtb173">
+							<td rowspan="1" colspan="1"><p>
+                           <strong id="dtb174" smilref="speechgen0013.smil#tcp168">Flecha hacia abajo</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0013.smil#tcp169" id="dtb175">Navega en el próximo ítem del Historial o los Dados Bibliográficos.</p></td>
+						</tr>
+						<tr smilref="speechgen0013.smil#tcs7" id="dtb176">
+							<td rowspan="1" colspan="1"><p>
+                           <strong smilref="speechgen0013.smil#tcp170" id="dtb177">Flecha hacia arriba</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p id="dtb178" smilref="speechgen0013.smil#tcp171">Navega en el anterior ítem del Historial o los Dados Bibliográficos.</p></td>
+						</tr>
+						<tr smilref="speechgen0013.smil#tcs8" id="dtb179">
+							<td colspan="1" rowspan="1"><p>
+                           <strong id="dtb180" smilref="speechgen0013.smil#tcp172">Barra espaciadora</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p id="dtb181" smilref="speechgen0013.smil#tcp173">Pausa o retoma la lectura de lista actual.</p></td>
+						</tr>
+						<tr smilref="speechgen0013.smil#tcs9" id="dtb182">
+							<td rowspan="1" colspan="1"><p smilref="speechgen0013.smil#tcp174" id="dtb183">Tecla <strong>Home</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0013.smil#tcp175" id="dtb184">Vuelve a la lectura de los dados bibliográficos del libro.</p></td>
+						</tr>
+						<tr id="dtb185" smilref="speechgen0013.smil#tcs10">
+							<td colspan="1" rowspan="1"><p>
+                           <strong id="dtb186" smilref="speechgen0013.smil#tcp176">Control + Home</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0013.smil#tcp177" id="dtb187">Vuelve a la  apertura de <strong>DDR</strong>.
+                  </p>
+							</td>
+						</tr>
+						<tr smilref="speechgen0013.smil#tcs11" id="dtb188">
+							<td colspan="1" rowspan="1"><p id="dtb189" smilref="speechgen0013.smil#tcp178">Tecla <strong>A</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p smilref="speechgen0013.smil#tcp179" id="dtb190">Abre la ayuda contextual.</p></td>
+						</tr>
+						<tr id="dtb191" smilref="speechgen0013.smil#tcs12">
+							<td colspan="1" rowspan="1" class="celulaTexto"><strong smilref="speechgen0013.smil#tcp180" id="dtb192">DEL</strong></td>
+							<td rowspan="1" id="dtb193" colspan="1" smilref="speechgen0013.smil#tcp181">Con el Historial activo, remove la entrada seleccionada.</td>
+						</tr>
+						<tr id="dtb194" smilref="speechgen0013.smil#tcs13">
+							<td colspan="1" rowspan="1" class="celulaTexto"><strong id="dtb195" smilref="speechgen0013.smil#tcp182">CONTROL + DEL</strong></td>
+							<td id="dtb196" smilref="speechgen0013.smil#tcp183" rowspan="1" colspan="1">Con el Historial activo, remove todas las entradas de la lista.</td>
+						</tr>
+					</table>
+				</level2>
+			</level1>
+			<level1>
+				<h1><span id="dtb197" smilref="speechgen0014.smil#tcp184">3.Navegar por Índice.</span></h1>
+				<p><sent smilref="speechgen0014.smil#tcp185" id="dtb198">Después de abrir el libro, usted podrá acceder al índice del libro. </sent><sent id="dtb199" smilref="speechgen0014.smil#tcp186">Teclee I o click en el botón del Índice. </sent><sent smilref="speechgen0014.smil#tcp187" id="dtb200">Si usted está leyendo el libro, también es posible dar click en el tab ÍNDICE.</sent></p>
+				<level2>
+					<h2><span smilref="speechgen0015.smil#tcp188" id="dtb201">3.1.El índice y los niveles de navegación.</span></h2>
+					<p><sent id="dtb202" smilref="speechgen0015.smil#tcp189">El índice inicia a partir del  último ítem de lectura del  libro actual, de acuerdo al  nivel de navegación escogido. </sent><sent id="dtb203" smilref="speechgen0015.smil#tcp190">Al igual
+         que LIDA, el DDR tiene hasta seis niveles de navegación en el texto. </sent><sent smilref="speechgen0015.smil#tcp191" id="dtb204">Usted puede escoger el nivel de presentación y  navegación del índice
+         tecleando los números de 1 a 6 o usando la caja de selección de nivel. </sent><sent id="dtb205" smilref="speechgen0015.smil#tcp192">Cuando usted está en el índice, puede cambiar de nivel o a secciones y sub secciones correspondientes. </sent><sent id="dtb206" smilref="speechgen0015.smil#tcp193">La  lectura continúa
+         a partir del punto actual. </sent><sent smilref="speechgen0015.smil#tcp194" id="dtb207">Por ejemplo, si usted  está en el  nivel 4 y cambia a  nivel 2, la lectura será retomada a partir
+         de nivel 2 hacia el más próximo tópico en que estaba. </sent><sent smilref="speechgen0015.smil#tcp195" id="dtb208">Usando estas funciones, será más fácil encontrar una sub sección específica
+         entre los niveles. </sent><sent id="dtb209" smilref="speechgen0015.smil#tcp196">La selección de nivel en cada libro, será automáticamente salvada en sus preferencias.
+         </sent><sent smilref="speechgen0015.smil#tcp197" id="dtb210">Use las flechas hacia arriba o hacia abajo para navegar por los ítems el índice. </sent><sent id="dtb211" smilref="speechgen0015.smil#tcp198">La  combinación de comandos CONTROL + J activa o desactiva la navegación automática del índice, así como en otras listas.
+         </sent><sent id="dtb212" smilref="speechgen0015.smil#tcp199">Al encontrar el  tópico deseado, teclee ENTER o click en el  tópico de la lista del  índice.
+         </sent><sent id="dtb213" smilref="speechgen0015.smil#tcp200">Use CONTROL + flechas derecha e izquierda para navegar al inicio o fin del índice.
+      </sent></p>
+				</level2>
+				<level2>
+					<h2><span smilref="speechgen0016.smil#tcp201" id="dtb214">3.2.Tabla de comandos del Índice del libro.</span></h2>
+					<table id="dtb215" smilref="speechgen0016.smil#tcs14"><!-- **** No template for element: tbody **** -->
+						<tr smilref="speechgen0016.smil#tcs15" id="dtb216">
+							<td colspan="1" rowspan="1"><p><strong smilref="speechgen0016.smil#tcp202" id="dtb217">TECLA  O BOTON DE COMANDO</strong></p>
+							</td>
+							<td rowspan="1" colspan="1"><p><strong smilref="speechgen0016.smil#tcp203" id="dtb218">OPERACIÓN</strong></p>
+							</td>
+						</tr>
+						<tr smilref="speechgen0016.smil#tcs16" id="dtb219">
+							<td colspan="1" rowspan="1">
+								<p><sent id="dtb220" smilref="speechgen0016.smil#tcp204">Tecla  <strong>I</strong>.  </sent><sent><strong id="dtb221" smilref="speechgen0016.smil#tcp205">tab ÍNDICE</strong>
+                        </sent></p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0016.smil#tcp206" id="dtb222">Accede al Índice del libro.</p></td>
+						</tr>
+						<tr id="dtb223" smilref="speechgen0016.smil#tcs17">
+							<td colspan="1" rowspan="1"><p><sent>
+                           <strong smilref="speechgen0016.smil#tcp207" id="dtb224">Números de 1 a 6</strong>. </sent><sent smilref="speechgen0016.smil#tcp208" id="dtb225">Caja selección de nivel
+                  </sent></p>
+							</td>
+							<td colspan="1" rowspan="1"><p id="dtb226" smilref="speechgen0016.smil#tcp209">Cambia los niveles de navegación.</p></td>
+						</tr>
+						<tr smilref="speechgen0016.smil#tcs18" id="dtb227">
+							<td rowspan="1" colspan="1"><p smilref="speechgen0016.smil#tcp210" id="dtb228">Click en el  tópico de libro o teclee <strong>ENTER</strong>
+                        </p>
+							</td>
+							<td rowspan="1" colspan="1"><p id="dtb229" smilref="speechgen0016.smil#tcp211">Activa la lectura en el punto escogido.</p></td>
+						</tr>
+						<tr smilref="speechgen0016.smil#tcs19" id="dtb230">
+							<td rowspan="1" colspan="1"><p>
+                           <strong smilref="speechgen0016.smil#tcp212" id="dtb231">Flecha hacia abajo</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0016.smil#tcp213" id="dtb232">Navega hacia el próximo ítem del índice.</p></td>
+						</tr>
+						<tr smilref="speechgen0016.smil#tcs20" id="dtb233">
+							<td rowspan="1" colspan="1"><p>
+                           <strong id="dtb234" smilref="speechgen0016.smil#tcp214">Flecha hacia abajo</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p id="dtb235" smilref="speechgen0016.smil#tcp215">Navega hacia el anterior ítem del índice.</p></td>
+						</tr>
+						<tr id="dtb236" smilref="speechgen0016.smil#tcs21">
+							<td rowspan="1" colspan="1"><p>
+                           <strong smilref="speechgen0016.smil#tcp216" id="dtb237">CONTROL + Flecha hacia la derecha</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p id="dtb238" smilref="speechgen0016.smil#tcp217">Navega hacia el  último ítem del  índice.</p></td>
+						</tr>
+						<tr smilref="speechgen0016.smil#tcs22" id="dtb239">
+							<td colspan="1" rowspan="1"><p>
+                           <strong smilref="speechgen0016.smil#tcp218" id="dtb240">CONTROL + Flecha hacia la izquierda</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p id="dtb241" smilref="speechgen0016.smil#tcp219">Navega hacia el primer ítem del índice.</p></td>
+						</tr>
+						<tr id="dtb242" smilref="speechgen0016.smil#tcs23">
+							<td rowspan="1" colspan="1"><p>
+                           <strong id="dtb243" smilref="speechgen0016.smil#tcp220">Barra espaciadora</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0016.smil#tcp221" id="dtb244">Pausa o retoma la lectura del índice.</p></td>
+						</tr>
+						<tr id="dtb245" smilref="speechgen0016.smil#tcs24">
+							<td colspan="1" rowspan="1"><p smilref="speechgen0016.smil#tcp222" id="dtb246">Tecla <strong>A</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p id="dtb247" smilref="speechgen0016.smil#tcp223">Abre la ayuda contextual.</p></td>
+						</tr>
+						<tr id="dtb248" smilref="speechgen0016.smil#tcs25">
+							<td rowspan="1" colspan="1"><p smilref="speechgen0016.smil#tcp224" id="dtb249">Tecla <strong>CONTROL + J</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p id="dtb250" smilref="speechgen0016.smil#tcp225">Activa o desactiva la navegación automática del índice (y de otras listas).</p></td>
+						</tr>
+					</table>
+				</level2>
+			</level1>
+			<level1>
+				<h1><span id="dtb251" smilref="speechgen0017.smil#tcp226">4.Leyendo el Libro.</span></h1>
+				<level2>
+					<h2><span smilref="speechgen0018.smil#tcp227" id="dtb252">4.1.Descripción General.</span></h2>
+					<p><sent id="dtb253" smilref="speechgen0018.smil#tcp228">Usted tiene varias opciones para iniciar la lectura del libro. </sent><sent smilref="speechgen0018.smil#tcp229" id="dtb254">Tecleando L usted accede al inicio del libro. </sent><sent smilref="speechgen0018.smil#tcp230" id="dtb255">Con la tecla V, usted retorna al último punto de lectura. </sent><sent smilref="speechgen0018.smil#tcp231" id="dtb256">A partir del índice, tecleando Enter en una entrada,  accede directamente a un punto deseado; en la lista de Marcadores tecleando Enter en un marcador escogido accede a el texto referido. </sent><sent id="dtb257" smilref="speechgen0018.smil#tcp232">También puede navegar por los resultados de la búsqueda. </sent><sent smilref="speechgen0018.smil#tcp233" id="dtb258">Una vez iniciada
+         la lectura, puede pausar o retomar, usando la  Barra espaciadora o los botones correspondientes. </sent><sent id="dtb259" smilref="speechgen0018.smil#tcp234">Para activar o desactivar la lectura de notas pie de página, use la tecla N o el botón indicador de notas. </sent><sent id="dtb260" smilref="speechgen0018.smil#tcp235">Cuando la lectura de notas pie de página está encendida, un sonido característico indica la
+         presencia de una nota durante la lectura del libro. </sent><sent id="dtb261" smilref="speechgen0018.smil#tcp236">El botón indicador de notas pie de página también cambia a estado apagado.
+         </sent><sent smilref="speechgen0018.smil#tcp237" id="dtb262">La presencia de marcas también será destacada por un sonido diferenciado. </sent><sent smilref="speechgen0018.smil#tcp238" id="dtb263">El botón indicador cambia al estado correspondiente.
+         </sent><sent smilref="speechgen0018.smil#tcp239" id="dtb264">Para activar o desactivar esta función, use la combinación CONTROL + ALT + M, o de Click en el  botón  indicador del Marcador. </sent><sent id="dtb265" smilref="speechgen0018.smil#tcp240">Esta función  puede ser activada o desactivada también en las configuraciones generales.
+         </sent><sent smilref="speechgen0018.smil#tcp241" id="dtb266">Para navegar entre texto y frases, use las teclas flecha hacia arriba ó  flecha hacia abajo o los botones correspondientes. </sent><sent id="dtb267" smilref="speechgen0018.smil#tcp242">Para navegar entre saltos de nivel escogido, use las teclas flecha izquierda ó  flecha derecha. </sent><sent smilref="speechgen0018.smil#tcp243" id="dtb268">El nivel de navegación corresponde a las secciones del libro. </sent><sent smilref="speechgen0018.smil#tcp244" id="dtb269">Los capítulos normalmente son nivel 1, subdivisiones serán
+         niveles mayores. </sent><sent id="dtb270" smilref="speechgen0018.smil#tcp245">Algunos libros no tienen más de uno o dos niveles. </sent><sent smilref="speechgen0018.smil#tcp246" id="dtb271">Otros pueden usar un primer nivel para divisiones diferentes,
+         como Libro 1, Libro 2, o como Parte 1 y 2. </sent><sent smilref="speechgen0018.smil#tcp247" id="dtb272">El número máximo de niveles de navegación es seis. </sent><sent smilref="speechgen0018.smil#tcp248" id="dtb273">Para seleccionar un nivel de
+         navegación use las teclas numéricas de 1 a 6 o la caja de selección. </sent><sent id="dtb274" smilref="speechgen0018.smil#tcp249">Esta selección es automáticamente almacenada en las configuraciones del
+         libro. </sent><sent id="dtb275" smilref="speechgen0018.smil#tcp250">Por tanto, cada libro puede tener un nivel de navegación almacenado individualmente. </sent><sent smilref="speechgen0018.smil#tcp251" id="dtb276">Note que si usted está navegando
+         por un nivel alto, por ejemplo, en nivel 4, pasará también por todas las divisiones de nivel más bajo como 1, 2 y 3. </sent><sent smilref="speechgen0018.smil#tcp252" id="dtb277">El  nivel
+         seleccionado será compartido entre el índice y la lectura del libro.
+         </sent><sent id="dtb278" smilref="speechgen0018.smil#tcp253">Para reiniciar la lectura de la misma frase, tecle V.
+         </sent><sent smilref="speechgen0018.smil#tcp254" id="dtb279">Para volver al inicio del libro, tecle L.
+         </sent><sent id="dtb280" smilref="speechgen0018.smil#tcp255">Para activar o desactivar la navegación automática del libro, use la tecla J.
+         </sent><sent smilref="speechgen0018.smil#tcp256" id="dtb281">Para acceder al índice, use la tecla I.
+         </sent><sent smilref="speechgen0018.smil#tcp257" id="dtb282">Para navegar entre las marcas use las teclas numéricas 0 para próxima marca y 9 para marca anterior. </sent><sent smilref="speechgen0018.smil#tcp258" id="dtb283">Para insertar una nueva  marca o editar una marca existente, use la tecla M. </sent><sent id="dtb284" smilref="speechgen0018.smil#tcp259">Para acceder al Índice de Marcas, use la combinación CONTROL + M, o el botón de insertar marcas, o de Click  sobre el tab MARCADORES.
+         </sent><sent id="dtb285" smilref="speechgen0018.smil#tcp260">Para navegar en el texto por resultados de la última Búsqueda, use CONTROL + flecha hacia abajo o CONTROL + flecha hacia arriba.
+         </sent><sent id="dtb286" smilref="speechgen0018.smil#tcp261">Para alternar, durante la lectura del libro, entre la voz sintetizada y la voz con narración pre-gravada, use la tecla Z. </sent><sent id="dtb287" smilref="speechgen0018.smil#tcp262">Para escoger otra voz del sistema para la lectura del libro, use la tecla X. </sent><sent smilref="speechgen0018.smil#tcp263" id="dtb288">Cada vez que teclee X, una nueva voz, entre  las instaladas en su computador, será escogida. </sent><sent smilref="speechgen0018.smil#tcp264" id="dtb289">Recuerde deshabilitar la lectura  en voz pre-gravada,
+         usando a tecla Z, antes de escoger otra voz para la lectura del libro.
+         </sent><sent id="dtb290" smilref="speechgen0018.smil#tcp265">La función de búsqueda en texto puede ser activada con la tecla P. </sent><sent id="dtb291" smilref="speechgen0018.smil#tcp266">La función de búsqueda será explicada después.
+      </sent></p>
+				</level2>
+				<level2>
+					<h2><span id="dtb292" smilref="speechgen0019.smil#tcp267">4.2.Deletreo de palabras.</span></h2>
+					<p><sent smilref="speechgen0019.smil#tcp268" id="dtb293">Durante la lectura use la tecla S para acceder a la función de deletreo de texto. </sent><sent smilref="speechgen0019.smil#tcp269" id="dtb294">Se abrirá un nuevo dialogo con el texto actual. </sent><sent id="dtb295" smilref="speechgen0019.smil#tcp270">Para oír las letras del texto
+         seleccionado, use TAB para la próxima palabra o SHIFT + TAB para la palabra anterior o los botones correspondientes. </sent><sent id="dtb296" smilref="speechgen0019.smil#tcp271">Para oír la palabra actual deletreada, teclee ENTER o click en botón deletrear. </sent><sent smilref="speechgen0019.smil#tcp272" id="dtb297">Para alterar el volumen de voz, use las teclas +(mas) o -(menos), para alterar la velocidad use , (coma) para disminuir y . </sent><sent id="dtb298" smilref="speechgen0019.smil#tcp273">(Punto) para aumentar. </sent><sent smilref="speechgen0019.smil#tcp274" id="dtb299">Para alternar entre una navegación automática o manual por las palabras, teclee J o Click en la caja de selección AUTOMÁTICO. </sent><sent smilref="speechgen0019.smil#tcp275" id="dtb300">Para aumentar la fuente de la  caja de selección use la tecla F. </sent><sent smilref="speechgen0019.smil#tcp276" id="dtb301">Las flechas hacia arriba y hacia abajo o hacia la derecha ó hacia la izquierda también navegan por las palabras del texto. </sent><sent smilref="speechgen0019.smil#tcp277" id="dtb302">Para acceder a la  ayuda de deletreo tecle A o Click en  botón de ayuda local cuando el modo de deletreo esté activo. </sent><sent id="dtb303" smilref="speechgen0019.smil#tcp278">Para cerrar la caja de deletreo y volver al punto
+         de lectura actual, use ESC o Click en botón CERRAR.
+      </sent></p>
+				</level2>
+				<level2>
+					<h2><span smilref="speechgen0020.smil#tcp279" id="dtb304">4.3.Tabla de comandos de lectura.</span></h2>
+					<table smilref="speechgen0020.smil#tcs26" id="dtb305"><!-- **** No template for element: tbody **** -->
+						<tr id="dtb306" smilref="speechgen0020.smil#tcs27">
+							<td rowspan="1" colspan="1"><p><strong id="dtb307" smilref="speechgen0020.smil#tcp280">TECLA O BOTÓN DE COMANDO</strong></p>
+							</td>
+							<td colspan="1" rowspan="1"><p><strong id="dtb308" smilref="speechgen0020.smil#tcp281">OPERACIÓN</strong></p>
+							</td>
+						</tr>
+						<tr id="dtb309" smilref="speechgen0020.smil#tcs28">
+							<td colspan="1" rowspan="1"><p id="dtb310" smilref="speechgen0020.smil#tcp282">Tecla <strong>L</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0020.smil#tcp283" id="dtb311">Accede a la lectura del libro desde el inicio</p></td>
+						</tr>
+						<tr smilref="speechgen0020.smil#tcs29" id="dtb312">
+							<td colspan="1" rowspan="1"><p>
+                           <strong smilref="speechgen0020.smil#tcp284" id="dtb313">Flecha hacia abajo</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0020.smil#tcp285" id="dtb314">Navega  a la próxima frase.</p></td>
+						</tr>
+						<tr smilref="speechgen0020.smil#tcs30" id="dtb315">
+							<td rowspan="1" colspan="1"><p>
+                           <strong id="dtb316" smilref="speechgen0020.smil#tcp286">Flecha hacia arriba</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p id="dtb317" smilref="speechgen0020.smil#tcp287">Navega a la frase anterior.</p></td>
+						</tr>
+						<tr id="dtb318" smilref="speechgen0020.smil#tcs31">
+							<td rowspan="1" colspan="1"><p>
+                           <strong id="dtb319" smilref="speechgen0020.smil#tcp288">CONTROL + Flecha hacia derecha</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p id="dtb320" smilref="speechgen0020.smil#tcp289">Navega para el próximo ítem del nivel escogido o inferior.</p></td>
+						</tr>
+						<tr smilref="speechgen0020.smil#tcs32" id="dtb321">
+							<td rowspan="1" colspan="1"><p>
+                           <strong smilref="speechgen0020.smil#tcp290" id="dtb322">CONTROL + Flecha hacia izquierda</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p id="dtb323" smilref="speechgen0020.smil#tcp291">Navega para el ítem anterior del nivel escogido o inferior.</p></td>
+						</tr>
+						<tr smilref="speechgen0020.smil#tcs33" id="dtb324">
+							<td colspan="1" rowspan="1"><p>
+                           <strong id="dtb325" smilref="speechgen0020.smil#tcp292">Barra espaciadora</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0020.smil#tcp293" id="dtb326">Pausa o retoma la lectura.</p></td>
+						</tr>
+						<tr smilref="speechgen0020.smil#tcs34" id="dtb327">
+							<td colspan="1" rowspan="1"><p smilref="speechgen0020.smil#tcp294" id="dtb328">Tecla <strong>+ (mas)</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0020.smil#tcp295" id="dtb329">Aumenta el volumen de TTS.</p></td>
+						</tr>
+						<tr smilref="speechgen0020.smil#tcs35" id="dtb330">
+							<td rowspan="1" colspan="1"><p id="dtb331" smilref="speechgen0020.smil#tcp296">Tecla <strong>- (menos)</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p id="dtb332" smilref="speechgen0020.smil#tcp297">Disminuye el volumen de TTS.</p></td>
+						</tr>
+						<tr id="dtb333" smilref="speechgen0020.smil#tcs36">
+							<td colspan="1" rowspan="1"><p smilref="speechgen0020.smil#tcp298" id="dtb334">Tecla <strong>CONTROL + Mas (+)</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p id="dtb335" smilref="speechgen0020.smil#tcp299">Aumenta el volumen de audio de narración.</p></td>
+						</tr>
+						<tr smilref="speechgen0020.smil#tcs37" id="dtb336">
+							<td rowspan="1" colspan="1"><p id="dtb337" smilref="speechgen0020.smil#tcp300">Tecla <strong>CONTROL + Menos (-)</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p id="dtb338" smilref="speechgen0020.smil#tcp301">Disminuye el volumen de audio de narración.</p></td>
+						</tr>
+						<tr id="dtb339" smilref="speechgen0020.smil#tcs38">
+							<td colspan="1" rowspan="1"><p smilref="speechgen0020.smil#tcp302" id="dtb340">Tecla <strong>Punto (.)</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0020.smil#tcp303" id="dtb341">Aumenta la velocidad de TTS.</p></td>
+						</tr>
+						<tr id="dtb342" smilref="speechgen0020.smil#tcs39">
+							<td colspan="1" rowspan="1"><p smilref="speechgen0020.smil#tcp304" id="dtb343">Tecla <strong>Coma (,)</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p id="dtb344" smilref="speechgen0020.smil#tcp305">Disminuye la velocidad de TTS.</p></td>
+						</tr>
+						<tr id="dtb345" smilref="speechgen0020.smil#tcs40">
+							<td rowspan="1" colspan="1"><p id="dtb346" smilref="speechgen0020.smil#tcp306">Tecla <strong>S</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p id="dtb347" smilref="speechgen0020.smil#tcp307">Accede a deletreo de texto actual.</p></td>
+						</tr>
+						<tr smilref="speechgen0020.smil#tcs41" id="dtb348">
+							<td colspan="1" rowspan="1"><p id="dtb349" smilref="speechgen0020.smil#tcp308">Tecla <strong>Z</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p id="dtb350" smilref="speechgen0020.smil#tcp309">Alterna la lectura entre audio narrado y TTS.</p></td>
+						</tr>
+						<tr id="dtb351" smilref="speechgen0020.smil#tcs42">
+							<td rowspan="1" colspan="1"><p smilref="speechgen0020.smil#tcp310" id="dtb352">Tecla <strong>X</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0020.smil#tcp311" id="dtb353">Alterna entre las voces de TTS para la lectura.</p></td>
+						</tr>
+						<tr id="dtb354" smilref="speechgen0020.smil#tcs43">
+							<td rowspan="1" colspan="1"><p id="dtb355" smilref="speechgen0020.smil#tcp312">Tecla <strong>J</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0020.smil#tcp313" id="dtb356">Activa o desactiva la lectura automática.</p></td>
+						</tr>
+						<tr id="dtb357" smilref="speechgen0020.smil#tcs44">
+							<td rowspan="1" colspan="1"><p smilref="speechgen0020.smil#tcp314" id="dtb358">Tecla <strong>M</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p smilref="speechgen0020.smil#tcp315" id="dtb359">Inserta o edita una Marca.</p></td>
+						</tr>
+						<tr smilref="speechgen0020.smil#tcs45" id="dtb360">
+							<td colspan="1" rowspan="1"><p smilref="speechgen0020.smil#tcp316" id="dtb361">Tecla <strong>CONTROL + M</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p smilref="speechgen0020.smil#tcp317" id="dtb362">Accede al Índice de Marcas.</p></td>
+						</tr>
+						<tr smilref="speechgen0020.smil#tcs46" id="dtb363">
+							<td colspan="1" rowspan="1"><p smilref="speechgen0020.smil#tcp318" id="dtb364">Tecla <strong>CONTROL + ALT + M</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p id="dtb365" smilref="speechgen0020.smil#tcp319">Activa o desactiva el sonido indicador de Marca.</p></td>
+						</tr>
+						<tr smilref="speechgen0020.smil#tcs47" id="dtb366">
+							<td rowspan="1" colspan="1"><p smilref="speechgen0020.smil#tcp320" id="dtb367">Tecla <strong>N</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p smilref="speechgen0020.smil#tcp321" id="dtb368">Activa o desactiva la lectura de notas a pié de página.</p></td>
+						</tr>
+						<tr id="dtb369" smilref="speechgen0020.smil#tcs48">
+							<td colspan="1" rowspan="1"><p id="dtb370" smilref="speechgen0020.smil#tcp322">Tecla <strong>P</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0020.smil#tcp323" id="dtb371">Accede al cuadro de búsqueda.</p></td>
+						</tr>
+						<tr id="dtb372" smilref="speechgen0020.smil#tcs49">
+							<td colspan="1" rowspan="1"><p id="dtb373" smilref="speechgen0020.smil#tcp324">Tecla <strong>A</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p id="dtb374" smilref="speechgen0020.smil#tcp325">Accede a la ayuda contextual.</p></td>
+						</tr>
+						<tr smilref="speechgen0020.smil#tcs50" id="dtb375">
+							<td colspan="1" rowspan="1"><p>
+                           <strong id="dtb376" smilref="speechgen0020.smil#tcp326">CONTROL + Flecha hacia arriba</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p smilref="speechgen0020.smil#tcp327" id="dtb377">Navega por el resultado anterior de la última búsqueda  realizada.</p></td>
+						</tr>
+						<tr id="dtb378" smilref="speechgen0020.smil#tcs51">
+							<td rowspan="1" colspan="1"><p>
+                           <strong id="dtb379" smilref="speechgen0020.smil#tcp328">CONTROL + Flecha hacia abajo</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p smilref="speechgen0020.smil#tcp329" id="dtb380">Navega por el próximo resultado de la última búsqueda realizada.</p></td>
+						</tr>
+						<tr id="dtb381" smilref="speechgen0020.smil#tcs52">
+							<td rowspan="1" colspan="1"><p smilref="speechgen0020.smil#tcp330" id="dtb382">Tecla <strong>T</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0020.smil#tcp331" id="dtb383">Accede a este tutorial.</p></td>
+						</tr>
+						<tr smilref="speechgen0020.smil#tcs53" id="dtb384">
+							<td colspan="1" rowspan="1"><p smilref="speechgen0020.smil#tcp332" id="dtb385">Tecla <strong>V</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0020.smil#tcp333" id="dtb386">Vuelve al inicio de la frase actual.</p></td>
+						</tr>
+						<tr id="dtb387" smilref="speechgen0020.smil#tcs54">
+							<td rowspan="1" colspan="1"><p smilref="speechgen0020.smil#tcp334" id="dtb388">Tecla <strong>L</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p id="dtb389" smilref="speechgen0020.smil#tcp335">Vuelve al inicio del Libro.</p></td>
+						</tr>
+						<tr id="dtb390" smilref="speechgen0020.smil#tcs55">
+							<td rowspan="1" colspan="1"><p>
+                           <strong id="dtb391" smilref="speechgen0020.smil#tcp336">Números de 1 a 6</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p smilref="speechgen0020.smil#tcp337" id="dtb392">Cambia el  nivel de navegación.</p></td>
+						</tr>
+						<tr smilref="speechgen0020.smil#tcs56" id="dtb393">
+							<td colspan="1" rowspan="1"><p id="dtb394" smilref="speechgen0020.smil#tcp338">Tecla <strong>F</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p smilref="speechgen0020.smil#tcp339" id="dtb395">Cambia el  tamaño de la fuente.</p></td>
+						</tr>
+						<tr id="dtb396" smilref="speechgen0020.smil#tcs57">
+							<td rowspan="1" colspan="1"><p smilref="speechgen0020.smil#tcp340" id="dtb397">Tecla <strong>G</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p smilref="speechgen0020.smil#tcp341" id="dtb398">Abre la caja de diálogo “Ir a Página”.</p></td>
+						</tr>
+						<tr id="dtb399" smilref="speechgen0020.smil#tcs58">
+							<td rowspan="1" colspan="1"><p smilref="speechgen0020.smil#tcp342" id="dtb400">Número <strong>0</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0020.smil#tcp343" id="dtb401">Ir a la próxima marca.</p></td>
+						</tr>
+						<tr smilref="speechgen0020.smil#tcs59" id="dtb402">
+							<td rowspan="1" colspan="1"><p id="dtb403" smilref="speechgen0020.smil#tcp344">Número <strong>9</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p id="dtb404" smilref="speechgen0020.smil#tcp345">Ir a la marca anterior.</p></td>
+						</tr>
+						<tr id="dtb405" smilref="speechgen0020.smil#tcs60">
+							<td colspan="1" rowspan="1">
+								<p smilref="speechgen0020.smil#tcp346" id="dtb406">Tecla <strong>CONTROL + P</strong>. <strong>tab BUSQUEDA</strong>
+                        </p>
+							</td>
+							<td rowspan="1" colspan="1"><p id="dtb407" smilref="speechgen0020.smil#tcp347">Accede a la lista de resultados de Búsqueda.</p></td>
+						</tr>
+						<tr smilref="speechgen0020.smil#tcs61" id="dtb408">
+							<td rowspan="1" colspan="1">
+								<p smilref="speechgen0020.smil#tcp348" id="dtb409">Tecla <strong>CONTROL + M</strong>. <strong>tab MARCAS</strong>
+                        </p>
+							</td>
+							<td colspan="1" rowspan="1"><p smilref="speechgen0020.smil#tcp349" id="dtb410">Accede a la lista de Marcas.</p></td>
+						</tr>
+						<tr smilref="speechgen0020.smil#tcs62" id="dtb411">
+							<td rowspan="1" colspan="1">
+								<p id="dtb412" smilref="speechgen0020.smil#tcp350">Tecla <strong>I</strong>. <strong>tab ÍNDICE</strong>
+                        </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0020.smil#tcp351" id="dtb413">Accede al Índice del libro.</p></td>
+						</tr>
+						<tr smilref="speechgen0020.smil#tcs63" id="dtb414"><td rowspan="1" colspan="2"><p smilref="speechgen0020.smil#tcp352" id="dtb415">TODOS LOS CONTROLES GLOBALES, (consulte la sección1.1 de este tutorial).</p></td>
+						</tr>
+					</table>
+				</level2>
+			</level1>
+			<level1>
+				<h1><span smilref="speechgen0021.smil#tcp353" id="dtb416">5.Insertando Marcas y Anotaciones.</span></h1>
+				<level2>
+					<h2><span id="dtb417" smilref="speechgen0022.smil#tcp354">5.1.Insertando, editando y removendo Marcas.</span></h2>
+					<p><sent smilref="speechgen0022.smil#tcp355" id="dtb418">Las marcas permiten la localización de cualquier frase del texto de forma simple y directa. </sent><sent id="dtb419" smilref="speechgen0022.smil#tcp356">Además  de funcionar como marcadores,
+         se incorpora la función de anotación. </sent><sent id="dtb420" smilref="speechgen0022.smil#tcp357">Cualquier marcador puede tener un texto adicionado. </sent><sent id="dtb421" smilref="speechgen0022.smil#tcp358">Este texto podrá ser exportado junto
+         con la frase referida para posibilitar la edición posterior en su editor de textos preferido. </sent><sent id="dtb422" smilref="speechgen0022.smil#tcp359">Cuando esté en modo de lectura,
+         para insertar una nueva marca, teclee M o Click en el botón correspondiente. </sent><sent id="dtb423" smilref="speechgen0022.smil#tcp360">Para editar una marca, después de localizar el tramo marcado, use la misma tecla o botón.
+         </sent><sent smilref="speechgen0022.smil#tcp361" id="dtb424">Cuando la ventana de insertar  o editar está abierta, el título de marca estará activo. </sent><sent smilref="speechgen0022.smil#tcp362" id="dtb425">Teclee CONTROL + L para leer el título actual. </sent><sent id="dtb426" smilref="speechgen0022.smil#tcp363">Usted puede editar el título sugerido por el aplicativo, con los primeros sesenta caracteres
+         del texto referido. </sent><sent id="dtb427" smilref="speechgen0022.smil#tcp364">Para borrar completo el contenido del título, use CONTROL + DEL. </sent><sent id="dtb428" smilref="speechgen0022.smil#tcp365">Para editar el título, use la tecla flecha hacia la izquierda o derecha para navegar entre las unidades del texto como palabras, símbolos y espacios. </sent><sent smilref="speechgen0022.smil#tcp366" id="dtb429">Para deletrear la palabra actual, use CONTROL + S. </sent><sent smilref="speechgen0022.smil#tcp367" id="dtb430">Para navegar letra a letra por la unidad o palabra actual, use las teclas flechas hacia arriba o abajo. </sent><sent smilref="speechgen0022.smil#tcp368" id="dtb431">La  tecla DEL borra la última unidad hablada. </sent><sent smilref="speechgen0022.smil#tcp369" id="dtb432">Digitando después de abrir una unidad, podrá insertar el texto digitado en el lugar actual.
+         </sent><sent id="dtb433" smilref="speechgen0022.smil#tcp370">El  texto digitado será insertado siempre antes de la unidad actual usando las flechas hacia arriba o hacia abajo. </sent><sent smilref="speechgen0022.smil#tcp371" id="dtb434">Usando las flechas hacia la derecha ó izquierda, el texto será insertado antes de la unidad escogida, excepto si no está  al final del campo. </sent><sent smilref="speechgen0022.smil#tcp372" id="dtb435">Use espaciadora para borrar la letra o símbolo anterior al punto actual. </sent><sent smilref="speechgen0022.smil#tcp373" id="dtb436">Puede usar CONTROL + Z para deshacer la última acción de edición o CONTROL + Y para rehacer  la última edición.
+         </sent><sent smilref="speechgen0022.smil#tcp374" id="dtb437">Para acceder al campo de anotación, teclee TAB a partir del campo título. </sent><sent smilref="speechgen0022.smil#tcp375" id="dtb438">Las funciones de edición son las mismas para los dos campos. </sent><sent id="dtb439" smilref="speechgen0022.smil#tcp376">Para insertar o confirmar la adición
+         realizada, teclee CONTROL + ENTER o presione el botón OK. </sent><sent smilref="speechgen0022.smil#tcp377" id="dtb440">Para deshacer la inserción  o edición, teclee ESC o Click en el botón CANCELAR.
+         </sent><sent id="dtb441" smilref="speechgen0022.smil#tcp378">Una vez creada la marca, pasa a hacer parte de la lista de marcas del libro y  automáticamente se guarda  junto con las preferencias
+         del libro.
+      </sent></p>
+					<p><sent smilref="speechgen0022.smil#tcp379" id="dtb442">Cuando estuviere editando una marca, puedes remover-la tecleando ALT + R. </sent><sent id="dtb443" smilref="speechgen0022.smil#tcp380">No habrá ninguna confirmación y la marca será permanentemente apagada.</sent></p>
+					<p><sent id="dtb444" smilref="speechgen0022.smil#tcp381">Para exportar sus favoritos con las notas y el texto de referencia, utilice la tecla E. </sent><sent smilref="speechgen0022.smil#tcp382" id="dtb445">Siga las instrucciones en el cuadro de diálogo para exportar todos los marcadores del libro activo. </sent><sent id="dtb446" smilref="speechgen0022.smil#tcp383">El archivo será exportado
+         en formato txt y se almacenará en la carpeta "Mis Anotaciónes" en "Mi Biblioteca" dentro de "Mis documentos" y tendrá como
+         nombre el título del libro y la fecha de exportación. </sent><sent smilref="speechgen0022.smil#tcp384" id="dtb447">Usted puede editar el contenido en cualquier editor de texto. </sent><sent smilref="speechgen0022.smil#tcp385" id="dtb448">Para establecer
+         el número de frases a exportar junto con sus notas, abra el dialogo de configuración, usando la tecla C, y cambie la definición de las Frases a exportar con notas.
+      </sent></p>
+				</level2>
+				<level2>
+					<h2><span id="dtb449" smilref="speechgen0023.smil#tcp386">5.2.Tabla de comandos de Marcas.</span></h2>
+					<table id="dtb450" smilref="speechgen0023.smil#tcs64"><!-- **** No template for element: tbody **** -->
+						<tr id="dtb451" smilref="speechgen0023.smil#tcs65">
+							<td colspan="1" rowspan="1"><p><strong smilref="speechgen0023.smil#tcp387" id="dtb452">TECLA O BOTÓN DE COMANDO</strong></p>
+							</td>
+							<td colspan="1" rowspan="1"><p><strong smilref="speechgen0023.smil#tcp388" id="dtb453">OPERACIÓN</strong></p>
+							</td>
+						</tr>
+						<tr id="dtb454" smilref="speechgen0023.smil#tcs66">
+							<td colspan="1" rowspan="1"><p id="dtb455" smilref="speechgen0023.smil#tcp389">Tecla <strong>M</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0023.smil#tcp390" id="dtb456">Inserta o edita una Marca.</p></td>
+						</tr>
+						<tr id="dtb457" smilref="speechgen0023.smil#tcs67">
+							<td colspan="1" rowspan="1"><p>
+                           <strong id="dtb458" smilref="speechgen0023.smil#tcp391">TAB</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p smilref="speechgen0023.smil#tcp392" id="dtb459">Navega entre los campos del marcador.</p></td>
+						</tr>
+						<tr id="dtb460" smilref="speechgen0023.smil#tcs68">
+							<td rowspan="1" colspan="1"><p><strong smilref="speechgen0023.smil#tcp393" id="dtb461">CONTROL + ENTER</strong></p>
+							</td>
+							<td rowspan="1" colspan="1"><p id="dtb462" smilref="speechgen0023.smil#tcp394">Confirma insertar o editar el marcador.</p></td>
+						</tr>
+						<tr smilref="speechgen0023.smil#tcs69" id="dtb463">
+							<td colspan="1" rowspan="1"><p>
+                           <strong id="dtb464" smilref="speechgen0023.smil#tcp395">Flecha hacia la izquierda</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0023.smil#tcp396" id="dtb465">Navega hacia el ítem anterior del texto.</p></td>
+						</tr>
+						<tr id="dtb466" smilref="speechgen0023.smil#tcs70">
+							<td colspan="1" rowspan="1"><p>
+                           <strong id="dtb467" smilref="speechgen0023.smil#tcp397">Flecha hacia la derecha</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0023.smil#tcp398" id="dtb468">Navega hasta el próximo ítem del texto.</p></td>
+						</tr>
+						<tr smilref="speechgen0023.smil#tcs71" id="dtb469">
+							<td rowspan="1" colspan="1"><p>
+                           <strong smilref="speechgen0023.smil#tcp399" id="dtb470">Flecha hacia abajo</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p id="dtb471" smilref="speechgen0023.smil#tcp400">Navega hacia un carácter anterior del ítem actual.</p></td>
+						</tr>
+						<tr id="dtb472" smilref="speechgen0023.smil#tcs72">
+							<td rowspan="1" colspan="1"><p>
+                           <strong smilref="speechgen0023.smil#tcp401" id="dtb473">Flecha hacia arriba</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p id="dtb474" smilref="speechgen0023.smil#tcp402">Navega hacia un próximo carácter del ítem actual.</p></td>
+						</tr>
+						<tr smilref="speechgen0023.smil#tcs73" id="dtb475">
+							<td colspan="1" rowspan="1"><p>
+                           <strong smilref="speechgen0023.smil#tcp403" id="dtb476">CONTROL + DEL</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p id="dtb477" smilref="speechgen0023.smil#tcp404">Borra todo el texto del campo actual.</p></td>
+						</tr>
+						<tr smilref="speechgen0023.smil#tcs74" id="dtb478">
+							<td colspan="1" rowspan="1"><p>
+                           <strong smilref="speechgen0023.smil#tcp405" id="dtb479">DEL</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p smilref="speechgen0023.smil#tcp406" id="dtb480">Borra el ítem actual del texto.</p></td>
+						</tr>
+						<tr id="dtb481" smilref="speechgen0023.smil#tcs75">
+							<td colspan="1" rowspan="1"><p>
+                           <strong smilref="speechgen0023.smil#tcp407" id="dtb482">Espaciador</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p smilref="speechgen0023.smil#tcp408" id="dtb483">Borra los  caracteres anteriores.</p></td>
+						</tr>
+						<tr smilref="speechgen0023.smil#tcs76" id="dtb484">
+							<td colspan="1" rowspan="1"><p>
+                           <strong smilref="speechgen0023.smil#tcp409" id="dtb485">CONTROL + L</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p id="dtb486" smilref="speechgen0023.smil#tcp410">Lee el contenido actual del texto.</p></td>
+						</tr>
+						<tr id="dtb487" smilref="speechgen0023.smil#tcs77">
+							<td colspan="1" rowspan="1"><p>
+                           <strong id="dtb488" smilref="speechgen0023.smil#tcp411">CONTROL + Z</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0023.smil#tcp412" id="dtb489">Deshace la última edición.</p></td>
+						</tr>
+						<tr smilref="speechgen0023.smil#tcs78" id="dtb490">
+							<td rowspan="1" colspan="1"><p>
+                           <strong id="dtb491" smilref="speechgen0023.smil#tcp413">CONTROL + Y</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p id="dtb492" smilref="speechgen0023.smil#tcp414">Rehace la última edición.</p></td>
+						</tr>
+						<tr smilref="speechgen0023.smil#tcs79" id="dtb493">
+							<td rowspan="1" colspan="1"><p id="dtb494" smilref="speechgen0023.smil#tcp415">Otras teclas digitadas.</p></td>
+							<td rowspan="1" colspan="1"><p id="dtb495" smilref="speechgen0023.smil#tcp416">Inserta el texto en punto actual.</p></td>
+						</tr>
+						<tr id="dtb496" smilref="speechgen0023.smil#tcs80">
+							<td colspan="1" rowspan="1"><p smilref="speechgen0023.smil#tcp417" id="dtb497">Tecla <strong>CONTROL + A</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p smilref="speechgen0023.smil#tcp418" id="dtb498">Abre la ayuda de edición.</p></td>
+						</tr>
+						<tr smilref="speechgen0023.smil#tcs81" id="dtb499">
+							<td colspan="1" rowspan="1">
+                        <strong id="dtb500" smilref="speechgen0023.smil#tcp419">ALT + R</strong>.
+               </td>
+							<td id="dtb501" rowspan="1" smilref="speechgen0023.smil#tcp420" colspan="1">Remove la marca actual permanentemente.</td>
+						</tr>
+						<tr id="dtb502" smilref="speechgen0023.smil#tcs82">
+							<td colspan="1" rowspan="1"><p>
+                           <strong smilref="speechgen0023.smil#tcp421" id="dtb503">ESC</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p id="dtb504" smilref="speechgen0023.smil#tcp422">Descarta la creación o edición del marcador y vuelve al texto.</p></td>
+						</tr>
+					</table>
+				</level2>
+			</level1>
+			<level1>
+				<h1><span smilref="speechgen0024.smil#tcp423" id="dtb505">6.Lista de Marcas.</span></h1>
+				<level2>
+					<h2><span id="dtb506" smilref="speechgen0025.smil#tcp424">6.1.Descripción.</span></h2>
+					<p><sent id="dtb507" smilref="speechgen0025.smil#tcp425">La lista de marcas puede ser accedida, usando la combinación de teclas CONTROL + M o Click en abrir MARCADORES.
+         </sent><sent smilref="speechgen0025.smil#tcp426" id="dtb508">La lista contiene todas las marcas del libro actual. </sent><sent id="dtb509" smilref="speechgen0025.smil#tcp427">Para navegar por la lista, use las flechas hacia arriba o hacia abajo. </sent><sent id="dtb510" smilref="speechgen0025.smil#tcp428">Las flechas hacia la derecha o izquierda acceden al fin y al  inicio de la lista respectivamente. </sent><sent smilref="speechgen0025.smil#tcp429" id="dtb511">Para ir a un punto del libro referenciado por un marcador, tecle
+         ENTER,  cuando escuche el marcador deseado o Click sobre el título deseado en la lista. </sent><sent id="dtb512" smilref="speechgen0025.smil#tcp430">La combinación CONTROL + J Activa o desactiva la navegación automática de la lista, así como de otras listas.
+      </sent></p>
+					<p><sent smilref="speechgen0025.smil#tcp431" id="dtb513">Para remover una marca, con la lista de Marcas activa, utilice las teclas flecha arriba o flecha abajo para seleccionar la marca deseada y teclee la Barra Espaciadora. </sent><sent id="dtb514" smilref="speechgen0025.smil#tcp432">Teclee DELETE para remover la marca. </sent><sent id="dtb515" smilref="speechgen0025.smil#tcp433">Una caja de diálogo de confirmación será abierta. </sent><sent smilref="speechgen0025.smil#tcp434" id="dtb516">Confirme la remoción con ENTER o cancele utilizando ESC, o utilice los botones correspondientes.</sent></p>
+					<p><sent id="dtb517" smilref="speechgen0025.smil#tcp435">Para remover todas las marcas del libro actual, con la lista de Marcas activa, teclee CONTROL + DELETE. </sent><sent smilref="speechgen0025.smil#tcp436" id="dtb518">Una caja de diálogo de confirmación será abierta. </sent><sent smilref="speechgen0025.smil#tcp437" id="dtb519">Confirme la remoción con ENTER, cancele tecleando ESC, o utilice los botones correspondientes.</sent></p>
+				</level2>
+				<level2>
+					<h2><span smilref="speechgen0026.smil#tcp438" id="dtb520">6.2.Tabla de comandos de lista de Marcas.</span></h2>
+					<table smilref="speechgen0026.smil#tcs83" id="dtb521"><!-- **** No template for element: tbody **** -->
+						<tr smilref="speechgen0026.smil#tcs84" id="dtb522">
+							<td colspan="1" rowspan="1"><p><strong id="dtb523" smilref="speechgen0026.smil#tcp439">TECLA O BOTÓN DE COMANDO</strong></p>
+							</td>
+							<td rowspan="1" colspan="1"><p><strong smilref="speechgen0026.smil#tcp440" id="dtb524">OPERACIÓN</strong></p>
+							</td>
+						</tr>
+						<tr id="dtb525" smilref="speechgen0026.smil#tcs85">
+							<td colspan="1" rowspan="1">
+								<p id="dtb526" smilref="speechgen0026.smil#tcp441">Tecla <strong>CONTROL + M</strong>. <strong>tab MARCADORES</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p smilref="speechgen0026.smil#tcp442" id="dtb527">Accede a la lista de Marcas.</p></td>
+						</tr>
+						<tr id="dtb528" smilref="speechgen0026.smil#tcs86">
+							<td rowspan="1" colspan="1"><p id="dtb529" smilref="speechgen0026.smil#tcp443">Click en marcador deseado o tecla <strong>ENTER</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p id="dtb530" smilref="speechgen0026.smil#tcp444">Activa la lectura de la marca escogida.</p></td>
+						</tr>
+						<tr id="dtb531" smilref="speechgen0026.smil#tcs87">
+							<td colspan="1" rowspan="1"><p>
+                           <strong smilref="speechgen0026.smil#tcp445" id="dtb532">Flecha hacia abajo</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p smilref="speechgen0026.smil#tcp446" id="dtb533">Navega en la lista para el próximo ítem.</p></td>
+						</tr>
+						<tr smilref="speechgen0026.smil#tcs88" id="dtb534">
+							<td rowspan="1" colspan="1"><p>
+                           <strong id="dtb535" smilref="speechgen0026.smil#tcp447">Flecha hacia abajo</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p id="dtb536" smilref="speechgen0026.smil#tcp448">Navega en la lista para el ítem anterior.</p></td>
+						</tr>
+						<tr smilref="speechgen0026.smil#tcs89" id="dtb537">
+							<td colspan="1" rowspan="1"><p>
+                           <strong id="dtb538" smilref="speechgen0026.smil#tcp449">CONTROL + Flecha hacia la derecha</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p id="dtb539" smilref="speechgen0026.smil#tcp450">Navega al último ítem de la lista.</p></td>
+						</tr>
+						<tr smilref="speechgen0026.smil#tcs90" id="dtb540">
+							<td colspan="1" rowspan="1"><p>
+                           <strong id="dtb541" smilref="speechgen0026.smil#tcp451">CONTROL + Flecha hacia la izquierda</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p id="dtb542" smilref="speechgen0026.smil#tcp452">Navega al primer ítem de la lista.</p></td>
+						</tr>
+						<tr smilref="speechgen0026.smil#tcs91" id="dtb543">
+							<td colspan="1" rowspan="1"><p>
+                           <strong id="dtb544" smilref="speechgen0026.smil#tcp453">Barra espaciadora</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p smilref="speechgen0026.smil#tcp454" id="dtb545">Pausa o retoma la lectura de la lista.</p></td>
+						</tr>
+						<tr id="dtb546" smilref="speechgen0026.smil#tcs92">
+							<td rowspan="1" colspan="1"><strong smilref="speechgen0026.smil#tcp455" id="dtb547">DEL.</strong></td>
+							<td smilref="speechgen0026.smil#tcp456" colspan="1" rowspan="1" id="dtb548">Remove la marca actual de la lista.</td>
+						</tr>
+						<tr smilref="speechgen0026.smil#tcs93" id="dtb549">
+							<td rowspan="1" colspan="1">
+                        <strong id="dtb550" smilref="speechgen0026.smil#tcp457">CONTROL + DEL</strong>.
+               </td>
+							<td smilref="speechgen0026.smil#tcp458" rowspan="1" id="dtb551" colspan="1">Remove TODAS las marcas del libro actual.</td>
+						</tr>
+						<tr id="dtb552" smilref="speechgen0026.smil#tcs94">
+							<td colspan="1" rowspan="1"><p id="dtb553" smilref="speechgen0026.smil#tcp459">Tecla <strong>A</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p smilref="speechgen0026.smil#tcp460" id="dtb554">Abre la ayuda contextual.</p></td>
+						</tr>
+						<tr smilref="speechgen0026.smil#tcs95" id="dtb555">
+							<td colspan="1" rowspan="1"><p id="dtb556" smilref="speechgen0026.smil#tcp461">Tecla <strong>CONTROL + J</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p smilref="speechgen0026.smil#tcp462" id="dtb557">Activa o desactiva la navegación automática de la lista (y de otras listas).</p></td>
+						</tr>
+					</table>
+				</level2>
+			</level1>
+			<level1>
+				<h1><span id="dtb558" smilref="speechgen0027.smil#tcp463">7.Búsqueda.</span></h1>
+				<level2>
+					<h2><span id="dtb559" smilref="speechgen0028.smil#tcp464">7.1.Haciendo una Búsqueda.</span></h2>
+					<p><sent id="dtb560" smilref="speechgen0028.smil#tcp465">Para hacer una búsqueda por palabras en el libro, durante la lectura teclee P o Click en el botón correspondiente.
+         </sent><sent id="dtb561" smilref="speechgen0028.smil#tcp466">En la  caja de diálogo que se abre, usted tendrá dos  opciones: escribir las frases para una nueva búsqueda, o seleccionar
+         el texto de una búsqueda realizada anteriormente en este o en otro libro.
+      </sent></p>
+					<p><sent smilref="speechgen0028.smil#tcp467" id="dtb562">Hay dos tipos de búsqueda: Aproximada y Texto Exacto. </sent><sent smilref="speechgen0028.smil#tcp468" id="dtb563">Es importante señalar que en el modo de Texto Exacto, la búsqueda de
+         más de un término es exacta, no se encuentran resultados que no corresponden exactamente a lo que se escribe. </sent><sent smilref="speechgen0028.smil#tcp469" id="dtb564">Sin embargo,
+         con una palabra solamente, la búsqueda es aproximada. </sent><sent id="dtb565" smilref="speechgen0028.smil#tcp470">Así que, si escribe amor, se encuentra amor, amores, amoroso, etc ..
+         </sent><sent smilref="speechgen0028.smil#tcp471" id="dtb566">Usando el modo de búsqueda Aproximada, el sistema buscará todas las palabras y organizará los resultados por los pasajes en
+         los que más de una palabra se encuentra y así sucesivamente. </sent><sent id="dtb567" smilref="speechgen0028.smil#tcp472">Para seleccionar un tipo de búsqueda utilice la tecla TAB para
+         seleccionar el campo de los tipos de búsqueda y elija el modo cómo desea utilizar. </sent><sent id="dtb568" smilref="speechgen0028.smil#tcp473">Sólo los libros producidos en el sistema
+         DDP (Dorina Daisy Producer) puedem utilizar la búsqueda Aproximada.
+      </sent></p>
+					<p><sent smilref="speechgen0028.smil#tcp474" id="dtb569">Para crear una nueva búsqueda, simplemente digite la palabra o frase que desea buscar y teclee ENTER. </sent><sent id="dtb570" smilref="speechgen0028.smil#tcp475">Los resultados serán mostrados en la lista de resultados de Búsqueda. </sent><sent id="dtb571" smilref="speechgen0028.smil#tcp476">Para repetir una búsqueda anterior, use la combinación
+         CONTROL + flecha hacia arriba o CONTROL + flecha hacia abajo para navegar entre las búsquedas anteriores y escoger la búsqueda que desea hacer. </sent><sent id="dtb572" smilref="speechgen0028.smil#tcp477">Seleccionada la frase escogida, teclee
+         ENTER para efectuar la búsqueda. </sent><sent smilref="speechgen0028.smil#tcp478" id="dtb573">Teclee ESC para cerrar la caja  de dialogo y salir sin realizar la búsqueda. </sent><sent id="dtb574" smilref="speechgen0028.smil#tcp479">Usted  puede usar los comandos de edición de texto, similares
+         a los de edición de texto de marcas, en el campo de búsqueda. </sent><sent id="dtb575" smilref="speechgen0028.smil#tcp480">Después de ejecutada la búsqueda el sistema automáticamente
+         crea una lista de resultados y comienza a hablar el primer resultado y sucesivamente. </sent><sent id="dtb576" smilref="speechgen0028.smil#tcp481">Vea en el próximo ítem, como navegar
+         por los resultados de la búsqueda.
+         </sent><sent smilref="speechgen0028.smil#tcp482" id="dtb577">En cualquier momento de la lectura,  podrá acceder a la lista de resultados de Búsqueda  usando la combinación CONTROL + P o Click en el tab BUSQUEDA.
+      </sent></p>
+				</level2>
+				<level2>
+					<h2><span smilref="speechgen0029.smil#tcp483" id="dtb578">7.2.Tabela de comandos da Busca.</span></h2>
+					<table smilref="speechgen0029.smil#tcs96" id="dtb579"><!-- **** No template for element: tbody **** -->
+						<tr smilref="speechgen0029.smil#tcs97" id="dtb580">
+							<td colspan="1" rowspan="1"><p><strong smilref="speechgen0029.smil#tcp484" id="dtb581">TECLA O BOTÓN DE COMANDO</strong></p>
+							</td>
+							<td colspan="1" rowspan="1"><p><strong id="dtb582" smilref="speechgen0029.smil#tcp485">OPERACION</strong></p>
+							</td>
+						</tr>
+						<tr smilref="speechgen0029.smil#tcs98" id="dtb583">
+							<td rowspan="1" colspan="1">
+								<p id="dtb584" smilref="speechgen0029.smil#tcp486">Tecla <strong>P</strong>. tab <strong>BÚSQUEDA</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0029.smil#tcp487" id="dtb585">Accede al modo de búsqueda.</p></td>
+						</tr>
+						<tr id="dtb586" smilref="speechgen0029.smil#tcs99">
+							<td colspan="1" rowspan="1"><p><strong id="dtb587" smilref="speechgen0029.smil#tcp488">ENTER</strong></p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0029.smil#tcp489" id="dtb588">Realiza la búsqueda.</p></td>
+						</tr>
+						<tr id="dtb589" smilref="speechgen0029.smil#tcs100">
+							<td rowspan="1" colspan="1"><p>
+                           <strong id="dtb590" smilref="speechgen0029.smil#tcp490">CONTROL + Flecha hacia abajo</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p id="dtb591" smilref="speechgen0029.smil#tcp491">Selecciona la próxima entrada de las búsquedas  realizadas anteriormente.</p></td>
+						</tr>
+						<tr smilref="speechgen0029.smil#tcs101" id="dtb592">
+							<td rowspan="1" colspan="1"><p>
+                           <strong id="dtb593" smilref="speechgen0029.smil#tcp492">CONTROL + Flecha hacia arriba</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p id="dtb594" smilref="speechgen0029.smil#tcp493">Selecciona la entrada anterior de las búsquedas realizadas anteriormente.</p></td>
+						</tr>
+						<tr smilref="speechgen0029.smil#tcs102" id="dtb595">
+							<td colspan="1" rowspan="1"><p><strong id="dtb596" smilref="speechgen0029.smil#tcp494">Flecha hacia la Izquierda.</strong></p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0029.smil#tcp495" id="dtb597">Navega hacia el ítem anterior del texto.</p></td>
+						</tr>
+						<tr smilref="speechgen0029.smil#tcs103" id="dtb598">
+							<td colspan="1" rowspan="1"><p>
+                           <strong id="dtb599" smilref="speechgen0029.smil#tcp496">Flecha hacia derecha</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p id="dtb600" smilref="speechgen0029.smil#tcp497">Navega hacia el  próximo ítem del texto.</p></td>
+						</tr>
+						<tr smilref="speechgen0029.smil#tcs104" id="dtb601">
+							<td rowspan="1" colspan="1"><p>
+                           <strong smilref="speechgen0029.smil#tcp498" id="dtb602">Flecha hacia abajo</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p id="dtb603" smilref="speechgen0029.smil#tcp499">Navega hacia el carácter anterior del ítem actual.</p></td>
+						</tr>
+						<tr smilref="speechgen0029.smil#tcs105" id="dtb604">
+							<td colspan="1" rowspan="1"><p>
+                           <strong smilref="speechgen0029.smil#tcp500" id="dtb605">Flecha hacia arriba</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0029.smil#tcp501" id="dtb606">Navega hacia el próximo carácter del ítem actual.</p></td>
+						</tr>
+						<tr id="dtb607" smilref="speechgen0029.smil#tcs106">
+							<td colspan="1" rowspan="1"><p>
+                           <strong id="dtb608" smilref="speechgen0029.smil#tcp502">CONTROL + DEL</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0029.smil#tcp503" id="dtb609">Borra todo el texto del campo de búsqueda.</p></td>
+						</tr>
+						<tr smilref="speechgen0029.smil#tcs107" id="dtb610">
+							<td rowspan="1" colspan="1"><p>
+                           <strong smilref="speechgen0029.smil#tcp504" id="dtb611">DEL</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0029.smil#tcp505" id="dtb612">Borra el ítem actual del texto.</p></td>
+						</tr>
+						<tr id="dtb613" smilref="speechgen0029.smil#tcs108">
+							<td colspan="1" rowspan="1"><p>
+                           <strong smilref="speechgen0029.smil#tcp506" id="dtb614">espaciador</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p smilref="speechgen0029.smil#tcp507" id="dtb615">Borra el  carácter anterior.</p></td>
+						</tr>
+						<tr smilref="speechgen0029.smil#tcs109" id="dtb616">
+							<td rowspan="1" colspan="1"><p>
+                           <strong id="dtb617" smilref="speechgen0029.smil#tcp508">CONTROL + L</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p id="dtb618" smilref="speechgen0029.smil#tcp509">Lee el contenido actual del texto.</p></td>
+						</tr>
+						<tr smilref="speechgen0029.smil#tcs110" id="dtb619">
+							<td rowspan="1" colspan="1"><p>
+                           <strong id="dtb620" smilref="speechgen0029.smil#tcp510">CONTROL + Z</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p id="dtb621" smilref="speechgen0029.smil#tcp511">Deshace  la última acción realizada.</p></td>
+						</tr>
+						<tr smilref="speechgen0029.smil#tcs111" id="dtb622">
+							<td colspan="1" rowspan="1"><p>
+                           <strong smilref="speechgen0029.smil#tcp512" id="dtb623">CONTROL + Y</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p id="dtb624" smilref="speechgen0029.smil#tcp513">Rehace la última acción realizada por CONTROL + Z.</p></td>
+						</tr>
+						<tr smilref="speechgen0029.smil#tcs112" id="dtb625">
+							<td rowspan="1" colspan="1"><p smilref="speechgen0029.smil#tcp514" id="dtb626">Otras teclas digitadas.</p></td>
+							<td colspan="1" rowspan="1"><p smilref="speechgen0029.smil#tcp515" id="dtb627">Inserta el texto del punto actual del campo de búsqueda.</p></td>
+						</tr>
+						<tr id="dtb628" smilref="speechgen0029.smil#tcs113">
+							<td rowspan="1" colspan="1"><p smilref="speechgen0029.smil#tcp516" id="dtb629">Tecla <strong>CONTROL + A</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p id="dtb630" smilref="speechgen0029.smil#tcp517">Abre la ayuda de edición.</p></td>
+						</tr>
+						<tr id="dtb631" smilref="speechgen0029.smil#tcs114">
+							<td colspan="1" rowspan="1"><p>
+                           <strong id="dtb632" smilref="speechgen0029.smil#tcp518">ESC</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p smilref="speechgen0029.smil#tcp519" id="dtb633">Cierra la caja del diálogo sin realizar la búsqueda.</p></td>
+						</tr>
+					</table>
+				</level2>
+			</level1>
+			<level1>
+				<h1><span smilref="speechgen0030.smil#tcp520" id="dtb634">8.Lista de resultados de Búsqueda.</span></h1>
+				<level2>
+					<h2><span id="dtb635" smilref="speechgen0031.smil#tcp521">8.1.Descripción.</span></h2>
+					<p><sent id="dtb636" smilref="speechgen0031.smil#tcp522">Después de realizar una búsqueda, los resultados encontrados, serán insertados en una lista de resultados de búsqueda. </sent><sent id="dtb637" smilref="speechgen0031.smil#tcp523">En
+         este momento, el aplicativo mueve el foco hacia la lista de resultados y comienza la lectura de este. </sent><sent smilref="speechgen0031.smil#tcp524" id="dtb638">Use ENTER para seleccionar el resultado e ir al punto de texto correspondiente. </sent><sent smilref="speechgen0031.smil#tcp525" id="dtb639">Use los comandos de navegación de la lista, como en
+         el Índice o en la lista de Marcas, para navegar en la lista. </sent><sent smilref="speechgen0031.smil#tcp526" id="dtb640">En cualquier momento durante la lectura, podrá acceder a los
+         resultados de la última búsqueda realizada tecleando CONTROL + P o Click en el tab BUSQUEDA.
+         </sent><sent id="dtb641" smilref="speechgen0031.smil#tcp527">Para navegar en el texto por los resultados de la última búsqueda, use CONTROL + flecha hacia abajo o CONTROL + flecha hacia arriba durante la lectura.
+      </sent></p>
+				</level2>
+				<level2>
+					<h2><span smilref="speechgen0032.smil#tcp528" id="dtb642">8.2.Tabla de comandos de lista de resultados de Búsqueda.</span></h2>
+					<table smilref="speechgen0032.smil#tcs115" id="dtb643"><!-- **** No template for element: tbody **** -->
+						<tr smilref="speechgen0032.smil#tcs116" id="dtb644">
+							<td rowspan="1" colspan="1"><p><strong smilref="speechgen0032.smil#tcp529" id="dtb645">TECLA O BOTÓN DE COMANDO</strong></p>
+							</td>
+							<td rowspan="1" colspan="1"><p><strong smilref="speechgen0032.smil#tcp530" id="dtb646">OPERACIÓN</strong></p>
+							</td>
+						</tr>
+						<tr id="dtb647" smilref="speechgen0032.smil#tcs117">
+							<td rowspan="1" colspan="1">
+								<p id="dtb648" smilref="speechgen0032.smil#tcp531">Tecla <strong>CONTROL + P</strong>. <strong>tab BUSQUEDA</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0032.smil#tcp532" id="dtb649">Accede a la lista de resultados de Búsqueda.</p></td>
+						</tr>
+						<tr smilref="speechgen0032.smil#tcs118" id="dtb650">
+							<td colspan="1" rowspan="1"><p smilref="speechgen0032.smil#tcp533" id="dtb651">Click en resultado deseado o teclee <strong>ENTER.</strong>
+                        </p>
+							</td>
+							<td colspan="1" rowspan="1"><p smilref="speechgen0032.smil#tcp534" id="dtb652">Accede a la frase correspondiente al resultado de búsqueda escogido.</p></td>
+						</tr>
+						<tr smilref="speechgen0032.smil#tcs119" id="dtb653">
+							<td rowspan="1" colspan="1"><p>
+                           <strong smilref="speechgen0032.smil#tcp535" id="dtb654">Flecha hacia abajo</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p id="dtb655" smilref="speechgen0032.smil#tcp536">Navega en la lista hacia el próximo ítem.</p></td>
+						</tr>
+						<tr smilref="speechgen0032.smil#tcs120" id="dtb656">
+							<td rowspan="1" colspan="1"><p>
+                           <strong id="dtb657" smilref="speechgen0032.smil#tcp537">Flecha hacia arriba</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p id="dtb658" smilref="speechgen0032.smil#tcp538">Navega en la lista hacia el ítem anterior.</p></td>
+						</tr>
+						<tr id="dtb659" smilref="speechgen0032.smil#tcs121">
+							<td colspan="1" rowspan="1"><p>
+                           <strong id="dtb660" smilref="speechgen0032.smil#tcp539">CONTROL + Flecha hacia la derecha</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p id="dtb661" smilref="speechgen0032.smil#tcp540">Navega hacia el último ítem de la lista.</p></td>
+						</tr>
+						<tr smilref="speechgen0032.smil#tcs122" id="dtb662">
+							<td colspan="1" rowspan="1"><p>
+                           <strong smilref="speechgen0032.smil#tcp541" id="dtb663">CONTROL + Flecha hacia la izquierda</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p id="dtb664" smilref="speechgen0032.smil#tcp542">Navega hacia el primer ítem de la lista.</p></td>
+						</tr>
+						<tr smilref="speechgen0032.smil#tcs123" id="dtb665">
+							<td colspan="1" rowspan="1"><p>
+                           <strong smilref="speechgen0032.smil#tcp543" id="dtb666">Barra espaciadora</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0032.smil#tcp544" id="dtb667">Pausa o retoma la lectura de la lista.</p></td>
+						</tr>
+						<tr id="dtb668" smilref="speechgen0032.smil#tcs124">
+							<td colspan="1" rowspan="1"><p smilref="speechgen0032.smil#tcp545" id="dtb669">Tecla <strong>A</strong>.
+                  </p>
+							</td>
+							<td rowspan="1" colspan="1"><p smilref="speechgen0032.smil#tcp546" id="dtb670">Abre la ayuda contextual.</p></td>
+						</tr>
+						<tr id="dtb671" smilref="speechgen0032.smil#tcs125">
+							<td rowspan="1" colspan="1"><p id="dtb672" smilref="speechgen0032.smil#tcp547">Tecla <strong>CONTROL + J</strong>.
+                  </p>
+							</td>
+							<td colspan="1" rowspan="1"><p id="dtb673" smilref="speechgen0032.smil#tcp548">Activa o desactiva la navegación automática de la lista (y de otras listas).</p></td>
+						</tr>
+					</table>
+				</level2>
+			</level1>
+			<level1>
+				<h1><span smilref="speechgen0033.smil#tcp549" id="dtb674">9.Preferencias Generales.</span></h1>
+				<p><sent id="dtb675" smilref="speechgen0033.smil#tcp550">Para acceder a las preferencias generales de DDR, use la tecla C o Click en el botón correspondiente.
+         </sent><sent id="dtb676" smilref="speechgen0033.smil#tcp551">Para navegar entre la caja de diálogo de preferencias, use la tecla TAB y CONTROL + TAB para las opciones siguientes o anteriores. </sent><sent smilref="speechgen0033.smil#tcp552" id="dtb677">Después de acceder a la opción deseada, use el comando indicado para hacer los
+         cambios que quiera. </sent><sent smilref="speechgen0033.smil#tcp553" id="dtb678">Algunas opciones son cambiadas usando las teclas flechas hacia arriba ó hacia abajo. </sent><sent smilref="speechgen0033.smil#tcp554" id="dtb679">Otras usando la barra de espacio para activar o desactivar la opción y otras  digitando el texto en el campo de opción. </sent><sent smilref="speechgen0033.smil#tcp555" id="dtb680">Para confirmar las configuraciones,
+         tecle ENTER o click en botón OK. </sent><sent id="dtb681" smilref="speechgen0033.smil#tcp556">Para descartar los cambios y cerrar la caja de dialogo, click en CANCELAR o la tecla ESC.
+         </sent><sent smilref="speechgen0033.smil#tcp557" id="dtb682">Vamos a seguir una descripción de las opciones  de preferencias generales:
+         Idioma del programa: sirve para seleccionar entre los idiomas disponibles del aplicativo el que usted desea usar para la presentación de interface
+         y los  mensajes visuales y hablados.
+         </sent><sent id="dtb683" smilref="speechgen0033.smil#tcp558">Voz del sistema: aquí usted selecciona la voz que será usada por DDR para hablar los comandos y textos del aplicativo. </sent><sent smilref="speechgen0033.smil#tcp559" id="dtb684">Las voces listas para ser instaladas en su computador compatible con el
+         sistema de voz SAPI5 de Windows.
+         </sent><sent id="dtb685" smilref="speechgen0033.smil#tcp560">Velocidad TTS: escoja la velocidad deseada para la voz del sistema. </sent><sent id="dtb686" smilref="speechgen0033.smil#tcp561">Valores de -10 a +10.
+         </sent><sent id="dtb687" smilref="speechgen0033.smil#tcp562">Volumen TTS: escoja el volumen para la voz del sistema. </sent><sent smilref="speechgen0033.smil#tcp563" id="dtb688">Corresponde a las teclas + (mas) y - (menos)
+         Tamaño de fuente: usted puede escoger un tamaño para la fuente utilizada en la lectura del libro y las listas de Marcadores, Búsqueda, Historial
+         y de Índice del libro. los tamaños son relativos al tamaño base. </sent><sent id="dtb689" smilref="speechgen0033.smil#tcp564">Corresponde a la tecla F.
+         </sent><sent id="dtb690" smilref="speechgen0033.smil#tcp565">Entradas de Historial: número de entradas guardadas de libros leídos en el HISTORIAL.
+         </sent><sent id="dtb691" smilref="speechgen0033.smil#tcp566">Eco de digitación: activa o desactiva el Eco de digitación en los campos en que usted pode ingresar texto.
+         </sent><sent id="dtb692" smilref="speechgen0033.smil#tcp567">Eco de comandos: activa o desactiva el Eco de comandos hablados cuando usted ejecuta un comando de tecla.
+         </sent><sent id="dtb693" smilref="speechgen0033.smil#tcp568">Beep en marcas: activa o desactiva  un indicador de sonido en las marcas del texto
+         Navegación automática de listas: activa o desactiva la navegación automática de las listas. </sent><sent smilref="speechgen0033.smil#tcp569" id="dtb694">Corresponde la combinación CONTROL + J.
+         </sent><sent smilref="speechgen0033.smil#tcp570" id="dtb695">Edición  de texto extendida: activa o desactiva las funciones de edición de texto en las cajas de texto de Marcadores y  de Búsqueda.
+         </sent><sent id="dtb696" smilref="speechgen0033.smil#tcp571">Frases a exportar con las anotaciones: Establece el número de sentencias para la exportación, antes y después de un tramo marcado, junto con las notas de un libro.
+         </sent><sent smilref="speechgen0033.smil#tcp572" id="dtb697">Directorio de Biblioteca: si usted no está utilizando el directorio, que es Mi Biblioteca en Mis Documentos, debe digitar aquí el encabezado completo
+         del directorio que usa para organizar los libros.
+      </sent></p>
+			</level1>
+			<level1>
+				<h1><span smilref="speechgen0034.smil#tcp573" id="dtb698">10.Preferencias del Libro Actual(por libro).</span></h1>
+				<p><sent id="dtb699" smilref="speechgen0034.smil#tcp574">Para acceder a las preferencias del libro actual use la combinación CONTROL + C o click en botón correspondiente. </sent><sent id="dtb700" smilref="speechgen0034.smil#tcp575">Las preferencias permiten organizar la configuración de opciones para cada libro independientemente.
+         </sent><sent smilref="speechgen0034.smil#tcp576" id="dtb701">En la caja de diálogo de preferencias, use a tecla TAB y CONTROL + TAB para navegar para las opciones siguientes o anteriores. </sent><sent id="dtb702" smilref="speechgen0034.smil#tcp577">Al acceder a la opción deseada, use el comando indicado para hacer
+         los cambios que quiera. </sent><sent id="dtb703" smilref="speechgen0034.smil#tcp578">Algunas opciones son cambiadas usando las flechas hacia arriba o hacia abajo para seleccionar la opción, otras usando la barra espaciadora para activar o desactivar las opciones y otras digitando el texto en el campo de opción. </sent><sent smilref="speechgen0034.smil#tcp579" id="dtb704">Para confirmar los  cambios, teclee
+         ENTER o click en botón OK. </sent><sent id="dtb705" smilref="speechgen0034.smil#tcp580">Para descartar los cambios y cerrar la caja de diálogo, click en CANCELAR o teclee ESC.
+         </sent><sent id="dtb706" smilref="speechgen0034.smil#tcp581">Vamos a seguir  la descripción de opciones de preferencias locales:
+         Volumen de audio (MP3): escoja el volumen de lectura de narración pre-gravada de libro, si existe. </sent><sent smilref="speechgen0034.smil#tcp582" id="dtb707">Corresponden las combinaciones CONTROL + +(mas)
+         y CONTROL + -(menos).
+         </sent><sent id="dtb708" smilref="speechgen0034.smil#tcp583">Lista de voces en todos los idiomas: Seleccionando esta opción, el sistema lista todas las voces sintetizadas disponibles en el sistema operacional. </sent><sent id="dtb709" smilref="speechgen0034.smil#tcp584">Caso contrario,
+         solamente serán listadas las voces en el idioma del libro.
+         </sent><sent smilref="speechgen0034.smil#tcp585" id="dtb710">Voz para TTS: aquí usted selecciona la voz que será usada por DDR para leer el libro que está siendo configurado. </sent><sent id="dtb711" smilref="speechgen0034.smil#tcp586">Las voces listadas serán las voces instaladas en su computador compatibles
+         con el sistema de voz SAPI5 de Windows.
+         </sent><sent smilref="speechgen0034.smil#tcp587" id="dtb712">Navegación automática: Activa o desactiva la navegación automática de lectura del libro.
+         </sent><sent smilref="speechgen0034.smil#tcp588" id="dtb713">Leer notas de pié de página: Activa o desactiva la lectura de notas de pié de página del libro.
+         </sent><sent id="dtb714" smilref="speechgen0034.smil#tcp589">Leer número de página: Activa o desactiva la lectura del número de página del libro.
+         </sent><sent smilref="speechgen0034.smil#tcp590" id="dtb715">Leer con MP3: alterna el modo de lectura del libro entre TTS y narración pre-gravada (si existe). </sent><sent smilref="speechgen0034.smil#tcp591" id="dtb716">Corresponde la tecla Z.
+      </sent></p>
+			</level1>
+			<level1>
+				<h1><span id="dtb717" smilref="speechgen0035.smil#tcp592">11.Actualizaciones (inactivo).</span></h1>
+				<p><sent id="dtb718" smilref="speechgen0035.smil#tcp593">Al hacer clic en el botón correspondiente en la parte superior derecha o con la tecla U, <abbr class="pronuncia" title="dêderríder">DDReader</abbr> abre una ventana para acceder a una página de actualización. </sent><sent smilref="speechgen0035.smil#tcp594" id="dtb719">Si hay una versión más reciente, se abrirá automáticamente y
+         usted debe confirmar la actualización, presionando ENTRAR. </sent><sent smilref="speechgen0035.smil#tcp595" id="dtb720">Debe reiniciar Firefox después de la actualización. </sent><sent id="dtb721" smilref="speechgen0035.smil#tcp596">Para navegar
+         por la página de actualización tendrá que utilizar su lector de pantalla.
+      </sent></p>
+				<p smilref="speechgen0035.smil#tcp597" id="dtb722">O utilice el sistema de actualización de complementos de Firefox.</p>
+			</level1>
+			<level1>
+				<h1><span smilref="speechgen0036.smil#tcp598" id="dtb723">12.Site de DDR (inactivo).</span></h1>
+				<p class="dummy" />
+			</level1>
+			<level1>
+				<h1><span smilref="speechgen0037.smil#tcp599" id="dtb724">13.Suporte.</span></h1>
+				<p><sent id="dtb725" smilref="speechgen0037.smil#tcp600">Para acceder al soporte, teclee R o haga clic en el botón correspondiente. </sent><sent smilref="speechgen0037.smil#tcp601" id="dtb726">El cuadro de dialogo avisa que una pagina de Internet será abierta. </sent><sent smilref="speechgen0037.smil#tcp602" id="dtb727">Para tanto es
+         necesario haber una conexión activa con la Internet e usted deberá usar su lector de pantallas para navegar por la página
+         abierta. </sent><sent id="dtb728" smilref="speechgen0037.smil#tcp603">En esta, seleccione el asunto de su mensaje, después teclee su correo electrónico (solamente para la respuesta) y
+         describa en el campo de texto la cuestión o sugestión que desea enviar. </sent><sent id="dtb729" smilref="speechgen0037.smil#tcp604">Para volver al libro, cierra la ventana abierta con
+         ALT + F4.
+      </sent></p>
+			</level1>
+			<level1>
+				<h1><span smilref="speechgen0038.smil#tcp605" id="dtb730">14.Exportar marcas y anotaciones y exportar e importar Preferencias generales.</span></h1>
+				<p><sent id="dtb731" smilref="speechgen0038.smil#tcp606">Para exportar sus favoritos con las notas y el texto de referencia, utilice la tecla E. </sent><sent smilref="speechgen0038.smil#tcp607" id="dtb732">Siga las instrucciones en el cuadro de diálogo para exportar todos los marcadores del libro activo. </sent><sent id="dtb733" smilref="speechgen0038.smil#tcp608">El archivo será exportado
+         en formato txt y se almacenará en la carpeta "Mis Anotaciones" en "Mi Biblioteca" dentro de "Mis documentos" y tendrá como
+         nombre el título del libro y la fecha de exportación. </sent><sent smilref="speechgen0038.smil#tcp609" id="dtb734">Usted puede editar el contenido en cualquier editor de texto. </sent><sent id="dtb735" smilref="speechgen0038.smil#tcp610">Para establecer
+         el número de frases a exportar junto con sus notas, abra el dialogo de configuración, usando la tecla C, y cambie la definición de las Frases a exportar con notas.
+      </sent></p>
+				<p><sent id="dtb736" smilref="speechgen0038.smil#tcp611">Este comando también permite acceder a la exportación e importación de las Preferencias generales, incluyendo su configuración
+         global y la configuración de cada libro que no está abierto. </sent><sent smilref="speechgen0038.smil#tcp612" id="dtb737">Los marcadores se exportarán junto con las preferencias. </sent><sent id="dtb738" smilref="speechgen0038.smil#tcp613">Siga
+         las instrucciones en el cuadro de diálogo para realizar la operación. </sent><sent smilref="speechgen0038.smil#tcp614" id="dtb739">El archivo exportado se almacena en "Mi Biblioteca"
+         dentro de "Mis documentos" y está nombrado "config.zip. </sent><sent id="dtb740" smilref="speechgen0038.smil#tcp615">Para importar la configuración en otro equipo, abra el <abbr title="dêderríder" class="pronuncia">DDReader</abbr> en el nuevo equipo y seleccione la opción pulsando E. </sent><sent><span smilref="speechgen0038.smil#tcp616" id="dtb741">El archivo Config.zip debe ser copiado a "Mi Biblioteca" en "Mis Documentos". La nueva configuración cubrirá la configuración
+            anterior, por tanto, si lo desea, hace una copia de la configuración actual antes de importar.</span>
+            </sent></p>
+			</level1>
+			<level1>
+				<h1><span id="dtb742" smilref="speechgen0039.smil#tcp617">15.Créditos.</span></h1>
+				<p><sent smilref="speechgen0039.smil#tcp618" id="dtb743">Tecle Q o CONTROL + END o click en botón correspondiente para acceder al cuadro de créditos del aplicativo. </sent><sent smilref="speechgen0039.smil#tcp619" id="dtb744">Al  final de la página de créditos, encontrará
+         el texto integral de licencia de uso. </sent><sent smilref="speechgen0039.smil#tcp620" id="dtb745">Tecle ESC para salir del cuadro de créditos y volver al libro</sent><sent>.</sent><sent smilref="speechgen0039.smil#tcp621" id="dtb746">
+         ©2006, 2007, 2008, 2009 - FDNC, Pedro Milliet y Eduardo Perez.
+         </sent><sent id="dtb747" smilref="speechgen0039.smil#tcp622">DDReader - ™ Fundación Dorina Nowill para Ciegos.
+      </sent></p>
+				<p smilref="speechgen0039.smil#tcp623" id="dtb748"> </p>
+				<p smilref="speechgen0039.smil#tcp624" id="dtb749"> </p>
+				<p smilref="speechgen0039.smil#tcp625" id="dtb750"> </p>
+				<p smilref="speechgen0039.smil#tcp626" id="dtb751"> </p>
+				<p id="dtb752" smilref="speechgen0039.smil#tcp627"> </p>
+			</level1>
+		</bodymatter>
+	</book>
+</dtbook>

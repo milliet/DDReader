@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx
+  PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+	  <head>
+		    <meta content="FDNC_1050" name="dtb:uid"/>
+		    <meta content="2" name="dtb:depth"/>
+		
+		    <meta content="TPB Narrator" name="dtb:generator"/>
+		    <meta content="0" name="dtb:totalPageCount"/>
+		    <meta content="0" name="dtb:maxPageNumber"/>
+	  </head>
+  
+	  <docTitle>
+	     <text>Tutorial DDReader</text>
+      
+   </docTitle>
+  
+	  <docAuthor>
+	     <text>Pedro Milliet &amp; Eduardo Perez</text>
+      
+   </docAuthor>
+	
+	  <navMap id="navMap">
+      <navPoint class="h1" id="ncx-1" playOrder="1">
+         <navLabel>
+            <text>DORINA DAISY READER ( DDR ) TUTORIAL.</text>
+            
+         </navLabel>
+         <content src="speechgen0002.smil#tcp3"/>
+      </navPoint>
+      <navPoint class="h1" id="ncx-2" playOrder="2">
+         <navLabel>
+            <text>1.Introduction.</text>
+            
+         </navLabel>
+         <content src="speechgen0003.smil#tcp4"/>
+         <navPoint class="h2" id="ncx-3" playOrder="3">
+            <navLabel>
+               <text>1.1. DDR Commands.</text>
+               
+            </navLabel>
+            <content src="speechgen0004.smil#tcp20"/>
+         </navPoint>
+         <navPoint class="h2" id="ncx-4" playOrder="4">
+            <navLabel>
+               <text>1.2. DDR Navigation Commands.</text>
+               
+            </navLabel>
+            <content src="speechgen0005.smil#tcp50"/>
+         </navPoint>
+         <navPoint class="h2" id="ncx-5" playOrder="5">
+            <navLabel>
+               <text>1.3.Filters, indicators and their functions.</text>
+               
+            </navLabel>
+            <content src="speechgen0006.smil#tcp65"/>
+         </navPoint>
+         <navPoint class="h2" id="ncx-6" playOrder="6">
+            <navLabel>
+               <text>1.4.Extra commands.</text>
+               
+            </navLabel>
+            <content src="speechgen0007.smil#tcp74"/>
+         </navPoint>
+         <navPoint class="h2" id="ncx-7" playOrder="7">
+            <navLabel>
+               <text>1.5.Keyboard only commands.</text>
+               
+            </navLabel>
+            <content src="speechgen0008.smil#tcp85"/>
+         </navPoint>
+      </navPoint>
+      <navPoint class="h1" id="ncx-8" playOrder="8">
+         <navLabel>
+            <text>2.Open a book.</text>
+            
+         </navLabel>
+         <content src="speechgen0009.smil#tcp117"/>
+         <navPoint class="h2" id="ncx-9" playOrder="9">
+            <navLabel>
+               <text>2.1.Using the Open command (O).</text>
+               
+            </navLabel>
+            <content src="speechgen0010.smil#tcp128"/>
+         </navPoint>
+         <navPoint class="h2" id="ncx-10" playOrder="10">
+            <navLabel>
+               <text>2.2.Using History.</text>
+               
+            </navLabel>
+            <content src="speechgen0011.smil#tcp144"/>
+         </navPoint>
+         <navPoint class="h2" id="ncx-11" playOrder="11">
+            <navLabel>
+               <text>2.3.Book Info.</text>
+               
+            </navLabel>
+            <content src="speechgen0012.smil#tcp160"/>
+         </navPoint>
+         <navPoint class="h2" id="ncx-12" playOrder="12">
+            <navLabel>
+               <text>2.4.Initial Screen commands table.</text>
+               
+            </navLabel>
+            <content src="speechgen0013.smil#tcp165"/>
+         </navPoint>
+      </navPoint>
+      <navPoint class="h1" id="ncx-13" playOrder="13">
+         <navLabel>
+            <text>3.Index Navigation.</text>
+            
+         </navLabel>
+         <content src="speechgen0014.smil#tcp192"/>
+         <navPoint class="h2" id="ncx-14" playOrder="14">
+            <navLabel>
+               <text>3.1.The navigation levels and the index.</text>
+               
+            </navLabel>
+            <content src="speechgen0015.smil#tcp196"/>
+         </navPoint>
+         <navPoint class="h2" id="ncx-15" playOrder="15">
+            <navLabel>
+               <text>3.2.Book Index commands table.</text>
+               
+            </navLabel>
+            <content src="speechgen0016.smil#tcp209"/>
+         </navPoint>
+      </navPoint>
+      <navPoint class="h1" id="ncx-16" playOrder="16">
+         <navLabel>
+            <text>4.Book Reading.</text>
+            
+         </navLabel>
+         <content src="speechgen0017.smil#tcp235"/>
+         <navPoint class="h2" id="ncx-17" playOrder="17">
+            <navLabel>
+               <text>4.1.Description.</text>
+               
+            </navLabel>
+            <content src="speechgen0018.smil#tcp236"/>
+         </navPoint>
+         <navPoint class="h2" id="ncx-18" playOrder="18">
+            <navLabel>
+               <text>4.2.Spelling.</text>
+               
+            </navLabel>
+            <content src="speechgen0019.smil#tcp275"/>
+         </navPoint>
+         <navPoint class="h2" id="ncx-19" playOrder="19">
+            <navLabel>
+               <text>4.3.Reading commands table.</text>
+               
+            </navLabel>
+            <content src="speechgen0020.smil#tcp286"/>
+         </navPoint>
+      </navPoint>
+      <navPoint class="h1" id="ncx-20" playOrder="20">
+         <navLabel>
+            <text>5.Creating new Bookmarks and User Notes.</text>
+            
+         </navLabel>
+         <content src="speechgen0021.smil#tcp364"/>
+         <navPoint class="h2" id="ncx-21" playOrder="21">
+            <navLabel>
+               <text>5.1.Creating, Editing and Deleting Bookmarks.</text>
+               
+            </navLabel>
+            <content src="speechgen0022.smil#tcp365"/>
+         </navPoint>
+         <navPoint class="h2" id="ncx-22" playOrder="22">
+            <navLabel>
+               <text>5.2.Bookmarks commands table.</text>
+               
+            </navLabel>
+            <content src="speechgen0023.smil#tcp399"/>
+         </navPoint>
+      </navPoint>
+      <navPoint class="h1" id="ncx-23" playOrder="23">
+         <navLabel>
+            <text>6.Bookmarks List.</text>
+            
+         </navLabel>
+         <content src="speechgen0024.smil#tcp437"/>
+         <navPoint class="h2" id="ncx-24" playOrder="24">
+            <navLabel>
+               <text>6.1.Description.</text>
+               
+            </navLabel>
+            <content src="speechgen0025.smil#tcp438"/>
+         </navPoint>
+         <navPoint class="h2" id="ncx-25" playOrder="25">
+            <navLabel>
+               <text>6.2.Bookmarks List commands table.</text>
+               
+            </navLabel>
+            <content src="speechgen0026.smil#tcp452"/>
+         </navPoint>
+      </navPoint>
+      <navPoint class="h1" id="ncx-26" playOrder="26">
+         <navLabel>
+            <text>7.Search.</text>
+            
+         </navLabel>
+         <content src="speechgen0027.smil#tcp479"/>
+         <navPoint class="h2" id="ncx-27" playOrder="27">
+            <navLabel>
+               <text>7.1.Searching for terms or phrases.</text>
+               
+            </navLabel>
+            <content src="speechgen0028.smil#tcp480"/>
+         </navPoint>
+         <navPoint class="h2" id="ncx-28" playOrder="28">
+            <navLabel>
+               <text>7.2.Search commands table.</text>
+               
+            </navLabel>
+            <content src="speechgen0029.smil#tcp501"/>
+         </navPoint>
+      </navPoint>
+      <navPoint class="h1" id="ncx-29" playOrder="29">
+         <navLabel>
+            <text>8.Search Results List.</text>
+            
+         </navLabel>
+         <content src="speechgen0030.smil#tcp539"/>
+         <navPoint class="h2" id="ncx-30" playOrder="30">
+            <navLabel>
+               <text>8.1.Description.</text>
+               
+            </navLabel>
+            <content src="speechgen0031.smil#tcp540"/>
+         </navPoint>
+         <navPoint class="h2" id="ncx-31" playOrder="31">
+            <navLabel>
+               <text>8.2.Search Results list commands table.</text>
+               
+            </navLabel>
+            <content src="speechgen0032.smil#tcp548"/>
+         </navPoint>
+      </navPoint>
+      <navPoint class="h1" id="ncx-32" playOrder="32">
+         <navLabel>
+            <text>9.Global Preferences.</text>
+            
+         </navLabel>
+         <content src="speechgen0033.smil#tcp571"/>
+      </navPoint>
+      <navPoint class="h1" id="ncx-33" playOrder="33">
+         <navLabel>
+            <text>10.Book Preferences.</text>
+            
+         </navLabel>
+         <content src="speechgen0034.smil#tcp602"/>
+      </navPoint>
+      <navPoint class="h1" id="ncx-34" playOrder="34">
+         <navLabel>
+            <text>11.Updates.</text>
+            
+         </navLabel>
+         <content src="speechgen0035.smil#tcp626"/>
+      </navPoint>
+      <navPoint class="h1" id="ncx-35" playOrder="35">
+         <navLabel>
+            <text>12. DDR WebSite (inactive).</text>
+            
+         </navLabel>
+         <content src="speechgen0036.smil#tcp633"/>
+      </navPoint>
+      <navPoint class="h1" id="ncx-36" playOrder="36">
+         <navLabel>
+            <text>13.Support.</text>
+            
+         </navLabel>
+         <content src="speechgen0037.smil#tcp635"/>
+      </navPoint>
+      <navPoint class="h1" id="ncx-37" playOrder="37">
+         <navLabel>
+            <text>14.Bookmarks and User notes exporting and Global Preferences export and import.</text>
+            
+         </navLabel>
+         <content src="speechgen0038.smil#tcp641"/>
+      </navPoint>
+      <navPoint class="h1" id="ncx-38" playOrder="38">
+         <navLabel>
+            <text>15.Credits.</text>
+            
+         </navLabel>
+         <content src="speechgen0039.smil#tcp656"/>
+      </navPoint>
+   </navMap>
+	
+	
+  
+</ncx>

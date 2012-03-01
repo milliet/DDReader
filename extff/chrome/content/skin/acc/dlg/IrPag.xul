@@ -1,0 +1,71 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<dialog id="lidad-IrPag" class="windowBody"
+     title="DDR - Ir para página"
+     align="top" orient="vertical"
+     xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	 xmlns:html="http://www.w3.org/1999/xhtml"
+	buttons="accept,cancel"
+	buttonalign="center"
+   buttonlabelcancel="CANCELAR"
+   buttonlabelaccept="OK"
+   ondialogaccept="return clickok();"
+   ondialogcancel="return clickcancel();"
+onload="finishLoad();"   >
+
+	<script type="text/javascript">
+		var RunningInsideTutorial = false;
+		var RunningInsideExercises = false;
+	</script>
+	<script src="../../../js/CPref.js" type="text/javascript"></script>
+	<script src="../../../js/CLocale.js" type="text/javascript"></script>
+	<script src="../../../js/CMsg.js" type="text/javascript"></script>
+<script src="../../../jscmd/CMsgIface.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CSpellMsg.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils.js" type="text/javascript"></script>
+<script src="../../../js/CUtils_ff.js" type="text/javascript"></script>
+<script src="../../../js/CExcept.js" type="text/javascript"></script>
+<script src="../../../js/CTextItem.js" type="text/javascript"></script>
+<script src="../../../js/CTextArray.js" type="text/javascript"></script>
+<script src="../../../js/CTextLimits.js" type="text/javascript"></script>
+<script src="../../../js/CDialogs.js" type="text/javascript"></script>
+	<script src="../../../js/CDlgManager.js" type="text/javascript"></script>
+	<script src="../../../js/CSpeak.js" type="text/javascript"></script>
+	<script src="../../../jsdlg/IrPag.js" type="text/javascript"></script>
+<html:link href="../800/css/LidaDDlgs.css" rel="stylesheet" type="text/css"/>
+	 <html:link href="../1024/css/LidaDDlgs.css" rel="stylesheet" type="text/css"/> 
+	<script>
+	document.styleSheets[2].disabled = CPref.interfaceRes();
+	</script>
+	<vbox>
+		<hbox align="center" class="TitBox" >
+			<label id="irpag.title" value="IR PARA A PÁGINA" class="LabelTitulo"  align="center" />
+		</hbox>
+
+		<spacer class="spacer20H" />
+		<hbox>
+
+			<vbox>
+				<label control="pagtype" id="Labelpagtype" value="Seção: "  class="Labels"/>
+			<menulist id="pagtype" onfocus="pagtypeupdate(this, true);" oncommand="pagtypeupdate(this, true);" >
+				<menupopup>
+					<menuitem id="irpag.conteudo" label="Conteúdo" value="normal" />
+				</menupopup>
+			</menulist>
+
+				<spacer class="spacer20H" />
+
+					<label value="Digite a página:" class="Labels" id="LabelIrPagNum" />
+					<textbox id="IrPagNum" class="IrPagNumText" onfocus="IrPagNumfocus()" oninput="IrPagNumchange(event)" />
+
+			</vbox>
+		</hbox>
+
+		<spacer class="spacer20H" />
+		<hbox align="left">
+			<button dlgtype="accept" id="irpag.botok" label="OK" onfocus="manager.foco(this);" />
+			<button dlgtype="cancel" id="irpag.botcancel" label="CANCELAR" onfocus="manager.foco(this);" />
+		</hbox>
+	</vbox>
+
+</dialog>

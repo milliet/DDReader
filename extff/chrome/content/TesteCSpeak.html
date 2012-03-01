@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>CSpeak</title>
+
+	<script src="js/CPref.js" type="text/javascript"></script>
+	<script src="js/CLocale.js" type="text/javascript"></script>
+	<script src="js/CMsg.js" type="text/javascript"></script>
+	<script src="jscmd/CMsgIface.js" type="text/javascript"></script>
+	<script src="js/CUtils.js" type="text/javascript"></script>
+	<script src="js/CUtils_ff.js" type="text/javascript"></script>
+	<script src="js/CExcept.js" type="text/javascript"></script>
+	<script src="js/CTextItem.js" type="text/javascript"></script>
+	<script src="js/CTextArray.js" type="text/javascript"></script>
+	<script src="js/CTextLimits.js" type="text/javascript"></script>
+	<script src="js/CDialogs.js" type="text/javascript"></script>
+	<script src="js/CSpeak.js" type="text/javascript"></script>
+	<script src="js/CTextfileArray.js" type="text/javascript"></script>
+	<script src="js/CTextfileItem.js" type="text/javascript"></script>
+	<script src="js/CSMILFile.js" type="text/javascript"></script>
+	<script src="js/CSMILArray.js" type="text/javascript"></script>
+	<script src="js/CSMILExerc.js" type="text/javascript"></script>
+	<script src="js/CNCX.js" type="text/javascript"></script>
+	<script src="js/COPFFile.js" type="text/javascript"></script>
+	<script src="js/CCripto.js" type="text/javascript"></script> 
+	<script src="js/CMarks.js" type="text/javascript"></script>
+	<script src="js/COPFPrefs.js" type="text/javascript"></script>
+	<script src="js/CHist.js" type="text/javascript"></script>
+	<script src="jscmd/COPFControExercise.js" type="text/javascript"></script>
+	<script src="jscmd/COPFControl.js" type="text/javascript"></script>
+	<script src="js/CDlgExerciseManager.js" type="text/javascript"></script>
+	<script src="jscmd/CButtons.js" type="text/javascript"></script>
+	<script src="jscmd/CTools.js" type="text/javascript"></script>
+	<script src="jscmd/CKeys.js" type="text/javascript"></script>
+	<script src="jscmd/CmdHist.js" type="text/javascript"></script>
+	<script src="jscmd/CmdNcx.js" type="text/javascript"></script>
+	<script src="jscmd/CmdInfo.js" type="text/javascript"></script>
+	<script src="jscmd/CmdLibNdx.js" type="text/javascript"></script>
+	<script src="jscmd/CmdMain.js" type="text/javascript"></script>
+	<script src="jscmd/CmdRead.js" type="text/javascript"></script>
+	<script src="jscmd/CmdSplash.js" type="text/javascript"></script>
+
+
+
+
+<script language="javascript" type="text/javascript">
+// <!CDATA[
+
+function executar_onclick() {
+	
+	var lista = new CTextArray();
+
+	var item = new CTextItem();
+	item.SetText_string(document.getElementById("Text1").value);
+	if(document.getElementById("mp31").value != "")
+	{
+		item.audioSrc = document.getElementById("mp31").value;
+		item.audioStart = document.getElementById("ini1").value;
+		item.audioEnd = document.getElementById("fim1").value;
+	}
+	lista.CTIarray.push(item);
+
+	item = new CTextItem();
+	item.SetText_string(document.getElementById("Text2").value);
+	if(document.getElementById("mp32").value != "")
+	{
+		item.audioSrc = document.getElementById("mp32").value;
+		item.audioStart = document.getElementById("ini2").value;
+		item.audioEnd = document.getElementById("fim2").value;
+	}
+	lista.CTIarray.push(item);
+
+	CSpeak.playArray(lista, null);
+}
+
+function executar_onparar()
+{
+	CSpeak.forceEnd();
+}
+
+function executar_onpausa()
+{
+	CSpeak.pause();
+}
+
+function executar_onresume()
+{
+	CSpeak.resume();
+}
+
+function executar_ontogglepausa()
+{
+	CSpeak.pauseToggle();
+}
+
+
+function executar_onavancar()
+{
+	CSpeak.gotoNext();
+}
+
+function executar_onvoltar()
+{
+	CSpeak.gotoPrevious();
+}
+
+function executar_onatualizarvozativa()
+{
+	document.getElementById("vozativa").textContent = "Nome: " + CSpeak.getVoiceName() + " - ID: " + CSpeak.getVoiceID();
+}
+
+function executar_onpreenchercombovozes()
+{
+	var lista = document.getElementById("listadevozes");
+	/*
+	var maxil = lista.length;
+	for(var il=0; il<maxil; il++)
+		lista.remove(0);
+		*/
+	lista.length = 0;
+	
+	var max = CSpeak.voicesCount();
+	for(var i = 0; i < max; i++)
+	{
+		var opt = document.createElement("OPTION");
+		opt.text =CSpeak.voiceName(i);
+		opt.value = i; 
+		lista.add(opt, null);
+	}
+}
+
+
+function executar_onselecionarvoz()
+{
+	CSpeak.setVoice( CSpeak.voiceID(document.getElementById("listadevozes").selectedIndex));
+}
+
+
+// ]]>
+</script>
+</head>
+<body>
+
+    <p>
+        Teste do CSpeak
+    </p>
+    <p>
+        Texto: <input id="Text1" type="text" value="teste do tts" /> 
+        MP3:<input id="mp31" type="file"  size="60" />
+        Inicio: <input id="ini1" type="text" value="0" /> 
+        fim: <input id="fim1" type="text" value="2000" /> 
+			<br />
+			<br />
+        Texto: <input id="Text2" type="text" value="textdo dois" /> 
+        MP3:<input id="mp32" type="file"  size="60" />
+        Inicio: <input id="ini2" type="text" value="0" /> 
+        fim: <input id="fim2" type="text" value="2000" /> 
+			<br />
+			<br />
+			<br />
+			voz ativa: <span id="vozativa">ainda não determinado</span> <input 
+            id="Button7" type="button" value="Atualizar voz ativa" 
+	onclick="return executar_onatualizarvozativa()" />&nbsp;
+
+			<br />
+			Lista de vozes:
+		<select id="listadevozes">
+			<option>Nenhuma voz selecionada</option>
+		</select>
+		<input 
+            id="Button8" type="button" value="Preencher combo de vozes" 
+	onclick="return executar_onpreenchercombovozes()" />&nbsp;
+		<input 
+            id="Button9" type="button" value="Selecionar voz" 
+	onclick="return executar_onselecionarvoz()" />&nbsp;
+			<br />
+			<br />
+<input 
+            id="executar" type="button" value="Falar" onclick="return executar_onclick()" />&nbsp;
+	
+<input 
+            id="Button1" type="button" value="Parar de falar" 
+	onclick="return executar_onparar()" />&nbsp;
+	
+<input 
+            id="Button2" type="button" value="Pausa" 
+	onclick="return executar_onpausa()" />&nbsp;&nbsp;&nbsp;
+	
+<input 
+            id="Button3" type="button" value="Continuar" 
+	onclick="return executar_onresume()" />&nbsp;&nbsp;&nbsp;&nbsp;
+	
+<input 
+            id="Button6" type="button" value="Inverter pausa" 
+	onclick="return executar_ontogglepausa()" />&nbsp;&nbsp;&nbsp;
+	
+<input 
+            id="Button4" type="button" value="Voltar" 
+	onclick="return executar_onvoltar()" />&nbsp;&nbsp;&nbsp;
+<input 
+            id="Button5" type="button" value="Avançar" 
+	onclick="return executar_onavancar()" />&nbsp;</p>
+
+<script language=javascript>
+document.getElementById("mp31").value="X:/livros/0 morals/SPEECHGEN0003.MP3";
+document.getElementById("mp32").value="X:/livros/0 morals/SPEECHGEN0003.MP3";
+
+//alert(setTimeout("rot()", 1));
+
+</script>
+
+</body>
+</html>

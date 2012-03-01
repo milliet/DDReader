@@ -1,0 +1,140 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>XML Security Library</title>
+</head>
+<body><table witdh="100%" valign="top"><tr valign="top">
+<td valign="top" align="left" width="210">
+<img src="images/logo.gif" alt="XML Security Library" border="0"><p></p>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="download.html">Download</a></li>
+<li><a href="news.html">News</a></li>
+<li><a href="documentation.html">Documentation</a></li>
+<ul>
+<li><a href="faq.html">FAQ</a></li>
+<li><a href="api/xmlsec-notes.html">Tutorial</a></li>
+<li><a href="api/xmlsec-reference.html">API reference</a></li>
+<li><a href="api/xmlsec-examples.html">Examples</a></li>
+</ul>
+<li><a href="xmldsig.html">XML Digital Signature</a></li>
+<ul><li><a href="http://www.aleksey.com/xmlsec/xmldsig-verifier.html">Online Verifier</a></li></ul>
+<li><a href="xmlenc.html">XML Encryption</a></li>
+<li><a href="c14n.html">XML Canonicalization</a></li>
+<li><a href="bugs.html">Reporting Bugs</a></li>
+<li><a href="http://www.aleksey.com/pipermail/xmlsec">Mailing list</a></li>
+<li><a href="related.html">Related</a></li>
+<li><a href="authors.html">Authors</a></li>
+</ul>
+<table width="100%">
+<tr>
+<td width="15"></td>
+<td><a href="http://xmlsoft.org/"><img src="images/libxml2-logo.png" alt="LibXML2" border="0"></a></td>
+</tr>
+<tr>
+<td width="15"></td>
+<td><a href="http://xmlsoft.org/XSLT"><img src="images/libxslt-logo.png" alt="LibXSLT" border="0"></a></td>
+</tr>
+<tr>
+<td width="15"></td>
+<td><a href="http://www.openssl.org/"><img src="images/openssl-logo.png" alt="OpenSSL" border="0"></a></td>
+</tr>
+<!--Links - start--><!--Links - end-->
+</table>
+</td>
+<td valign="top"><table width="100%" valign="top"><tr><td valign="top" align="left" id="xmlsecContent">
+<div align="Center">                                          
+      <h1>XML Security Library</h1>
+            </div>
+<p>
+             XML Security Library is a C library based on 
+	     <a href="http://xmlsoft.org/">LibXML2</a>.
+      The library  supports major XML security standards:                                        	    
+      </p>
+<ul>
+<li>
+<a href="http://www.w3.org/TR/xmldsig-core">XML Signature</a>
+ 	     </li>
+	     <li>
+<a href="http://www.w3.org/TR/xmlenc-core/">XML Encryption</a>
+	     </li>
+              <li>
+<a href="http://www.w3.org/TR/xml-c14n">Canonical XML</a>
+ 	     (was included in <a href="http://xmlsoft.org">LibXML2</a>)</li>
+              <li>
+<a href="http://www.w3.org/TR/xml-exc-c14n">Exclusive Canonical XML</a>
+ 	     (was included in <a href="http://xmlsoft.org">LibXML2</a>)</li>
+                                            	    
+      </ul>
+<p>
+             XML Security Library is released under the  	    
+	     <a href="http://www.opensource.org/licenses/mit-license.html">MIT  Licence</a>
+     	    see the Copyright file in the distribution  for details.<br><br></p>
+<p><b>News</b></p>
+<ul>
+<li>November 6 2007<br>
+	The new <a href="download.html">XML Security Library 1.2.11</a> release
+	includes the following changes:
+	<ul>
+<li>Mingw port (Roumen Petrov).</li>
+	<li>Better support for non micorsoft CSP's (Wouter and Ed Shallow).</li>
+	<li>Bug fixes.</li>
+	</ul>
+</li>
+<br><li>June 12 2006<br>
+	The new <a href="download.html">XML Security Library 1.2.10</a> release
+	includes the following changes:
+	<ul>
+<li>GOST algorithms support (Dmitry Belyavsky)</li>
+	<li>Ability to disable system trusted certs in xmlsec-mscrypto 
+	(Dmitry Belyavsky)</li>
+	<li>New functions for adding X509IssuerName and X509SerialNumber 
+	nodes to the template (Dmitry Belyavsky)
+	</li>
+<li>Better packaging support for Fedora and Debian (Daniel Veillard, John Belmonte)</li>
+	<li>Cleanups from Coverity tool reports</li>
+	<li>Bug fixes</li>
+	</ul>
+</li>
+<br><li>July 12 2005<br>
+	The new <a href="download.html">XML Security Library 1.2.9</a> release
+	includes few bug fixes and adds support for the recently released 
+	<a href="http://www.openssl.org">OpenSSL 0.9.8</a> including several 
+	new algorithms for <a href="xmldsig.html">xmlsec-openssl</a>:
+	<ul>
+<li>SHA224/SHA256/SHA384/SHA512</li>
+	    <li>HMAC-SHA224/SHA256/SHA384/SHA512</li>
+	    <li>RSA-MD5/RIPEMD160/SHA224/SHA256/SHA384/SHA512</li>
+	</ul>
+</li>
+<br><li>March 30 2005<br>
+	The new <a href="download.html">XML Security Library 1.2.8</a> release
+	merges OpenOffice.org changes to xmlsec-mscrypto and xmlsec-nss into
+	main xmlsec source tree.
+</li>
+<br><li>February 23 2005<br>
+	The new <a href="download.html">XML Security Library 1.2.7</a> release
+	includes several bug fixes and minor enchancements:
+	<ul>
+<li>(core) added xmlSecSimpleKeysStoreGetKeys() function;</li>
+	<li>(core) added functions to create &lt;X509Data/&gt; node children
+	     in the signature template;</li>
+	<li>(core) fixed xmlSecGenerateID() function;</li>
+	<li>(core) fixed dynamic linking initialization/shutdown when custom memory 
+	    allocation functions are used;</li>
+	<li>(core) fixed encrypted text parsing and xmlParseInNodeContext() function;</li>
+	<li>(openssl) fixed parsing quoted values in the certificate subject;</li>
+	<li>(mscrypto) negative numbers support in xmlSecBnFromString()/xmlSecBnToString() functions.</li>
+	</ul>
+</li>
+
+<br><li>August 25 2004<br>
+	The new <a href="download.html">XML Security Library 1.2.6</a> 
+	fixes several minor bugs and adds support for loading keys and
+	certificates from memory.
+</li>
+
+</ul>
+</td></tr></table></td>
+</tr></table></body>
+</html>

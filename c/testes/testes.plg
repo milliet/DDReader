@@ -1,0 +1,87 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: testes - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\Eduardo\CONFIG~1\Temp\RSPB4.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\sdk-gecko\include" /I "..\sdk-gecko-nss\Include\nss" /I "..\sdk-xmlsec\libxml2-2.7.3\include" /I "..\sdk-directx9\Include" /I "..\sdk-xmlsec\xmlsec1-1.2.11\include" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"c:\temporarioscompilacao\lidadtestes\Debug/" /Fp"c:\temporarioscompilacao\lidadtestes\Debug/testes.pch" /Yu"stdafx_xmlsec.h" /Fo"c:\temporarioscompilacao\lidadtestes\Debug/" /Fd"c:\temporarioscompilacao\lidadtestes\Debug/" /FD /GZ /c 
+"F:\fundacao\DDR\DDR_FINAL\codigo\c\testes\testesDlg.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\Eduardo\CONFIG~1\Temp\RSPB4.tmp" 
+Creating temporary file "D:\DOCUME~1\Eduardo\CONFIG~1\Temp\RSPB5.tmp" with contents
+[
+..\sdk-gecko-nss\lib\nss3.lib ..\sdk-gecko\lib\nspr4.lib /nologo /subsystem:windows /incremental:yes /pdb:"c:\temporarioscompilacao\lidadtestes\Debug/testes.pdb" /debug /machine:I386 /out:"c:\temporarioscompilacao\lidadtestes\Debug/testes.exe" /pdbtype:sept /libpath:"..\sdk-sapi5\Lib\i386" 
+c:\temporarioscompilacao\lidadtestes\Debug\cripto.obj
+c:\temporarioscompilacao\lidadtestes\Debug\directshow.obj
+c:\temporarioscompilacao\lidadtestes\Debug\InicializarIIDs.obj
+c:\temporarioscompilacao\lidadtestes\Debug\libxml_all_source.obj
+c:\temporarioscompilacao\lidadtestes\Debug\libxml_all_src2.obj
+c:\temporarioscompilacao\lidadtestes\Debug\libxml_all_src3.obj
+c:\temporarioscompilacao\lidadtestes\Debug\libxml_all_src4.obj
+c:\temporarioscompilacao\lidadtestes\Debug\libxml_all_src_extern.obj
+c:\temporarioscompilacao\lidadtestes\Debug\sapi4_CTTSMode_mod.obj
+c:\temporarioscompilacao\lidadtestes\Debug\sapi4tts.obj
+c:\temporarioscompilacao\lidadtestes\Debug\sapi5tts.obj
+c:\temporarioscompilacao\lidadtestes\Debug\StdAfx.obj
+c:\temporarioscompilacao\lidadtestes\Debug\testes.obj
+c:\temporarioscompilacao\lidadtestes\Debug\testesDlg.obj
+c:\temporarioscompilacao\lidadtestes\Debug\xmlsec_all_source.obj
+c:\temporarioscompilacao\lidadtestes\Debug\xmlsec_all_src2.obj
+c:\temporarioscompilacao\lidadtestes\Debug\testes.res
+]
+Creating command line "link.exe @D:\DOCUME~1\Eduardo\CONFIG~1\Temp\RSPB5.tmp"
+<h3>Output Window</h3>
+Compiling...
+testesDlg.cpp
+Linking...
+Creating temporary file "D:\DOCUME~1\Eduardo\CONFIG~1\Temp\RSPB6.tmp" with contents
+[
+/nologo /o"c:\temporarioscompilacao\lidadtestes\Debug/testes.bsc" 
+c:\temporarioscompilacao\lidadtestes\Debug\StdAfx.sbr
+c:\temporarioscompilacao\lidadtestes\Debug\cripto.sbr
+c:\temporarioscompilacao\lidadtestes\Debug\directshow.sbr
+c:\temporarioscompilacao\lidadtestes\Debug\InicializarIIDs.sbr
+c:\temporarioscompilacao\lidadtestes\Debug\libxml_all_source.sbr
+c:\temporarioscompilacao\lidadtestes\Debug\libxml_all_src2.sbr
+c:\temporarioscompilacao\lidadtestes\Debug\libxml_all_src3.sbr
+c:\temporarioscompilacao\lidadtestes\Debug\libxml_all_src4.sbr
+c:\temporarioscompilacao\lidadtestes\Debug\libxml_all_src_extern.sbr
+c:\temporarioscompilacao\lidadtestes\Debug\sapi4_CTTSMode_mod.sbr
+c:\temporarioscompilacao\lidadtestes\Debug\sapi4tts.sbr
+c:\temporarioscompilacao\lidadtestes\Debug\sapi5tts.sbr
+c:\temporarioscompilacao\lidadtestes\Debug\testes.sbr
+c:\temporarioscompilacao\lidadtestes\Debug\testesDlg.sbr
+c:\temporarioscompilacao\lidadtestes\Debug\xmlsec_all_source.sbr
+c:\temporarioscompilacao\lidadtestes\Debug\xmlsec_all_src2.sbr]
+Creating command line "bscmake.exe @D:\DOCUME~1\Eduardo\CONFIG~1\Temp\RSPB6.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+Creating temporary file "D:\DOCUME~1\Eduardo\CONFIG~1\Temp\RSPB7.bat" with contents
+[
+@echo off
+cmd /c "copy *.dll c:\temporarioscompilacao\lidadtestes\Debug"
+]
+Creating command line "D:\DOCUME~1\Eduardo\CONFIG~1\Temp\RSPB7.bat"
+
+nss3.dll
+nssutil3.dll
+plc4.dll
+nspr4.dll
+mozcrt19.dll
+plds4.dll
+softokn3.dll
+sqlite3.dll
+freebl3.dll
+        9 arquivo(s) copiado(s).
+
+
+
+<h3>Results</h3>
+testes.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

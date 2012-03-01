@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="css/LidaDTut.css" type="text/css"?>
+
+<dialog xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" 
+xmlns:html="http://www.w3.org/1999/xhtml" class="janelaPrincipal" 
+title="DDReader - TUTORIAL." align="center" pack="center" orient="vertical"
+buttons="none"
+onload="CmdMain.loadevent();init();"
+onkeypress="CKeys.keypress(event);" id="janela" onblur="CmdMain.blurevent()" onclose="CmdMain.closeevent()">
+	<script type="text/javascript">
+		var RunningInsideTutorial = true;
+		var RunningInsideExercises = false;
+	</script>
+	<script src="../../../js/CDlgManager.js" type="text/javascript"></script>
+	<script src="../../../js/CPref.js" type="text/javascript"></script>
+	<script src="../../../js/CLocale.js" type="text/javascript"></script>
+	<script src="../../../js/CMsg.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CMsgIface.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CSpellMsg.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils_ff.js" type="text/javascript"></script>
+	<script src="../../../js/CExcept.js" type="text/javascript"></script>
+	<script src="../../../js/CTextItem.js" type="text/javascript"></script>
+	<script src="../../../js/CTextArray.js" type="text/javascript"></script>
+	<script src="../../../js/CTextLimits.js" type="text/javascript"></script>
+	<script src="../../../js/CDialogs.js" type="text/javascript"></script>
+	<script src="../../../js/CSpeak.js" type="text/javascript"></script>
+	<script src="../../../js/CTextfileArray.js" type="text/javascript"></script>
+	<script src="../../../js/CTextfileItem.js" type="text/javascript"></script>
+	<script src="../../../js/CSMILFile.js" type="text/javascript"></script>
+	<script src="../../../js/CSMILArray.js" type="text/javascript"></script>
+	<script src="../../../js/CSMILExerc.js" type="text/javascript"></script>
+	<script src="../../../js/CNCX.js" type="text/javascript"></script>
+	<script src="../../../js/COPFFile.js" type="text/javascript"></script>
+	<script src="../../../js/CCripto.js" type="text/javascript"></script>
+	<script src="../../../js/CMarks.js" type="text/javascript"></script>
+	<script src="../../../js/COPFPrefs.js" type="text/javascript"></script>
+	<script src="../../../js/CHist.js" type="text/javascript"></script>
+	<script src="../../../js/CSpell.js" type="text/javascript"></script>
+	<script src="../../../jscmd/COPFControExercise.js" type="text/javascript"></script>
+	<script src="../../../jscmd/COPFControl.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CButtons.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CTutorial.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CTools.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CKeys.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CmdHist.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CmdMarks.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CmdNcx.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CmdInfo.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CmdLibNdx.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CmdMain.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CmdRead.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CmdSplash.js" type="text/javascript"></script>
+	<script src="../../../js/CSearchRes.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CmdSearchRes.js" type="text/javascript"></script>
+	<script src="../../../js/CFindText.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CSkinAcc.js" type="text/javascript"></script>
+	<script src="../common/LidaD.js"/>
+	
+	<!-- VBOX SOMENTE PARA TER SCROLL style="overflow:auto"-->
+<vbox flex="1"  align="center" pack="center" >
+
+<vbox aling="left">
+
+<deck selectedIndex="1" id="deckFrames">
+	<iframe src="home.html" class="InicioFrame" id="inicio" minwidth="720px" maxwidth="720px" />
+	<iframe src="livro_tutorial.html" class="InicioFrame" id="livro" minwidth="720px" maxwidth="720px" />
+</deck>
+<hbox align="center" minwidth="720px" maxwidth="720px" >
+	<spacer width="2" minwidth="2" maxwidth="2" />
+	<toolbox class="toolBar" >
+	  <toolbar id="comandos" class="toolBar">
+		<toolbarbutton id="toolPlay" image="img/play.gif" class="toolBarButton"  oncommand="CTools.clicktoolPlay()"/>
+		<toolbarbutton id="toolPrevLev" image="img/prevLev.gif" class="toolBarButton" oncommand="CTools.clicktoolPrevLev()"/>
+		<toolbarbutton id="toolPrev" image="img/previous.gif"  class="toolBarButton" oncommand="CTools.clicktoolPrev()"/>
+		<toolbarbutton id="toolNext" image="img/next.gif" class="toolBarButton" oncommand="CTools.clicktoolNext()"/>
+		<toolbarbutton id="toolNextLev" image="img/nextLev.gif"  class="toolBarButton" oncommand="CTools.clicktoolNextLev()"/>
+		<spacer width="1" minwidth="1" maxwidth="1" class="bgPreto"/>	
+			<vbox align="center" pack="center" class="bgPreto">
+					<vbox  height="53" align="bottom" pack="bottom">
+					<spacer flex="1" />
+					<image src="img/voltts.jpg" id="imagevoltts" height="20"  />
+					</vbox>
+				<label id="LidaD.volttsLABEL" value="tts" class="VolVelLabel" align="center" />
+			</vbox>
+				
+		<spacer width="1" minwidth="1" maxwidth="1" class="bgPreto"/>	
+				
+			<vbox align="center" pack="center" class="bgPreto">
+					<vbox  height="53" align="bottom" pack="bottom">
+					<spacer flex="1" />
+					<image src="img/volaudio.jpg" id="imagevolaudio" height="20" />
+					</vbox>
+				<label id="LidaD.volsndLABEL" value="som" class="VolVelLabel"  align="center" />
+				
+			</vbox>
+		
+				
+			<vbox align="center" pack="center" class="bgPreto">
+					<vbox  height="53" align="bottom" pack="bottom">
+						<spacer flex="1" />
+						<image height="20" src="img/veltts.jpg" id="imageveltts" />
+					</vbox>
+				<label id="LidaD.veloLABEL" value="velo" class="VolVelLabel"  align="center" />
+				
+			</vbox>
+				<spacer width="1" minwidth="1" maxwidth="1" class="bgPreto"/>	
+	  </toolbar>
+	</toolbox>
+	
+	   <spacer width="1" flex="1" />
+	   <box class="AvisoBoxHidden" id="bavisos" visible="false" minwidth="240px" maxwidth="240px" >
+		<label id="avisos" value="ESTE É UM AVISO" width="220px" crop="end"/>
+		</box>
+	<textbox id="controle_semfoco" hidden="true" width="2" heigth="2" />
+	<hbox align="right">
+	   <vbox class="hboxOrange2" pack="right" align="right">
+				<hbox  align="right">
+					
+						<menulist class="indNivelMenuList" id="toolNivel" oncommand="CTools.changeLevel();document.getElementById('inicio').focus();"
+						minheight="30" maxheight="30" height="30">
+								<menupopup class="indNivelMenupopup">
+								<menuitem id="LidaD.nivel1" label="Nível 1 " value="1" class="indNivelmenuitem" />
+								<menuitem id="LidaD.nivel2" label="Nível 2 " value="2" class="indNivelmenuitem" />
+								<menuitem id="LidaD.nivel3" label="Nível 3 " value="3" class="indNivelmenuitem" />
+								<menuitem id="LidaD.nivel4" label="Nível 4 " value="4" class="indNivelmenuitem" />
+								<menuitem id="LidaD.nivel5" label="Nível 5 " value="5" class="indNivelmenuitem" />
+								<menuitem id="LidaD.nivel6" label="Nível 6 " value="6" class="indNivelmenuitem" />
+								</menupopup>
+						</menulist>
+				</hbox>
+		</vbox>
+		</hbox>  
+
+</hbox>
+
+</vbox>
+</vbox>
+</dialog>

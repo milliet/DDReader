@@ -1,0 +1,7 @@
+Informações do Livro (Book Info):
+		Livro (Book): Tutorial DDReader.
+		Código (Iode): FDNC_001051.
+		Gravado em (recorded by): 08-Dec-2009.
+		Voz utilizada (voice used): ScanSoft Raquel_Full_22kHz.
+		Velocidade (velocity): 4.
+		Bit Rate (mp3): 64.

@@ -1,0 +1,186 @@
+.InicioHistorico{
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	color: #000000;
+	overflow: auto;
+	visibility: visible;
+	font: 16px Arial, Helvetica, sans-serif;
+}
+.HistoricoLista{
+	cursor: pointer;
+}
+.HistoricoLista:hover{
+	cursor: pointer;
+	background-color: #F0F0F0;
+}
+.HistoricoListaHilite{
+	cursor: pointer;
+	background-color: #FFFF00;
+}
+
+.LivroLeitura{
+	background-color: #FFFFFF;
+	overflow: auto;
+	color: #000000;
+	border: 1px solid #000000;
+	visibility: visible;
+}
+
+.LeituraHilite{
+	background-color: #FFFF00;
+}
+.LeituraHiliteInativo{
+	color: #000000;
+	background-color: #AAAAAA;
+}
+
+.BloqueadorTxt {
+	position: fixed;
+	visibility: visible;
+	z-index: 10;
+	height: 100%;
+	width: 100%;
+	overflow: visible;
+}
+.LeituraTxt {
+	font: 14px Verdana, Arial, Helvetica, sans-serif;
+}
+.bodyLeitura {
+	font: 100% Arial, Helvetica, sans-serif;
+}
+
+
+/* Estilos NCX */
+.sNCX0{
+	font: 50% Arial, Helvetica, sans-serif;
+	padding-bottom: 0px;
+	padding-left: 70px;
+	cursor:pointer;
+}
+.sNCX0:hover{
+	font: 50% Arial, Helvetica, sans-serif;
+	padding-bottom: 0px;
+	padding-left: 70px;
+	cursor:pointer;
+	background-color: #F0F0F0;
+}
+.sNCX1{
+	font: 100% Arial, Helvetica, sans-serif;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	cursor:pointer;
+}
+.sNCX1:hover{
+	font: 100% Arial, Helvetica, sans-serif;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	cursor:pointer;
+	background-color: #F0F0F0;
+}
+.sNCX2{
+	font: 90% Arial, Helvetica, sans-serif;
+	padding-bottom: 0px;
+	padding-left: 15px;
+	cursor:pointer;
+}
+.sNCX2:hover{
+	font: 90% Arial, Helvetica, sans-serif;
+	padding-bottom: 0px;
+	padding-left: 15px;
+	cursor:pointer;
+	background-color: #F0F0F0;
+}
+.sNCX3{
+	font: 80% Arial, Helvetica, sans-serif;
+	padding-bottom: 0px;
+	padding-left: 30px;
+	cursor:pointer;
+}
+.sNCX3:hover{
+	font: 80% Arial, Helvetica, sans-serif;
+	padding-bottom: 0px;
+	padding-left: 30px;
+	cursor:pointer;
+	background-color: #F0F0F0;
+}
+.sNCX4{
+	font: 70% Arial, Helvetica, sans-serif;
+	padding-bottom: 0px;
+	padding-left: 40px;
+	cursor:pointer;
+}
+.sNCX4:hover{
+	font: 70% Arial, Helvetica, sans-serif;
+	padding-bottom: 0px;
+	padding-left: 40px;
+	cursor:pointer;
+	background-color: #F0F0F0;
+}
+.sNCX5{
+	font: 60% Arial, Helvetica, sans-serif;
+	padding-bottom: 0px;
+	padding-left: 50px;
+	cursor:pointer;
+}
+.sNCX5:hover{
+	font: 60% Arial, Helvetica, sans-serif;
+	padding-bottom: 0px;
+	padding-left: 50px;
+	cursor:pointer;
+	background-color: #F0F0F0;
+}
+.sNCX6{
+	font: 50% Arial, Helvetica, sans-serif;
+	padding-bottom: 0px;
+	padding-left: 60px;
+	cursor:pointer;
+}
+.sNCX6:hover{
+	font: 50% Arial, Helvetica, sans-serif;
+	padding-bottom: 0px;
+	padding-left: 60px;
+	cursor:pointer;
+	background-color: #F0F0F0;
+}
+.sNCXhilite{
+	background-color: #FFFF00;
+}
+.bodyNCX {
+	color: #000000;
+	background-color: #FFFFFF;
+	font: 100% Arial, Helvetica, sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.InicioBusca {
+	font: 16px Arial, Helvetica, sans-serif;
+}
+.LivroBuscaHeader {
+	font: 100% Arial, Helvetica, sans-serif;
+	overflow: auto;
+}
+.LivroBusca {
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	color: #000000;
+	overflow: auto;
+	visibility: visible;
+	font: 100% Arial, Helvetica, sans-serif;
+}
+.BuscaLista{
+	cursor: pointer;
+	font: 100% Arial, Helvetica, sans-serif;
+}
+.BuscaLista:hover{
+	cursor: pointer;
+	background-color: #F0F0F0;
+	font: 100% Arial, Helvetica, sans-serif;
+}
+.BuscaListaHilite{
+	cursor: pointer;
+	background-color: #FFFF00;
+	font: 100% Arial, Helvetica, sans-serif;
+}
+

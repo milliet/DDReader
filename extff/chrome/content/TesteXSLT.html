@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>teste do xslt</title>
+
+
+	<script src="js/CPref.js" type="text/javascript"></script>
+	<script src="js/CLocale.js" type="text/javascript"></script>
+	<script src="js/CMsg.js" type="text/javascript"></script>
+	<script src="jscmd/CMsgIface.js" type="text/javascript"></script>
+	<script src="js/CUtils.js" type="text/javascript"></script>
+	<script src="js/CUtils_ff.js" type="text/javascript"></script>
+	<script src="js/CExcept.js" type="text/javascript"></script>
+	<script src="js/CTextItem.js" type="text/javascript"></script>
+	<script src="js/CTextArray.js" type="text/javascript"></script>
+	<script src="js/CTextLimits.js" type="text/javascript"></script>
+	<script src="js/CDialogs.js" type="text/javascript"></script>
+	<script src="js/CSpeak.js" type="text/javascript"></script>
+	<script src="js/CTextfileArray.js" type="text/javascript"></script>
+	<script src="js/CTextfileItem.js" type="text/javascript"></script>
+	<script src="js/CSMILFile.js" type="text/javascript"></script>
+	<script src="js/CSMILArray.js" type="text/javascript"></script>
+	<script src="js/CSMILExerc.js" type="text/javascript"></script>
+	<script src="js/CNCX.js" type="text/javascript"></script>
+	<script src="js/COPFFile.js" type="text/javascript"></script>
+	<script src="js/CCripto.js" type="text/javascript"></script> 
+	<script src="js/CMarks.js" type="text/javascript"></script>
+	<script src="js/COPFPrefs.js" type="text/javascript"></script>
+	<script src="js/CHist.js" type="text/javascript"></script>
+	<script src="jscmd/COPFControExercise.js" type="text/javascript"></script>
+	<script src="jscmd/COPFControl.js" type="text/javascript"></script>
+	<script src="js/CDlgExerciseManager.js" type="text/javascript"></script>
+	<script src="jscmd/CButtons.js" type="text/javascript"></script>
+	<script src="jscmd/CTools.js" type="text/javascript"></script>
+	<script src="jscmd/CKeys.js" type="text/javascript"></script>
+	<script src="jscmd/CmdHist.js" type="text/javascript"></script>
+	<script src="jscmd/CmdNcx.js" type="text/javascript"></script>
+	<script src="jscmd/CmdInfo.js" type="text/javascript"></script>
+	<script src="jscmd/CmdLibNdx.js" type="text/javascript"></script>
+	<script src="jscmd/CmdMain.js" type="text/javascript"></script>
+	<script src="jscmd/CmdRead.js" type="text/javascript"></script>
+	<script src="jscmd/CmdSplash.js" type="text/javascript"></script>
+	<script src="js/CFindText.js" type="text/javascript"></script>
+
+<script language="javascript" type="text/javascript">
+// <!CDATA[
+
+var variavelparadebug = null;
+function executar_onclick()
+{
+	document.getElementById("xmlentrada").value="ainda não processado";
+	document.getElementById("xsltentrada").value=document.getElementById("xmlentrada").value;
+	document.getElementById("xmlsaida").value=document.getElementById("xmlentrada").value;
+	document.getElementById("htmlsaida").value=document.getElementById("xmlentrada").value;
+	
+
+	var TextxFileraw = CUtils.LoadFileRaw("file:///" + document.getElementById("arquivoselecionado").value);
+	document.getElementById("xmlentrada").value=TextxFileraw;
+	
+	var XSLTFileraw = CUtils.LoadFileRaw("file:///" + document.getElementById("arquivoXSLselecionado").value);
+	document.getElementById("xsltentrada").value=XSLTFileraw;
+	
+	var processor = new XSLTProcessor();
+	processor.importStylesheet( CUtils.LoadXML("file:///" + document.getElementById("arquivoXSLselecionado").value) );
+	
+	//processar a partir da string
+	var TextFilexml = new DOMParser().parseFromString(TextxFileraw, "text/xml"); 
+	var newDocument = processor.transformToDocument(TextFilexml);
+	document.getElementById("htmlsaida").value=(new XMLSerializer()).serializeToString(newDocument.documentElement);
+
+	var frame = document.getElementById("iframetexto").contentDocument.getElementById("div_texto_iframe_texto");
+	frame.innerHTML = " ";
+	frame.replaceChild(
+		//textarray.getCurrentTextfile().TextFilexml.documentElement.cloneNode(true),
+		newDocument.documentElement, //ver se fica mais rapido com o cloneNode
+		frame.childNodes.item(0) );
+	frame.innerHTML += " ";
+	
+	document.getElementById("xmlsaida").value=frame.innerHTML;
+}
+
+
+// ]]>
+</script>
+</head>
+<body>
+
+    <p>
+        Teste do xslt
+    </p>
+    <p>
+        Aquivo XML: <input id="arquivoselecionado" type="file"  size="80" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+        Aquivo XSLT: <input id="arquivoXSLselecionado" type="file"  size="80" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+<input id="executar" type="button" value="Executar" onclick="return executar_onclick()" />&nbsp;&nbsp;&nbsp;&nbsp; </p>
+
+<script language=javascript>
+if(document.getElementById("arquivoselecionado").value == "")
+	document.getElementById("arquivoselecionado").value="F:\\fundacao\\DDR\\DDR_FINAL\\codigo\\extff\\chrome\\content\\TesteXSLT_xml_teste.xml";
+if(document.getElementById("arquivoXSLselecionado").value == "")
+	document.getElementById("arquivoXSLselecionado").value="F:\\fundacao\\DDR\\DDR_FINAL\\codigo\\extff\\chrome\\content\\TesteXSLT_xslt_teste.xslt";
+</script>
+
+<hr />
+
+Texto do livro processado:<br />
+<div style="height: 220px; ">
+		<iframe style="border-style: solid; border-width: 2px; border-color: inherit; overflow:scroll; display:inline; position:absolute; width: 95%; height: 200px; " id="iframetexto" 
+		src="TesteCOPFFile_iframesrc.html">
+</iframe>
+</div>
+
+<br />
+XML de entrada:<br>
+	<textarea id="xmlentrada" cols="120" rows="20"></textarea>
+<br>
+XSLT:<br>
+	<textarea id="xsltentrada" cols="120" rows="20"></textarea>
+<br>
+
+XML de saida, conforme mostrado pelo firefox:<br>
+	<textarea id="xmlsaida" cols="120" rows="20"></textarea>
+<br>
+HTML de saida, resultao imediato da aplicacao do XSLT:<br>
+	<textarea id="htmlsaida" cols="120" rows="20"></textarea>
+<br>
+<br />
+&nbsp;<hr />
+
+Fim da página.
+<br />
+
+</body>
+</html>

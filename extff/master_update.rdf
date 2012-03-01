@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- para publicar uma atualização, tem que fazer o seguinte:
+1 - editar este arquivo
+2 - executar o RunPack.bat
+3 - seguir as instrucoes em F:\fundacao\DDR\DDR_FINAL\instalacao\site\leiame.txt
+-->
+
+<RDF:RDF xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+
+	<!-- This Description resource includes all the update and compatibility information for
+       a single add-on with the id foobar@developer.mozilla.org. You can list multiple
+       add-ons information in the same RDF file. -->
+	<RDF:Description about="urn:mozilla:extension:LIDA-D@caracol.com.br">
+		<em:signature>MIGTMA0GCSqGSIb3DQEBDQUAA4GBAMOgT6xrZCSUqF9+HQ2ns418APzHyYHF4zRvCvVmedqvmVrhrNvNJvQpEktke5WedvudxiBQXl5xEWxSid7ny5e46UuP2VaBgI1EZxJ+2tIOTB2dYoevwDZlRivi3HuOa/Hrs5BBBEFBnzpZmoguAWZw7wYPOBSDz/cTrsyHwaKF</em:signature>
+		<em:updates>
+			<RDF:Seq>
+				<!-- Each li is a different version of the same add-on -->
+				<RDF:li>
+					<RDF:Description>
+						<em:version>1.0.RELEASE_NUMBER</em:version>
+						<!-- This is the version number of the add-on -->
+
+						<!-- One targetApplication for each application the add-on is compatible with -->
+						<em:targetApplication>
+							<Description>
+								<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+								<em:minVersion>1.5</em:minVersion>
+								<em:maxVersion>9.*</em:maxVersion>
+
+								<!-- This is where this version of the add-on will be downloaded from -->
+								<em:updateLink>http://www.caracol.com.br/arqs/download/ddr.xpi</em:updateLink>
+								<em:updateHash>sha1:6b1d7d18520a9bb2953d804efaa2fd4e8ae0e25e</em:updateHash>
+							</Description>
+						</em:targetApplication>
+					</RDF:Description>
+				</RDF:li>
+			</RDF:Seq>
+		</em:updates>
+
+	</RDF:Description>
+
+</RDF:RDF>

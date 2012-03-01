@@ -1,0 +1,1549 @@
+/* JANELA PRINCIPAL */
+.janelaPrincipal{
+	background-color:#000000;
+	margin: 0px;
+	padding: 0px;
+}
+.toolTipes{
+	-moz-appearance: none;
+	font: bold 24px Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-color: #FFCC00;
+	border: 4px solid #666666;
+}
+.indicadorModalBox{
+	font: bold 24px Arial, Verdana, Helvetica, sans-serif;
+	color: #000000;
+	background-color: #FFCC00;
+}
+/* TOOLBARS -moz-appearance: none;*/
+.toolBar{
+	
+	-moz-outline: black solid 1px;
+	padding:0px;
+	background-color:#000000;
+	border: 1px solid #000000;
+	color: #000000;
+}
+.bgPreto{
+	-moz-appearance: none;
+	padding:0px;
+	background-color:#000000;
+	border: 1px solid #000000;
+	color: #000000;
+}
+.hboxOrange{
+	-moz-appearance: none;
+	padding:3px;
+	background-color:#FFFF00;
+	color: #000000;
+	border-top-width: 2px;
+	border-right-width: 1px;
+	border-bottom-width: 2px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
+}
+.hboxOrange2{
+	-moz-appearance: none;
+	background-color:#000000;
+	color: #000000;
+}
+/* TOOLBARS */
+
+.toolBarButton{
+	-moz-appearance: none;
+	font-family:Arial, Verdana, Helvetica, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	color:#000000;
+	background-color: #000000;
+	text-align: center;
+	padding: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+	border-top-width: 1px;
+	border-top-color: #000000;
+}
+.CloseButton {
+	-moz-appearance: none;
+	color:#000000;
+	background-color: #000000;
+	text-align: center;
+	padding: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	cursor: pointer;
+}
+.toolBarButton:hover{
+	-moz-appearance: none;
+	background-color:#000000;
+	cursor:pointer;
+	text-align: center;
+	padding: 0px;
+	font: bold 24px Arial, Verdana, Helvetica, sans-serif;
+	border: 1px solid #000000;
+}
+.toolBarButtonSpacer{
+	-moz-appearance: none;
+	font-family:Arial, Verdana, Helvetica, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	color:#000000;
+	background-color: #000000;
+	padding: 0px;
+}
+.BoxWeb{
+	-moz-appearance: none;
+	border-top-style: solid;
+	border-top-color: #000000;
+	border-top-width: 1px;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-color: #000000;
+	height: 66px;
+	vertical-align: bottom;
+}
+.LabelVolTTS{
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFF00;
+	background-color: #000000;
+}
+.LabelVolAudio{
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	color: #6699FF;
+	background-color: #000000;
+}
+.LabelVol{
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	background-color: #000000;
+}
+.toolBarButtonBottomVol{
+	-moz-appearance: none;
+	height: 15px;
+	width: 160px;
+	font-weight: bold;
+	border: 2px solid #FFFF00;
+}
+.toolBarButtonVolSeta{
+	-moz-appearance: none;
+	font-weight: bold;
+	background-color: #000000;
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+}
+.toolBarButtonVolSeta:hover{
+	-moz-appearance: none;
+	font-weight: bold;
+	background-color: #000000;
+	border: 1px solid #FFFFFF;
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+}
+.toolBarButtonBottom{
+	-moz-appearance: none;
+	background-color: #000000;
+	text-align: center;
+	padding: 0px;
+	border: 1px solid #000000;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+.toolBarButtonBottom:hover{
+	-moz-appearance: none;
+	font-family:Arial, Verdana, Helvetica, sans-serif;
+	font-weight:bold;
+	color: #000099;
+	background-color:#000000;
+	cursor:pointer;
+	text-align: center;
+	border: 1px solid #FFFFFF;
+	padding: 0px;
+}
+.VolVelLabel {
+	font: 9px Arial, Helvetica, sans-serif;
+	color: #CCCCCC;
+}
+.toolBarButtonBottomModal{
+	-moz-appearance: none;
+	background-color: #000000;
+	text-align: center;
+	padding: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.toolBarButtonBottomModal:hover{
+	-moz-appearance: none;
+	background-color:#000000;
+	cursor:pointer;
+	text-align: center;
+	padding: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.toolBarButtonBottomSp{
+	-moz-appearance: none;
+	font-family:Arial, Verdana, Helvetica, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	color:#000000;
+	background-color: #000000;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000000;
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	text-align: center;
+}
+.toolBarButtonVol {
+	-moz-appearance: none;
+	color:#000000;
+	background-color: #FFFF00;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000000;
+	padding-top: 6px;
+	padding-right: 2px;
+	padding-bottom: 6px;
+	padding-left: 2px;
+	text-align: center;
+}
+.toolBox{
+	-moz-appearance: none;
+	background-color: #000000;
+}
+.toolBoxOrange{
+	-moz-appearance: none;
+	background-color: #000000;
+	border: 0px none #000000;
+}
+/* CAIXA DE INDICADOR MODAL */
+.indNivelMenuList{
+	-moz-appearance: none;
+	font: bold 24px Arial, Helvetica, sans-serif;
+	color: #FFFF00;
+	background-color: #000000;
+	height: 30px;
+	width: 120px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
+}
+.indNivelMenupopup {
+	-moz-appearance: none;
+	font: bold 24px Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFF00;
+	background-color: #000000;
+	width: 120px;
+	border: none;
+}
+.indNivelmenuitem{
+	-moz-appearance: none;
+	font: bold 20px Arial, Helvetica, sans-serif;
+	height: 30px;
+	color: #FFFF00;
+	background-color: #000000;
+	border: 1px solid #FFFF00;
+}
+.indNivelmenuitem:hover{
+	-moz-appearance: none;
+	font: bold 20px Arial, Helvetica, sans-serif;
+	height: 30px;
+	color:#000000; 
+	background-color: #FFFF00;
+	border: 1px solid #FFFF00;
+}
+.indPage{
+	-moz-appearance: none;
+	font: bold 24px Arial, Helvetica, sans-serif;
+	color: #FFFF00;
+	background-color: #000000;
+	height: 39px;
+	width: 80px;
+	text-align: center;
+	border: 2px solid #FFFF00;
+	cursor: pointer;
+}
+
+/* BOX DE AVISOS */
+.AvisoBox{
+	font: bold 16px Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	background-color: #000000;
+	padding: 4px;
+	height: 36px;
+	border: 1px solid #FFFFFF;
+	width: 328px;
+}
+
+.AvisoBoxHidden{
+	font: bold 16px Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-color: #000000;
+	padding: 4px;
+	height: 36px;
+	border: 1px solid #000000;
+	width: 328px;
+}
+
+
+/*FRAME INICIAL */
+.InicioFrame{
+	background-color: #000000;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	overflow: hidden;
+	height: 560px;
+	width: 920px;
+	visibility: visible;
+	margin-top: 8px;
+	margin-right: 0px;
+	margin-bottom: 8px;
+	margin-left: 8px;
+}
+.textoBrancoBold36 {
+	font: bold 30px/38px Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+.textoAmareloDestaque {
+	font: bold 24px Arial, Helvetica, sans-serif;
+	color: #FFFF00;
+}
+.textoBrancoBig {
+	font: normal 18px Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+.textoBrancoSmall {
+	font: bold normal 12px Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	text-align: right;
+}
+.textoPreto18 {
+	color: #000000;
+	font: bold 24px Arial, Helvetica, sans-serif;
+	text-align: right;
+}
+
+.textoAmareloBold24 {
+	color: #FFFF00;
+	font: bold 28px Arial, Helvetica, sans-serif;
+}
+.textoAzulBold24 {
+	color: #8282FD;
+	font: bold 28px Arial, Helvetica, sans-serif;
+}
+.textoAzulBold16 {
+	color: #8282FD;
+	font: bold 16px Arial, Helvetica, sans-serif;
+	text-align: right;
+}
+
+
+.textoBranco48Bold {
+	font: bold 48px Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+
+.textoBrancoMedio{ 
+color:#FFFFFF; font-family:Arial, Verdana, Helvetica, sans-serif; font-size:12px; font-weight:bold;
+}
+.textoAmarelo18 {
+	font: bold 18px Arial, Helvetica, sans-serif;
+	color: #FFFF00;
+	background-color: #000000;
+}
+.textoLIDAhome {
+	font: bold 106px Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+.lidaLogoHome {
+	z-index: 5;
+	height: 400px;
+	width: 210px;
+	top: 14px;
+	background-color: #FFFFFF;
+	position: absolute;
+	left: 28px;
+}
+
+.Spacer{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #000000;
+	height: 100%;
+	width: 20px;
+}
+.InicioTop {
+	background-color: #000000;
+	position: absolute;
+	height: 22px;
+	width: 265px;
+	left: 320px;
+	padding: 2px;
+	top: 10px;
+	color: #FFFF00;
+	font: bold 18px Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	visibility: visible;
+	border-top-width: 4px;
+	border-right-width: 4px;
+	border-left-width: 4px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
+}
+
+.InicioAbertura{
+	background-color: #000000;
+	overflow: hidden;
+	height: 500px;
+	width: 650px;
+	left: 320px;
+	top: 40px;
+	color: #FFFFFF;
+	font: 14px Verdana, Arial, Helvetica, sans-serif;
+	position: absolute;
+	visibility: visible;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border: 4px solid #FFFF00;
+	z-index: 9;
+}
+.Bloqueador {
+	position: absolute;
+	visibility: visible;
+	z-index: 10;
+	height: 509px;
+	width: 670px;
+	left: 325px;
+	top: 45px;
+}
+.BloqueadorTxt {
+	position: fixed;
+	visibility: visible;
+	z-index: 10;
+	height: 507px;
+	width: 646px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.LeituraTxt {
+	position: absolute;
+	visibility: visible;
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+
+
+
+.lidaTit {
+	width: 664px;
+	height: 431px;
+	z-index: 4;
+	position: absolute;
+	top: 4px;
+	left: 3px;
+}
+.LivroDados {
+	background-color: #000000;
+	position: absolute;
+	height: 22px;
+	width: 265px;
+	left: 320px;
+	padding: 2px;
+	top: 10px;
+	color: #FFFF00;
+	font: bold 18px Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	border-top-width: 4px;
+	border-right-width: 4px;
+	border-left-width: 4px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
+	visibility: hidden;
+}
+
+
+.InicioLivroDados {
+	background-color: #27282E;
+	overflow: auto;
+	height: 510px;
+	width: 670px;
+	left: 320px;
+	padding: 0px;
+	top: 40px;
+	color: #FFFFFF;
+	border: 4px solid #FFFF00;
+	font: bold 24px/normal Verdana, Arial, Helvetica, sans-serif;
+	position: absolute;
+	z-index: 8;
+	visibility: hidden;
+}
+.InicioLivroDadosTitulos {
+	font: bold 24px Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-color: #FFFF00;
+	height: 24px;
+}
+.InicioLivroDadosTitulos2 {
+	font: bold 22px Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-color: #FFFF00;
+}
+.LivroTitulo {
+	font: bold 32px Arial, Helvetica, sans-serif;
+	color: #FFFF00;
+}
+
+.LivroAutor {
+	font: bold 24px Arial, Helvetica, sans-serif;
+	color: #FFFF00;
+	text-transform: capitalize;
+}
+.LivroEditora {
+	font: bold 24px Arial, Helvetica, sans-serif;
+	color: #FFFF00;
+	text-transform: capitalize;
+}
+.LivroUltimaLeitura {
+	font: bold 24px Arial, Helvetica, sans-serif;
+	color: #FFFF00;
+	background-color: #000000;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.LivroPonto {
+	font: bold 20px Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	background-color: #000000;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-align: center;
+}
+
+.AbreHistorico {
+	background-color: #000000;
+	position: absolute;
+	height: 20px;
+	width: 80px;
+	left: 0px;
+	padding: 4px;
+	top: 10px;
+	color: #FFFF00;
+	font: bold 14px Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	border-top-width: 4px;
+	border-right-width: 4px;
+	border-left-width: 4px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
+	cursor: pointer;
+	text-align: center;
+	z-index: 1;
+	visibility: hidden;
+}
+.AbreHistorico:hover {
+	background-color: #FFFFFF;
+	position: absolute;
+	height: 20px;
+	width: 80px;
+	left: 0px;
+	padding: 4px;
+	top: 10px;
+	color: #000000;
+	font: bold 14px Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	visibility: visible;
+	border-top-width: 4px;
+	border-right-width: 2px;
+	border-left-width: 4px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
+	cursor: pointer;
+	text-align: center;
+}
+.AbreHistoricoAtivo {
+	background-color: #FFFF00;
+	position: absolute;
+	height: 20px;
+	width: 80px;
+	left: 0px;
+	padding: 4px;
+	top: 10px;
+	color: #000000;
+	font: bold 14px Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	visibility: visible;
+	border-top-width: 4px;
+	border-right-width: 2px;
+	border-left-width: 4px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
+	cursor: pointer;
+	text-align: center;
+}
+.AbreHistoricoInativo {
+	background-color: #000000;
+	position: absolute;
+	height: 20px;
+	width: 80px;
+	left: 0px;
+	padding: 4px;
+	top: 10px;
+	color: #999999;
+	font: bold 14px Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	visibility: visible;
+	border-top-width: 4px;
+	border-right-width: 2px;
+	border-left-width: 4px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
+	cursor: default;
+	text-align: center;
+}
+.InicioHistorico{
+	background-color: #000000;
+	position: absolute;
+	height: 490px;
+	width: 296px;
+	left: 0px;
+	border: 4px solid #FFFF00;
+	top: 40px;
+	color: #FFFF00;
+	overflow: auto;
+	visibility: visible;
+	padding-top: 10px;
+	padding-right: 4px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	font: 16px Arial, Helvetica, sans-serif;
+}
+.HistoricoLista{
+	font: bold 100% Arial, Helvetica, sans-serif;
+	color: #FFFF00;
+	cursor: pointer;
+	list-style-type: none;
+	vertical-align: top;
+	background-color: #000000;
+}
+.HistoricoLista:hover{
+	font: bold 100% Arial, Helvetica, sans-serif;
+	color: #000000;
+	cursor: pointer;
+	background-color: #FFFF00;
+	list-style-type: none;
+	vertical-align: top;
+}
+.HistoricoListaHilite{
+	font: bold 100% Arial, Helvetica, sans-serif;
+	color: #000000;
+	cursor: pointer;
+	background-color: #FFFF00;
+	list-style-type: none;
+	vertical-align: top;
+}
+.AbreMarcadores {
+	background-color: #000000;
+	position: absolute;
+	height: 20px;
+	width: 98px;
+	left: 94px;
+	padding: 4px;
+	top: 10px;
+	color: #FFFF00;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	visibility: hidden;
+	border-top-width: 4px;
+	border-right-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
+	cursor: pointer;
+}
+.AbreMarcadores:hover {
+	background-color: #FFFFFF;
+	position: absolute;
+	height: 20px;
+	width: 98px;
+	left: 94px;
+	padding: 4px;
+	top: 10px;
+	color: #000000;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	visibility: visible;
+	border-top-width: 4px;
+	border-right-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
+	cursor: pointer;
+}
+.AbreMarcadoresAtivo {
+	background-color: #FFFF00;
+	position: absolute;
+	height: 20px;
+	width: 98px;
+	left: 94px;
+	padding: 4px;
+	top: 10px;
+	color: #000000;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	visibility: visible;
+	border-top-width: 4px;
+	border-right-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
+	cursor: default;
+}
+.AbreMarcadoresInativo {
+	background-color: #000000;
+	position: absolute;
+	height: 20px;
+	width: 98px;
+	left: 94px;
+	padding: 4px;
+	top: 10px;
+	color: #999999;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	visibility: visible;
+	border-top-width: 4px;
+	border-right-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
+	cursor: default;
+}
+.InicioMarcadores {
+	background-color: #000000;
+	position: absolute;
+	height: 490px;
+	width: 280px;
+	left: 0px;
+	padding: 10px;
+	border: 4px solid #FFFF00;
+	top: 40px;
+	color: #FFFF00;
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	overflow: auto;
+	visibility: hidden;
+}
+.AbreBiblioteca {
+	background-color: #000000;
+	position: absolute;
+	height: 20px;
+	width: 90px;
+	left: 204px;
+	padding: 4px;
+	top: 10px;
+	color: #FFFF00;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	visibility: hidden;
+	border-top-width: 4px;
+	border-right-width: 4px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
+	cursor: pointer;
+}
+.AbreBiblioteca:hover {
+	background-color: #FFFFFF;
+	position: absolute;
+	height: 20px;
+	width: 90px;
+	left: 204px;
+	padding: 4px;
+	top: 10px;
+	color: #000000;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	visibility: visible;
+	border-top-width: 4px;
+	border-right-width: 4px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
+	cursor: pointer;
+}
+.AbreBibliotecaAtivo {
+	background-color: #FFFF00;
+	position: absolute;
+	height: 20px;
+	width: 90px;
+	left: 204px;
+	padding: 4px;
+	top: 10px;
+	color: #000000;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	visibility: visible;
+	border-top-width: 4px;
+	border-right-width: 4px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
+	cursor: default;
+}
+.AbreBibliotecaInativo {
+	background-color: #000000;
+	position: absolute;
+	height: 20px;
+	width: 90px;
+	left: 204px;
+	padding: 4px;
+	top: 10px;
+	color: #999999;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	visibility: visible;
+	border-top-width: 4px;
+	border-right-width: 4px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
+	cursor: default;
+}
+.InicioBiblioteca {
+	background-color: #000000;
+	position: absolute;
+	height: 490px;
+	width: 280px;
+	left: 0px;
+	padding: 10px;
+	border: 4px solid #FFFF00;
+	top: 40px;
+	color: #FFFF00;
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	overflow: auto;
+	visibility: hidden;
+}
+
+
+/* ESTILOS DO LIVRO */
+.AbreIndiceLivro {
+	background-color: #000000;
+	position: absolute;
+	height: 20px;
+	width: 53px;
+	left: 0px;
+	padding: 4px;
+	top: 10px;
+	color: #FFFF00;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	visibility: visible;
+	border-top-width: 4px;
+	border-right-width: 2px;
+	border-left-width: 4px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
+	cursor: pointer;
+}
+.AbreIndiceLivro:hover {
+	background-color: #000000;
+	position: absolute;
+	height: 20px;
+	width: 53px;
+	left: 0px;
+	padding: 4px;
+	top: 10px;
+	color: #FFFFFF;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	visibility: visible;
+	border-top-width: 4px;
+	border-right-width: 2px;
+	border-left-width: 4px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
+	cursor: pointer;
+}
+.AbreIndiceLivroAtivo {
+	background-color: #FFFF00;
+	position: absolute;
+	height: 20px;
+	width: 53px;
+	left: 0px;
+	padding: 4px;
+	top: 10px;
+	color: #000000;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	visibility: visible;
+	border-top-width: 4px;
+	border-right-width: 2px;
+	border-left-width: 4px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
+	cursor: default;
+}
+.AbreIndiceLivroInativo {
+	background-color: #000000;
+	position: absolute;
+	height: 20px;
+	width: 53px;
+	left: 0px;
+	padding: 4px;
+	top: 10px;
+	color: #CCCCCC;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	visibility: visible;
+	border-top-width: 4px;
+	border-right-width: 2px;
+	border-left-width: 4px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
+	cursor: default;
+}
+.LivroIndice{
+	background-color: #000000;
+	position: absolute;
+	height: 506px;
+	width: 296px;
+	left: 0px;
+	border: 4px solid #FFFF00;
+	top: 40px;
+	color: #FFFF00;
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	overflow: auto;
+	visibility: visible;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+}
+.AbreMarcadoresLivro {
+	background-color: #000000;
+	position: absolute;
+	height: 20px;
+	width: 126px;
+	left: 66px;
+	padding: 4px;
+	top: 10px;
+	color: #FFFF00;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	visibility: visible;
+	border-top-width: 4px;
+	border-right-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
+	text-align: center;
+	cursor: pointer;
+}
+.AbreMarcadoresLivro:hover {
+	background-color: #000000;
+	position: absolute;
+	height: 20px;
+	width: 126px;
+	left: 66px;
+	padding: 4px;
+	top: 10px;
+	color: #FFFFFF;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	visibility: visible;
+	border-top-width: 4px;
+	border-right-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
+	text-align: center;
+	cursor: pointer;
+}
+.AbreMarcadoresLivroAtivo {
+	background-color: #FFFF00;
+	position: absolute;
+	height: 20px;
+	width: 126px;
+	left: 66px;
+	padding: 4px;
+	top: 10px;
+	color: #000000;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	visibility: visible;
+	border-top-width: 4px;
+	border-right-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
+	text-align: center;
+	cursor: default;
+}
+.AbreMarcadoresLivroInativo {
+	background-color: #000000;
+	position: absolute;
+	height: 20px;
+	width: 126px;
+	left: 66px;
+	padding: 4px;
+	top: 10px;
+	color: #CCCCCC;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	visibility: visible;
+	border-top-width: 4px;
+	border-right-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
+	text-align: center;
+	cursor: default;
+}
+.MarcadoresLista{
+	font: bold 100% Arial, Helvetica, sans-serif;
+	color: #FFFF00;
+	cursor: pointer;
+	list-style-position: inside;
+	list-style-type: decimal;
+}
+.MarcadoresLista:hover{
+	font: bold 100% Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	cursor: pointer;
+	background-color: #000000;
+	list-style-position: inside;
+	list-style-type: decimal;
+}
+.MarcadoresListaHilite{
+	font: bold 100% Arial, Helvetica, sans-serif;
+	color: #000000;
+	cursor: pointer;
+	background-color: #FFFF00;
+	list-style-position: inside;
+	list-style-type: decimal;
+}
+.BuscaLista{
+	font: bold 100% Arial, Helvetica, sans-serif;
+	color: #FFFF00;
+	cursor: pointer;
+	list-style-position: inside;
+	list-style-type: decimal;
+}
+.BuscaLista:hover{
+	font: bold 100% Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	cursor: pointer;
+	background-color: #000000;
+	list-style-position: inside;
+	list-style-type: decimal;
+}
+.BuscaListaHilite{
+	font: bold 100% Arial, Helvetica, sans-serif;
+	color: #000000;
+	cursor: pointer;
+	background-color: #FFFF00;
+	list-style-position: inside;
+	list-style-type: decimal;
+}
+.LivroMarcadores {
+	background-color: #000000;
+	position: absolute;
+	height: 490px;
+	width: 280px;
+	left: 0px;
+	padding: 10px;
+	border: 4px solid #FFFF00;
+	top: 40px;
+	color: #FFFF00;
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	overflow: auto;
+	visibility: hidden;
+}
+.AbreBuscaLivro {
+	background-color: #000000;
+	position: absolute;
+	height: 20px;
+	width: 90px;
+	left: 204px;
+	padding: 4px;
+	top: 10px;
+	color: #FFFF00;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	visibility: visible;
+	border-top-width: 4px;
+	border-right-width: 4px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
+	text-align: center;
+	cursor: pointer;
+}
+.AbreBuscaLivro:hover {
+	background-color: #000000;
+	position: absolute;
+	height: 20px;
+	width: 90px;
+	left: 204px;
+	padding: 4px;
+	top: 10px;
+	color: #FFFFFF;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	visibility: visible;
+	border-top-width: 4px;
+	border-right-width: 4px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
+	text-align: center;
+	cursor: pointer;
+}
+.AbreBuscaLivroAtivo {
+	background-color: #FFFF00;
+	position: absolute;
+	height: 20px;
+	width: 90px;
+	left: 204px;
+	padding: 4px;
+	top: 10px;
+	color: #000000;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	visibility: visible;
+	border-top-width: 4px;
+	border-right-width: 4px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
+	text-align: center;
+	cursor: default;
+}
+.AbreBuscaLivroInativo {
+	background-color: #000000;
+	position: absolute;
+	height: 20px;
+	width: 90px;
+	left: 204px;
+	padding: 4px;
+	top: 10px;
+	color: #CCCCCC;
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	visibility: visible;
+	border-top-width: 4px;
+	border-right-width: 4px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #FFFF00;
+	border-right-color: #FFFF00;
+	border-bottom-color: #FFFF00;
+	border-left-color: #FFFF00;
+	text-align: center;
+	cursor: default;
+}
+.LivroBusca {
+	background-color: #000000;
+	position: absolute;
+	height: 430px;
+	width: 280px;
+	left: 0px;
+	padding: 10px;
+	border: 4px solid #FFFF00;
+	top: 100px;
+	color: #FFFF00;
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	overflow: auto;
+	visibility: hidden;
+}
+.LivroBuscaHeader {
+	background-color: #000000;
+	position: absolute;
+	height: 60px;
+	width: 280px;
+	left: 0px;
+	padding: 10px;
+	border: 4px solid #FFFF00;
+	top: 40px;
+	color: #FFFF00;
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	overflow: auto;
+	visibility: hidden;
+}
+.LivroAtual {
+	background-color: #FFFF00;
+	position: absolute;
+	height: 20px;
+	width: 670px;
+	left: 320px;
+	padding: 4px;
+	top: 12px;
+	color: #000000;
+	font: bold 16px Verdana, Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	visibility: visible;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.LivroLeitura{
+	background-color: #27282E;
+	overflow: auto;
+	height: 502px;
+	width: 662px;
+	left: 320px;
+	padding: 4px;
+	top: 40px;
+	color: #FFFFFF;
+	border: 4px solid #FFFFFF;
+	font: 14px Verdana, Arial, Helvetica, sans-serif;
+	position: absolute;
+	visibility: visible;
+}
+.bodyLeitura {
+	color: #FFFFFF;
+	background-color: #000000;
+	font: 100% Arial, Helvetica, sans-serif;
+}
+.bodyHome {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #000000;
+}
+.bodyNCX {
+	color: #000000;
+	background-color: #FFFF00;
+	font: 100% Arial, Helvetica, sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+/* Estilos NCX */
+.sNCX0{
+	font: bold 50% Arial, Helvetica, sans-serif;
+	color: #000000;
+	padding-bottom: 0px;
+	padding-left: 70px;
+	cursor:pointer;
+}
+.sNCX0:hover{
+	font: bold 50% Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	padding-bottom: 0px;
+	padding-left: 70px;
+	cursor:pointer;
+	background-color: #000000;
+}
+.sNCX1{
+	font: bold 100% Arial, Helvetica, sans-serif;
+	color: #000000;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	cursor:pointer;
+}
+.sNCX1:hover{
+	font: bold 100% Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	cursor:pointer;
+	background-color: #000000;
+}
+.sNCX2{
+	font: bold 90% Arial, Helvetica, sans-serif;
+	color: #000000;
+	padding-bottom: 0px;
+	padding-left: 15px;
+	cursor:pointer;
+}
+.sNCX2:hover{
+	font: bold 90% Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	padding-bottom: 0px;
+	padding-left: 15px;
+	cursor:pointer;
+	background-color: #000000;
+}
+.sNCX3{
+	font: bold 80% Arial, Helvetica, sans-serif;
+	color: #000000;
+	padding-bottom: 0px;
+	padding-left: 30px;
+	cursor:pointer;
+}
+.sNCX3:hover{
+	font: bold 80% Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	padding-bottom: 0px;
+	padding-left: 30px;
+	cursor:pointer;
+	background-color: #000000;
+}
+.sNCX4{
+	font: 70% Arial, Helvetica, sans-serif;
+	color: #000000;
+	padding-bottom: 0px;
+	padding-left: 40px;
+	cursor:pointer;
+}
+.sNCX4:hover{
+	font: 70% Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	padding-bottom: 0px;
+	padding-left: 40px;
+	cursor:pointer;
+	background-color: #000000;
+}
+.sNCX5{
+	font: bold 60% Arial, Helvetica, sans-serif;
+	color: #000000;
+	padding-bottom: 0px;
+	padding-left: 50px;
+	cursor:pointer;
+}
+.sNCX5:hover{
+	font: bold 60% Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	padding-bottom: 0px;
+	padding-left: 50px;
+	cursor:pointer;
+	background-color: #000000;
+}
+.sNCX6{
+	font: bold 50% Arial, Helvetica, sans-serif;
+	color: #000000;
+	padding-bottom: 0px;
+	padding-left: 60px;
+	cursor:pointer;
+}
+.sNCX6:hover{
+	font: bold 50% Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	padding-bottom: 0px;
+	padding-left: 60px;
+	cursor:pointer;
+	background-color: #000000;
+}
+.sNCXhilite{
+	color: #FFFF00;
+	background-color: #000000;
+}
+.LeituraHilite{
+	color: #000000;
+	background-color: #FFFFFF;
+}
+.LeituraHiliteInativo{
+	color: #000000;
+	background-color: #AAAAAA;
+}
+.DaisyLogoHome {
+	z-index: 5;
+	height: 81px;
+	width: 78px;
+	top: 333px;
+	background-color: #FFFFFF;
+	position: absolute;
+	left: 576px;
+}

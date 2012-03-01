@@ -1,0 +1,112 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: lidad - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\Eduardo\CONFIG~1\Temp\RSP1DD.bat" with contents
+[
+@echo off
+xpidl-build.bat comp
+]
+Creating command line "D:\DOCUME~1\Eduardo\CONFIG~1\Temp\RSP1DD.bat"
+Creating temporary file "D:\DOCUME~1\Eduardo\CONFIG~1\Temp\RSP1DE.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\sdk-gecko\idl" /I "..\sdk-gecko\include" /I "..\sdk-gecko-nss\Include\nss" /I "..\sdk-directx9\Include" /I "..\sdk-xmlsec\xmlsec1-1.2.11\include" /I "..\sdk-xmlsec\libxml2-2.7.3\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "LIDAD_EXPORTS" /Fp"c:\temporarioscompilacao\lidad\Release/lidad.pch" /Yu"stdafx_xmlsec.h" /Fo"c:\temporarioscompilacao\lidad\Release/" /Fd"c:\temporarioscompilacao\lidad\Release/" /FD /c 
+"F:\fundacao\DDR\DDR_FINAL\codigo\c\lidad\CLidaAudio.cpp"
+"F:\fundacao\DDR\DDR_FINAL\codigo\c\lidad\comp-module.cpp"
+"F:\fundacao\DDR\DDR_FINAL\codigo\c\criptografia\cripto.cpp"
+"F:\fundacao\DDR\DDR_FINAL\codigo\c\directshow\directshow.cpp"
+"F:\fundacao\DDR\DDR_FINAL\codigo\c\sdk-xmlsec\libxml_all_source.cpp"
+"F:\fundacao\DDR\DDR_FINAL\codigo\c\sdk-xmlsec\libxml_all_src2.cpp"
+"F:\fundacao\DDR\DDR_FINAL\codigo\c\sdk-xmlsec\libxml_all_src3.cpp"
+"F:\fundacao\DDR\DDR_FINAL\codigo\c\sdk-xmlsec\libxml_all_src4.cpp"
+"F:\fundacao\DDR\DDR_FINAL\codigo\c\sdk-xmlsec\libxml_all_src_extern.cpp"
+"F:\fundacao\DDR\DDR_FINAL\codigo\c\lidad\lidad.cpp"
+"F:\fundacao\DDR\DDR_FINAL\codigo\c\sdk-sapi4\wrapper\sapi4_CTTSMode_mod.cpp"
+"F:\fundacao\DDR\DDR_FINAL\codigo\c\sapitts\sapi4tts\sapi4tts.cpp"
+"F:\fundacao\DDR\DDR_FINAL\codigo\c\sapitts\sapi5tts\sapi5tts.cpp"
+"F:\fundacao\DDR\DDR_FINAL\codigo\c\sdk-xmlsec\xmlsec_all_source.cpp"
+"F:\fundacao\DDR\DDR_FINAL\codigo\c\sdk-xmlsec\xmlsec_all_src2.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\Eduardo\CONFIG~1\Temp\RSP1DE.tmp" 
+Creating temporary file "D:\DOCUME~1\Eduardo\CONFIG~1\Temp\RSP1DF.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\sdk-gecko\idl" /I "..\sdk-gecko\include" /I "..\sdk-gecko-nss\Include\nss" /I "..\sdk-directx9\Include" /I "..\sdk-xmlsec\xmlsec1-1.2.11\include" /I "..\sdk-xmlsec\libxml2-2.7.3\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "LIDAD_EXPORTS" /Fo"c:\temporarioscompilacao\lidad\Release/" /Fd"c:\temporarioscompilacao\lidad\Release/" /FD /c 
+"F:\fundacao\DDR\DDR_FINAL\codigo\c\directshow\InicializarIIDs.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\Eduardo\CONFIG~1\Temp\RSP1DF.tmp" 
+Creating temporary file "D:\DOCUME~1\Eduardo\CONFIG~1\Temp\RSP1E0.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\sdk-gecko\idl" /I "..\sdk-gecko\include" /I "..\sdk-gecko-nss\Include\nss" /I "..\sdk-directx9\Include" /I "..\sdk-xmlsec\xmlsec1-1.2.11\include" /I "..\sdk-xmlsec\libxml2-2.7.3\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "LIDAD_EXPORTS" /Fp"c:\temporarioscompilacao\lidad\Release/lidad.pch" /Yc"stdafx_xmlsec.h" /Fo"c:\temporarioscompilacao\lidad\Release/" /Fd"c:\temporarioscompilacao\lidad\Release/" /FD /c 
+"F:\fundacao\DDR\DDR_FINAL\codigo\c\lidad\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\Eduardo\CONFIG~1\Temp\RSP1E0.tmp" 
+compilando idl
+Creating temporary file "D:\DOCUME~1\Eduardo\CONFIG~1\Temp\RSP1E1.tmp" with contents
+[
+nspr4.lib xpcom.lib xpcomglue_s.lib kernel32.lib ole32.lib user32.lib ..\sdk-gecko-nss\lib\nss3.lib /nologo /dll /incremental:no /pdb:"Release/lidad.pdb" /machine:I386 /out:"Release/lidad.dll" /implib:"Release/lidad.lib" /libpath:"..\sdk-gecko\lib" /libpath:"..\sdk-sapi5\Lib\i386" 
+c:\temporarioscompilacao\lidad\Release\CLidaAudio.obj
+"c:\temporarioscompilacao\lidad\Release\comp-module.obj"
+c:\temporarioscompilacao\lidad\Release\cripto.obj
+c:\temporarioscompilacao\lidad\Release\directshow.obj
+c:\temporarioscompilacao\lidad\Release\InicializarIIDs.obj
+c:\temporarioscompilacao\lidad\Release\libxml_all_source.obj
+c:\temporarioscompilacao\lidad\Release\libxml_all_src2.obj
+c:\temporarioscompilacao\lidad\Release\libxml_all_src3.obj
+c:\temporarioscompilacao\lidad\Release\libxml_all_src4.obj
+c:\temporarioscompilacao\lidad\Release\libxml_all_src_extern.obj
+c:\temporarioscompilacao\lidad\Release\lidad.obj
+c:\temporarioscompilacao\lidad\Release\sapi4_CTTSMode_mod.obj
+c:\temporarioscompilacao\lidad\Release\sapi4tts.obj
+c:\temporarioscompilacao\lidad\Release\sapi5tts.obj
+c:\temporarioscompilacao\lidad\Release\StdAfx.obj
+c:\temporarioscompilacao\lidad\Release\xmlsec_all_source.obj
+c:\temporarioscompilacao\lidad\Release\xmlsec_all_src2.obj
+]
+Creating command line "link.exe @D:\DOCUME~1\Eduardo\CONFIG~1\Temp\RSP1E1.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+CLidaAudio.cpp
+comp-module.cpp
+cripto.cpp
+directshow.cpp
+libxml_all_source.cpp
+libxml_all_src2.cpp
+libxml_all_src3.cpp
+libxml_all_src4.cpp
+libxml_all_src_extern.cpp
+lidad.cpp
+sapi4_CTTSMode_mod.cpp
+sapi4tts.cpp
+sapi5tts.cpp
+xmlsec_all_source.cpp
+xmlsec_all_src2.cpp
+Generating Code...
+Compiling...
+InicializarIIDs.cpp
+Linking...
+   Creating library Release/lidad.lib and object Release/lidad.exp
+Creating temporary file "D:\DOCUME~1\Eduardo\CONFIG~1\Temp\RSP1E5.bat" with contents
+[
+@echo off
+copyfiles_release.bat
+]
+Creating command line "D:\DOCUME~1\Eduardo\CONFIG~1\Temp\RSP1E5.bat"
+
+        1 arquivo(s) copiado(s).
+        1 arquivo(s) copiado(s).
+        1 arquivo(s) copiado(s).
+        1 arquivo(s) copiado(s).
+
+
+
+<h3>Results</h3>
+lidad.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

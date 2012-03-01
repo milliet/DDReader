@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="css/LidaD.css" type="text/css"?>
+
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+xmlns:html="http://www.w3.org/1999/xhtml" class="janelaPrincipal"
+title="DDReader - Leitura de Livros Digitais DAISY." pack="center" orient="vertical"
+onload="CmdMain.loadevent();init();"
+flex="1"
+align="stretch"
+autostretch="always"
+onkeypress="CKeys.keypress(event);" id="janela" onblur="CmdMain.blurevent()" onclose="CmdMain.closeevent()">
+	<script type="text/javascript">
+		var RunningInsideTutorial = false;
+		var RunningInsideExercises = true;
+	</script>
+	<script src="../../../js/CDlgManager.js" type="text/javascript"></script>
+	<script src="../../../js/CPref.js" type="text/javascript"></script>
+	<script src="../../../js/CLocale.js" type="text/javascript"></script>
+	<script src="../../../js/CMsg.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CMsgIface.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CSpellMsg.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils_ff.js" type="text/javascript"></script>
+	<script src="../../../js/CExcept.js" type="text/javascript"></script>
+	<script src="../../../js/CTextItem.js" type="text/javascript"></script>
+	<script src="../../../js/CTextArray.js" type="text/javascript"></script>
+	<script src="../../../js/CTextLimits.js" type="text/javascript"></script>
+	<script src="../../../js/CDialogs.js" type="text/javascript"></script>
+	<script src="../../../js/CSpeak.js" type="text/javascript"></script>
+	<script src="../../../js/CTextfileArray.js" type="text/javascript"></script>
+	<script src="../../../js/CTextfileItem.js" type="text/javascript"></script>
+	<script src="../../../js/CSMILFile.js" type="text/javascript"></script>
+	<script src="../../../js/CSMILArray.js" type="text/javascript"></script>
+	<script src="../../../js/CSMILExerc.js" type="text/javascript"></script>
+	<script src="../../../js/CNCX.js" type="text/javascript"></script>
+	<script src="../../../js/COPFFile.js" type="text/javascript"></script>
+	<script src="../../../js/CMarks.js" type="text/javascript"></script>
+	<script src="../../../js/COPFPrefs.js" type="text/javascript"></script>
+	<script src="../../../js/CHist.js" type="text/javascript"></script>
+	<script src="../../../js/CSpell.js" type="text/javascript"></script>
+	<script src="../../../jscmd/COPFControExercise.js" type="text/javascript"></script>
+	<script src="../../../jscmd/COPFControl.js" type="text/javascript"></script>
+	<script src="../../../js/CDlgExerciseManager.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CButtons.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CTutorial.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CTools.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CKeys.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CmdHist.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CmdMarks.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CmdNcx.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CmdInfo.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CmdLibNdx.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CmdMain.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CmdRead.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CmdSplash.js" type="text/javascript"></script>
+	<script src="../../../js/CSearchRes.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CmdSearchRes.js" type="text/javascript"></script>
+	<script src="../../../js/CFindText.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CSkinAcc.js" type="text/javascript"></script>
+	<script src="../common/LidaD.js"/>
+
+	<!-- TOOL TIPS PARA OS BOTOES DE CIMA -->
+	<tooltip id="ButHelp" class="toolTipes" orient="vertical" noautohide="TRUE">
+		<label id="LidaD.ButHelp" value="Clique para acessar o TUTORIAL" />
+	</tooltip>
+	<tooltip id="ButExpExercise" class="toolTipes" orient="vertical" noautohide="TRUE">
+		<label id="LidaD.ButExpExercise" value="Clique para exportar o exercício" />
+		<!-- exerciciopendente traduzir nos outros iidiomas -->
+	</tooltip>
+	<tooltip id="ButClose" class="toolTipes" orient="vertical" noautohide="TRUE">
+		<label id="LidaD.ButClose" value="Clique para fechar o aplicativo." />
+	</tooltip>
+
+	<!-- VBOX SOMENTE PARA TER SCROLL -->
+
+	<vbox align="right" class="boxWeb">
+		<!-- BOX DE FECHAR -->
+		<hbox align="right">
+			<toolbox  class="toolBar">
+				<toolbar id="Close" class="toolBar" >
+					<toolbarbutton id="buttonClose" tooltip="ButClose" image="img/close.gif" class="CloseButton"  oncommand="CDialogs.CloseApplication();" onmouseover="changeSrc(this.id,this.image,'a')" onmouseout="changeSrc(this.id,this.image,'b')"/>
+				</toolbar>
+			</toolbox>
+			<spacer with="9" maxwidth="9" minwidth="9"/>
+		</hbox>
+	</vbox>
+
+	<spacer height="5" flex="0" bgcolor="#FFFFFF" />
+	<hbox flex="1" align="stretch" minwidth="100px" minheight="100px" >
+		<spacer width="10" flex="0" bgcolor="#FFFFFF" />
+		<iframe flex="1" align="stretch" minwidth="100px" minheight="100px" src="exerc_leitura.html" class="xxInicioFrame" id="exerctextoref" />
+		<spacer width="10" flex="0" bgcolor="#FFFFFF" />
+	</hbox>
+	<spacer height="25" flex="0" bgcolor="#FFFFFF" />
+	<hbox flex="1" align="stretch" minwidth="100px" minheight="100px" >
+		<spacer width="10" flex="0" bgcolor="#FFFFFF" />
+		<iframe flex="1" align="stretch" minwidth="100px" minheight="100px" src="exerc_leitura.html" class="xxInicioFrame" id="exerclivro"  />
+		<spacer width="10" flex="0" bgcolor="#FFFFFF" />
+	</hbox>
+	<spacer height="25" flex="0" bgcolor="#FFFFFF" />
+
+
+
+	<hbox flex="0" align="center">
+			<spacer width="5" minwidth="5" maxwidth="5" />
+			<toolbox class="toolBar" >
+				<toolbar id="comandos" class="toolBar">
+					<toolbarbutton id="toolPlay" image="img/play.gif" class="toolBarButton"  oncommand="CTools.clicktoolPlay()"/>
+					<!-- nao tem... <toolbarbutton id="toolPrevLev" image="img/prevLev.gif" class="toolBarButton" oncommand="CTools.clicktoolPrevLev()"/>  -->
+					<toolbarbutton id="toolPrev" image="img/previous.gif"  class="toolBarButton" oncommand="CTools.clicktoolPrev()"/>
+					<toolbarbutton id="toolNext" image="img/next.gif" class="toolBarButton" oncommand="CTools.clicktoolNext()"/>
+					<!-- nao tem... <toolbarbutton id="toolNextLev" image="img/nextLev.gif"  class="toolBarButton" oncommand="CTools.clicktoolNextLev()"/>  -->
+					<spacer width="2" minwidth="2" maxwidth="2" class="bgPreto"/>
+					<vbox align="center" pack="center" class="bgPreto">
+						<vbox  height="40" align="bottom" pack="bottom">
+							<spacer flex="1" />
+							<image src="img/voltts.jpg" id="imagevoltts" height="40"  />
+						</vbox>
+						<label id="LidaD.volttsLABEL" value="tts" class="VolVelLabel" align="center" />
+					</vbox>
+
+					<spacer width="2" minwidth="2" maxwidth="2" class="bgPreto"/>
+
+					<vbox align="center" pack="center" class="bgPreto">
+						<vbox  height="40" align="bottom" pack="bottom">
+							<spacer flex="1" />
+							<image src="img/volaudio.jpg" id="imagevolaudio" height="40" />
+						</vbox>
+						<label id="LidaD.volsndLABEL" value="som" class="VolVelLabel"  align="center" />
+
+					</vbox>
+
+
+					<vbox align="center" pack="center" class="bgPreto">
+						<vbox  height="40" align="bottom" pack="bottom">
+							<spacer flex="1" />
+							<image height="30" src="img/veltts.jpg" id="imageveltts" />
+						</vbox>
+						<label id="LidaD.veloLABEL" value="velo" class="VolVelLabel"  align="center" />
+
+					</vbox>
+					<spacer width="2" minwidth="2" maxwidth="2" class="bgPreto"/>
+
+					<toolbarbutton id="buttonExpExercise" tooltip="ButExpExercise" image="img/export.gif" class="toolBarButton"  oncommand="CButtons.clickButExpExercise();" />
+					<toolbarbutton id="toolAjuda" class="toolBarButton" image="img/ajuda.gif" tooltip="ButHelp" oncommand="CButtons.clickHelpTutorial()"  onmouseover="changeSrc(this.id,this.image,'a')" onmouseout="changeSrc(this.id,this.image,'b')"/>
+				</toolbar>
+			</toolbox>
+
+		<textbox id="controle_semfoco" hidden="true" width="2" heigth="2" />
+		<spacer width="10" flex="0" />
+			<box flex="1" class="AvisoBoxHidden" id="bavisos" visible="false" minwidth="50px" >
+				<label id="avisos" value="ESTE É UM AVISO" minwidth="50px" crop="end" />
+			</box>
+			<spacer width="2" flex="1" />
+		</hbox>
+
+</window>

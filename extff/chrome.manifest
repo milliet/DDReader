@@ -1,0 +1,9 @@
+content     lidad    chrome/content/
+skin     lidad lidad chrome/skin/
+overlay chrome://browser/content/browser.xul chrome://lidad/content/menu.xul
+interfaces components/comp.xpt
+binary-component components/lidad5.dll appversion<=5.*
+binary-component components/lidad6.dll appversion<=6.*
+binary-component components/lidad7.dll appversion<=7.*
+binary-component components/lidad8.dll appversion<=8.*
+binary-component components/lidad9.dll appversion<=9.*

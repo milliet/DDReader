@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: xmlsec1-nss
+Version: 1.2.11
+Description: XML Security Library implements XML Signature and XML Encryption standards
+Requires: libxml-2.0 >= 2.6.12 libxslt >= 1.0.20 nspr >= 1.4 nss >= 1.4
+Cflags: -DXMLSEC_CRYPTO=\\\"nss\\\" -DXMLSEC_CRYPTO_NSS=1  -D__XMLSEC_FUNCTION__=__FUNCTION__ -DXMLSEC_NO_GOST=1 -DXMLSEC_NO_CRYPTO_DYNAMIC_LOADING=1 -I${prefix}/include/xmlsec1  
+Libs: -L${libdir} -lxmlsec1-nss -lxmlsec1  

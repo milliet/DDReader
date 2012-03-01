@@ -1,0 +1,35 @@
+Compilar com o Microsoft Visual Studio 2008
+"D:\Arquivos de programas\Microsoft Visual Studio 9.0\Common7\IDE\devenv.exe"
+
+lidad - a dll de extensao do firefox
+utils - utilitarios gerais
+directshow - tocador de mp3
+testes - projeto para rodar o mp3 e o tts fora do firefox
+
+arquivos de terceiros:
+sdk-directx9 - sdk do directx9
+sdk-xmlsec - para descriptografar o xml
+sdk-xulrunner-2.0  - necessario para compilar a dll para conversar com o firefox
+
+
+
+sdk-gecko-1.8.0.4-antigo - o que a gente usava até o firefox 3.6
+
+Estrutura de classes:
+
+CLidaAudio / ILidaAudio: disponível para o firefox através do @lidad.dll/lidaaudio;1
+	contém directshow para tocar MP3
+	contém sapitts para fazer TTS
+		contém sapi5tts
+		contém sapi4tts
+
+
+		
+compilação entre as versoes do firefox:
+- precisa passar o diretorio sdk-xulrunner-x.0-inativo para sdk-xulrunner-atual
+- no xulrunner 7, tem que deixar a opcao nas propriedades do projeto, c/c++, language, treat wchar_t as built-in type como YES. Nas outras versões, deixar como NO
+- tem que acertar o mozilla::Module::kVersion
+- depois de compilar, copiar para lidad-compilado e para DDR_FINAL\codigo\extff\components com o nome certo
+- no firefox 9, tiraram o ..\sdk-xulrunner-atual\sdk\bin\xpidl.exe e trocaram pelo \sdk-xulrunner-atual\sdk\bin\xpidl.py; tivemos que instalar o portablepython e mudar os scripts de compilação
+
+

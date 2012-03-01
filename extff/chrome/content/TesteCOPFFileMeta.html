@@ -1,0 +1,271 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>COPFFileMeta</title>
+
+
+
+	<script src="js/CPref.js" type="text/javascript"></script>
+	<script src="js/CLocale.js" type="text/javascript"></script>
+	<script src="js/CMsg.js" type="text/javascript"></script>
+	<script src="jscmd/CMsgIface.js" type="text/javascript"></script>
+	<script src="js/CUtils.js" type="text/javascript"></script>
+	<script src="js/CUtils_ff.js" type="text/javascript"></script>
+	<script src="js/CExcept.js" type="text/javascript"></script>
+	<script src="js/CTextItem.js" type="text/javascript"></script>
+	<script src="js/CTextArray.js" type="text/javascript"></script>
+	<script src="js/CTextLimits.js" type="text/javascript"></script>
+	<script src="js/CDialogs.js" type="text/javascript"></script>
+	<script src="js/CSpeak.js" type="text/javascript"></script>
+	<script src="js/CTextfileArray.js" type="text/javascript"></script>
+	<script src="js/CTextfileItem.js" type="text/javascript"></script>
+	<script src="js/CSMILFile.js" type="text/javascript"></script>
+	<script src="js/CSMILArray.js" type="text/javascript"></script>
+	<script src="js/CSMILExerc.js" type="text/javascript"></script>
+	<script src="js/CNCX.js" type="text/javascript"></script>
+	<script src="js/COPFFile.js" type="text/javascript"></script>
+	<script src="js/CCripto.js" type="text/javascript"></script> 
+	<script src="js/CMarks.js" type="text/javascript"></script>
+	<script src="js/COPFPrefs.js" type="text/javascript"></script>
+	<script src="js/CHist.js" type="text/javascript"></script>
+	<script src="jscmd/COPFControExercise.js" type="text/javascript"></script>
+	<script src="jscmd/COPFControl.js" type="text/javascript"></script>
+	<script src="js/CDlgExerciseManager.js" type="text/javascript"></script>
+	<script src="jscmd/CButtons.js" type="text/javascript"></script>
+	<script src="jscmd/CTools.js" type="text/javascript"></script>
+	<script src="jscmd/CKeys.js" type="text/javascript"></script>
+	<script src="jscmd/CmdHist.js" type="text/javascript"></script>
+	<script src="jscmd/CmdNcx.js" type="text/javascript"></script>
+	<script src="jscmd/CmdInfo.js" type="text/javascript"></script>
+	<script src="jscmd/CmdLibNdx.js" type="text/javascript"></script>
+	<script src="jscmd/CmdMain.js" type="text/javascript"></script>
+	<script src="jscmd/CmdRead.js" type="text/javascript"></script>
+	<script src="jscmd/CmdSplash.js" type="text/javascript"></script>
+
+
+
+
+<script language="javascript" type="text/javascript">
+// <!CDATA[
+
+var opfcarregado = null;
+function executar_onclick() {
+    var arquivo = document.getElementById("arquivoselecionado").value;
+    var o = new COPFFile("file:///" + arquivo, null, false, false, false, null, null);
+    
+		
+		var meta = o.GetMedataList();
+		var msg = "";
+		for(var i = 0; i < meta.length; i++)
+		{
+			var este = o.GetMedata(meta[i]);
+			msg += "Tag: " + meta[i] + " Valor: ";
+			for(var i2=0; i2<este.CTIarray.length; i2++)
+			{
+				msg += este.CTIarray[i2].GetText_string() + " ";
+				if(este.CTIarray[i2].audioSrc)
+					msg += " src: " + este.CTIarray[i2].audioSrc + "-" + este.CTIarray[i2].audioStart + "-" + este.CTIarray[i2].audioEnd;
+			}
+				
+			msg += "<br>";
+		}
+
+    //document.getElementById("resultado").textContent = msg;
+    document.getElementById("resultado").innerHTML = msg;
+    opfcarregado =o;
+
+	var txt = opfcarregado.GetMedata(opfcarregado.metadata_tagTitle).toString();
+    if(txt == "")
+		document.getElementById("meta_titulo").innerHTML = "Não informado";
+    else
+		document.getElementById("meta_titulo").innerHTML = txt;
+
+    txt = opfcarregado.GetMedata(opfcarregado.metadata_tagAuthor).toString();
+    if(txt == "")
+	    document.getElementById("meta_autor").innerHTML = "Não informado";
+    else
+		document.getElementById("meta_autor").innerHTML = opfcarregado.GetMedata(opfcarregado.metadata_tagAuthor).toString();
+
+    txt = opfcarregado.GetMedata("dc-metadata/dc:Publisher").toString();
+    if(txt == "")
+	    document.getElementById("meta_editora").innerHTML = "Não informado";
+	else
+	    document.getElementById("meta_editora").innerHTML = opfcarregado.GetMedata("dc-metadata/dc:Publisher").toString();
+}
+
+function executar_onfalar()
+{
+	if(opfcarregado == null)
+	{
+		alert("Livro não carregado.");
+		return;
+	}
+	
+	var lista = new CTextArray();
+
+	var item = new CTextItem();
+	item.SetText_string("Título. ");
+	lista.CTIarray.push(item);
+	lista.CTIarray = lista.CTIarray.concat(opfcarregado.GetMedata(opfcarregado.metadata_tagTitle).CTIarray);
+	if(opfcarregado.GetMedata(opfcarregado.metadata_tagTitle).CTIarray.length == 0)
+	{
+		item = new CTextItem();
+		item.SetText_string("Não informado. ");
+		lista.CTIarray.push(item);
+	}
+
+	item = new CTextItem();
+	item.SetText_string("Autor. ");
+	lista.CTIarray.push(item);
+	lista.CTIarray = lista.CTIarray.concat(opfcarregado.GetMedata(opfcarregado.metadata_tagAuthor).CTIarray);
+	if(opfcarregado.GetMedata(opfcarregado.metadata_tagAuthor).CTIarray.length == 0)
+	{
+		item = new CTextItem();
+		item.SetText_string("Não informado. ");
+		lista.CTIarray.push(item);
+	}
+	
+	item = new CTextItem();
+	item.SetText_string("Editora. ");
+	lista.CTIarray.push(item);
+	lista.CTIarray = lista.CTIarray.concat(opfcarregado.GetMedata("dc-metadata/dc:Publisher").CTIarray);
+	if(opfcarregado.GetMedata("dc-metadata/dc:Publisher").CTIarray.length == 0)
+	{
+		item = new CTextItem();
+		item.SetText_string("Não informado. ");
+		lista.CTIarray.push(item);
+	}
+	
+	CSpeak.playArray(lista, null);
+	
+}
+
+function executar_onparar()
+{
+	CSpeak.forceEnd();
+}
+
+function executar_onpausa()
+{
+	CSpeak.pause();
+}
+
+function executar_onresume()
+{
+	CSpeak.resume();
+}
+
+function executar_ontogglepausa()
+{
+	CSpeak.pauseToggle();
+}
+
+function executar_onavancar()
+{
+	CSpeak.gotoNext();
+}
+
+function executar_onvoltar()
+{
+	CSpeak.gotoPrevious();
+}
+
+function executar_onbaselivro()
+{
+	if(opfcarregado == null)
+	{
+		alert("Livro não carregado.");
+		return;
+	}
+
+	var msg = CUtils.GetBookBaseFilename(opfcarregado.path, opfcarregado.GetBookId(), "");
+	alert(msg.target  );
+}
+
+// ]]>
+</script>
+	<style type="text/css">
+		.style1
+		{
+			vertical-align: top;
+			border: 1px solid #FFFF00;
+			color: #FFFF00;
+			background-color: #000000;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+
+    <p>
+        Teste do COPFFileMeta
+    </p>
+    <p>
+        Aquivo a carregar: <input id="arquivoselecionado" type="file"  size="80" 
+			/>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<input 
+            id="executar" type="button" value="Carregar livro" onclick="return executar_onclick()" />&nbsp;&nbsp;&nbsp; 
+		&nbsp;<input 
+            id="executar1" type="button" value="Arquivo base do livro" 
+			onclick="return executar_onbaselivro()" /></p>
+
+<script language=javascript>
+if(document.getElementById("arquivoselecionado").value == "")
+	document.getElementById("arquivoselecionado").value="X:\\livros\\0 morals\\06-SPEECHGEN.OPF";
+</script>
+
+<table class="style1" border="1" cellspacing="1" cellpadding="1">
+	<tr>
+		<td style="width:100px; text-align: right;">
+			Título:</td>
+		<td style="width:500px;">
+			<span id="meta_titulo">Não disponível</span>&nbsp;</td>
+	</tr>
+	<tr>
+		<td style="text-align: right;">
+			Autor:</td>
+		<td>
+			<span id="meta_autor">Não disponível</span>&nbsp;</td>
+	</tr>
+	<tr>
+		<td style="text-align: right;">
+			Editora:</td>
+		<td>
+			<span id="meta_editora">Não disponível</span>&nbsp;</td>
+	</tr>
+</table>
+
+<input 
+            id="executar0" type="button" value="Falar metadados" 
+	onclick="return executar_onfalar()" />&nbsp;&nbsp;&nbsp;&nbsp;
+	
+<input 
+            id="Button1" type="button" value="Parar de falar" 
+	onclick="return executar_onparar()" />&nbsp;&nbsp;&nbsp;
+	
+<input 
+            id="Button2" type="button" value="Pausa" 
+	onclick="return executar_onpausa()" />&nbsp;&nbsp;&nbsp;
+	
+<input 
+            id="Button3" type="button" value="Continuar" 
+	onclick="return executar_onresume()" />&nbsp;&nbsp;&nbsp;&nbsp;
+	
+<input 
+            id="Button6" type="button" value="Inverter pausa" 
+	onclick="return executar_ontogglepausa()" />&nbsp;&nbsp;&nbsp;
+	
+<input 
+            id="Button4" type="button" value="Voltar" 
+	onclick="return executar_onvoltar()" />&nbsp;&nbsp;&nbsp;
+<input 
+            id="Button5" type="button" value="Avançar" 
+	onclick="return executar_onavancar()" />&nbsp;&nbsp;&nbsp;
+	
+<br />
+<br />
+Todos os metadados do livro:<br />
+<span id="resultado">livro ainda não carregado</span>
+
+</body>
+</html>

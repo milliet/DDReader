@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE package PUBLIC "+//ISBN 0-9673008-1-9//DTD OEB 1.2 Package//EN" "http://openebook.org/dtds/oeb-1.2/oebpkg12.dtd">
+<package unique-identifier="uid" xmlns="http://openebook.org/namespaces/oeb-package/1.0/">
+	  <metadata>
+	
+		    <dc-metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oebpackage="http://openebook.org/namespaces/oeb-package/1.0/">
+			      <dc:Format>ANSI/NISO Z39.86-2005</dc:Format>
+		       <dc:Language>pt-br</dc:Language>
+         <dc:Date>2009-12-08</dc:Date>
+         <dc:Creator>Pedro Milliet e Eduardo Perez</dc:Creator>
+         <dc:Publisher>FDNC</dc:Publisher>
+         <dc:Title>Tutorial DDReader</dc:Title>
+         <dc:Identifier id="uid">FDNC_1049</dc:Identifier>
+      </dc-metadata>
+	
+		    <x-metadata>
+			      <meta content="FullText" name="dtb:multimediaType"/>
+			      <meta content="DAISY Pipeline Narrator" name="dtb:narrator"/>
+		       <meta content="00:00:00" name="dtb:totalTime"/>
+         <meta content="text" name="dtb:multimediaContent"/>
+      </x-metadata>
+	
+	  </metadata>
+	
+	  <manifest>
+	     <item href="speechgen0001.smil" id="smil-1" media-type="application/smil"/>
+      <item href="speechgen0002.smil" id="smil-2" media-type="application/smil"/>
+      <item href="speechgen0003.smil" id="smil-3" media-type="application/smil"/>
+      <item href="speechgen0004.smil" id="smil-4" media-type="application/smil"/>
+      <item href="speechgen0005.smil" id="smil-5" media-type="application/smil"/>
+      <item href="speechgen0006.smil" id="smil-6" media-type="application/smil"/>
+      <item href="speechgen0007.smil" id="smil-7" media-type="application/smil"/>
+      <item href="speechgen0008.smil" id="smil-8" media-type="application/smil"/>
+      <item href="speechgen0009.smil" id="smil-9" media-type="application/smil"/>
+      <item href="speechgen0010.smil" id="smil-10" media-type="application/smil"/>
+      <item href="speechgen0011.smil" id="smil-11" media-type="application/smil"/>
+      <item href="speechgen0012.smil" id="smil-12" media-type="application/smil"/>
+      <item href="speechgen0013.smil" id="smil-13" media-type="application/smil"/>
+      <item href="speechgen0014.smil" id="smil-14" media-type="application/smil"/>
+      <item href="speechgen0015.smil" id="smil-15" media-type="application/smil"/>
+      <item href="speechgen0016.smil" id="smil-16" media-type="application/smil"/>
+      <item href="speechgen0017.smil" id="smil-17" media-type="application/smil"/>
+      <item href="speechgen0018.smil" id="smil-18" media-type="application/smil"/>
+      <item href="speechgen0019.smil" id="smil-19" media-type="application/smil"/>
+      <item href="speechgen0020.smil" id="smil-20" media-type="application/smil"/>
+      <item href="speechgen0021.smil" id="smil-21" media-type="application/smil"/>
+      <item href="speechgen0022.smil" id="smil-22" media-type="application/smil"/>
+      <item href="speechgen0023.smil" id="smil-23" media-type="application/smil"/>
+      <item href="speechgen0024.smil" id="smil-24" media-type="application/smil"/>
+      <item href="speechgen0025.smil" id="smil-25" media-type="application/smil"/>
+      <item href="speechgen0026.smil" id="smil-26" media-type="application/smil"/>
+      <item href="speechgen0027.smil" id="smil-27" media-type="application/smil"/>
+      <item href="speechgen0028.smil" id="smil-28" media-type="application/smil"/>
+      <item href="speechgen0029.smil" id="smil-29" media-type="application/smil"/>
+      <item href="speechgen0030.smil" id="smil-30" media-type="application/smil"/>
+      <item href="speechgen0031.smil" id="smil-31" media-type="application/smil"/>
+      <item href="speechgen0032.smil" id="smil-32" media-type="application/smil"/>
+      <item href="speechgen0033.smil" id="smil-33" media-type="application/smil"/>
+      <item href="speechgen0034.smil" id="smil-34" media-type="application/smil"/>
+      <item href="speechgen0035.smil" id="smil-35" media-type="application/smil"/>
+      <item href="speechgen0036.smil" id="smil-36" media-type="application/smil"/>
+      <item href="speechgen0037.smil" id="smil-37" media-type="application/smil"/>
+      <item href="speechgen0038.smil" id="smil-38" media-type="application/smil"/>
+      <item href="speechgen0039.smil" id="smil-39" media-type="application/smil"/>
+      <item href="speechgen.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <item href="saida.xml" id="opf-55" media-type="application/x-dtbook+xml"/>
+      
+      
+      
+      
+      <item href="tpbnarrator.res" id="resource" media-type="application/x-dtbresource+xml"/>
+      
+      
+      
+      
+      
+      
+      
+      
+      <item href="tutorial.opf" id="opf-68" media-type="text/xml"/>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <item href="dtbook.2005.basic.css" id="opf-82" media-type="text/css"/>
+   </manifest>
+	
+	  <spine>
+	     <itemref idref="smil-1"/>
+      <itemref idref="smil-2"/>
+      <itemref idref="smil-3"/>
+      <itemref idref="smil-4"/>
+      <itemref idref="smil-5"/>
+      <itemref idref="smil-6"/>
+      <itemref idref="smil-7"/>
+      <itemref idref="smil-8"/>
+      <itemref idref="smil-9"/>
+      <itemref idref="smil-10"/>
+      <itemref idref="smil-11"/>
+      <itemref idref="smil-12"/>
+      <itemref idref="smil-13"/>
+      <itemref idref="smil-14"/>
+      <itemref idref="smil-15"/>
+      <itemref idref="smil-16"/>
+      <itemref idref="smil-17"/>
+      <itemref idref="smil-18"/>
+      <itemref idref="smil-19"/>
+      <itemref idref="smil-20"/>
+      <itemref idref="smil-21"/>
+      <itemref idref="smil-22"/>
+      <itemref idref="smil-23"/>
+      <itemref idref="smil-24"/>
+      <itemref idref="smil-25"/>
+      <itemref idref="smil-26"/>
+      <itemref idref="smil-27"/>
+      <itemref idref="smil-28"/>
+      <itemref idref="smil-29"/>
+      <itemref idref="smil-30"/>
+      <itemref idref="smil-31"/>
+      <itemref idref="smil-32"/>
+      <itemref idref="smil-33"/>
+      <itemref idref="smil-34"/>
+      <itemref idref="smil-35"/>
+      <itemref idref="smil-36"/>
+      <itemref idref="smil-37"/>
+      <itemref idref="smil-38"/>
+      <itemref idref="smil-39"/>
+   </spine>
+
+</package>

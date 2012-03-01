@@ -1,0 +1,58 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<dialog id="lidad-confirm" class="windowBody"
+title="Confirmar operação"
+align="top" orient="vertical"
+xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+xmlns:html="http://www.w3.org/1999/xhtml"
+buttons="accept,cancel"
+buttonalign="center"
+   buttonlabelcancel="NÃO"
+   buttonlabelaccept="SIM"
+   ondialogaccept="return clickok();"
+	ondialogcancel="return clickcancel();"
+	onload="finishLoad();"
+>
+
+	<script type="text/javascript">
+		var RunningInsideTutorial = false;
+		var RunningInsideExercises = false;
+	</script>
+	<script src="../../../js/CPref.js" type="text/javascript"></script>
+	<script src="../../../js/CLocale.js" type="text/javascript"></script>
+	<script src="../../../js/CMsg.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CMsgIface.js" type="text/javascript"></script>
+	<script src="../../../js/CSpell.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CSpellMsg.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils_ff.js" type="text/javascript"></script>
+	<script src="../../../js/CExcept.js" type="text/javascript"></script>
+	<script src="../../../js/CTextItem.js" type="text/javascript"></script>
+	<script src="../../../js/CTextArray.js" type="text/javascript"></script>
+	<script src="../../../js/CTextLimits.js" type="text/javascript"></script>
+	<script src="../../../js/CDialogs.js" type="text/javascript"></script>
+	<script src="../../../js/CDlgManager.js" type="text/javascript"></script>
+	<script src="../../../js/CSpeak.js" type="text/javascript"></script>
+	<script src="../../../jsdlg/Confirm.js" type="text/javascript"></script>
+<html:link href="../800/css/LidaDDlgs.css" rel="stylesheet" type="text/css"/>
+	 <html:link href="../1024/css/LidaDDlgs.css" rel="stylesheet" type="text/css"/> 
+	<script>
+	document.styleSheets[2].disabled = CPref.interfaceRes();
+	</script>
+	<vbox>
+		<hbox align="center" class="TitBox" >
+			<label id="confirm.alert" value="AVISO" class="LabelTitulo"  align="center" />
+		</hbox>
+
+		<vbox align="left">
+			<label id="confirm.message" value="Confirma a operação?" class="Labels"  />
+			<label id="confirm.extra" value="" class="Labels" />
+		</vbox>
+
+		<hbox align="left">
+			<button dlgtype="accept" id="confirm.botok" label="SIM" onfocus="manager.foco(this);" />
+			<button dlgtype="cancel" id="confirm.botcancel" label="NÃO" onfocus="manager.foco(this);" />
+		</hbox>
+	</vbox>
+
+</dialog>

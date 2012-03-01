@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+xmlns:html="http://www.w3.org/1999/xhtml"
+title="DDReader - Leitura de Livros Digitais DAISY." style="background-color:#000000;"
+onload="initlauncher();" >
+
+	<script type="text/javascript">
+		var RunningInsideTutorial = false;
+		var RunningInsideExercises = false;
+	</script>
+	<script src="js/CPref.js" type="text/javascript"></script>
+	<script src="skin/acc/common/LidaD.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	function initlauncher()
+	{
+		//chamamos o init do lidad.js para ja colocar no tamanho certo
+		init();
+		
+		//processar os parametros da linha de comando
+		//repassamos diretamente para a extensao em si
+		//CDRUN=1 ORIGEM=path_do_cd
+
+		var flags = "chrome,resizable";
+		var nome_janela = "lidad_main";
+		var alvo = "chrome://lidad/content/skin/acc/1024/LidaD.xul" + document.location.search;
+		//por equanto, so temos a interface acc
+		if(CPref.interfaceRes())
+			alvo = "chrome://lidad/content/skin/acc/800/LidaD.xul" + document.location.search;
+			
+		//iface visual
+		if(CPref.skin_visual())
+		{
+			alvo = "chrome://lidad/content/skin/visual/base/LidaD.xul" + document.location.search;
+			nome_janela = "lidad_main_visual";
+		}
+
+		try
+		{
+			if(window.name != nome_janela)
+			{
+				var nw = window.open(alvo,nome_janela,flags);
+				nw.focus();
+				window.close();
+			}
+			else
+			{
+				window.focus();
+				document.location = alvo;
+			}
+		}
+		catch(e)
+		{
+			var nw = window.open(alvo,nome_janela,flags);
+			nw.focus();
+			window.close();
+		}
+	}
+	</script>
+
+	<hbox>
+		<spacer width="20" minwidth="20" maxwidth="20" />
+		<label value="Please wait while DDR is loading..." style="	font: bold 32px Verdana, Arial, Helvetica, sans-serif; color: #FFFF00;"/>
+		<spacer width="20" minwidth="20" maxwidth="20" />
+	</hbox>
+</window>

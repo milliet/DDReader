@@ -1,0 +1,116 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<dialog id="lidad-spell" class="windowBody"
+title="DDR - Soletração"
+align="top" orient="vertical"
+xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+xmlns:html="http://www.w3.org/1999/xhtml"
+buttons="cancel"
+buttonalign="left"
+buttonlabelcancel="FECHAR"
+ondialogcancel="return clickcancel();"
+onload="finishload();"
+onkeypress="CKeys.keypress(event);"
+>
+
+	<script type="text/javascript">
+		var RunningInsideTutorial = false;
+		var RunningInsideExercises = false;
+	</script>
+	<script src="../../../js/CPref.js" type="text/javascript"></script>
+	<script src="../../../js/CLocale.js" type="text/javascript"></script>
+	<script src="../../../js/CMsg.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CMsgIface.js" type="text/javascript"></script>
+	<script src="../../../js/CSpell.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CSpellMsg.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils_ff.js" type="text/javascript"></script>
+	<script src="../../../js/CExcept.js" type="text/javascript"></script>
+	<script src="../../../js/CTextItem.js" type="text/javascript"></script>
+	<script src="../../../js/CTextArray.js" type="text/javascript"></script>
+	<script src="../../../js/CTextLimits.js" type="text/javascript"></script>
+	<script src="../../../js/CDialogs.js" type="text/javascript"></script>
+	<script src="../../../js/CDlgManager.js" type="text/javascript"></script>
+	<script src="../../../js/CSpeak.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CTutorial.js" type="text/javascript"></script>
+
+	<html:link href="../base/css/LidaDDlgs.css" rel="stylesheet" type="text/css"/>
+	<script src="../../../jsdlg/Spell.js" type="text/javascript"></script>
+	
+
+	<vbox>
+		<hbox align="left" class="TitBox" flex="1">
+			<label id="spell.title" value="SOLETRAÇÃO" class="LabelTitulo"  align="left" />
+		</hbox>
+
+
+		<spacer class="spacer5H"/>
+
+		<!-- ATÉ AQUI É NOVO VEIO DO LIDA.XUL -->
+		<!-- ATÉ AQUI É NOVO VEIO DO LIDA.XUL -->
+		<!-- ATÉ AQUI É NOVO VEIO DO LIDA.XUL -->
+
+		<hbox>
+			<spacer class="spacer5W" />
+			<toolbox class="BuscaArquivotoolBar" >
+				<toolbar id="comandos" class="BuscaArquivotoolBar">
+					<toolbarbutton id="toolPrev" image="img/previous.gif"  class="BuscaArquivotoolBarButton" oncommand="clicktoolPrev()"  onfocus="changefocus()"/>
+					<toolbarbutton id="toolNext" image="img/next.gif" class="BuscaArquivotoolBarButton" oncommand="clicktoolNext()"  onfocus="changefocus()"/>
+					<spacer class="spacer2W" />
+					<vbox align="center" pack="center" class="bgPreto">
+						<vbox  height="40" align="bottom" pack="bottom" >
+							<spacer flex="1" />
+							<image src="../img/voltts.jpg" id="imagevoltts" height="40"  />
+						</vbox>
+						<label id="spell.volttsLABEL" value="tts" class="BuscaArquivoVolVelLabel" align="center" />
+					</vbox>
+
+					<spacer  class="spacer2W"  />
+
+					<vbox align="center" pack="center" class="bgPreto">
+						<vbox  height="40" align="bottom" pack="bottom">
+							<spacer flex="1" />
+							<image height="30" src="../img/veltts.jpg" id="imageveltts" />
+						</vbox>
+						<label id="spell.veloLABEL" value="velo" class="BuscaArquivoVolVelLabel"  align="center" />
+
+					</vbox>
+					<spacer  class="spacer2W"  />
+				</toolbar>
+			</toolbox>
+			<spacer  class="spacer90W"  />
+			<button id="toolSpell" label="Soletrar" class="butOk" oncommand="clickspell()" />
+			<spacer flex="1" />
+
+			<checkbox oncommand="clicknavigateauto()" class="Labels" id="navigateauto" label="Automático" checked="false" onfocus="changefocus()"/>
+
+			<spacer flex="1" />
+			<tooltip id="ButHelp" class="toolTipes" orient="vertical" noautohide="TRUE">
+				<label id="spell.help" value="Clique para acessar a AJUDA" />
+			</tooltip>
+			<toolbarbutton id="toolAjuda" class="BuscaArquivotoolBarButton" image="img/ajuda_spell.gif" tooltip="ButHelp" oncommand="clickhelp()" onfocus="changefocus()"/>
+
+
+
+		</hbox>
+
+		<iframe src="SpellFrame.html" class="BuscaArquivoInicioFrame" id="texto" />
+		<hbox align="center">
+
+			<button dlgtype="cancel" id="spell.botcancel" label="FECHAR"  />
+			<spacer flex="1" />
+
+			<label id="spell.fontSize" control="fontSize" value="Tamanho de fonte: "  class="Labels"/>
+			<menulist id="fontSize" oncommand="changefont()" onfocus="changefocus()">
+				<menupopup id="fontS">
+					<menuitem label="100%" value="100" />
+					<menuitem label="125%" value="125" />
+					<menuitem label="150%" value="150" />
+					<menuitem label="175%" value="175" />
+					<menuitem label="200%" value="200" />
+				</menupopup>
+			</menulist>
+		</hbox>
+	</vbox>
+
+</dialog>

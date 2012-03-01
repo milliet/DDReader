@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<base id="basehrefid" href="chrome://lidad/xorongas" />
+    <title>TesteCUtils_ConvertClock.html</title>
+
+
+	<script src="js/CExcept.js" type="text/javascript"></script>
+	<script src="js/CUtils.js" type="text/javascript"></script>
+	<script src="js/CUtils_ff.js" type="text/javascript"></script>
+
+	<script src="js/CPref.js" type="text/javascript"></script>
+	<script src="js/CLocale.js" type="text/javascript"></script>
+	<script src="js/CMsg.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+// <!CDATA[
+
+function testar(texto, valor) {
+document.write("testando " + texto);
+document.write(" esperado " + valor + ", obtido " + new CUtilsConvert(texto).Convert() );
+if(valor == new CUtilsConvert(texto).Convert())
+	document.write("-- OK!! ");
+else
+	{
+	document.write("----------------- ERRO------------------------------ ");
+	alert("erro!!!");
+	}
+	document.write("<br>");
+}
+
+
+
+// ]]>
+</script>
+</head>
+<body>
+
+    <p>
+        Teste do CUtils_ConvertClock
+    </p>
+    <script>
+/*
+    * Full clock values: 
+        02:30:03    = 2 hours, 30 minutes and 3 seconds
+        50:00:10.25 = 50 hours, 10 seconds and 250 milliseconds
+    * Partial clock value: 
+        02:33   = 2 minutes and 33 seconds
+        00:10.5 = 10.5 seconds = 10 seconds and 500 milliseconds
+    * Timecount values:
+        3.2h    = 3.2 hours = 3 hours and 12 minutes
+        45min   = 45 minutes
+        30s     = 30 seconds
+        5ms     = 5 milliseconds
+        12.467  = 12 seconds and 467 milliseconds
+*/
+    
+    testar("02:30:03", ((2*60 + 30) * 60 + 3) * 1000);
+    testar("50:00:10.25", ((50*60 + 0) * 60 + 10) * 1000 + 250);
+    testar("02:33", ((2*60 + 33)) * 1000);
+    testar("00:10.5", 10500);
+
+    testar("3.2h", ((3.2 *60 ) * 60 ) * 1000);
+    testar("45min", ((45 *60 ) ) * 1000);
+    testar("30s", 30000);
+    testar("5ms", 5);
+    testar("5", 5000);
+    testar("12.467", 12467);
+    
+    testar("  12.467      ", 12467);
+    testar("50:00:10.258734", ((50*60 + 0) * 60 + 10) * 1000 + 258.734);
+  
+  function rodar()
+  {
+	var x = new CUtilsConvert("02:30:03").Convert();
+	var y = CUtils.FileExist("X:\\Untitled-1.html");
+	y = CUtils.FileExist("file:///X:/Untitled-1.html");
+	y = CUtils.FileExist("file:///X:/Untitled-1.htmlxxx");
+
+y = document.getElementById("basehrefid");
+
+	alert(y);
+	
+  }
+  
+//tratamento das excecoes nao gerenciadas
+function CExceptUnhandled(message, url, code)
+{
+	//msg = msg.toString();
+	alert(message);
+	alert(scopeChain.toString());
+}
+window.onerror = CExceptUnhandled;
+  
+  function teste2()
+  {
+  throw 1;
+  }
+    
+    </script>
+    
+<br /> fim dos testes    
+
+<br />
+<br />
+<br />
+para testar com botao: <input type=button onclick="javascript:rodar()" value="Rodar" />
+
+<br />
+<br />
+<br />
+teste 2: <input type=button onclick="javascript:teste2()" value="teste2" />
+
+</body>
+</html>

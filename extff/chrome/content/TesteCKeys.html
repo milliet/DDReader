@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>CHist</title>
+
+
+	<script src="js/CPref.js" type="text/javascript"></script>
+	<script src="js/CLocale.js" type="text/javascript"></script>
+	<script src="js/CMsg.js" type="text/javascript"></script>
+	<script src="jscmd/CMsgIface.js" type="text/javascript"></script>
+	<script src="js/CUtils.js" type="text/javascript"></script>
+	<script src="js/CUtils_ff.js" type="text/javascript"></script>
+	<script src="js/CExcept.js" type="text/javascript"></script>
+	<script src="js/CTextItem.js" type="text/javascript"></script>
+	<script src="js/CTextArray.js" type="text/javascript"></script>
+	<script src="js/CTextLimits.js" type="text/javascript"></script>
+	<script src="js/CDialogs.js" type="text/javascript"></script>
+	<script src="js/CSpeak.js" type="text/javascript"></script>
+	<script src="js/CTextfileArray.js" type="text/javascript"></script>
+	<script src="js/CTextfileItem.js" type="text/javascript"></script>
+	<script src="js/CSMILFile.js" type="text/javascript"></script>
+	<script src="js/CSMILArray.js" type="text/javascript"></script>
+	<script src="js/CSMILExerc.js" type="text/javascript"></script>
+	<script src="js/CNCX.js" type="text/javascript"></script>
+	<script src="js/COPFFile.js" type="text/javascript"></script>
+	<script src="js/CCripto.js" type="text/javascript"></script> 
+	<script src="js/CMarks.js" type="text/javascript"></script>
+	<script src="js/COPFPrefs.js" type="text/javascript"></script>
+	<script src="js/CHist.js" type="text/javascript"></script>
+	<script src="jscmd/COPFControExercise.js" type="text/javascript"></script>
+	<script src="jscmd/COPFControl.js" type="text/javascript"></script>
+	<script src="js/CDlgExerciseManager.js" type="text/javascript"></script>
+	<script src="jscmd/CButtons.js" type="text/javascript"></script>
+	<script src="jscmd/CTools.js" type="text/javascript"></script>
+	<script src="jscmd/CKeys.js" type="text/javascript"></script>
+	<script src="jscmd/CmdHist.js" type="text/javascript"></script>
+	<script src="jscmd/CmdNcx.js" type="text/javascript"></script>
+	<script src="jscmd/CmdInfo.js" type="text/javascript"></script>
+	<script src="jscmd/CmdLibNdx.js" type="text/javascript"></script>
+	<script src="jscmd/CmdMain.js" type="text/javascript"></script>
+	<script src="jscmd/CmdRead.js" type="text/javascript"></script>
+	<script src="jscmd/CmdSplash.js" type="text/javascript"></script>
+
+	<script src="jscmd/CKeys.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+
+function CKeyskeydown(event)
+{
+	var x=event;
+	//CKeys.keydown(event);
+}
+
+function CKeyskeypress(event)
+{
+	var x=event;
+	event.preventDefault();
+	
+//	event.stopPropagation();
+//	event.preventBubble();
+//	event.bubbles = false;
+//	event.cancelBubble = true;
+	//CKeys.keydown(event);
+	
+	document.getElementById("resultado").textContent = event.timeStamp + " event.keyCode " + event.keyCode + " event.charCode " + event.charCode;
+}
+
+
+
+</script>
+	</head>
+<body onkeydown="CKeyskeydown(event);" onkeypress="CKeyskeypress(event);"  >
+
+    <p>
+        Teste do CKeys
+    </p>
+    <p>
+        Tá no script, tem que debugar para ver as teclas que volta....&nbsp;&nbsp;&nbsp;
+&nbsp;</p>
+
+<span id="resultado">resultado da tecla</span>
+&nbsp;
+
+</body>
+</html>

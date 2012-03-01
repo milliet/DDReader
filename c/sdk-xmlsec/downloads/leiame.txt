@@ -1,0 +1,7 @@
+xmlsec
+baixados de:
+http://www.aleksey.com/xmlsec/index.html
+
+tem versao compilada em 
+http://www.zlatkovic.com/pub/libxml/
+

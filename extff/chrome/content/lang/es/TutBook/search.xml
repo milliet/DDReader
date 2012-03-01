@@ -1,0 +1,3472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<search>
+<letters>abcdefghijklmnopqrstuvwxyzáàãâäçñéèêëíìîïóòôõöúùûü,.-0123456789%'</letters>
+<stopwords>
+<sword>-</sword>
+<sword>a</sword>
+<sword>à</sword>
+<sword>às</sword>
+<sword>abaixo</sword>
+<sword>acima</sword>
+<sword>acolá</sword>
+<sword>agora</sword>
+<sword>aí</sword>
+<sword>ainda</sword>
+<sword>al</sword>
+<sword>além</sword>
+<sword>algo</sword>
+<sword>alguém</sword>
+<sword>algum</sword>
+<sword>alguma</sword>
+<sword>algumas</sword>
+<sword>alguns</sword>
+<sword>alí</sword>
+<sword>aliás</sword>
+<sword>ambos</sword>
+<sword>andar</sword>
+<sword>anteontem</sword>
+<sword>anteriormente</sword>
+<sword>antes</sword>
+<sword>ao</sword>
+<sword>aonde</sword>
+<sword>aos</sword>
+<sword>aparentemente</sword>
+<sword>apenas</sword>
+<sword>apesar</sword>
+<sword>após</sword>
+<sword>apropriado</sword>
+<sword>aquela</sword>
+<sword>aquelas</sword>
+<sword>aquele</sword>
+<sword>aqueles</sword>
+<sword>aqui</sword>
+<sword>aquilo</sword>
+<sword>as</sword>
+<sword>assim</sword>
+<sword>até</sword>
+<sword>atràs</sword>
+<sword>através</sword>
+<sword>atualmente</sword>
+<sword>automaticamente</sword>
+<sword>b</sword>
+<sword>basicamente</sword>
+<sword>bastante</sword>
+<sword>bem</sword>
+<sword>bilhão</sword>
+<sword>bilhões</sword>
+<sword>bonito</sword>
+<sword>c</sword>
+<sword>cada</sword>
+<sword>catorze</sword>
+<sword>cedo</sword>
+<sword>cem</sword>
+<sword>certamente</sword>
+<sword>cinco</sword>
+<sword>cinquenta</sword>
+<sword>claramente</sword>
+<sword>com</sword>
+<sword>comigo</sword>
+<sword>como</sword>
+<sword>conciso</sword>
+<sword>conforme</sword>
+<sword>conosco</sword>
+<sword>consequentemente</sword>
+<sword>consigo</sword>
+<sword>contigo</sword>
+<sword>contra</sword>
+<sword>contudo</sword>
+<sword>correntemente</sword>
+<sword>cuja</sword>
+<sword>cujo</sword>
+<sword>d</sword>
+<sword>da</sword>
+<sword>daquela</sword>
+<sword>daquelas</sword>
+<sword>daquele</sword>
+<sword>daqueles</sword>
+<sword>daquilo</sword>
+<sword>das</sword>
+<sword>de</sword>
+<sword>debaixo</sword>
+<sword>definitivamente</sword>
+<sword>defronte</sword>
+<sword>dela</sword>
+<sword>dele</sword>
+<sword>delas</sword>
+<sword>deles</sword>
+<sword>demais</sword>
+<sword>dentro</sword>
+<sword>depois</sword>
+<sword>desde</sword>
+<sword>dessa</sword>
+<sword>dessas</sword>
+<sword>desse</sword>
+<sword>desses</sword>
+<sword>desta</sword>
+<sword>destas</sword>
+<sword>deste</sword>
+<sword>destes</sword>
+<sword>dez</sword>
+<sword>dezeseis</sword>
+<sword>diante</sword>
+<sword>dificilmente</sword>
+<sword>diretamente</sword>
+<sword>disponivel</sword>
+<sword>disso</sword>
+<sword>disto</sword>
+<sword>do</sword>
+<sword>dois</sword>
+<sword>dos</sword>
+<sword>doze</sword>
+<sword>durante</sword>
+<sword>duzentos</sword>
+<sword>e</sword>
+<sword>é</sword>
+<sword>ela</sword>
+<sword>elas</sword>
+<sword>êle</sword>
+<sword>ele</sword>
+<sword>eles</sword>
+<sword>em</sword>
+<sword>embora</sword>
+<sword>enquanto</sword>
+<sword>então</sword>
+<sword>entre</sword>
+<sword>entretanto</sword>
+<sword>especialmente</sword>
+<sword>essa</sword>
+<sword>essas</sword>
+<sword>esse</sword>
+<sword>esses</sword>
+<sword>esta</sword>
+<sword>estar</sword>
+<sword>estas</sword>
+<sword>este</sword>
+<sword>estes</sword>
+<sword>etc</sword>
+<sword>eu</sword>
+<sword>ex</sword>
+<sword>exatamente</sword>
+<sword>exceto</sword>
+<sword>exclusivamente</sword>
+<sword>f</sword>
+<sword>facilmente</sword>
+<sword>fazer</sword>
+<sword>felizmente</sword>
+<sword>ficar</sword>
+<sword>finalmente</sword>
+<sword>fora</sword>
+<sword>frequentemente</sword>
+<sword>g</sword>
+<sword>geralmente</sword>
+<sword>h</sword>
+<sword>há</sword>
+<sword>haver</sword>
+<sword>i</sword>
+<sword>inicialmente</sword>
+<sword>inteiramente</sword>
+<sword>isso</sword>
+<sword>isto</sword>
+<sword>j</sword>
+<sword>já</sword>
+<sword>jamais</sword>
+<sword>junto</sword>
+<sword>k</sword>
+<sword>km</sword>
+<sword>l</sword>
+<sword>lá</sword>
+<sword>logo</sword>
+<sword>longe</sword>
+<sword>m</sword>
+<sword>maioria</sword>
+<sword>mais</sword>
+<sword>mal</sword>
+<sword>mas</sword>
+<sword>me</sword>
+<sword>mediante</sword>
+<sword>melhor</sword>
+<sword>menor</sword>
+<sword>menos</sword>
+<sword>mesma</sword>
+<sword>mesmas</sword>
+<sword>mesmo</sword>
+<sword>mesmos</sword>
+<sword>meu</sword>
+<sword>meus</sword>
+<sword>mil</sword>
+<sword>milhão</sword>
+<sword>milhares</sword>
+<sword>milhões</sword>
+<sword>mim</sword>
+<sword>minha</sword>
+<sword>minhas</sword>
+<sword>muita</sword>
+<sword>muitas</sword>
+<sword>muito</sword>
+<sword>muitos</sword>
+<sword>n</sword>
+<sword>na</sword>
+<sword>nas</sword>
+<sword>nada</sword>
+<sword>não</sword>
+<sword>naquilo</sword>
+<sword>naquele</sword>
+<sword>naquela</sword>
+<sword>naqueles</sword>
+<sword>naquelas</sword>
+<sword>necessário</sword>
+<sword>nela</sword>
+<sword>nele</sword>
+<sword>nem</sword>
+<sword>nenhum</sword>
+<sword>nenhuma</sword>
+<sword>nenhuns</sword>
+<sword>nenhumas</sword>
+<sword>nessa</sword>
+<sword>nessas</sword>
+<sword>nesse</sword>
+<sword>nesses</sword>
+<sword>nesta</sword>
+<sword>nestas</sword>
+<sword>neste</sword>
+<sword>nestes</sword>
+<sword>ninguém</sword>
+<sword>nisso</sword>
+<sword>nisto</sword>
+<sword>no</sword>
+<sword>nono</sword>
+<sword>normalmente</sword>
+<sword>nós</sword>
+<sword>nos</sword>
+<sword>nossa</sword>
+<sword>nossas</sword>
+<sword>nosso</sword>
+<sword>nossos</sword>
+<sword>novamente</sword>
+<sword>nove</sword>
+<sword>novecentos</sword>
+<sword>noventa</sword>
+<sword>num</sword>
+<sword>numa</sword>
+<sword>nuns</sword>
+<sword>numas</sword>
+<sword>nunca</sword>
+<sword>o</sword>
+<sword>oitenta</sword>
+<sword>oito</sword>
+<sword>oitocentos</sword>
+<sword>onde</sword>
+<sword>ontem</sword>
+<sword>onze</sword>
+<sword>opcionalmente</sword>
+<sword>os</sword>
+<sword>ou</sword>
+<sword>outra</sword>
+<sword>outro</sword>
+<sword>p</sword>
+<sword>para</sword>
+<sword>parecer</sword>
+<sword>pela</sword>
+<sword>pelas</sword>
+<sword>pelo</sword>
+<sword>pelos</sword>
+<sword>perante</sword>
+<sword>permanecer</sword>
+<sword>pior</sword>
+<sword>pois</sword>
+<sword>por</sword>
+<sword>porém</sword>
+<sword>porquanto</sword>
+<sword>porque</sword>
+<sword>portanto</sword>
+<sword>possivelmente</sword>
+<sword>posteriormente</sword>
+<sword>pouca</sword>
+<sword>poucas</sword>
+<sword>pouco</sword>
+<sword>poucos</sword>
+<sword>praticamente</sword>
+<sword>primeiramente</sword>
+<sword>primeiro</sword>
+<sword>principalmente</sword>
+<sword>prontamente</sword>
+<sword>provavelmente</sword>
+<sword>q</sword>
+<sword>quais</sword>
+<sword>qual</sword>
+<sword>qualquer</sword>
+<sword>quaisquer</sword>
+<sword>quando</sword>
+<sword>quanta</sword>
+<sword>quantas</sword>
+<sword>quanto</sword>
+<sword>quantos</sword>
+<sword>quarenta</sword>
+<sword>quase</sword>
+<sword>quatorze</sword>
+<sword>quatro</sword>
+<sword>que</sword>
+<sword>quem</sword>
+<sword>quinto</sword>
+<sword>quinze</sword>
+<sword>r</sword>
+<sword>rapidamente</sword>
+<sword>realmente</sword>
+<sword>s</sword>
+<sword>se</sword>
+<sword>segundo</sword>
+<sword>seis</sword>
+<sword>seiscentos</sword>
+<sword>seja</sword>
+<sword>sem</sword>
+<sword>sempre</sword>
+<sword>senao</sword>
+<sword>ser</sword>
+<sword>sessenta</sword>
+<sword>sete</sword>
+<sword>setecentos</sword>
+<sword>setenta</sword>
+<sword>seu</sword>
+<sword>seus</sword>
+<sword>si</sword>
+<sword>sim</sword>
+<sword>só</sword>
+<sword>sob</sword>
+<sword>sobre</sword>
+<sword>somente</sword>
+<sword>sua</sword>
+<sword>suas</sword>
+<sword>súbito</sword>
+<sword>t</sword>
+<sword>tais</sword>
+<sword>tal</sword>
+<sword>talvez</sword>
+<sword>também</sword>
+<sword>tanta</sword>
+<sword>tantas</sword>
+<sword>tanto</sword>
+<sword>tantos</sword>
+<sword>tão</sword>
+<sword>te</sword>
+<sword>tem</sword>
+<sword>tel</sword>
+<sword>ter</sword>
+<sword>terceiro</sword>
+<sword>teu</sword>
+<sword>ti</sword>
+<sword>toda</sword>
+<sword>todas</sword>
+<sword>todavia</sword>
+<sword>todo</sword>
+<sword>todos</sword>
+<sword>trás</sword>
+<sword>tres</sword>
+<sword>treze</sword>
+<sword>trezentos</sword>
+<sword>trinta</sword>
+<sword>tu</sword>
+<sword>tua</sword>
+<sword>tudo</sword>
+<sword>u</sword>
+<sword>ultimamente</sword>
+<sword>um</sword>
+<sword>uma</sword>
+<sword>umas</sword>
+<sword>uns</sword>
+<sword>v</sword>
+<sword>várias</sword>
+<sword>vários</sword>
+<sword>vem</sword>
+<sword>vez</sword>
+<sword>vezes</sword>
+<sword>vinte</sword>
+<sword>você</sword>
+<sword>vós</sword>
+<sword>vossa</sword>
+<sword>vosso</sword>
+<sword>vossas</sword>
+<sword>vossos</sword>
+<sword>w</sword>
+<sword>x</sword>
+<sword>z</sword>
+<sword>zero</sword>
+
+</stopwords>
+
+<searchwords>
+
+<word id="id2">
+<text>-10</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id3">
+<text>.</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id4">
+<text>0</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id5">
+<text>1</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id6">
+<text>1.1</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id7">
+<text>1.2</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id8">
+<text>1.3</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id9">
+<text>1.4</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id10">
+<text>1.5</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id11">
+<text>10</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id12">
+<text>100</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id13">
+<text>11</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id14">
+<text>12</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id15">
+<text>13</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id16">
+<text>14</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id17">
+<text>15</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id18">
+<text>2</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id19">
+<text>2.1</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id20">
+<text>2.2</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id21">
+<text>2.3</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id22">
+<text>2.4</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id23">
+<text>2006</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id24">
+<text>2007</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id25">
+<text>2008</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id26">
+<text>2009</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id27">
+<text>3</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id28">
+<text>3.0</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id29">
+<text>3.1</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id30">
+<text>3.2</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id31">
+<text>4</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id32">
+<text>4.1</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id33">
+<text>4.2</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id34">
+<text>4.3</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id35">
+<text>5</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id36">
+<text>5.1</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id37">
+<text>5.2</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id38">
+<text>6</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id39">
+<text>6.1</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id40">
+<text>6.2</text>
+<smilfile>search_0.xml</smilfile>
+</word>
+<word id="id41">
+<text>7</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id42">
+<text>7.1</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id43">
+<text>7.2</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id44">
+<text>8</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id45">
+<text>8.1</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id46">
+<text>8.2</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id47">
+<text>9</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id49">
+<text>abajo</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id50">
+<text>abierta</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id51">
+<text>abierto</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id52">
+<text>abiertos</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id53">
+<text>abra</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id54">
+<text>abre</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id55">
+<text>abriendo</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id56">
+<text>abrir</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id57">
+<text>abrirá</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id58">
+<text>accede</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id59">
+<text>acceden</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id60">
+<text>acceder</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id61">
+<text>accedida</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id62">
+<text>accesibles</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id63">
+<text>acción</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id64">
+<text>activa</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id65">
+<text>activada</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id66">
+<text>activados</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id67">
+<text>activar</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id68">
+<text>activo</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id69">
+<text>actual</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id70">
+<text>actualizaciones</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id71">
+<text>actualización</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id72">
+<text>acuerdo</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id73">
+<text>además</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id74">
+<text>adicionado</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id75">
+<text>adición</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id76">
+<text>adopta</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id77">
+<text>ahora</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id79">
+<text>algunas</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id80">
+<text>algunos</text>
+<smilfile>search_1.xml</smilfile>
+</word>
+<word id="id81">
+<text>algún</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id82">
+<text>almacena</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id83">
+<text>almacenada</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id84">
+<text>almacenado</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id85">
+<text>almacenados</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id86">
+<text>almacenar</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id87">
+<text>almacenará</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id88">
+<text>alrededor</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id89">
+<text>alt</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id90">
+<text>alterar</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id91">
+<text>alterna</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id92">
+<text>alternar</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id93">
+<text>alto</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id94">
+<text>amor</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id95">
+<text>amores</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id96">
+<text>amoroso</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id97">
+<text>anotaciones</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id98">
+<text>anotación</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id99">
+<text>anotaciónes</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id100">
+<text>anterior</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id101">
+<text>anteriores</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id104">
+<text>antiguos</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id105">
+<text>apagada</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id106">
+<text>apagado</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id107">
+<text>apertura</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id108">
+<text>aplicativo</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id109">
+<text>aproximada</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id110">
+<text>aquí</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id111">
+<text>archivo</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id112">
+<text>archivos</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id113">
+<text>arriba</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id114">
+<text>asunto</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id115">
+<text>así</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id116">
+<text>audio</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id117">
+<text>aumenta</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id118">
+<text>aumentar</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id119">
+<text>automática</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id120">
+<text>automáticamente</text>
+<smilfile>search_2.xml</smilfile>
+</word>
+<word id="id121">
+<text>automático</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id122">
+<text>autor</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id123">
+<text>avanzar</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id124">
+<text>avisa</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id125">
+<text>ayuda</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id126">
+<text>bajo</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id127">
+<text>barra</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id128">
+<text>base</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id130">
+<text>beep</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id131">
+<text>bibliográficos</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id132">
+<text>biblioteca</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id133">
+<text>borra</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id134">
+<text>borrar</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id135">
+<text>boton</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id136">
+<text>botones</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id137">
+<text>botón</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id138">
+<text>busca</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id139">
+<text>buscar</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id140">
+<text>buscará</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id141">
+<text>busqueda</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id142">
+<text>búsqueda</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id143">
+<text>búsquedas</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id146">
+<text>caja</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id147">
+<text>cajas</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id148">
+<text>cambia</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id149">
+<text>cambiadas</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id150">
+<text>cambiar</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id151">
+<text>cambie</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id152">
+<text>cambios</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id153">
+<text>campo</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id154">
+<text>campos</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id155">
+<text>cancelar</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id156">
+<text>cancele</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id157">
+<text>capacidad</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id158">
+<text>capítulos</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id159">
+<text>caracteres</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id160">
+<text>característico</text>
+<smilfile>search_3.xml</smilfile>
+</word>
+<word id="id161">
+<text>carpeta</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id162">
+<text>carácter</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id163">
+<text>caso</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id164">
+<text>cd</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id165">
+<text>cero</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id166">
+<text>cerrar</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id167">
+<text>ciegos</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id168">
+<text>cierra</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id169">
+<text>clic</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id170">
+<text>click</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id171">
+<text>coma</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id172">
+<text>comando</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id173">
+<text>comandos</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id174">
+<text>combinaciones</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id175">
+<text>combinación</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id176">
+<text>comienza</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id178">
+<text>compartido</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id179">
+<text>compatible</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id180">
+<text>compatibles</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id181">
+<text>complementos</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id182">
+<text>completo</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id183">
+<text>computador</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id184">
+<text>con</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id185">
+<text>conexión</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id186">
+<text>config</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id187">
+<text>configuraciones</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id188">
+<text>configuración</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id189">
+<text>configurado</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id190">
+<text>confirma</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id191">
+<text>confirmación</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id192">
+<text>confirmar</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id193">
+<text>confirme</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id194">
+<text>consorcio</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id195">
+<text>consulte</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id196">
+<text>contenido</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id197">
+<text>contenidos</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id198">
+<text>contextual</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id199">
+<text>contiene</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id200">
+<text>continúa</text>
+<smilfile>search_4.xml</smilfile>
+</word>
+<word id="id201">
+<text>contrario</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id202">
+<text>control</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id203">
+<text>controles</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id204">
+<text>copia</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id205">
+<text>copiado</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id206">
+<text>correo</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id207">
+<text>corresponde</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id208">
+<text>corresponden</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id209">
+<text>correspondiente</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id210">
+<text>correspondientes</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id211">
+<text>crea</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id212">
+<text>creación</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id213">
+<text>creada</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id214">
+<text>crear</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id215">
+<text>créditos</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id216">
+<text>cuadro</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id217">
+<text>cualquier</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id218">
+<text>cuando</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id219">
+<text>cubrirá</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id220">
+<text>cuestión</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id221">
+<text>cómo</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id223">
+<text>dados</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id224">
+<text>daisy</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id225">
+<text>daisylatino</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id226">
+<text>dar</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id227">
+<text>datos</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id228">
+<text>ddp</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id229">
+<text>ddr</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id230">
+<text>ddreader</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id232">
+<text>debe</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id233">
+<text>deberá</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id234">
+<text>defecto</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id235">
+<text>define</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id236">
+<text>definición</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id237">
+<text>del</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id238">
+<text>delete</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id239">
+<text>deletreada</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id240">
+<text>deletrear</text>
+<smilfile>search_5.xml</smilfile>
+</word>
+<word id="id241">
+<text>deletreo</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id242">
+<text>demorada</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id244">
+<text>dependiendo</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id245">
+<text>derecha</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id246">
+<text>desactiva</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id247">
+<text>desactivada</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id248">
+<text>desactivar</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id249">
+<text>desarrollado</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id250">
+<text>desarrollados</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id251">
+<text>descarta</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id252">
+<text>descartar</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id253">
+<text>describa</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id254">
+<text>descripción</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id256">
+<text>desea</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id257">
+<text>deseada</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id258">
+<text>deseado</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id259">
+<text>deshabilitar</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id260">
+<text>deshace</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id261">
+<text>deshacer</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id262">
+<text>después</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id263">
+<text>destacada</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id264">
+<text>detalles</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id265">
+<text>dialogo</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id266">
+<text>diferenciado</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id267">
+<text>diferentes</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id268">
+<text>digitación</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id269">
+<text>digitadas</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id270">
+<text>digitado</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id271">
+<text>digitales</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id272">
+<text>digitando</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id273">
+<text>digitar</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id274">
+<text>digite</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id275">
+<text>directa</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id276">
+<text>directamente</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id277">
+<text>directorio</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id278">
+<text>discos</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id279">
+<text>disminuir</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id280">
+<text>disminuye</text>
+<smilfile>search_6.xml</smilfile>
+</word>
+<word id="id281">
+<text>disponibles</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id282">
+<text>distribución</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id283">
+<text>divisiones</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id284">
+<text>diálogo</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id285">
+<text>documentos</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id286">
+<text>dorina</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id288">
+<text>drive</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id290">
+<text>duros</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id292">
+<text>eco</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id293">
+<text>edición</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id294">
+<text>edita</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id295">
+<text>editando</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id296">
+<text>editar</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id297">
+<text>editor</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id298">
+<text>editorial</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id299">
+<text>eduardo</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id300">
+<text>efectuar</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id301">
+<text>ejecuta</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id302">
+<text>ejecutada</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id303">
+<text>ejemplo</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id304">
+<text>el</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id305">
+<text>electrónico</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id306">
+<text>elija</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id307">
+<text>embargo</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id308">
+<text>emitirá</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id309">
+<text>en</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id310">
+<text>encabezado</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id311">
+<text>encendida</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id312">
+<text>encontrado</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id313">
+<text>encontrados</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id314">
+<text>encontrar</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id315">
+<text>encontrará</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id316">
+<text>encuentra</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id317">
+<text>encuentran</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id318">
+<text>end</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id319">
+<text>enter</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id320">
+<text>entrada</text>
+<smilfile>search_7.xml</smilfile>
+</word>
+<word id="id321">
+<text>entradas</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id322">
+<text>entrar</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id324">
+<text>enviar</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id325">
+<text>envía</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id326">
+<text>equipo</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id327">
+<text>error</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id328">
+<text>es</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id329">
+<text>esc</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id330">
+<text>escoger</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id331">
+<text>escogida</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id332">
+<text>escogido</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id333">
+<text>escoja</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id334">
+<text>escribe</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id335">
+<text>escribir</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id336">
+<text>escuche</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id337">
+<text>eso</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id338">
+<text>espaciador</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id339">
+<text>espaciadora</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id340">
+<text>espacio</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id341">
+<text>espacios</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id342">
+<text>específica</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id344">
+<text>estaba</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id345">
+<text>establece</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id346">
+<text>establecer</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id347">
+<text>estado</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id348">
+<text>estará</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id351">
+<text>esto</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id352">
+<text>estuviere</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id353">
+<text>está</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id354">
+<text>esté</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id356">
+<text>evolución</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id357">
+<text>exacta</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id358">
+<text>exactamente</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id359">
+<text>exacto</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id360">
+<text>excepto</text>
+<smilfile>search_8.xml</smilfile>
+</word>
+<word id="id361">
+<text>exclusividad</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id362">
+<text>exclusivos</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id363">
+<text>existe</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id364">
+<text>existente</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id365">
+<text>existentes</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id366">
+<text>explicada</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id367">
+<text>explicar</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id368">
+<text>exporta</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id369">
+<text>exportación</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id370">
+<text>exportado</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id371">
+<text>exportar</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id372">
+<text>exportarán</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id373">
+<text>extendida</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id374">
+<text>extras</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id376">
+<text>f4</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id377">
+<text>favoritos</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id378">
+<text>fdnc</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id379">
+<text>fecha</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id380">
+<text>filtros</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id381">
+<text>fin</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id382">
+<text>final</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id383">
+<text>firefox</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id384">
+<text>flecha</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id385">
+<text>flechas</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id386">
+<text>foco</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id387">
+<text>forma</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id388">
+<text>formato</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id389">
+<text>frase</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id390">
+<text>frases</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id391">
+<text>fue</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id392">
+<text>fuente</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id393">
+<text>funciona</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id394">
+<text>funcionar</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id395">
+<text>funciones</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id396">
+<text>función</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id397">
+<text>fundación</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id398">
+<text>fácil</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id400">
+<text>general</text>
+<smilfile>search_9.xml</smilfile>
+</word>
+<word id="id401">
+<text>generales</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id402">
+<text>global</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id403">
+<text>globales</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id404">
+<text>guarda</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id405">
+<text>guardadas</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id407">
+<text>ha</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id408">
+<text>haber</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id409">
+<text>hablada</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id410">
+<text>hablados</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id411">
+<text>hablar</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id412">
+<text>habrá</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id413">
+<text>hace</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id414">
+<text>hacer</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id415">
+<text>hacia</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id416">
+<text>haciendo</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id417">
+<text>haga</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id418">
+<text>hará</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id419">
+<text>hasta</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id420">
+<text>hay</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id421">
+<text>historial</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id422">
+<text>home</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id423">
+<text>hubo</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id425">
+<text>idioma</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id426">
+<text>idiomas</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id427">
+<text>igual</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id428">
+<text>importa</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id429">
+<text>importación</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id430">
+<text>importante</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id431">
+<text>importar</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id432">
+<text>inactivo</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id433">
+<text>incluyendo</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id434">
+<text>incorpora</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id435">
+<text>independientemente</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id436">
+<text>indica</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id437">
+<text>indicado</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id438">
+<text>indicador</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id439">
+<text>indicadora</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id440">
+<text>indicadores</text>
+<smilfile>search_10.xml</smilfile>
+</word>
+<word id="id441">
+<text>individualmente</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id442">
+<text>inferior</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id443">
+<text>informaciones</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id444">
+<text>información</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id445">
+<text>ingresar</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id446">
+<text>inicia</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id447">
+<text>iniciada</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id448">
+<text>inicial</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id449">
+<text>iniciales</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id450">
+<text>iniciar</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id451">
+<text>iniciará</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id452">
+<text>inicio</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id453">
+<text>inserción</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id454">
+<text>inserta</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id455">
+<text>insertado</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id456">
+<text>insertados</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id457">
+<text>insertando</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id458">
+<text>insertar</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id459">
+<text>instaladas</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id460">
+<text>instrucciones</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id461">
+<text>integral</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id462">
+<text>interactividad</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id463">
+<text>interface</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id464">
+<text>internet</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id465">
+<text>introducción</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id466">
+<text>ir</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id467">
+<text>izquierda</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id471">
+<text>la</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id472">
+<text>las</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id473">
+<text>lector</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id474">
+<text>lectura</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id475">
+<text>lee</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id476">
+<text>leer</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id477">
+<text>letra</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id478">
+<text>letras</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id479">
+<text>leyendo</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id480">
+<text>leído</text>
+<smilfile>search_11.xml</smilfile>
+</word>
+<word id="id481">
+<text>leídos</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id482">
+<text>libro</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id483">
+<text>libros</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id484">
+<text>licencia</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id485">
+<text>lida</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id486">
+<text>lista</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id487">
+<text>listadas</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id488">
+<text>listas</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id489">
+<text>lo</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id490">
+<text>local</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id491">
+<text>locales</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id492">
+<text>localice</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id493">
+<text>localización</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id494">
+<text>localizar</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id495">
+<text>los</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id496">
+<text>lugar</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id498">
+<text>maneras</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id499">
+<text>manual</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id500">
+<text>marca</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id501">
+<text>marcado</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id502">
+<text>marcador</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id503">
+<text>marcadores</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id504">
+<text>marcas</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id506">
+<text>mayores</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id508">
+<text>mensaje</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id509">
+<text>mensajes</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id510">
+<text>mi</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id511">
+<text>milliet</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id512">
+<text>mis</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id513">
+<text>misma</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id514">
+<text>mismas</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id515">
+<text>mismo</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id516">
+<text>modificado</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id517">
+<text>modo</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id518">
+<text>momento</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id519">
+<text>mostrados</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id520">
+<text>mp3</text>
+<smilfile>search_12.xml</smilfile>
+</word>
+<word id="id521">
+<text>mueve</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id522">
+<text>mundial</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id523">
+<text>mundo</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id524">
+<text>más</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id525">
+<text>máximo</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id527">
+<text>narración</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id528">
+<text>narrado</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id529">
+<text>navega</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id530">
+<text>navegación</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id531">
+<text>navegan</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id532">
+<text>navegando</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id533">
+<text>navegar</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id534">
+<text>necesarias</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id535">
+<text>necesario</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id536">
+<text>ninguna</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id537">
+<text>nivel</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id538">
+<text>niveles</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id540">
+<text>nombrado</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id541">
+<text>nombre</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id543">
+<text>nota</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id544">
+<text>notas</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id545">
+<text>note</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id547">
+<text>nowill</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id548">
+<text>nueva</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id549">
+<text>nuevamente</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id550">
+<text>nuevo</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id551">
+<text>numéricas</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id552">
+<text>número</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id553">
+<text>números</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id555">
+<text>ok</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id556">
+<text>opciones</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id557">
+<text>opción</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id558">
+<text>operacion</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id559">
+<text>operacional</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id560">
+<text>operación</text>
+<smilfile>search_13.xml</smilfile>
+</word>
+<word id="id561">
+<text>opf</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id562">
+<text>orden</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id563">
+<text>org</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id564">
+<text>organizar</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id565">
+<text>organizará</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id566">
+<text>otra</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id567">
+<text>otras</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id568">
+<text>otro</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id569">
+<text>otros</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id570">
+<text>oír</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id572">
+<text>pagina</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id573">
+<text>palabra</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id574">
+<text>palabras</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id575">
+<text>pantalla</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id576">
+<text>pantallas</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id578">
+<text>parte</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id579">
+<text>partir</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id580">
+<text>pasa</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id581">
+<text>pasajes</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id582">
+<text>pasará</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id583">
+<text>pausa</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id584">
+<text>pausar</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id585">
+<text>pedro</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id586">
+<text>perez</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id587">
+<text>permanentemente</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id588">
+<text>permite</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id589">
+<text>permiten</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id590">
+<text>personales</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id591">
+<text>pie</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id592">
+<text>pié</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id593">
+<text>pocos</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id594">
+<text>pode</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id595">
+<text>podrá</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id597">
+<text>posibilitar</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id598">
+<text>posible</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id599">
+<text>posterior</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id600">
+<text>pre-grabado</text>
+<smilfile>search_14.xml</smilfile>
+</word>
+<word id="id601">
+<text>pre-gravada</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id602">
+<text>preferencias</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id603">
+<text>preferido</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id604">
+<text>presencia</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id605">
+<text>presenta</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id606">
+<text>presentación</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id607">
+<text>presentados</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id608">
+<text>presentar</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id609">
+<text>presionando</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id610">
+<text>presione</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id611">
+<text>primer</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id612">
+<text>primera</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id613">
+<text>primero</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id614">
+<text>primeros</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id615">
+<text>principal</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id616">
+<text>principales</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id617">
+<text>proceda</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id618">
+<text>procesamiento</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id619">
+<text>producción</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id620">
+<text>producer</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id621">
+<text>producidos</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id622">
+<text>programa</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id623">
+<text>próxima</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id624">
+<text>próximo</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id625">
+<text>puede</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id626">
+<text>puedem</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id627">
+<text>pueden</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id628">
+<text>puedes</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id629">
+<text>pulsando</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id630">
+<text>punto</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id631">
+<text>página</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id634">
+<text>quiera</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id636">
+<text>reader</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id637">
+<text>realiza</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id638">
+<text>realizada</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id639">
+<text>realizadas</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id640">
+<text>realizar</text>
+<smilfile>search_15.xml</smilfile>
+</word>
+<word id="id641">
+<text>recibirá</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id642">
+<text>reciente</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id643">
+<text>recientemente</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id644">
+<text>recientes</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id645">
+<text>recuerde</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id646">
+<text>recursos</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id647">
+<text>referencia</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id648">
+<text>referenciado</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id649">
+<text>referida</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id650">
+<text>referido</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id651">
+<text>rehace</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id652">
+<text>rehacer</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id653">
+<text>reinicia</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id654">
+<text>reiniciar</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id655">
+<text>relativos</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id656">
+<text>remoción</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id657">
+<text>remove</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id658">
+<text>removendo</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id659">
+<text>remover</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id660">
+<text>remover-la</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id661">
+<text>repetir</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id662">
+<text>reproductor</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id663">
+<text>respectivamente</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id664">
+<text>respuesta</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id665">
+<text>resultado</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id666">
+<text>resultados</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id667">
+<text>retoma</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id668">
+<text>retomada</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id669">
+<text>retomar</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id670">
+<text>retorna</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id671">
+<text>retornar</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id672">
+<text>retroceder</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id673">
+<text>rom</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id675">
+<text>salir</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id676">
+<text>saltos</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id677">
+<text>salvada</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id678">
+<text>sapi4</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id679">
+<text>sapi5</text>
+<smilfile>search_16.xml</smilfile>
+</word>
+<word id="id681">
+<text>secciones</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id682">
+<text>sección</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id683">
+<text>sección1.1</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id684">
+<text>seguir</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id685">
+<text>segunda</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id686">
+<text>segundos</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id688">
+<text>selecciona</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id689">
+<text>seleccionada</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id690">
+<text>seleccionado</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id691">
+<text>seleccionando</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id692">
+<text>seleccionar</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id693">
+<text>seleccione</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id694">
+<text>selección</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id695">
+<text>sentencias</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id697">
+<text>será</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id698">
+<text>serán</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id699">
+<text>sesenta</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id700">
+<text>señal</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id701">
+<text>señalar</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id702">
+<text>shift</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id704">
+<text>siempre</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id705">
+<text>siendo</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id706">
+<text>siga</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id707">
+<text>siguientes</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id708">
+<text>similar</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id709">
+<text>similares</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id710">
+<text>simple</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id711">
+<text>simplemente</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id712">
+<text>sin</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id713">
+<text>sintetizada</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id714">
+<text>sintetizadas</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id715">
+<text>sirve</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id716">
+<text>sistema</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id717">
+<text>site</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id718">
+<text>sitio</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id720">
+<text>solamente</text>
+<smilfile>search_17.xml</smilfile>
+</word>
+<word id="id721">
+<text>son</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id722">
+<text>sonido</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id723">
+<text>sonoro</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id724">
+<text>soporte</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id725">
+<text>su</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id726">
+<text>sub</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id727">
+<text>sub-sección</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id728">
+<text>subdivisiones</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id729">
+<text>sucesivamente</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id730">
+<text>sucesivos</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id731">
+<text>sugerido</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id732">
+<text>sugestión</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id733">
+<text>superior</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id734">
+<text>suporte</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id735">
+<text>sus</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id736">
+<text>símbolo</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id737">
+<text>símbolos</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id738">
+<text>sólo</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id740">
+<text>tab</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id741">
+<text>tabela</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id742">
+<text>tabla</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id743">
+<text>tabs</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id745">
+<text>tamaño</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id746">
+<text>tamaños</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id747">
+<text>también</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id749">
+<text>tecla</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id750">
+<text>teclado</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id751">
+<text>teclas</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id752">
+<text>tecle</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id753">
+<text>tecleando</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id754">
+<text>teclear</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id755">
+<text>teclee</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id756">
+<text>tela</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id757">
+<text>tendrá</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id758">
+<text>tener</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id759">
+<text>tercera</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id760">
+<text>terminación</text>
+<smilfile>search_18.xml</smilfile>
+</word>
+<word id="id761">
+<text>texto</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id762">
+<text>textos</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id763">
+<text>tiempo</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id764">
+<text>tiene</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id765">
+<text>tienen</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id766">
+<text>tipo</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id767">
+<text>tipos</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id771">
+<text>tramo</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id773">
+<text>tts</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id774">
+<text>tutorial</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id775">
+<text>txt</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id776">
+<text>término</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id777">
+<text>título</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id778">
+<text>títulos</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id779">
+<text>tópico</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id781">
+<text>un</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id782">
+<text>una</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id783">
+<text>unidad</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id784">
+<text>unidades</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id785">
+<text>uno</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id786">
+<text>usa</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id787">
+<text>usada</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id788">
+<text>usando</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id789">
+<text>usar</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id790">
+<text>use</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id791">
+<text>uso</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id792">
+<text>usted</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id793">
+<text>utilice</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id794">
+<text>utilizada</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id795">
+<text>utilizando</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id796">
+<text>utilizar</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id798">
+<text>va</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id799">
+<text>valores</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id800">
+<text>vamos</text>
+<smilfile>search_19.xml</smilfile>
+</word>
+<word id="id801">
+<text>varias</text>
+<smilfile>search_20.xml</smilfile>
+</word>
+<word id="id802">
+<text>vea</text>
+<smilfile>search_20.xml</smilfile>
+</word>
+<word id="id803">
+<text>velocidad</text>
+<smilfile>search_20.xml</smilfile>
+</word>
+<word id="id804">
+<text>ventana</text>
+<smilfile>search_20.xml</smilfile>
+</word>
+<word id="id805">
+<text>verifica</text>
+<smilfile>search_20.xml</smilfile>
+</word>
+<word id="id806">
+<text>versión</text>
+<smilfile>search_20.xml</smilfile>
+</word>
+<word id="id808">
+<text>visual</text>
+<smilfile>search_20.xml</smilfile>
+</word>
+<word id="id809">
+<text>visuales</text>
+<smilfile>search_20.xml</smilfile>
+</word>
+<word id="id810">
+<text>voces</text>
+<smilfile>search_20.xml</smilfile>
+</word>
+<word id="id811">
+<text>volumen</text>
+<smilfile>search_20.xml</smilfile>
+</word>
+<word id="id812">
+<text>volver</text>
+<smilfile>search_20.xml</smilfile>
+</word>
+<word id="id813">
+<text>voz</text>
+<smilfile>search_20.xml</smilfile>
+</word>
+<word id="id814">
+<text>vuelve</text>
+<smilfile>search_20.xml</smilfile>
+</word>
+<word id="id816">
+<text>web</text>
+<smilfile>search_20.xml</smilfile>
+</word>
+<word id="id817">
+<text>windows</text>
+<smilfile>search_20.xml</smilfile>
+</word>
+<word id="id819">
+<text>y</text>
+<smilfile>search_20.xml</smilfile>
+</word>
+<word id="id820">
+<text>ya</text>
+<smilfile>search_20.xml</smilfile>
+</word>
+<word id="id822">
+<text>zip</text>
+<smilfile>search_20.xml</smilfile>
+</word>
+<word id="id823">
+<text>índice</text>
+<smilfile>search_20.xml</smilfile>
+</word>
+<word id="id824">
+<text>ítem</text>
+<smilfile>search_20.xml</smilfile>
+</word>
+<word id="id825">
+<text>ítems</text>
+<smilfile>search_20.xml</smilfile>
+</word>
+<word id="id826">
+<text>ó</text>
+<smilfile>search_20.xml</smilfile>
+</word>
+<word id="id827">
+<text>última</text>
+<smilfile>search_20.xml</smilfile>
+</word>
+<word id="id828">
+<text>último</text>
+<smilfile>search_20.xml</smilfile>
+</word>
+<word id="id829">
+<text>últimos</text>
+<smilfile>search_20.xml</smilfile>
+</word>
+</searchwords>
+
+</search>

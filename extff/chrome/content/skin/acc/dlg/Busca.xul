@@ -1,0 +1,91 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<dialog xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+xmlns:html="http://www.w3.org/1999/xhtml" class="windowBody"
+title="DDR - Busca" align="top" orient="vertical" id="lidad-busca" onload="finishLoad();"
+buttons="accept,cancel"
+buttonalign="center"
+   buttonlabelcancel="CANCELAR"
+   buttonlabelaccept="OK"
+   ondialogaccept="return clickok();"
+	ondialogcancel="return clickcancel();"
+>
+
+	<script type="text/javascript">
+		var RunningInsideTutorial = false;
+		var RunningInsideExercises = false;
+	</script>
+	<script src="../../../js/CPref.js" type="text/javascript"></script>
+	<script src="../../../js/CLocale.js" type="text/javascript"></script>
+	<script src="../../../js/CMsg.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CMsgIface.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CSpellMsg.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils_ff.js" type="text/javascript"></script>
+	<script src="../../../js/CExcept.js" type="text/javascript"></script>
+	<script src="../../../js/CTextItem.js" type="text/javascript"></script>
+	<script src="../../../js/CTextArray.js" type="text/javascript"></script>
+	<script src="../../../js/CTextLimits.js" type="text/javascript"></script>
+	<script src="../../../js/CDialogs.js" type="text/javascript"></script>
+	<script src="../../../js/CSpeak.js" type="text/javascript"></script>
+	<script src="../../../js/CTextfileArray.js" type="text/javascript"></script>
+	<script src="../../../js/CTextfileItem.js" type="text/javascript"></script>
+	<script src="../../../js/CSMILFile.js" type="text/javascript"></script>
+	<script src="../../../js/CSMILArray.js" type="text/javascript"></script>
+	<script src="../../../js/CSMILExerc.js" type="text/javascript"></script>
+	<script src="../../../js/CNCX.js" type="text/javascript"></script>
+	<script src="../../../js/COPFFile.js" type="text/javascript"></script>
+	<script src="../../../js/CCripto.js" type="text/javascript"></script>
+	<script src="../../../js/CMarks.js" type="text/javascript"></script>
+	<script src="../../../js/COPFPrefs.js" type="text/javascript"></script>
+	<script src="../../../js/CFindHist.js" type="text/javascript"></script>
+	<script src="../../../js/CSpell.js" type="text/javascript"></script>
+	<script src="../../../js/CDlgManager.js" type="text/javascript"></script>
+	<script src="../../../jsdlg/Busca.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CTutorial.js" type="text/javascript"></script>
+	<html:link href="../800/css/LidaDDlgs.css" rel="stylesheet" type="text/css"/>
+	 <html:link href="../1024/css/LidaDDlgs.css" rel="stylesheet" type="text/css"/> 
+	<script>
+	document.styleSheets[2].disabled = 	CPref.interfaceRes();
+	</script>
+
+	<vbox>
+		<hbox align="center" class="TitBox" >
+			<label id="busca.Title" value="BUSCA" class="LabelTitulo"  align="center" />
+		</hbox>
+		<spacer class="spacer20H" />
+		<!--TERMO DA BUSCA-->
+		<vbox>
+			<label id="busca.Terms" value="DIGITE O(S) TERMO(S) PARA PESQUISAR NO LIVRO: " class="Labels" control="searchWords" />
+			<textbox id="searchWords" class="TextoBusca" oninput="manager.change(this);"  onfocus="manager.focoid('searchWords');" onkeypress="keypresssearch(this, event);" />
+		</vbox>
+		
+		<hbox id="box_tipobusca">
+			<label control="tipobusca" id="busca.tipocaption" value="Tipo de busca: "  class="Labels"/>
+			<menulist id="tipobusca" onfocus="manager.foco(this);" oncommand="manager.foco(this);" >
+				<menupopup>
+					<menuitem id="tipobusca_exato" label="Texto exato" value="exato"/>
+					<menuitem id="tipobusca_aprox" label="Aproximado" value="aprox"/>
+				</menupopup>
+			</menulist>
+			<spacer flex="1"/>
+		</hbox>
+
+		<spacer class="spacer20H" />
+		<vbox>
+			<label value="BUSCAS RECENTES: " class="Labels" id="labelhist" />
+			<listbox class="TextoBusca" id="hist" tabindex="-1" onselect="histselect();">
+			</listbox>
+		</vbox>
+
+		<spacer class="spacer20H" />
+
+		<hbox align="left">
+			<button dlgtype="accept" id="busca.botok" label="OK" onfocus="manager.foco(this);" />
+			<button dlgtype="cancel" id="busca.botcancel" label="CANCELAR" onfocus="manager.foco(this);" />
+		</hbox>
+		<spacer class="spacer20H" />
+	</vbox>
+
+
+</dialog>

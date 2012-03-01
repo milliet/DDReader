@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<overlay id="sample" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <menupopup id="menu_ToolsPopup">
+	  <menuitem oncommand='window.open("chrome://lidad/content/launcher.xul","lidad_main","chrome,resizable");' id="lidadmenu" label="DDReader" />
+  </menupopup>
+</overlay>

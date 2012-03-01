@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: xmlsec1-openssl
+Version: 1.2.11
+Description: XML Security Library implements XML Signature and XML Encryption standards
+Requires: libxml-2.0 >= 2.6.12 libxslt >= 1.0.20 
+Cflags: -DXMLSEC_CRYPTO=\\\"openssl\\\"  -D__XMLSEC_FUNCTION__=__FUNCTION__ -DXMLSEC_NO_GOST=1 -DXMLSEC_NO_CRYPTO_DYNAMIC_LOADING=1 -I${prefix}/include/xmlsec1   -I/usr/kerberos/include   -DXMLSEC_OPENSSL_098=1 -DXMLSEC_CRYPTO_OPENSSL=1
+Libs: -L${exec_prefix}/lib -lxmlsec1-openssl -lxmlsec1   -L/usr/kerberos/lib -lssl -lcrypto -ldl -lz  

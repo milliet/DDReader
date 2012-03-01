@@ -1,0 +1,53 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<dialog id="lidad-update" class="windowBody"
+title="DDR - Atualização"
+align="top" orient="vertical"
+xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+xmlns:html="http://www.w3.org/1999/xhtml"
+buttons="accept,cancel"
+buttonalign="center"
+   buttonlabelcancel="CANCELAR"
+   buttonlabelaccept="OK"
+   ondialogaccept="return clickok();"
+	ondialogcancel="return clickcancel();"
+	onload="finishLoad();"
+>
+
+	<script type="text/javascript">
+		var RunningInsideTutorial = false;
+		var RunningInsideExercises = false;
+	</script>
+	<script src="../../../js/CPref.js" type="text/javascript"></script>
+	<script src="../../../js/CLocale.js" type="text/javascript"></script>
+	<script src="../../../js/CMsg.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CMsgIface.js" type="text/javascript"></script>
+	<script src="../../../js/CSpell.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CSpellMsg.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils_ff.js" type="text/javascript"></script>
+	<script src="../../../js/CExcept.js" type="text/javascript"></script>
+	<script src="../../../js/CTextItem.js" type="text/javascript"></script>
+	<script src="../../../js/CTextArray.js" type="text/javascript"></script>
+	<script src="../../../js/CTextLimits.js" type="text/javascript"></script>
+	<script src="../../../js/CDialogs.js" type="text/javascript"></script>
+	<script src="../../../js/CDlgManager.js" type="text/javascript"></script>
+	<script src="../../../js/CSpeak.js" type="text/javascript"></script>
+	<script src="../../../jsdlg/update.js" type="text/javascript"></script>
+	<html:link href="../base/css/LidaDDlgs.css" rel="stylesheet" type="text/css"/>
+	<vbox class="updateBox">
+		<hbox align="center" class="TitBox" >
+			<label id="exit.alert" value="AVISO" class="LabelTitulo"  align="center" />
+		</hbox>
+
+		<textbox multiline="true" rows="6" readonly="true" id="update.message"
+		value="texto"
+		class="SuporteTitulo" />
+
+		<hbox align="left">
+			<button dlgtype="accept" id="update.botok" label="OK" />
+			<button dlgtype="cancel" id="update.botcancel" label="CANCELAR" />
+		</hbox>
+	</vbox>
+
+</dialog>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE smil
+  PUBLIC "-//NISO//DTD dtbsmil 2005-2//EN" "http://www.daisy.org/z3986/2005/dtbsmil-2005-2.dtd">
+<smil xmlns="http://www.w3.org/2001/SMIL20/">
+	  <head>
+		    <meta content="FDNC_1051" name="dtb:uid"/>
+		    <meta content="TPB Narrator" name="dtb:generator"/>
+		    <meta content="0:07:40.398" name="dtb:totalElapsedTime"/>
+		
+	  </head>
+	  <body>
+		    <seq dur="0:00:56.136" fill="remove" id="mseq">
+		       <par id="tcp188">
+            <text id="text188" src="saida.xml#dtb201"/>
+            
+         </par>
+         <par id="tcp189">
+            <text id="text189" src="saida.xml#dtb202"/>
+            
+         </par>
+         <par id="tcp190">
+            <text id="text190" src="saida.xml#dtb203"/>
+            
+         </par>
+         <par id="tcp191">
+            <text id="text191" src="saida.xml#dtb204"/>
+            
+         </par>
+         <par id="tcp192">
+            <text id="text192" src="saida.xml#dtb205"/>
+            
+         </par>
+         <par id="tcp193">
+            <text id="text193" src="saida.xml#dtb206"/>
+            
+         </par>
+         <par id="tcp194">
+            <text id="text194" src="saida.xml#dtb207"/>
+            
+         </par>
+         <par id="tcp195">
+            <text id="text195" src="saida.xml#dtb208"/>
+            
+         </par>
+         <par id="tcp196">
+            <text id="text196" src="saida.xml#dtb209"/>
+            
+         </par>
+         <par id="tcp197">
+            <text id="text197" src="saida.xml#dtb210"/>
+            
+         </par>
+         <par id="tcp198">
+            <text id="text198" src="saida.xml#dtb211"/>
+            
+         </par>
+         <par id="tcp199">
+            <text id="text199" src="saida.xml#dtb212"/>
+            
+         </par>
+         <par id="tcp200">
+            <text id="text200" src="saida.xml#dtb213"/>
+            
+         </par>
+      </seq>
+	  </body>
+</smil>

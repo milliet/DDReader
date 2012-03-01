@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="css/LidaD.css" type="text/css"?>
+
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" 
+xmlns:html="http://www.w3.org/1999/xhtml" class="janelaPrincipal" 
+title="DDReader - Leitura de Livros Digitais DAISY." align="center" pack="center" orient="vertical" 
+onload="CmdMain.loadevent();init();"
+onkeypress="CKeys.keypress(event);" id="janela" onblur="CmdMain.blurevent()" onclose="CmdMain.closeevent()">
+	<script type="text/javascript">
+		var RunningInsideTutorial = false;
+		var RunningInsideExercises = false;
+	</script>
+	<script src="../../../js/CDlgManager.js" type="text/javascript"></script>
+	<script src="../../../js/CPref.js" type="text/javascript"></script>
+	<script src="../../../js/CLocale.js" type="text/javascript"></script>
+	<script src="../../../js/CMsg.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CMsgIface.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CSpellMsg.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils_ff.js" type="text/javascript"></script>
+	<script src="../../../js/CExcept.js" type="text/javascript"></script>
+	<script src="../../../js/CTextItem.js" type="text/javascript"></script>
+	<script src="../../../js/CTextArray.js" type="text/javascript"></script>
+	<script src="../../../js/CTextLimits.js" type="text/javascript"></script>
+	<script src="../../../js/CDialogs.js" type="text/javascript"></script>
+	<script src="../../../js/CSpeak.js" type="text/javascript"></script>
+	<script src="../../../js/CTextfileArray.js" type="text/javascript"></script>
+	<script src="../../../js/CTextfileItem.js" type="text/javascript"></script>
+	<script src="../../../js/CSMILFile.js" type="text/javascript"></script>
+	<script src="../../../js/CSMILArray.js" type="text/javascript"></script>
+	<script src="../../../js/CSMILExerc.js" type="text/javascript"></script>
+	<script src="../../../js/CNCX.js" type="text/javascript"></script>
+	<script src="../../../js/COPFFile.js" type="text/javascript"></script>
+	<script src="../../../js/CCripto.js" type="text/javascript"></script>
+	<script src="../../../js/CMarks.js" type="text/javascript"></script>
+	<script src="../../../js/COPFPrefs.js" type="text/javascript"></script>
+	<script src="../../../js/CHist.js" type="text/javascript"></script>
+	<script src="../../../js/CSpell.js" type="text/javascript"></script>
+	<script src="../../../jscmd/COPFControExercise.js" type="text/javascript"></script>
+	<script src="../../../jscmd/COPFControl.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CButtons.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CTutorial.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CTools.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CKeys.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CmdHist.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CmdMarks.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CmdNcx.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CmdInfo.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CmdLibNdx.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CmdMain.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CmdRead.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CmdSplash.js" type="text/javascript"></script>
+	<script src="../../../js/CSearchRes.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CmdSearchRes.js" type="text/javascript"></script>
+	<script src="../../../js/CFindText.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CSkinAcc.js" type="text/javascript"></script>
+	<script src="../common/LidaD.js"/>
+	
+	<!-- VBOX SOMENTE PARA TER SCROLL -->
+<vbox flex="1" style="overflow:auto" align="center" pack="center" width="800" height="600">
+
+<!-- TOOL TIPS PARA OS BOTOES DE CIMA -->
+<tooltip id="ButHome" class="toolTipes" orient="vertical" noautohide="TRUE">
+<label id="LidaD.ButHome" value="Clique para voltar ao Início" />
+<label id="LidaD.ButHome2" value="Dados Bibliográficos" />
+</tooltip>
+<tooltip id="ButAbrir" class="toolTipes" orient="vertical" noautohide="TRUE">
+<label id="LidaD.ButAbrir" value="Clique para abrir o LIVRO" />
+</tooltip>
+<tooltip id="ButIndex" class="toolTipes" orient="vertical" noautohide="TRUE">
+<label id="LidaD.ButIndex" value="Clique para acessar o ÍNDICE" />
+</tooltip>
+<tooltip id="ButLer" class="toolTipes" orient="vertical" noautohide="TRUE">
+<label id="LidaD.ButLer" value="Clique para ler o LIVRO" />
+</tooltip>
+<tooltip id="ButMarker" class="toolTipes" orient="vertical" noautohide="TRUE">
+<label id="LidaD.ButMarker" value="Clique para inserir um MARCADOR" />
+</tooltip>
+<tooltip id="ButBiblio" class="toolTipes" orient="vertical" noautohide="TRUE">
+<label id="LidaD.ButBiblio" value="Clique para editar:" />
+<label id="LidaD.ButBiblio2" value="BIBLIOTECA e MARCADORES" />
+</tooltip>
+<tooltip id="ButPrefsGlobal" class="toolTipes" orient="vertical" noautohide="TRUE">
+<label id="LidaD.ButPrefsGlobal" value="Clique para editar as PREFERÊNCIAS GLOBAIS" />
+</tooltip>
+<tooltip id="ButPrefs" class="toolTipes" orient="vertical" noautohide="TRUE">
+<label id="LidaD.ButPrefs" value="Clique para editar as PREFERÊNCIAS" />
+<label id="LidaD.ButPrefs2" value="deste LIVRO" />
+</tooltip>
+<tooltip id="ButBusca" class="toolTipes" orient="vertical" noautohide="TRUE">
+<label id="LidaD.ButBusca" value="Clique para ativar a BUSCA" />
+</tooltip>
+<tooltip id="ButHelp" class="toolTipes" orient="vertical" noautohide="TRUE">
+<label id="LidaD.ButHelp" value="Clique para acessar o TUTORIAL" />
+</tooltip>
+
+<tooltip id="ButUpdate" class="toolTipes" orient="vertical" noautohide="TRUE">
+<label id="LidaD.ButUpdate" value="Clique para verificar Atualizações do DDR" />
+</tooltip>
+<tooltip id="ButWeb" class="toolTipes" orient="vertical" noautohide="TRUE">
+<label id="LidaD.ButWeb" value="Clique para acessar a WEB" />
+</tooltip>
+<tooltip id="ButFale" class="toolTipes" orient="vertical" noautohide="TRUE">
+<label id="LidaD.ButFale" value="Clique para suporte" />
+</tooltip>
+<tooltip id="ButExport" class="toolTipes" orient="vertical" noautohide="TRUE">
+<label id="LidaD.ButExport" value="Clique para exportar seus marcadores e anotações" />
+</tooltip>
+<tooltip id="ButAbout" class="toolTipes" orient="vertical" noautohide="TRUE">
+<label id="LidaD.ButAbout" value="Clique para acessar os créditos e a licença de uso" />
+</tooltip>
+<tooltip id="ButClose" class="toolTipes" orient="vertical" noautohide="TRUE">
+<label id="LidaD.ButClose" value="Clique para fechar o aplicativo." />
+</tooltip>
+
+<vbox aling="left">
+<hbox>
+	<!-- LOGO FDNC <image src="img/logo.gif"  onclick="CButtons.clickSplash()" minwidth="64" minheight="64" />-->
+
+<!-- TOOLBAR PARA BOTOES DE COMANDO -->
+<toolbox  class="toolBar">
+  <toolbar id="comandos" class="toolBar">
+  <toolbarbutton id="toolIni" class="toolBarButton" image="img/logo.gif" tooltip="ButHome" oncommand="CButtons.clickSplash()"/>
+  <toolbarbutton id="toolHome" class="toolBarButton" image="img/home.gif" tooltip="ButHome" oncommand="CButtons.clickHome()"  onmouseover="changeSrc(this.id,this.image,'a')" onmouseout="changeSrc(this.id,this.image,'b')"/>
+    <toolbarbutton id="toolAbrir" class="toolBarButton" image="img/abrir.gif" tooltip="ButAbrir" oncommand="CButtons.clickOpen()"  onmouseover="changeSrc(this.id,this.image,'a')" onmouseout="changeSrc(this.id,this.image,'b')"/>
+  	<toolbarbutton id="toolNdx" class="toolBarButton" image="img/index.gif" tooltip="ButIndex" oncommand="CButtons.clickNdx()"  onmouseover="changeSrc(this.id,this.image,'a')" onmouseout="changeSrc(this.id,this.image,'b')"/>
+	<toolbarbutton id="toolLeitura" class="toolBarButton" image="img/ler.gif" tooltip="ButLer" oncommand="CButtons.clickRead()"  onmouseover="changeSrc(this.id,this.image,'a')" onmouseout="changeSrc(this.id,this.image,'b')"/>
+	<toolbarbutton id="toolMarker" class="toolBarButton" image="img/insMarker.gif" tooltip="ButMarker" oncommand="CButtons.clickinsMarker();document.getElementById('ButMarker').hidePopup();"  onmouseover="changeSrc(this.id,this.image,'a')" onmouseout="changeSrc(this.id,this.image,'b')"/>
+	<!-- RETIRADO DA VERSAO 3.0 o botão de BIBLIOTECA esperando a 3.5 -->
+	<!--<toolbarbutton id="toolBiblio" class="toolBarButton" image="img/biblio.gif" tooltip="ButBiblio"  />-->
+	<toolbarbutton id="toolPrefsGlobal" class="toolBarButton" image="img/prefsglob.gif" tooltip="ButPrefsGlobal" oncommand="CButtons.clickPrefsGlobal();"  onmouseover="changeSrc(this.id,this.image,'a')" onmouseout="changeSrc(this.id,this.image,'b')"/>
+	<toolbarbutton id="toolPrefs" class="toolBarButton" image="img/prefs.gif" tooltip="ButPrefs" oncommand="CButtons.clickPrefsLivro();"  onmouseover="changeSrc(this.id,this.image,'a')" onmouseout="changeSrc(this.id,this.image,'b')"/>
+	<toolbarbutton id="toolBusca" class="toolBarButton" image="img/busca.gif" tooltip="ButBusca"  oncommand="CButtons.clicktoolBusca()" onmouseover="changeSrc(this.id,this.image,'a')" onmouseout="changeSrc(this.id,this.image,'b')"/>
+	<toolbarbutton id="toolAjuda" class="toolBarButton" image="img/ajuda.gif" tooltip="ButHelp" oncommand="CButtons.clickHelpTutorial()"  onmouseover="changeSrc(this.id,this.image,'a')" onmouseout="changeSrc(this.id,this.image,'b')"/>
+  </toolbar>
+</toolbox>
+<spacer flex="1" />
+<!-- BOX DE OUTRAS FUNÇOES EXTERNAS -->
+<vbox align="right" class="boxWeb">
+<!-- BOX DE FECHAR -->
+	<hbox align="right">
+		<toolbox  class="toolBar">
+			<toolbar id="Close" class="toolBar" >
+				<toolbarbutton id="buttonClose" tooltip="ButClose" image="img/close.gif" class="CloseButton"  oncommand="CDialogs.CloseApplication();" onmouseover="changeSrc(this.id,this.image,'a')" onmouseout="changeSrc(this.id,this.image,'b')"/>
+			</toolbar>
+		</toolbox>
+		<spacer with="5" maxwidth="5" minwidth="5"/>
+	</hbox>
+	<!-- BOX DE WEB E CONTATO -->
+	<hbox>
+		<toolbox  class="toolBar">
+			<toolbar id="indicadorModal" class="toolBar" >
+				<toolbarbutton id="buttonUpdate" tooltip="ButUpdate" image="img/update.gif" class="toolBarButton"  oncommand="CButtons.clickWebUpdate();" />
+				<toolbarbutton id="buttonWeb" tooltip="ButWeb" image="img/FDNCWeb.gif" class="toolBarButton"  oncommand="CButtons.notAvailable();" />
+				<toolbarbutton id="buttonFale" tooltip="ButFale" image="img/FDNCemail.gif" class="toolBarButton"  oncommand="CButtons.clickButFale();" />
+				<toolbarbutton id="buttonExport" tooltip="ButExport" image="img/export.gif" class="toolBarButton"  oncommand="CButtons.clickButExport();" />
+				<toolbarbutton id="buttonAbout" tooltip="ButAbout" image="img/copyright.gif" class="toolBarButton"  oncommand="CButtons.clickAbout();" />
+			</toolbar>
+		</toolbox>
+	</hbox>	
+</vbox>	  
+<!-- FIM DO TOOLBOX DE COMANDO DE CIMA-->
+</hbox>
+<deck selectedIndex="0" id="deckFrames">
+	<iframe src="home.html" class="InicioFrame" id="inicio" minwidth="790px" maxwidth="790px" />
+	<iframe src="livro.html" class="InicioFrame" id="livro" minwidth="790px" maxwidth="790px" />
+</deck>
+<hbox align="center" minwidth="790" maxwidth="790" >
+	<spacer width="2" minwidth="2" maxwidth="2" />
+	<toolbox class="toolBar" >
+	  <toolbar id="comandos" class="toolBar">
+		<toolbarbutton id="toolPlay" image="img/play.gif" class="toolBarButton"  oncommand="CTools.clicktoolPlay()"/>
+		<toolbarbutton id="toolPrevLev" image="img/prevLev.gif" class="toolBarButton" oncommand="CTools.clicktoolPrevLev()"/>
+		<toolbarbutton id="toolPrev" image="img/previous.gif"  class="toolBarButton" oncommand="CTools.clicktoolPrev()"/>
+		<toolbarbutton id="toolNext" image="img/next.gif" class="toolBarButton" oncommand="CTools.clicktoolNext()"/>
+		<toolbarbutton id="toolNextLev" image="img/nextLev.gif"  class="toolBarButton" oncommand="CTools.clicktoolNextLev()"/>
+		<spacer width="1" minwidth="1" maxwidth="1" class="bgPreto"/>	
+			<vbox align="center" pack="center" class="bgPreto">
+					<vbox  height="53" align="bottom" pack="bottom">
+					<spacer flex="1" />
+					<image src="img/voltts.jpg" id="imagevoltts" height="20"  />
+					</vbox>
+				<label id="LidaD.volttsLABEL" value="tts" class="VolVelLabel" align="center" />
+			</vbox>
+				
+		<spacer width="1" minwidth="1" maxwidth="1" class="bgPreto"/>	
+				
+			<vbox align="center" pack="center" class="bgPreto">
+					<vbox  height="53" align="bottom" pack="bottom">
+					<spacer flex="1" />
+					<image src="img/volaudio.jpg" id="imagevolaudio" height="20" />
+					</vbox>
+				<label id="LidaD.volsndLABEL" value="som" class="VolVelLabel"  align="center" />
+				
+			</vbox>
+		
+				
+			<vbox align="center" pack="center" class="bgPreto">
+					<vbox  height="53" align="bottom" pack="bottom">
+						<spacer flex="1" />
+						<image height="20" src="img/veltts.jpg" id="imageveltts" />
+					</vbox>
+				<label id="LidaD.veloLABEL" value="velo" class="VolVelLabel"  align="center" />
+				
+			</vbox>
+				<spacer width="1" minwidth="1" maxwidth="1" class="bgPreto"/>	
+	  </toolbar>
+	</toolbox>
+	
+	   <spacer width="1" flex="1" />
+	   <box class="AvisoBoxHidden" id="bavisos" visible="false" minwidth="240px" maxwidth="240px" >
+		<label id="avisos" value="ESTE É UM AVISO" width="220px" crop="end" />
+		</box>
+	<textbox id="controle_semfoco" hidden="true" width="2" heigth="2" />
+	<hbox align="right">
+	   <vbox class="hboxOrange2" pack="right" align="right">
+				<hbox  align="right">
+					
+						<menulist class="indNivelMenuList" id="toolNivel" oncommand="CTools.changeLevel();document.getElementById('inicio').focus();"
+						minheight="30" maxheight="30" height="30">
+								<menupopup class="indNivelMenupopup">
+								<menuitem id="LidaD.nivel1" label="Nível 1 " value="1" class="indNivelmenuitem" />
+								<menuitem id="LidaD.nivel2" label="Nível 2 " value="2" class="indNivelmenuitem" />
+								<menuitem id="LidaD.nivel3" label="Nível 3 " value="3" class="indNivelmenuitem" />
+								<menuitem id="LidaD.nivel4" label="Nível 4 " value="4" class="indNivelmenuitem" />
+								<menuitem id="LidaD.nivel5" label="Nível 5 " value="5" class="indNivelmenuitem" />
+								<menuitem id="LidaD.nivel6" label="Nível 6 " value="6" class="indNivelmenuitem" />
+								</menupopup>
+						</menulist>
+						<tooltip id="ButGoToPage" class="toolTipes" orient="vertical" noautohide="TRUE">
+						<label id="LidaD.ButGoToPage" value="Clique para ir para outra página." />
+						</tooltip>
+						<label id="PageNum" class="indPage" minheight="30" maxheight="30" tooltip="ButGoToPage"  onclick="CTools.clicktoolPage();" value="4444" />
+						<tooltip id="ButReadPage" class="toolTipes" orient="vertical" noautohide="TRUE">
+						<label id="LidaD.ButReadPage" value="Clique para ler ou não ler os números de página." />
+						</tooltip>
+						<tooltip id="ButIndNote" class="toolTipes" orient="vertical" noautohide="TRUE">
+						<label id="LidaD.ButIndNote" value="Clique para ler ou não ler notas de rodapé." />
+						</tooltip>
+						<tooltip id="ButIndMark" class="toolTipes" orient="vertical" noautohide="TRUE">
+						<label id="LidaD.ButIndMark" value="Clique para indicar ou não os marcadores." />
+						</tooltip>
+					<toolbox class="toolBar" >
+						<toolbar id="indicadorModal" class="toolBar" >
+						<toolbarbutton id="indReadPage" tooltip="ButReadPage" image="img/ReadPageOff.gif" class="toolBarButton"  oncommand="CTools.clickIndPage();" />
+						<toolbarbutton id="indNote" tooltip="ButIndNote" image="img/indNote.gif" class="toolBarButton" oncommand="CTools.clickIndNote();" />
+						<toolbarbutton id="indMark" tooltip="ButIndMark" image="img/indMark.gif" class="toolBarButton" oncommand="CTools.clickIndMark();"/>
+						
+					
+						</toolbar>
+					</toolbox>	
+				</hbox>
+		</vbox>
+		</hbox>  
+
+</hbox>
+
+</vbox>
+</vbox>
+</window>

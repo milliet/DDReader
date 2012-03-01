@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>CSpell</title>
+
+
+	<style type="text/css">
+		.normal
+		{
+			background-color: #FFFFFF;
+		}
+		.destaque
+		{
+			background-color: #dFdFdF;
+			}
+		#Button3
+		{
+			height: 22px;
+			width: 69px;
+		}
+	</style>
+
+	</head>
+<body>
+
+<script type="text/javascript">
+var configBundle;
+
+function testar()
+{
+var _ = "nada";
+alert(_);
+	var file = Components.classes["@mozilla.org/file/local;1"]
+		.createInstance(Components.interfaces.nsILocalFile);
+	file.initWithPath("X:\\teste.txt");
+
+var prefService = Components.classes["@mozilla.org/preferences-service;1"]
+                               .getService(Components.interfaces.nsIPrefService);
+//prefService.savePrefFile("file:///X:/teste.txt");
+prefService.savePrefFile(file);
+
+return;
+
+	var file = Components.classes["@mozilla.org/file/directory_service;1"]
+		.getService(Components.interfaces.nsIProperties)
+		//.get("LocalAppData", Components.interfaces.nsIFile);
+		.get("SysD", Components.interfaces.nsIFile);
+alert(file.path);
+
+	var file = Components.classes["@mozilla.org/file/local;1"]
+		.createInstance(Components.interfaces.nsILocalFile);
+		file.initWithPath("%appdata%");
+alert(file.path);
+
+return;
+
+
+//var x = new stringbundle();
+    var Cc = Components.classes, Ci = Components.interfaces;
+	var SBS = Cc["@mozilla.org/intl/stringbundle;1"].getService(Ci.nsIStringBundleService);
+//	configBundle = SBS.createBundle("../lang/pt-br/teste.properties");
+	SBS.flushBundles();
+	configBundle = SBS.createBundle("chrome://lidad/content/lang/pt-br/props/testes.properties");
+alert(configBundle);
+alert("x" + configBundle.GetStringFromName("mesagemdeteste") + "x");
+alert("x" + configBundle.GetStringFromName("utf-7.notForBrowser") + "x");
+alert("x" + configBundle.GetStringFromName("chave") + "x");
+enu=configBundle.getSimpleEnumeration();
+var msg = "";
+while(enu.hasMoreElements())
+{
+	item = enu.getNext();
+	msg += enu.key + "=" + item.value + "\r";
+}
+//alert(msg);
+}
+
+</script>
+	<script src="js/CPref.js" type="text/javascript"></script>
+	<script src="js/CLocale.js" type="text/javascript"></script>
+<script src="js/CMsg.js" type="text/javascript"></script> 
+<script src="jscmd/CMsgIface.js" type="text/javascript"></script> 
+<script src="jscmd/CSpellMsg.js" type="text/javascript"></script> 
+<script src="js/CUtils.js" type="text/javascript"></script> 
+<script src="js/CUtils_ff.js" type="text/javascript"></script> 
+<script src="js/CExcept.js" type="text/javascript"></script> 
+<script src="js/CTextItem.js" type="text/javascript"></script> 
+<script src="js/CTextArray.js" type="text/javascript"></script> 
+<script src="js/CTextLimits.js" type="text/javascript"></script> 
+<script src="js/CDialogs.js" type="text/javascript"></script> 
+<script src="js/CSpeak.js" type="text/javascript"></script> 
+<script src="js/CTextfileArray.js" type="text/javascript"></script> 
+<script src="js/CTextfileItem.js" type="text/javascript"></script> 
+<script src="js/CSMILFile.js" type="text/javascript"></script> 
+<script src="js/CSMILArray.js" type="text/javascript"></script> 
+<script src="js/CSMILExerc.js" type="text/javascript"></script> 
+<script src="js/CNCX.js" type="text/javascript"></script> 
+<script src="js/COPFFile.js" type="text/javascript"></script> 
+<script src="js/CCripto.js" type="text/javascript"></script> 
+<script src="js/CMarks.js" type="text/javascript"></script> 
+<script src="js/COPFPrefs.js" type="text/javascript"></script> 
+<script src="js/CHist.js" type="text/javascript"></script> 
+<script src="js/CSpell.js" type="text/javascript"></script> 
+
+
+
+    <p>
+        Teste do bundle
+    </p>
+
+	<input id="Button6" type="button" value="Testar " 
+			onclick="return testar()" />
+
+</body>
+</html>

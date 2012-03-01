@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>CDlgMan_tbext</title>
+
+
+	<style type="text/css">
+		.normal
+		{
+			background-color: #FFFFFF;
+		}
+		.destaque
+		{
+			background-color: #dFdFdF;
+			}
+		#Button3
+		{
+			height: 22px;
+			width: 69px;
+		}
+	</style>
+
+	</head>
+<body onload="finishload()">
+
+	<script src="js/CPref.js" type="text/javascript"></script>
+	<script src="js/CLocale.js" type="text/javascript"></script>
+<script src="js/CMsg.js" type="text/javascript"></script> 
+<script src="jscmd/CMsgIface.js" type="text/javascript"></script> 
+<script src="jscmd/CSpellMsg.js" type="text/javascript"></script> 
+	<script src="js/CDlgManager.js" type="text/javascript"></script>
+	<script src="js/CUtils.js" type="text/javascript"></script> 
+<script src="js/CUtils_ff.js" type="text/javascript"></script> 
+<script src="js/CExcept.js" type="text/javascript"></script> 
+<script src="js/CTextItem.js" type="text/javascript"></script> 
+<script src="js/CTextArray.js" type="text/javascript"></script> 
+<script src="js/CTextLimits.js" type="text/javascript"></script> 
+<script src="js/CDialogs.js" type="text/javascript"></script> 
+<script src="js/CSpeak.js" type="text/javascript"></script> 
+<script src="js/CTextfileArray.js" type="text/javascript"></script> 
+<script src="js/CTextfileItem.js" type="text/javascript"></script> 
+<script src="js/CSMILFile.js" type="text/javascript"></script> 
+<script src="js/CSMILArray.js" type="text/javascript"></script> 
+<script src="js/CSMILExerc.js" type="text/javascript"></script> 
+<script src="js/CNCX.js" type="text/javascript"></script> 
+<script src="js/COPFFile.js" type="text/javascript"></script> 
+<script src="js/CCripto.js" type="text/javascript"></script> 
+<script src="js/CMarks.js" type="text/javascript"></script> 
+<script src="js/COPFPrefs.js" type="text/javascript"></script> 
+<script src="js/CHist.js" type="text/javascript"></script> 
+<script src="js/CSpell.js" type="text/javascript"></script> 
+
+<script type="text/javascript">
+
+//atribui as funcoes de edicao
+var manager = new CDlgManager();
+function finishload()
+{
+	var primeirocontrole = new CDlgMan_tbext("testeevt", document.getElementById("testeevt"), "texto de ajuda", 120, this);
+	manager.add(primeirocontrole);
+}
+
+function onenter()
+{
+	alert("tentaram fechar a caixa de dialogo");
+}
+
+
+
+function Button1_onclick()
+{
+	var atual = new CDlgMan_tbex_unit(document.getElementById("ta"));
+	document.getElementById("resultado").textContent = "start: " + atual.start + " end: " + atual.end + " word:-" + atual.word + "- separator: " + atual.separator;
+}
+
+</script>
+
+    <p>
+        Teste do CDlgMan_tbext
+    </p>
+
+	Texto em html:
+<br />
+<textarea id="ta" cols="80" rows="4" >
+João, Maria e José
+O sr. não pode sair.
+Século XX: novos, velhos! Nada...tudo nada25 1.235,67 e mais R$1.2,34. e R$1.2,34.
+Ponto se espaço nao divide: x.x com espaço: x. x e x .x
+</textarea>
+<br />
+	<input id="Button1" type="button" value="Unidade atual" onclick="return Button1_onclick()" />
+
+<br />
+<br />
+Unidade atual: <span id="resultado">html vazio</span><br />
+
+Área de texto com os eventos:<br />
+<textarea id="testeevt" cols="80" rows="4"  oninput="manager.change(this);"  onfocus="manager.focoid('AnotaMk');" onkeypress="manager.key(this, event);" >
+Um outro texto de teste: João, Maria e José
+O sr. não pode sair.
+Século XX: novos, velhos! Nada...tudo nada25 1.235,67 e mais R$1.2,34. e R$1.2,34.
+Ponto se espaço nao divide: x.x com espaço: x. x e x .x
+</textarea>
+
+</body>
+</html>

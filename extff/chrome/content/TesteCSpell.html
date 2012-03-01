@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>CSpell</title>
+
+
+	<style type="text/css">
+		.normal
+		{
+			background-color: #FFFFFF;
+		}
+		.destaque
+		{
+			background-color: #dFdFdF;
+			}
+		#Button3
+		{
+			height: 22px;
+			width: 69px;
+		}
+	</style>
+
+	</head>
+<body onload="Button1_onclick()">
+
+	<script src="js/CPref.js" type="text/javascript"></script>
+	<script src="js/CLocale.js" type="text/javascript"></script>
+<script src="js/CMsg.js" type="text/javascript"></script> 
+<script src="jscmd/CMsgIface.js" type="text/javascript"></script> 
+<script src="jscmd/CSpellMsg.js" type="text/javascript"></script> 
+<script src="js/CUtils.js" type="text/javascript"></script> 
+<script src="js/CUtils_ff.js" type="text/javascript"></script> 
+<script src="js/CExcept.js" type="text/javascript"></script> 
+<script src="js/CTextItem.js" type="text/javascript"></script> 
+<script src="js/CTextArray.js" type="text/javascript"></script> 
+<script src="js/CTextLimits.js" type="text/javascript"></script> 
+<script src="js/CDialogs.js" type="text/javascript"></script> 
+<script src="js/CSpeak.js" type="text/javascript"></script> 
+<script src="js/CTextfileArray.js" type="text/javascript"></script> 
+<script src="js/CTextfileItem.js" type="text/javascript"></script> 
+<script src="js/CSMILFile.js" type="text/javascript"></script> 
+<script src="js/CSMILArray.js" type="text/javascript"></script> 
+<script src="js/CSMILExerc.js" type="text/javascript"></script> 
+<script src="js/CNCX.js" type="text/javascript"></script> 
+<script src="js/COPFFile.js" type="text/javascript"></script> 
+<script src="js/CCripto.js" type="text/javascript"></script> 
+<script src="js/CMarks.js" type="text/javascript"></script> 
+<script src="js/COPFPrefs.js" type="text/javascript"></script> 
+<script src="js/CHist.js" type="text/javascript"></script> 
+<script src="js/CSpell.js" type="text/javascript"></script> 
+
+<script type="text/javascript">
+function testarregistro()
+{
+	var x = CUtilRegRdMachine("SOFTWARE\\Mozilla\\Mozilla Firefox", "CurrentVersion");
+	alert(CUtilRegRdMachine("SOFTWARE\\Mozilla\\Mozilla Firefox", ""));
+	/*
+	var path = "SOFTWARE\\Mozilla\\Mozilla Firefox\\xorongas\\mila";
+	CUtilRegEnsure(path, "testetavlor", "seila");
+	alert( CUtilRegRdMachine(path, "testetavlor") );
+	*/
+}
+
+
+var spell = null;
+
+var SpellEvt =
+{
+	previous: null,
+	EVTSPChange: function(spell, index)
+	{
+		if(this.previous != null)
+		{
+			try
+			{
+				this.previous.attributes.getNamedItem("class").value = "normal";
+			}
+			catch(e)
+			{
+				//nao fazemos nada
+			}
+		}
+		
+		this.previous = document.getElementById("sp" + (index*2 + 1) );
+		try
+		{
+			this.previous.attributes.getNamedItem("class").value = "destaque";
+		}
+		catch(e)
+		{
+			//nao fazemos nada
+		}
+	}
+}
+
+function Button1_onclick()
+{
+	document.getElementById("resultado").innerHTML = document.getElementById("ta").value;
+	
+	spell = new CSpell( document.getElementById("resultado"), SpellEvt);
+	
+	//vamos montar o html
+	var html = "";
+	var texto = "";
+	var arr = spell.GetSpeakarr();
+	var arrsp = spell.GetSpellarr();
+	for(var i=0; i < arr.length; i++)
+	{
+		document.getElementById("converte").textContent = arr[i];
+		html += '<span class="normal" id="sp' + i.toString() + '">';
+		html += document.getElementById("converte").innerHTML;
+		html += '</span>';
+		texto +=  i.toString() + ": --" + arr[i] + "--" + arrsp[i] + "--" + String.fromCharCode(13);
+	}
+	document.getElementById("restxt").value = texto;
+	document.getElementById("reshtml").innerHTML = html;
+	
+	
+	return false;
+}
+
+function Button2_onclick() {
+spell.speak();
+}
+
+function Button3_onclick() {
+spell.TLevt_next()
+}
+
+function Button4_onclick() {
+spell.TLevt_prev()
+}
+
+function Button5_onclick() {
+var txt = spell.getTextSpell();
+txt = CSpellMsg.SpellText(txt);
+var msg = new CTextItem();
+msg.SetText_string( txt);
+CSpeak.playItem(msg, null);
+}
+
+</script>
+
+    <p>
+        Teste do CSpell
+    </p>
+
+	Texto em html:
+<br />
+<textarea id="ta" cols="80" rows="8" >
+exemplos simples:
+João, Maria e José
+O sr. não pode sair.
+O <abbr title="abreviatura">sr.</abbr> não pode sair.
+Século XX: novos, velhos! Nada...tudo nada25 1.235,67 e mais R$1.2,34. e R$1.2,34.
+Ponto se espaço nao divide: x.x com espaço: x. x e x .x
+exemplo de um livro:
+<p><sent smilref="speechgen0002.smil#tcp5" id="dtb4">Extra<b>negitro <abbr title="abreviatura">Texto de nada </abbr> fim neg </b>er mais abrev:  <abbr title="abreviatura">
+com recursivo  <abbr title="abreviatura">Textually</abbr> fim recursivo
+</abbr> e mais bobagem </sent></p>
+</textarea>
+<br />
+	<input id="Button1" type="button" value="Atualizar" onclick="return Button1_onclick()" />
+
+<br />
+<br />
+HTML original em tela: <span id="resultado">html vazio</span><br />
+HTML montado em texto: 	<textarea id="restxt" cols="80" rows="10" >html vazio</textarea><br />
+HTML montado em tela: <span id="reshtml">html vazio</span><br />
+espaco para conversao: <span id="converte">html vazio</span><br />
+&nbsp;
+
+	<input id="Button2" type="button" value="Falar" onclick="return Button2_onclick()" />&nbsp;
+
+	<input id="Button3" type="button" value="Proxima" onclick="return Button3_onclick()" />&nbsp;
+
+	<input id="Button4" type="button" value="Anterior" onclick="return Button4_onclick()" />&nbsp;&nbsp;
+
+	<input id="Button5" type="button" value="Soletrar" onclick="return Button5_onclick()" />
+	<p>
+		&nbsp;</p>
+	<p>
+
+	<input id="Button6" type="button" value="Testar registro" 
+			onclick="return testarregistro()" /></p>
+
+</body>
+</html>

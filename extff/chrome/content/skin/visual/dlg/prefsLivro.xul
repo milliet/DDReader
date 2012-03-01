@@ -1,0 +1,104 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<dialog id="lidad-prefsL" class="windowBody"
+     title="DDR - Preferências do Livro Atual"
+     xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	 xmlns:html="http://www.w3.org/1999/xhtml"
+buttons="accept,cancel"
+buttonalign="center"
+   ondialogaccept="return clickok();"
+   ondialogcancel="return clickcancel();"
+onload='eventoload();' >
+
+	<script type="text/javascript">
+		var RunningInsideTutorial = false;
+		var RunningInsideExercises = false;
+	</script>
+	<script src="../../../js/CPref.js" type="text/javascript"></script>
+	<script src="../../../js/CLocale.js" type="text/javascript"></script>
+	<script src="../../../js/CMsg.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CMsgIface.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils_ff.js" type="text/javascript"></script>
+	<script src="../../../js/CExcept.js" type="text/javascript"></script>
+	<script src="../../../js/CTextItem.js" type="text/javascript"></script>
+	<script src="../../../js/CTextArray.js" type="text/javascript"></script>
+	<script src="../../../js/CTextLimits.js" type="text/javascript"></script>
+	<script src="../../../js/CDialogs.js" type="text/javascript"></script>
+	<script src="../../../js/CDlgManager.js" type="text/javascript"></script>
+	<script src="../../../js/CSpeak.js" type="text/javascript"></script>
+	<script src="../../../jsdlg/prefslivro.js" type="text/javascript"></script>
+	<html:link href="../base/css/LidaDDlgs.css" rel="stylesheet" type="text/css"/>
+	<vbox>
+		<hbox align="center" class="TitBox" >
+			<label id="prefsbook.title" value="PREFERÊNCIAS DO LIVRO ATUAL" class="LabelTitulo"  align="center" />
+		</hbox>
+		<spacer height="20" minheight="20" maxheight="20" />
+		<hbox class="hboxClass">
+			<!--VOLUME MP3-->
+			<label control="audiovolume" id="Labelaudiovol" value="Volume áudio (MP3): "  class="Labels"/>
+			<spacer flex="1" />
+			<menulist id="Baudiovolume" onfocus="manager.foco(this);" oncommand="manager.foco(this);" >
+				<menupopup id="audiovol">
+					<menuitem label="0" value="0" />
+					<menuitem label="1" value="1" />
+					<menuitem label="2" value="2" />
+					<menuitem label="3" value="3" />
+					<menuitem label="4" value="4" />
+					<menuitem label="5" value="5" />
+					<menuitem label="6" value="6" />
+					<menuitem label="7" value="7" />
+					<menuitem label="8" value="8" />
+					<menuitem label="9" value="9" />
+					<menuitem label="10" value="10" />
+				</menupopup>
+			</menulist>
+		</hbox>
+		<spacer height="10" minheight="10" maxheight="10" />
+		<!--LISTAR TODAS AS VOZES-->
+		<hbox class="hboxClass">
+			<checkbox class="Labels" id="BListAllVoices"  checked="true" label="Listar vozes em todos os idiomas"
+			onfocus="manager.foco(this);" oncommand="BListAllVoices_click(this);" onclick="manager.foco(this);" />
+		</hbox>
+		<spacer height="10" minheight="10" maxheight="10" />
+		<hbox class="hboxClass">
+			<label id="Labelttsvoice" control="Lttsvoice" value="Voz para TTS: "  class="Labels"/>
+			<!-- maxwidth = minwidth para mostrar corretamente o combo quando lisga e desliga a opcao para listar todas as vozes -->
+			<menulist id="Bttsvoice" onfocus="manager.foco(this);" oncommand="manager.foco(this);" minwidth="500px" maxwidth="500px" >
+				<menupopup id="ttsvoice">
+				</menupopup>
+			</menulist>
+		</hbox>
+		<spacer height="10" minheight="10" maxheight="10" />
+		<!--NAVEGA AUTO label="Navegação automática"-->
+		<hbox class="hboxClass">
+			<checkbox class="Labels" id="Bnavigateauto"  checked="true" label="Navegação automática"
+			onfocus="manager.foco(this);" oncommand="manager.foco(this);" onclick="manager.foco(this);" />
+		</hbox>
+		<spacer height="10" minheight="10" maxheight="10" />
+		<!--Display Notas -->
+		<hbox class="hboxClass">
+			<checkbox class="Labels" id="Bnoteson" label="Ler notas de rodapé" checked="true"
+				onfocus="manager.foco(this);" oncommand="manager.foco(this);" onclick="manager.foco(this);" />
+		</hbox>
+		<spacer height="10" minheight="10" maxheight="10" />
+		<!--PAGINAS LIGADAS -->
+		<hbox class="hboxClass">
+			<checkbox class="Labels" id="BPagOn" label="Ler números de página" checked="true"
+				   onfocus="manager.foco(this);" oncommand="manager.foco(this);" onclick="manager.foco(this);" />
+		</hbox>
+		<spacer height="10" minheight="10" maxheight="10" />
+		<!--MP3 ON -->
+		<hbox class="hboxClass">
+			<checkbox class="Labels" id="Buseaudio" label="Ler com MP3 (se houver)" checked="true"
+				  onfocus="manager.foco(this);" oncommand="manager.foco(this);" onclick="manager.foco(this);" />
+		</hbox>
+		<spacer height="10" minheight="10" maxheight="10" />
+		<hbox align="left" style="margin-left:10px" >
+			<button dlgtype="accept" id="prefslivro.botok" label="OK" onfocus="manager.foco(this);"/>
+			<button dlgtype="cancel" id="prefslivro.botcancel" label="CANCELAR" onfocus="manager.foco(this);" />
+		</hbox>
+		<spacer height="10" minheight="10" maxheight="10" />
+	</vbox>
+
+</dialog>

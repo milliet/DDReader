@@ -1,0 +1,62 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<dialog id="lidad-export" class="windowBody"
+title="DDR - Exportar anotações"
+align="top" orient="vertical"
+xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+xmlns:html="http://www.w3.org/1999/xhtml"
+buttons="cancel"
+buttonalign="center"
+   buttonlabelcancel="CANCELAR"
+	ondialogcancel="return clickcancel();"
+	onload="finishLoad();"
+>
+
+	<script type="text/javascript">
+		var RunningInsideTutorial = false;
+		var RunningInsideExercises = false;
+	</script>
+	<script src="../../../js/CPref.js" type="text/javascript"></script>
+	<script src="../../../js/CLocale.js" type="text/javascript"></script>
+	<script src="../../../js/CMsg.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CMsgIface.js" type="text/javascript"></script>
+	<script src="../../../js/CSpell.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CSpellMsg.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils_ff.js" type="text/javascript"></script>
+	<script src="../../../js/CExcept.js" type="text/javascript"></script>
+	<script src="../../../js/CTextItem.js" type="text/javascript"></script>
+	<script src="../../../js/CTextArray.js" type="text/javascript"></script>
+	<script src="../../../js/CTextLimits.js" type="text/javascript"></script>
+	<script src="../../../js/CDialogs.js" type="text/javascript"></script>
+	<script src="../../../js/CDlgManager.js" type="text/javascript"></script>
+	<script src="../../../js/CSpeak.js" type="text/javascript"></script>
+	<script src="../../../jsdlg/DlgExport.js" type="text/javascript"></script>
+<html:link href="../800/css/LidaDDlgs.css" rel="stylesheet" type="text/css"/>
+	 <html:link href="../1024/css/LidaDDlgs.css" rel="stylesheet" type="text/css"/> 
+	<script>
+	document.styleSheets[2].disabled = CPref.interfaceRes();
+	</script>
+	<vbox>
+		<hbox align="center" class="TitBox" >
+			<label id="dlgexport.title" value="EXPORTAR ANOTAÇÕES" class="LabelTitulo"  align="center" />
+		</hbox>
+
+		<hbox>
+			<spacer flex="1" />
+			<vbox>
+				<spacer class="spacer20H"  />
+				<button id="dlgexport.exportnotes" oncommand="clickbutnotes();" label="Exportar anotações do livro" accesskey="E" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="dlgexport.exportconfig" oncommand="clickbutexpconfig();" label="Exportar configurações" accesskey="x" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="dlgexport.importconfig" oncommand="clickbutimpconfig();" label="Importar configurações" accesskey="I" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button dlgtype="cancel" id="dlgexport.botcancel" label="CANCELAR" onfocus="manager.foco(this);" />
+			</vbox>
+			<spacer flex="1" />
+		</hbox>
+<spacer class="spacer20H"  />
+	</vbox>
+
+</dialog>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE smil
+  PUBLIC "-//NISO//DTD dtbsmil 2005-2//EN" "http://www.daisy.org/z3986/2005/dtbsmil-2005-2.dtd">
+<smil xmlns="http://www.w3.org/2001/SMIL20/">
+	  <head>
+		    <meta content="FDNC_1050" name="dtb:uid"/>
+		    <meta content="TPB Narrator" name="dtb:generator"/>
+		    <meta content="0:22:03.635" name="dtb:totalElapsedTime"/>
+		
+	  </head>
+	  <body>
+		    <seq dur="0:00:53.511" fill="remove" id="mseq">
+		       <par id="tcp641">
+            <text id="text641" src="saida.xml#dtb766"/>
+            
+         </par>
+         <par id="tcp642">
+            <text id="text642" src="saida.xml#dtb767"/>
+            
+         </par>
+         <par id="tcp643">
+            <text id="text643" src="saida.xml#dtb768"/>
+            
+         </par>
+         <par id="tcp644">
+            <text id="text644" src="saida.xml#dtb769"/>
+            
+         </par>
+         <par id="tcp645">
+            <text id="text645" src="saida.xml#dtb770"/>
+            
+         </par>
+         <par id="tcp646">
+            <text id="text646" src="saida.xml#dtb771"/>
+            
+         </par>
+         <par id="tcp647">
+            <text id="text647" src="saida.xml#dtb772"/>
+            
+         </par>
+         <par id="tcp648">
+            <text id="text648" src="saida.xml#dtb773"/>
+            
+         </par>
+         <par id="tcp649">
+            <text id="text649" src="saida.xml#dtb774"/>
+            
+         </par>
+         <par id="tcp650">
+            <text id="text650" src="saida.xml#dtb775"/>
+            
+         </par>
+         <par id="tcp651">
+            <text id="text651" src="saida.xml#dtb776"/>
+            
+         </par>
+         <par id="tcp652">
+            <text id="text652" src="saida.xml#dtb777"/>
+            
+         </par>
+         <par id="tcp653">
+            <text id="text653" src="saida.xml#dtb778"/>
+            
+         </par>
+         <par id="tcp654">
+            <text id="text654" src="saida.xml#dtb779"/>
+            
+         </par>
+         <par id="tcp655">
+            <text id="text655" src="saida.xml#dtb780"/>
+            
+         </par>
+      </seq>
+	  </body>
+</smil>

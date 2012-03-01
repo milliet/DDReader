@@ -1,0 +1,83 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<dialog id="lidad-tabcmd" class="windowBody"
+title="DDR - Lista de comandos"
+align="top" orient="vertical"
+xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+xmlns:html="http://www.w3.org/1999/xhtml"
+buttons="none"
+buttonalign="center"
+	ondialogcancel="return clickcancel();"
+	onload="finishLoad();"
+	onkeypress="tabcmdCKeys.keypress(event);"
+>
+
+	<script type="text/javascript">
+		var RunningInsideTutorial = false;
+		var RunningInsideExercises = false;
+	</script>
+	<script src="../../../js/CPref.js" type="text/javascript"></script>
+	<script src="../../../js/CLocale.js" type="text/javascript"></script>
+	<script src="../../../js/CMsg.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CMsgIface.js" type="text/javascript"></script>
+	<script src="../../../js/CSpell.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CSpellMsg.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils_ff.js" type="text/javascript"></script>
+	<script src="../../../js/CExcept.js" type="text/javascript"></script>
+	<script src="../../../js/CTextItem.js" type="text/javascript"></script>
+	<script src="../../../js/CTextArray.js" type="text/javascript"></script>
+	<script src="../../../js/CTextLimits.js" type="text/javascript"></script>
+	<script src="../../../js/CDialogs.js" type="text/javascript"></script>
+	<script src="../../../js/CDlgManager.js" type="text/javascript"></script>
+	<script src="../../../js/CSpeak.js" type="text/javascript"></script>
+	<script src="../../../jsdlg/tabcmd_keys.js" type="text/javascript"></script>
+	<script src="../../../jsdlg/tabcmd_base.js" type="text/javascript"></script>
+	<html:link href="../800/css/LidaDDlgs.css" rel="stylesheet" type="text/css"/>
+	 <html:link href="../1024/css/LidaDDlgs.css" rel="stylesheet" type="text/css"/> 
+	<script>
+	document.styleSheets[2].disabled = CPref.interfaceRes();
+	</script>
+	<vbox>
+		<hbox align="center" class="TitBox" >
+			<label id="tabcmd.title" value="LISTA DE COMANDOS" class="LabelTitulo" />
+		</hbox>
+
+		<hbox pack="center"  align="center">
+			<vbox minwidth="380px">
+				<spacer class="spacer20H"  />
+				<button id="tabcmd_abrir" oncommand="clicktabcmd(this.id);" label="Abrir livro" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="tabcmd_hist" oncommand="clicktabcmd(this.id);" label="Histórico" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="tabcmd_conf" oncommand="clicktabcmd(this.id);" label="Configuração" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="tabcmd_leit" oncommand="clicktabcmd(this.id);" label="Leitura do livro" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="tabcmd_ind" oncommand="clicktabcmd(this.id);" label="Índice" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="tabcmd_cflivro" oncommand="clicktabcmd(this.id);" label="Configuração do livro" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="tabcmd_busca" oncommand="clicktabcmd(this.id);" label="Busca" onfocus="manager.foco(this);" />
+			</vbox>
+			<vbox minwidth="380px">
+				<spacer class="spacer20H"  />
+				<button id="tabcmd_lmark" oncommand="clicktabcmd(this.id);" label="Lista de marcadores" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="tabcmd_edtmark" oncommand="clicktabcmd(this.id);" label="Editar marcador" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="tabcmd_dbib" oncommand="clicktabcmd(this.id);" label="Dados bibliográficos" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="tabcmd_tut" oncommand="clicktabcmd(this.id);" label="Tutorial" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="tabcmd_sup" oncommand="clicktabcmd(this.id);" label="Suporte" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="tabcmd_adic" oncommand="clicktabcmd(this.id);" label="Comandos adicionais" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="tabcmd_nav" oncommand="clicktabcmd(this.id);" label="Comandos de navegação" onfocus="manager.foco(this);" />
+			</vbox>
+		</hbox>
+		<spacer class="spacer20H"  />
+	</vbox>
+
+</dialog>

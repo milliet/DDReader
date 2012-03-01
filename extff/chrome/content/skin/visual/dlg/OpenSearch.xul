@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<dialog id="lidad-searchfile" class="windowBody"
+title="DDR - Procurar livros"
+align="top" orient="vertical"
+xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+xmlns:html="http://www.w3.org/1999/xhtml"
+buttons="cancel"
+buttonalign="left"
+buttonlabelcancel="CANCELAR"
+ondialogcancel="return clickcancel();"
+onload="finishLoad();"
+onkeypress="CKeys_keypress(event);"
+>
+
+	<script type="text/javascript">
+		var RunningInsideTutorial = false;
+		var RunningInsideExercises = false;
+	</script>
+	<script src="../../../js/CPref.js" type="text/javascript"></script>
+	<script src="../../../js/CLocale.js" type="text/javascript"></script>
+	<script src="../../../js/CMsg.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CMsgIface.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CSpellMsg.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils_ff.js" type="text/javascript"></script>
+	<script src="../../../js/CExcept.js" type="text/javascript"></script>
+	<script src="../../../js/CTextItem.js" type="text/javascript"></script>
+	<script src="../../../js/CTextArray.js" type="text/javascript"></script>
+	<script src="../../../js/CTextLimits.js" type="text/javascript"></script>
+	<script src="../../../js/CDialogs.js" type="text/javascript"></script>
+	<script src="../../../js/CDlgManager.js" type="text/javascript"></script>
+	<script src="../../../js/CSpeak.js" type="text/javascript"></script>
+	<script src="../../../js/CTextfileArray.js" type="text/javascript"></script>
+	<script src="../../../js/CTextfileItem.js" type="text/javascript"></script>
+	<script src="../../../js/CSMILFile.js" type="text/javascript"></script>
+	<script src="../../../js/CSMILArray.js" type="text/javascript"></script>
+	<script src="../../../js/CSMILExerc.js" type="text/javascript"></script>
+	<script src="../../../js/CNCX.js" type="text/javascript"></script>
+	<script src="../../../js/CMarks.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CTutorial.js" type="text/javascript"></script>
+
+
+	<html:link href="../base/css/LidaDDlgs.css" rel="stylesheet" type="text/css"/>
+	<script src="../../../js/CSpell.js" type="text/javascript"></script>
+		<script src="../../../jsdlg/OpenSearch.js"/>
+	<!-- VBOX SOMENTE PARA TER SCROLL -->
+	<vbox>
+		<hbox align="left" class="TitBox" flex="1">
+			<label id="opensearch.title" value="PROCURAR LIVROS" class="LabelTitulo"  align="left" />
+		</hbox>
+
+
+		<spacer class="spacer5H" />
+
+		<hbox align="center" >
+			<spacer class="spacer5W"/>
+			<toolbox class="BuscaArquivotoolBar" >
+				<toolbar id="comandos" class="BuscaArquivotoolBar">
+					<toolbarbutton id="toolPlay" image="img/play.gif" class="BuscaArquivotoolBarButton"  oncommand="clicktoolPlay()"/>
+					<toolbarbutton id="toolPrevLev" image="img/prevLev.gif" class="BuscaArquivotoolBarButton" oncommand="clicktoolPrevLev()"/>
+					<toolbarbutton id="toolPrev" image="img/previous.gif"  class="BuscaArquivotoolBarButton" oncommand="clicktoolPrev()"/>
+					<toolbarbutton id="toolNext" image="img/next.gif" class="BuscaArquivotoolBarButton" oncommand="clicktoolNext()"/>
+					<toolbarbutton id="toolNextLev" image="../img/nextLev.gif"  class="BuscaArquivotoolBarButton" oncommand="clicktoolNextLev()"/>
+					<spacer class="spacer2W" />
+					<vbox align="center" pack="center" class="bgPreto">
+						<vbox  height="40" align="bottom" pack="bottom">
+							<spacer flex="1" />
+							<image src="img/voltts.jpg" id="imagevoltts" height="40"  />
+						</vbox>
+						<label id="opensearch.volttsLABEL" value="tts" class="BuscaArquivoVolVelLabel" align="center" />
+					</vbox>
+
+					<spacer class="spacer5W" />
+
+					<vbox align="center" pack="center" class="bgPreto">
+						<vbox  height="40" align="bottom" pack="bottom">
+							<spacer flex="1" />
+							<image height="30" src="img/veltts.jpg" id="imageveltts" />
+						</vbox>
+						<label id="opensearch.veloLABEL" value="velo" class="BuscaArquivoVolVelLabel"  align="center" />
+
+					</vbox>
+				</toolbar>
+			</toolbox>
+			<spacer class="spacer5W"/>
+
+			<spacer flex="1" />
+			<checkbox oncommand="clicknavigateauto()" class="Labels" id="navigateauto" label="Automático" checked="false" onfocus="changefocus()"/>
+
+			<spacer flex="1" />
+			<tooltip id="ButHelp" class="toolTipes" orient="vertical" noautohide="TRUE">
+				<label id="opensearch.ButHelp" value="Clique para acessar a AJUDA" />
+			</tooltip>
+			<toolbarbutton id="toolAjuda" class="BuscaArquivotoolBarButton" image="img/ajuda_spell.gif" tooltip="ButHelp" oncommand="clickhelp()" onfocus="changefocus()"/>
+
+
+		</hbox>
+
+		<iframe src="OpenSearch.html" class="BuscaArquivoInicioFrame" id="inicio"  />
+
+		<hbox align="center">
+			<button dlgtype="cancel" id="opensearch.botcancel" label="FECHAR" />
+			<spacer flex="1" />
+			<label id="opensearch.fontsize" control="fontSize" value="Tamanho de fonte: "  class="Labels"/>
+		<menulist id="fontSize" oncommand="changefont()" onfocus="changefocus()">
+			<menupopup id="fontS">
+				<menuitem label="100%" value="100" />
+				<menuitem label="125%" value="125" />
+				<menuitem label="150%" value="150" />
+				<menuitem label="175%" value="175" />
+				<menuitem label="200%" value="200" />
+			</menupopup>
+		</menulist>
+		</hbox>
+
+
+<spacer class="spacer20H"/>
+	</vbox>
+</dialog>

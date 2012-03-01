@@ -1,0 +1,338 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.windowBody{
+	background-color:#000000;
+	margin: 0px;
+	padding: 0px;	
+}
+.bgPreto{
+	-moz-appearance: none;
+	padding:0px;
+	background-color:#000000;
+	border: 1px solid #000000;
+	color: #000000;
+}
+.LabelTitulo{
+	font: bold 32px Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+.radioLabels{
+	font: bold 16px Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFF00;
+}
+.Labels{
+	font: bold 24px Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFF00;
+}
+menulist{
+font: bold 24px Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-color: #FFFF00;
+	min-height: 38px;
+}
+menupopup {
+	font: bold 24px Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-color: #FFFF00;
+}
+menuitem{
+	font: bold 24px Verdana, Arial, Helvetica, sans-serif;
+}
+button{
+	-moz-appearance: none;
+	font: bold 24px Verdana, Arial, Helvetica, sans-serif;
+	color: #FFCC00;
+	background-color: #000000;
+}
+.BiblioText{
+	font: bold 18px Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-color: #FFFF00;
+	height: 30px;
+	width: 740px;
+}
+.TitBox{
+	background-color: #FFCC00;
+}
+.hboxClass {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFF00;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #FFFF00;
+	margin-left: 10px;
+}
+/* CLASSE GENÉRICA PARA BOTOS DE OK E CANCEL */
+button {
+	-moz-appearance: none;
+	font: bold 24px Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-color: #FFCC00;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}	
+/*width: 700px;*/
+.TextoBusca {
+	font: bold 24px Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-color: #FFFFFF;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-right-style: inset;
+	border-bottom-style: inset;
+	border-top-color: #FFCC00;
+	border-right-color: #FFCC00;
+	border-bottom-color: #FFCC00;
+	border-left-color: #FFCC00;
+}
+.menulistDialog {
+	text-align: right;
+}
+.spacer20H {
+	max-height: 20px;
+	min-height: 20px;
+	height: 20px;
+}
+.spacer10H {
+	max-height: 10px;
+	min-height: 10px;
+	height: 10px;
+}
+spacer5H {
+	max-height: 5px;
+	min-height: 5px;
+	height: 5px;
+}
+spacer2H {
+	max-height: 2px;
+	min-height: 2px;
+	height: 2px;
+}
+spacer2W {
+	max-width: 2px;
+	min-width: 2px;
+	width: 2px;
+}
+spacer5W {
+	max-width: 5px;
+	min-width: 5px;
+	width: 5px;
+}
+spacer90W {
+	max-width: 90px;
+	min-width: 90px;
+	width: 90px;
+}
+/* CLASSES DO IrPag.xul */
+.IrPagNumText{
+	font: bold 32px Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-color: #FFFF00;
+	height: 40px;
+	width: 100%;
+	text-align: center;
+}
+/* CLASSES DO MARKER.XUL */
+.MkLabelTitulo {
+	color:#000000;
+	text-align:center;
+	font: bold 32px Arial, Helvetica, sans-serif;
+	background-color: #FFCC00;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+.MkCampoTitulo {
+	font: bold 24px Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+.MkTexto {
+	font: bold 24px Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-color: #FFFFFF;
+	width: 700px;
+	min-width: 700px;
+	max-width: 700px;
+	height: 400px;
+	min-height: 400px;
+	max-height: 400px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-right-style: inset;
+	border-bottom-style: inset;
+	border-top-color: #FFCC00;
+	border-right-color: #FFCC00;
+	border-bottom-color: #FFCC00;
+	border-left-color: #FFCC00;
+}
+.MkTitulo {
+	-moz-appearance: none;
+	font: bold 24px Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-color: #FFFF00;
+	width: 100%;
+	height: 68px;
+	min-height: 68px;
+	max-height: 68px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-right-color: #666666;
+	border-bottom-color: #666666;
+}
+.SuporteTitulo {
+	-moz-appearance: none;
+	font: bold 24px Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-color: #FFFF00;
+	min-width: 100%;
+	max-width:100%;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-right-color: #666666;
+	border-bottom-color: #666666;
+}
+/* BUSCA DE ARQUIVOS (OPENSEARCH) */
+.BuscaArquivobodyHome {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #000000;
+}
+.BuscaArquivoLista{
+	font: bold 100% Arial, Helvetica, sans-serif;
+	color: #FFFF00;
+	cursor: pointer;
+	list-style-type: none;
+	vertical-align: top;
+	background-color: #000000;
+}
+.BuscaArquivoLista:hover{
+	font: bold 100% Arial, Helvetica, sans-serif;
+	color: #000000;
+	cursor: pointer;
+	background-color: #FFFF00;
+	list-style-type: none;
+	vertical-align: top;
+}
+.BuscaArquivoListaHilite{
+	font: bold 100% Arial, Helvetica, sans-serif;
+	color: #000000;
+	cursor: pointer;
+	background-color: #FFFF00;
+	list-style-type: none;
+	vertical-align: top;
+}
+.BuscaArquivo{
+	background-color: #000000;
+	top: 40px;
+	color: #FFFF00;
+	overflow: auto;
+	visibility: visible;
+	padding-top: 10px;
+	padding-right: 4px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	font: 16px Arial, Helvetica, sans-serif;
+}
+.BuscaArquivotoolBar{
+	
+	/*-moz-outline: black solid 1px;*/
+	padding:0px;
+	background-color:#000000;
+	border: 1px solid #000000;
+	color: #000000;
+}
+
+.BuscaArquivotoolBarButton{
+	-moz-appearance: none;
+	font-family:Arial, Verdana, Helvetica, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	color:#000000;
+	background-color: #000000;
+	text-align: center;
+	padding: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	cursor: pointer;
+}
+.BuscaArquivoInicioFrame{
+	background-color: #000000;
+	overflow: hidden;
+	visibility: visible;
+	margin-top: 8px;
+	margin-right: 0px;
+	margin-bottom: 8px;
+	margin-left: 8px;
+	overflow: auto;
+	border: 4px solid #FFFF00;
+}
+
+.BuscaArquivoVolVelLabel {
+	font: 9px Arial, Helvetica, sans-serif;
+	color: #CCCCCC;
+}
+/*CLASSES WEB */
+.frameCreditos{
+	overflow: visible;
+	visibility: visible;
+	height: 500px;
+	width: 800px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFCC00;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #FFCC00;
+}
+.frameUpdate{
+	overflow: hidden;
+	visibility: visible;
+	height: 288px;
+	width: 600px;
+	min-width:600px;
+}
+.warningText{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	height: 120px;
+	width: 600px;
+}
+.warnBox{
+	min-width:600px;
+}
+.updateBox{
+	min-width:600px;
+}
+.PINText{
+	font: bold 18px Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-color: #FFFF00;
+	height: 30px;
+	width: 400px;
+}

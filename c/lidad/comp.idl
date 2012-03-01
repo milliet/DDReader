@@ -1,0 +1,104 @@
+#include "nsISupports.idl"
+
+[scriptable, uuid(23cc309f-0629-44a0-bb5b-bc766ab8bb6a)]
+
+interface ILidaAudio : nsISupports
+{
+
+/*
+para usar este cara, precisa de um  avascript mais ou menos assim:
+
+	const cid = "@lidad.dll/lidaaudio;1";
+	componente= Components.classes[cid].createInstance();
+	componente= obj.QueryInterface(Components.interfaces.ILidaAudio);
+e usar os metodos, tipo componente.speedAudio
+*/
+
+
+
+	AString getVersion();	//string com a versao, tipo "LIDA-D-AUDIO dll v 1.0"
+
+	attribute double speedAudio;	//velocidade: 1 normal, 2 dobro, 0 parado
+	attribute double speedTTS;		//DIFERENTE: velocidade de -10 a 10, normal = 0
+
+	attribute double volAudio;		//volume: 0 sem som, 1 volume maximo
+	attribute double volTTS;
+
+	attribute long positionAudio;	//posicao atual do audio em milisegindos
+									//-1 indica que está parado ou erro ou nao disponivel
+
+	//indica se o TTS está instalado
+	boolean isTTSinstalled();
+	//indica se o directx está instalado
+	boolean isAudioInstalled();
+
+	/*
+	status de audio e tts
+	0 = parado
+	1 = tocando
+	2 = pausado
+	3 = erro
+	10 = indeterminado, volte a tentar de novo mais tarde
+	*/
+	long getStatusAudio();
+	long getStatusTTS();
+
+
+	//retorna TRUE se está OK, false se deu erro
+	boolean playTTS(in AString texto);	//fala o texto pelo TTS
+
+	
+	/*
+	toca um mp3 ou outro arquivo de audio
+	os tempos estao em milisegundos
+	tempo = -1 para usar o inicio ou o fim do arquivo
+
+	valores retornados:
+	0 = OK
+	1 = arquivo nao encontrado
+	2 = falta codec
+	3 = outros erros
+	*/
+	long playAudio(in AString arquivo, in long inicio, in long fim);
+
+
+	void stopTTS();
+	void stopAudio();
+
+
+	void pauseTTS();
+	void pauseAudio();
+
+	//retorna TRUE se voltou a tocar
+	void resumeTTS();
+	void resumeAudio();
+
+	//controle de vozes
+	long voicesCount();	//numero de vozes instaladas
+	AString voiceID(in long index);
+	AString voiceName(in long index);
+	AString voiceLang(in long index);
+	long voiceType(in long index); //0 = sapi4, 1 = sapi5
+
+	//para setar a voz, a partir do ID fornecido pela DLL
+	AString getVoiceID();
+	void setVoice(in AString id);
+
+	//pega o tipo de voz da voz atualmente selecionada
+	long getCurrVoiceType(); //0 = sapi4, 1 = sapi5
+
+	//descriptografa um XML em texto
+	//ser der erro, resultado comeca com ERRO e o resto é a mensagem de erro
+	AString descriptografar(in AString texto, in AString senha_binhex);
+};
+
+
+  
+/*
+
+funcoes que falta fazer:
+	attribute double panAudio;		//balanço: 0 a esquerda, 1 igual, 2 a direita
+	attribute double panTTS;
+
+*/
+

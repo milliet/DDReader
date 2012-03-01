@@ -1,0 +1,1 @@
+OBJS = e:\builds\moz2_slave\rel-m-rel-xr-w32-bld\build\obj-firefox\modules\libreg\src\reg.obj e:\builds\moz2_slave\rel-m-rel-xr-w32-bld\build\obj-firefox\modules\libreg\src\VerReg.obj e:\builds\moz2_slave\rel-m-rel-xr-w32-bld\build\obj-firefox\modules\libreg\src\vr_stubs.obj e:\builds\moz2_slave\rel-m-rel-xr-w32-bld\build\obj-firefox\modules\libreg\src\nr_bufio.obj

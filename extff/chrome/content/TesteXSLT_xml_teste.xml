@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='utf-8'?><!DOCTYPE dtbook PUBLIC "-//NISO//DTD dtbook 2005-3//EN" "http://www.daisy.org/z3986/2005/dtbook-2005-3.dtd"><?xml-stylesheet href="dtbookbasic.css" type="text/css"?><dtbook xmlns="http://www.daisy.org/z3986/2005/dtbook/" version="2005-3" xml:lang="pt-BR">
+	<head>
+		<meta content="AUTO-UID-5447225155062187147" name="dtb:uid" />
+		<meta content="2.1.1.0" name="dt:version" />
+		<meta name="dc:Title" content="O gato que gostava de cenoura" />
+		<meta name="dc:Creator" content="CAP/BH" />
+		<meta name="dc:Date" content="2009-10-01" />
+		<meta content="CAP/BH" name="dc:Publisher" />
+		<meta name="dc:Identifier" content="AUTO-UID-5447225155062187147" />
+		<meta name="dc:Language" content="pt-BR" />
+		<meta content="sv-SE" name="dc:Language" />
+	</head>
+	<book showin="blp">
+		<frontmatter>
+			<doctitle smilref="speechgen0001.smil#tcp1" id="dtb1">O gato que gostava de cenoura</doctitle>
+			<docauthor smilref="speechgen0001.smil#tcp2" id="dtb2">CAP/BH</docauthor>
+		</frontmatter>
+		<bodymatter id="bodymatter_0001">
+			<level1>
+				<pagenum id="page1" page="normal" smilref="speechgen0001.smil#tcp3">1</pagenum>
+				<covertitle xml:lang="pt-BR" smilref="speechgen0001.smil#tcp4" id="dtb3">O GATO QUE GOSTAVA DE CENOURA
+</covertitle>
+				<author id="dtb4" xml:lang="pt-BR" smilref="speechgen0001.smil#tcp5">RUBEM ALVES
+</author>
+				<p id="dtb5" smilref="speechgen0001.smil#tcp6">ANDRÉ IANNI</p>
+				<p>aqui<noteref idref="#n1_ftn1" id="dtb368" smilref="speechgen0011.smil#tcp368">1</noteref>fimaqui</p>
+								
+				<p id="dtb6" smilref="speechgen0001.smil#tcp7">ILUSTRAÇÕES</p>
+				<p xml:lang="pt-BR">
+					<imggroup>
+						<img src="O_gato_que_gostava_de_cenoura_1-image1.jpg" alt="" smilref="speechgen0001.smil#tcp8" id="rId41" />
+						<caption imgref="rId41" xml:lang="pt-BR" />
+						<caption xml:lang="pt-BR" imgref="rId41"><sent id="dtb7" smilref="speechgen0001.smil#tcp9">Capa. </sent><sent smilref="speechgen0001.smil#tcp10" id="dtb8">A cara de um gato de olhos grandes aparece atrás de várias cenouras.</sent></caption>
+					</imggroup>
+				</p>
+				<p smilref="speechgen0001.smil#tcp11" id="dtb9">Edições Loyola</p>
+				<pagenum page="normal" id="page2" smilref="speechgen0001.smil#tcp12">2</pagenum>
+			</level1>
+			<level1>
+				<h1 smilref="speechgen0002.smil#tcp13" id="dtb10">  O GATO QUE GOSTAVA DE CENOURA
+</h1>
+				<author id="dtb11" smilref="speechgen0002.smil#tcp14" xml:lang="pt-BR">RUBEM ALVES
+</author>
+				<p id="dtb12" smilref="speechgen0002.smil#tcp15">ANDRÉ IANNI</p>
+				<p smilref="speechgen0002.smil#tcp16" id="dtb13">ILUSTRAÇÕES</p>
+				<pagenum smilref="speechgen0002.smil#tcp17" page="normal" id="page3">3</pagenum>
+				<p id="dtb14" smilref="speechgen0002.smil#tcp18">O gato que gostava de cenoura</p>
+				<p id="dtb15" smilref="speechgen0002.smil#tcp19">Rubem Alves</p>
+				<p smilref="speechgen0002.smil#tcp20" id="dtb16">André Ianni</p>
+				<p id="dtb17" smilref="speechgen0002.smil#tcp21">Ilustrações</p>
+				<p xml:lang="pt-BR">
+					<imggroup>
+						<img id="rId52" smilref="speechgen0002.smil#tcp22" alt="" src="O_gato_que_gostava_de_cenoura_1-image2.jpg" />
+						<caption imgref="rId52" xml:lang="pt-BR" />
+						<caption imgref="rId52" xml:lang="pt-BR" id="dtb18" smilref="speechgen0002.smil#tcp23">Um aquário com um peixinho; bolhas subindo pelo ar; um passarinho e um ratinho seguram uma faixa onde está escrito: Gulliver.</caption>
+					</imggroup>
+				</p>
+				<p smilref="speechgen0002.smil#tcp24" id="dtb19">Edições Loyola</p>
+				<pagenum id="page4" page="normal" smilref="speechgen0002.smil#tcp25">4</pagenum>
+				<p id="dtb20" smilref="speechgen0002.smil#tcp26">Edições Loyola</p>
+				<p id="dtb21" smilref="speechgen0002.smil#tcp27">Rua 1822 n.º  347  Ipiranga</p>
+				<p smilref="speechgen0002.smil#tcp28" id="dtb22">04216-000 São Paulo, SP.</p>
+				<p smilref="speechgen0002.smil#tcp29" id="dtb23">Caixa Postal 42.335</p>
+				<p smilref="speechgen0002.smil#tcp30" id="dtb24">04299-970 São Paulo, SP.</p>
+				<p id="dtb25" smilref="speechgen0002.smil#tcp31">Fone (011) 6914-1922</p>
+				<p smilref="speechgen0002.smil#tcp32" id="dtb26">Fax (011) 6163-4275</p>
+				<p smilref="speechgen0002.smil#tcp33" id="dtb27">Home page e vendas: www.loyola.com.br </p>
+				<p><span class="normalized" id="dtb28" smilref="speechgen0002.smil#tcp34">e-mail: </span><a id="dtb29" smilref="speechgen0002.smil#tcp35" external="true" href="mailto:loyola@ibm.net">loyola@ibm.net</a></p>
+				<p><sent id="dtb30" smilref="speechgen0002.smil#tcp36">Todos os direitos reservados. </sent><sent id="dtb31" smilref="speechgen0002.smil#tcp37">Nenhuma parte desta obra pode ser reproduzida ou transmitida por qualquer forma e/ou quaisquer meios (eletrônico ou mecânico, incluindo fotocópia e gravação) ou arquivada em qualquer sistema ou banco de dados sem permissão escrita da Editora.</sent></p>
+				<p id="dtb32" smilref="speechgen0002.smil#tcp38">ISBN: 85-15-01705-9</p>
+				<p id="dtb33" smilref="speechgen0002.smil#tcp39">© EDIÇÕES LOYOLA, São Paulo, Brasil, 1999.</p>
+				<pagenum id="page5" smilref="speechgen0002.smil#tcp40" page="normal">5</pagenum>
+				<p id="dtb34" smilref="speechgen0002.smil#tcp41">Era uma vez um gatinho.</p>
+				<p id="dtb35" smilref="speechgen0002.smil#tcp42">Gatos são animais nobres.</p>
+				<p id="dtb36" smilref="speechgen0002.smil#tcp43">Felinos.</p>
+				<p smilref="speechgen0002.smil#tcp44" id="dtb37">Primos dos tigres, dos leões, das onças.</p>
+				<p id="dtb38" smilref="speechgen0002.smil#tcp45">Velozes, silenciosos, macios, elegantes.</p>
+				<p smilref="speechgen0002.smil#tcp46" id="dtb39">Símbolo da magia - toda bruxa tem um gato, preferivelmente negro.</p>
+				<p><sent id="dtb40" smilref="speechgen0002.smil#tcp47">Símbolo daquilo que fascina e atrai. </sent><sent smilref="speechgen0002.smil#tcp48" id="dtb41">Um homem bonito, amado pelas mulheres, é um “gato". </sent><sent id="dtb42" smilref="speechgen0002.smil#tcp49">Uma mulher bonita, amada pelos homens, é uma “gata”.</sent></p>
+				<p smilref="speechgen0002.smil#tcp50" id="dtb43">Os gatos, como todos os felinos, são caçadores.</p>
+				<p smilref="speechgen0002.smil#tcp51" id="dtb44">Gatos caçam peixes, ratos e pássaros. </p>
+				<p smilref="speechgen0002.smil#tcp52" id="dtb45">Um peixinho bobo, na superfície do tanque,</p>
+				<p smilref="speechgen0002.smil#tcp53" id="dtb46">um passarinho distraído, comendo quirera,</p>
+				<p id="dtb47" smilref="speechgen0002.smil#tcp54">um ratinho molenga, passeando pela casa,</p>
+				<p id="dtb48" smilref="speechgen0002.smil#tcp55">e era uma vez um peixinho, um passarinho e um ratinho... </p>
+				<p id="dtb49" smilref="speechgen0002.smil#tcp56">Viraram comida de um gato.</p>
+				<p><sent id="dtb50" smilref="speechgen0002.smil#tcp57">Assim são os gatos, caçadores carnívoros. </sent><sent smilref="speechgen0002.smil#tcp58" id="dtb51">Eles desprezam os coelhos - animais do mesmo tamanho, só que nem são caçadores nem carnívoros.</sent></p>
+				<p smilref="speechgen0002.smil#tcp59" id="dtb52">Coelhos comem cenouras.</p>
+				<p><sent id="dtb53" smilref="speechgen0002.smil#tcp60">Os gatos odeiam cenouras. </sent><sent id="dtb54" smilref="speechgen0002.smil#tcp61">Para os gatos, quem come cenoura é ruim da cabeça. </sent><sent id="dtb55" smilref="speechgen0002.smil#tcp62">Os coelhos devem ser doidos...</sent></p>
+				<p xml:lang="pt-BR">
+					<imggroup>
+						<img smilref="speechgen0002.smil#tcp63" id="rId73" alt="" src="O_gato_que_gostava_de_cenoura_1-image3.jpg" />
+						<caption imgref="rId73" xml:lang="pt-BR" />
+					</imggroup>
+				</p>
+				<p xml:lang="pt-BR"><span smilref="speechgen0002.smil#tcp64" id="dtb56" class="normalized">Um passarinho e um ratinho atrás de um aquário com um peixinho dentro. </span><pagenum id="page6" page="normal" smilref="speechgen0002.smil#tcp65">6</pagenum></p>
+				<p><sent smilref="speechgen0002.smil#tcp66" id="dtb57">Gulliver - esse era o nome do jovem gato - trouxe grande alegria a seus pais, quando nasceu. </sent><sent id="dtb58" smilref="speechgen0002.smil#tcp67">A mãe gata e o pai gato puseram esse nome no filho - o nome de um gigante - porque sonhavam que ele seria um gato enorme, forte, valente, caçador.</sent></p>
+				<p id="dtb59" smilref="speechgen0002.smil#tcp68">Haveria de ganhar muitas medalhas em competições de caça. </p>
+				<p id="dtb60" smilref="speechgen0002.smil#tcp69">E eles se encheriam de orgulho e haveriam de comer os deliciosos ratos, peixes e passarinhos que Gulliver caçasse. </p>
+				<p><sent smilref="speechgen0002.smil#tcp70" id="dtb61">Mas, para espanto de seus pais, Gulliver era um gato diferente. </sent><sent id="dtb62" smilref="speechgen0002.smil#tcp71">Não gostava de caçar. </sent></p>
+				<p><sent id="dtb63" smilref="speechgen0002.smil#tcp72">Não gostava de comer nem peixes, nem ratos, nem pássaros. </sent><sent smilref="speechgen0002.smil#tcp73" id="dtb64">Seus pais lhe traziam deliciosos ratinhos recém-nascidos, pardais saborosos, peixes cheirosos: tudo em vão. </sent></p>
+				<p><sent smilref="speechgen0002.smil#tcp74" id="dtb65">Ele quase vomitava. </sent><sent smilref="speechgen0002.smil#tcp75" id="dtb66">Seus pais o levaram ao médico.</sent></p>
+				<p id="dtb67" smilref="speechgen0002.smil#tcp76">- Doutor, o que há de errado com nosso gatinho? </p>
+				<p smilref="speechgen0002.smil#tcp77" id="dtb68">perguntavam aflitos. </p>
+				<p><sent smilref="speechgen0002.smil#tcp78" id="dtb69">Os médicos, sem ter uma explicação para a falta de apetite do menino, pediam pilhas de exames. </sent><sent id="dtb70" smilref="speechgen0002.smil#tcp79">Inútil. </sent><sent smilref="speechgen0002.smil#tcp80" id="dtb71">Ele não tinha doença nenhuma no corpo.</sent></p>
+				<p smilref="speechgen0002.smil#tcp81" id="dtb72">- Não, não há nada de errado com seu gatinho. </p>
+				<p id="dtb73" smilref="speechgen0002.smil#tcp82">- diziam, enquanto liam os exames.</p>
+				<p><sent id="dtb74" smilref="speechgen0002.smil#tcp83">- A doença dele - se é que é doença - não é no corpo. </sent><sent smilref="speechgen0002.smil#tcp84" id="dtb75">O corpo está direitinho. </sent></p>
+				<p><sent id="dtb76" smilref="speechgen0002.smil#tcp85">O fato é que os pais ignoravam que Gulliver comia escondido, comia uma comida proibida, comia cenoura. </sent><sent id="dtb77" smilref="speechgen0002.smil#tcp86">Já imaginaram? </sent><sent smilref="speechgen0002.smil#tcp87" id="dtb78">Um gato comendo cenoura como se fosse um coelho?</sent></p>
+				<p xml:lang="pt-BR">
+					<imggroup>
+						<img id="rId84" smilref="speechgen0002.smil#tcp88" src="O_gato_que_gostava_de_cenoura_1-image4.jpg" alt="" />
+						<caption imgref="rId84" />
+					</imggroup>
+				</p>
+				<p id="dtb79" xml:lang="pt-BR" smilref="speechgen0002.smil#tcp89"> Cenouras colocadas no chão.</p>
+				<pagenum smilref="speechgen0002.smil#tcp90" id="page7" page="normal">7</pagenum>
+				<p xml:lang="pt-BR">
+					<imggroup>
+						<img alt="" smilref="speechgen0002.smil#tcp91" id="rId95" src="O_gato_que_gostava_de_cenoura_1-image5.jpg" />
+						<caption imgref="rId95" xml:lang="pt-BR" />
+						<caption xml:lang="pt-BR" smilref="speechgen0002.smil#tcp92" imgref="rId95" id="dtb80">O gato Gulliver num consultório médico; no balcão, vários apetrechos de uso médico e, na parede, a figura do raio X de seu corpo.</caption>
+					</imggroup>
+				</p>
+				<pagenum page="normal" smilref="speechgen0002.smil#tcp93" id="page8">8</pagenum>
+				<p id="dtb81" smilref="speechgen0002.smil#tcp94">Pois era isso que ele fazia, tomando todos os cuidados para que ninguém o visse.</p>
+				<p><sent id="dtb82" smilref="speechgen0002.smil#tcp95">Se alguém o visse, estaria perdido! </sent><sent smilref="speechgen0002.smil#tcp96" id="dtb83">Todos ririam dele, um gato que tem o gosto dos coelhos...</sent></p>
+				<p><sent smilref="speechgen0002.smil#tcp97" id="dtb84">Seus pais estranhavam que ele gostasse de sair sozinho - não andava com os outros gatos. </sent><sent id="dtb85" smilref="speechgen0002.smil#tcp98">Claro que não. </sent></p>
+				<p smilref="speechgen0002.smil#tcp99" id="dtb86">Os outros gatos gostavam de sair juntos para caçar e comer ratos. </p>
+				<p smilref="speechgen0002.smil#tcp100" id="dtb87">Um dia até que Gulliver tentou. </p>
+				<p smilref="speechgen0002.smil#tcp101" id="dtb88">Engoliu (sem mastigar, pois o nojo era grande) um rato que lhe passaram. </p>
+				<p><sent id="dtb89" smilref="speechgen0002.smil#tcp102">Mas vomitou. </sent><sent id="dtb90" smilref="speechgen0002.smil#tcp103">Era por isso que andava sempre sozinho. </sent><sent smilref="speechgen0002.smil#tcp104" id="dtb91">Preferia a solidão. </sent></p>
+				<p id="dtb92" smilref="speechgen0002.smil#tcp105">Ninguém o entenderia.</p>
+				<p smilref="speechgen0002.smil#tcp106" id="dtb93">Um dia a mãe gato, preocupada com o filho, disse ao marido:</p>
+				<p id="dtb94" smilref="speechgen0002.smil#tcp107">- Acho que você deveria seguir Gullinho (esse era seu apelido carinhoso), </p>
+				<p><sent smilref="speechgen0002.smil#tcp108" id="dtb95">para ver o que ele vai fazer. </sent><sent smilref="speechgen0002.smil#tcp109" id="dtb96">Tenho medo de que esteja fazendo alguma coisa errada.</sent></p>
+				<p><sent id="dtb97" smilref="speechgen0002.smil#tcp110">E assim foi. </sent><sent id="dtb98" smilref="speechgen0002.smil#tcp111">Gulliver saiu sozinho, sogateiramente</sent></p>
+				<p id="dtb99" smilref="speechgen0002.smil#tcp112">(não foi "sorrateiramente", pois isso é coisa de ratos...). </p>
+				<p><sent smilref="speechgen0002.smil#tcp113" id="dtb100">O pai o seguiu sem que ele o visse. </sent><sent smilref="speechgen0002.smil#tcp114" id="dtb101">Andou muito, até que chegou ao sítio de seu Joaquim. </sent><sent smilref="speechgen0002.smil#tcp115" id="dtb102">Havia canteiros com todo tipo de hortaliça plantada. </sent><sent smilref="speechgen0002.smil#tcp116" id="dtb103">Entre eles, canteiros de cenoura.</sent></p>
+				<p><sent smilref="speechgen0002.smil#tcp117" id="dtb104">Foi então que Gulliver, depois de olhar para um lado e para o outro, para certificar-se de que ninguém o via, começou a fazer a coisa proibida, horrível, desprezível para um gato. </sent><sent smilref="speechgen0002.smil#tcp118" id="dtb105">Começou a comer cenouras.</sent></p>
+				<p><sent smilref="speechgen0002.smil#tcp119" id="dtb106">Seu pai quase morreu do coração. </sent><sent smilref="speechgen0002.smil#tcp120" id="dtb107">O filho, que em seus sonhos deveria se parecer com um tigre, na realidade parecia mais com um coelho. </sent><sent smilref="speechgen0002.smil#tcp121" id="dtb108">Voltou para casa. </sent><sent smilref="speechgen0002.smil#tcp122" id="dtb109">E ali, ele e a gata, sua mulher, choraram amargamente.</sent></p>
+				<p xml:lang="pt-BR">
+					<imggroup>
+						<img smilref="speechgen0002.smil#tcp123" src="O_gato_que_gostava_de_cenoura_1-image6.jpg" alt="" id="rId106" />
+						<caption xml:lang="pt-BR" imgref="rId106" />
+						<caption imgref="rId106" smilref="speechgen0002.smil#tcp124" xml:lang="pt-BR" id="dtb110">Um espantalho.</caption>
+					</imggroup>
+				</p>
+				<pagenum smilref="speechgen0002.smil#tcp125" page="normal" id="page9">9</pagenum>
+				<p xml:lang="pt-BR">
+					<imggroup>
+						<img src="O_gato_que_gostava_de_cenoura_1-image7.jpg" id="rId117" smilref="speechgen0002.smil#tcp126" alt="" />
+						<caption imgref="rId117" xml:lang="pt-BR" />
+					</imggroup>
+				</p>
+				<p id="dtb111" xml:lang="pt-BR" smilref="speechgen0002.smil#tcp127">Ao redor do gato Gulliver, várias hortaliças como berinjela, tomates e cenouras.</p>
+				<pagenum id="page10" page="normal" smilref="speechgen0002.smil#tcp128">10</pagenum>
+				<p><sent smilref="speechgen0002.smil#tcp129" id="dtb112">Os pais terem descoberto ainda não foi nada. </sent><sent id="dtb113" smilref="speechgen0002.smil#tcp130">Os pais sempre amam os filhos. </sent></p>
+				<p smilref="speechgen0002.smil#tcp131" id="dtb114">O terrível foi quando os outros gatos, colegas de escola, descobriram. </p>
+				<p smilref="speechgen0002.smil#tcp132" id="dtb115">Não era possível esconder. </p>
+				<p id="dtb116" smilref="speechgen0002.smil#tcp133">Um gato que não gostava de comer rato: alguma coisa errada tinha de haver com ele.</p>
+				<p><sent id="dtb117" smilref="speechgen0002.smil#tcp134">Tudo eram suspeitas. </sent><sent id="dtb118" smilref="speechgen0002.smil#tcp135">Até que um colega de escola o viu comendo cenoura.</sent></p>
+				<p><sent smilref="speechgen0002.smil#tcp136" id="dtb119">Gulliver tornou-se objeto de zombaria. </sent><sent smilref="speechgen0002.smil#tcp137" id="dtb120">Passaram a chamá-lo de coelho.</sent></p>
+				<p smilref="speechgen0002.smil#tcp138" id="dtb121">Os pais, padecendo com o sofrimento do filho, consultaram livros de psicologia </p>
+				<p id="dtb122" smilref="speechgen0002.smil#tcp139">e aprenderam que o medo do sofrimento é um poderoso estímulo para fazer os</p>
+				<p><sent id="dtb123" smilref="speechgen0002.smil#tcp140">bichos mudarem seus hábitos. </sent><sent smilref="speechgen0002.smil#tcp141" id="dtb124">Até bichos ferozes como leões e ursos, por medo, aprendem a dançar nos circos.</sent></p>
+				<p smilref="speechgen0002.smil#tcp142" id="dtb125">Mandaram que Gulliver conversasse com um padre.</p>
+				<p><sent id="dtb126" smilref="speechgen0002.smil#tcp143">O gato-padre era um gato impressionante. </sent><sent smilref="speechgen0002.smil#tcp144" id="dtb127">Pêlo lustroso, pretíssimo, olhos verdes, longo rabo encurvado. </sent><sent smilref="speechgen0002.smil#tcp145" id="dtb128">Seu nome era Dom João Severo. </sent></p>
+				<p><sent smilref="speechgen0002.smil#tcp146" id="dtb129">Ele abriu um livro sagrado e disse que Deus, o Gato Supremo, determinara que rato, passarinho e peixe são os manjares dos deuses. </sent><sent id="dtb130" smilref="speechgen0002.smil#tcp147">Assim, por determinação do Deus-Gato, gatos têm de comer ratos, passarinhos e peixes. </sent></p>
+				<p><sent id="dtb131" smilref="speechgen0002.smil#tcp148">Comer cenouras é pecado mortal. </sent><sent id="dtb132" smilref="speechgen0002.smil#tcp149">É contra a natureza. </sent></p>
+				<p smilref="speechgen0002.smil#tcp150" id="dtb133">Aí lhe falou sobre o inferno, um lugar terrível para onde vão todos os gatos que comem cenouras.</p>
+				<p xml:lang="pt-BR">
+					<imggroup>
+						<img src="O_gato_que_gostava_de_cenoura_1-image8.jpg" smilref="speechgen0002.smil#tcp151" id="rId128" alt="" />
+						<caption xml:lang="pt-BR" imgref="rId128" />
+						<caption xml:lang="pt-BR" imgref="rId128" id="dtb134" smilref="speechgen0002.smil#tcp152">Várias orelhas de coelhos.</caption>
+					</imggroup>
+				</p>
+				<pagenum page="normal" id="page11" smilref="speechgen0002.smil#tcp153">11</pagenum>
+				<p xml:lang="pt-BR">
+					<imggroup>
+						<img alt="" src="O_gato_que_gostava_de_cenoura_1-image9.jpg" smilref="speechgen0002.smil#tcp154" id="rId139" />
+						<caption imgref="rId139" xml:lang="pt-BR" />
+					</imggroup>
+				</p>
+				<p smilref="speechgen0002.smil#tcp155" xml:lang="pt-BR" id="dtb135">Um gato preto com chapéu e um grande livro ao seu lado.</p>
+				<pagenum smilref="speechgen0002.smil#tcp156" id="page12" page="normal">12</pagenum>
+				<p smilref="speechgen0002.smil#tcp157" id="dtb136">- Esse será seu destino se você não mudar seus hábitos alimentares </p>
+				<p><sent smilref="speechgen0002.smil#tcp158" id="dtb137">- rematou. </sent><sent smilref="speechgen0002.smil#tcp159" id="dtb138">E ordenou que Gulliver, como penitência, comesse dois ratos. </sent></p>
+				<p><sent smilref="speechgen0002.smil#tcp160" id="dtb139">Ele obedeceu. </sent><sent id="dtb140" smilref="speechgen0002.smil#tcp161">Ele era obediente. </sent><sent id="dtb141" smilref="speechgen0002.smil#tcp162">Mas o corpo não concordou. </sent><sent smilref="speechgen0002.smil#tcp163" id="dtb142">Vomitou.</sent></p>
+				<p><sent id="dtb143" smilref="speechgen0002.smil#tcp164">Seus pais não desanimaram. </sent><sent id="dtb144" smilref="speechgen0002.smil#tcp165">Tinha de haver uma cura. </sent></p>
+				<p id="dtb145" smilref="speechgen0002.smil#tcp166">Enviaram Gulliver a um psicanalista. </p>
+				<p><sent smilref="speechgen0002.smil#tcp167" id="dtb146">Procuraram o melhor, o mais caro, Doutor Gatan. </sent><sent id="dtb147" smilref="speechgen0002.smil#tcp168">Tiveram de tirar dinheiro do banco para pagar o tratamento. </sent></p>
+				<p smilref="speechgen0002.smil#tcp169" id="dtb148">Pais são assim: fazem os maiores sacrifícios para que os filhos fiquem iguais a seus sonhos.</p>
+				<p><sent smilref="speechgen0002.smil#tcp170" id="dtb149">A análise durou vários anos. </sent><sent smilref="speechgen0002.smil#tcp171" id="dtb150">Ao final da análise, Doutor Gatan lhe deu uma explicação complicada, com linguagem de livro. </sent><sent id="dtb151" smilref="speechgen0002.smil#tcp172">Nem ele nem seus pais entenderam a explicação. </sent><sent id="dtb152" smilref="speechgen0002.smil#tcp173">Explicações não adiantam. </sent><sent id="dtb153" smilref="speechgen0002.smil#tcp174">Explicações ficam na cabeça. </sent><sent smilref="speechgen0002.smil#tcp175" id="dtb154">Não chegam até o corpo, onde mora o sofrimento. </sent></p>
+				<p><sent smilref="speechgen0002.smil#tcp176" id="dtb155">Gulliver continuou a ser como sempre fora. </sent><sent smilref="speechgen0002.smil#tcp177" id="dtb156">Acontece que na escola havia um professor que compreendeu o sofrimento de Gulliver, sempre sozinho, sem amigos, objeto da zombaria dos colegas.</sent></p>
+				<p id="dtb157" smilref="speechgen0002.smil#tcp178">- Quero falar com você </p>
+				<p id="dtb158" smilref="speechgen0002.smil#tcp179">- disse ele a Gulliver - no meu escritório.</p>
+				<p><sent id="dtb159" smilref="speechgen0002.smil#tcp180">Gulliver estremeceu. </sent><sent id="dtb160" smilref="speechgen0002.smil#tcp181">Será que o professor iria repreendê-lo por causa de seu gosto por cenouras?</sent></p>
+				<p xml:lang="pt-BR">
+					<imggroup>
+						<img alt="" id="rId1410" smilref="speechgen0002.smil#tcp182" src="O_gato_que_gostava_de_cenoura_1-image10.jpg" />
+						<caption imgref="rId1410" xml:lang="pt-BR" />
+						<caption xml:lang="pt-BR" imgref="rId1410" smilref="speechgen0002.smil#tcp183" id="dtb161">Cenouras colocadas por todos os lados de Gulliver.</caption>
+					</imggroup>
+				</p>
+				<pagenum page="normal" id="page13" smilref="speechgen0002.smil#tcp184">13</pagenum>
+				<p xml:lang="pt-BR">
+					<imggroup>
+						<img id="rId1511" alt="" smilref="speechgen0002.smil#tcp185" src="O_gato_que_gostava_de_cenoura_1-image11.jpg" />
+						<caption xml:lang="pt-BR" imgref="rId1511" />
+						<caption imgref="rId1511" id="dtb162" smilref="speechgen0002.smil#tcp186" xml:lang="pt-BR">Um gato de gravata borboleta de lápis e papel na mão; atrás dele, um diploma.</caption>
+					</imggroup>
+				</p>
+				<pagenum page="normal" id="page14" smilref="speechgen0002.smil#tcp187">14</pagenum>
+				<p id="dtb163" smilref="speechgen0002.smil#tcp188">- Quero contar uma coisa a você</p>
+				<p id="dtb164" smilref="speechgen0002.smil#tcp189">- ele começou, depois de fechar a porta. </p>
+				<p smilref="speechgen0002.smil#tcp190" id="dtb165">A genética nos conta que nosso destino está gravado nas células de nosso corpo,</p>
+				<p><sent id="dtb166" smilref="speechgen0002.smil#tcp191">num disquete muito, muito pequeno chamado DNA. </sent><sent id="dtb167" smilref="speechgen0002.smil#tcp192">Ele já está no feto, antes que o bichinho nasça. </sent><sent id="dtb168" smilref="speechgen0002.smil#tcp193">Antes de você nascer, seu corpo já estava programado pelo DNA: a forma de seus olhos, a cor de seu pêlo, se você seria gato ou gata. </sent></p>
+				<p><sent id="dtb169" smilref="speechgen0002.smil#tcp194">É assim com todas as coisas vivas. </sent><sent id="dtb170" smilref="speechgen0002.smil#tcp195">Os cachorros, os coelhos, os gambás, os sabiás, as curruíras, os urubus: todos são diferentes porque seu DNA é diferente. </sent><sent smilref="speechgen0002.smil#tcp196" id="dtb171">Isso vale até mesmo para as plantas: de semente de abóbora só nasce abóbora. </sent><sent id="dtb172" smilref="speechgen0002.smil#tcp197">De semente de carvalho só nasce carvalho. </sent></p>
+				<p smilref="speechgen0002.smil#tcp198" id="dtb173">E o DNA é implacável: aquilo que a natureza fez ninguém é capaz de desfazer.</p>
+				<p smilref="speechgen0002.smil#tcp199" id="dtb174">Gulliver não estava entendendo a razão daquela aula, mas estava achando a explicação interessante. </p>
+				<p id="dtb175" smilref="speechgen0002.smil#tcp200">O professor, então, prosseguiu:</p>
+				<p smilref="speechgen0002.smil#tcp201" id="dtb176">- Por vezes, o disquete DNA não funciona da forma esperada. </p>
+				<p smilref="speechgen0002.smil#tcp202" id="dtb177">E, quando o bichinho nasce, nasce um pouquinho diferente. </p>
+				<p id="dtb178" smilref="speechgen0002.smil#tcp203">Alguns, chamados daltônicos, não vêem as cores do jeito como a maioria vê. </p>
+				<p smilref="speechgen0002.smil#tcp204" id="dtb179">Outros, chamados canhotos, funcionam melhor com a mão esquerda que com a direita. </p>
+				<p smilref="speechgen0002.smil#tcp205" id="dtb180">Eles têm de tocar violão ao contrário </p>
+				<p id="dtb181" smilref="speechgen0002.smil#tcp206">- e deu uma risada. </p>
+				<p><sent id="dtb182" smilref="speechgen0002.smil#tcp207">- Parece que esse é o caso com aqueles que têm uma dieta de amor diferente daquela reconhecida como padrão. </sent><sent id="dtb183" smilref="speechgen0002.smil#tcp208">O padrão é gato comer rato.</sent></p>
+				<p id="dtb184" smilref="speechgen0002.smil#tcp209">Mas você gosta é de cenoura.</p>
+				<p xml:lang="pt-BR">
+					<imggroup>
+						<img alt="" id="rId1612" src="O_gato_que_gostava_de_cenoura_1-image12.jpg" smilref="speechgen0002.smil#tcp210" />
+						<caption imgref="rId1612" xml:lang="pt-BR" />
+						<caption imgref="rId1612" id="dtb185" smilref="speechgen0002.smil#tcp211" xml:lang="pt-BR">Um óculos com as lentes refletindo um arco-íris.</caption>
+					</imggroup>
+				</p>
+				<pagenum page="normal" id="page15" smilref="speechgen0002.smil#tcp212">15</pagenum>
+				<p xml:lang="pt-BR">
+					<imggroup>
+						<img alt="" smilref="speechgen0002.smil#tcp213" id="rId1713" src="O_gato_que_gostava_de_cenoura_1-image13.jpg" />
+						<caption xml:lang="pt-BR" imgref="rId1713" />
+					</imggroup>
+				</p>
+				<p xml:lang="pt-BR"><span id="dtb186" class="normalized" smilref="speechgen0002.smil#tcp214">Gulliver num quintal rodeado por vários animais (um cachorro, um tucano, um rinoceronte, uma girafa, uma libélula, um besouro, um caracol). </span><pagenum page="normal" id="page16" smilref="speechgen0002.smil#tcp215">16</pagenum></p>
+				<p smilref="speechgen0002.smil#tcp216" id="dtb187">- Os chamados heterossexuais amam o diferente: </p>
+				<p id="dtb188" smilref="speechgen0002.smil#tcp217">o corpo dos homens se comove ao ver um corpo de mulher; </p>
+				<p smilref="speechgen0002.smil#tcp218" id="dtb189">o corpo das mulheres se comove ao ver o corpo de um homem. </p>
+				<p><sent id="dtb190" smilref="speechgen0002.smil#tcp219">Mas o corpo dos homossexuais, quem sabe se por obra do DNA, se comove ao ver um corpo igual ao seu. </sent><sent smilref="speechgen0002.smil#tcp220" id="dtb191">Tal como aconteceu com Narciso, aquele do mito dos gregos: ele se apaixonou por sua própria imagem refletida na água da fonte.</sent></p>
+				<p smilref="speechgen0002.smil#tcp221" id="dtb192">É tão interessante isso: que nosso sexo seja movido por uma imagem! </p>
+				<p><sent smilref="speechgen0002.smil#tcp222" id="dtb193">Dito isso, ele parou, e pareceu mergulhado num sonho. </sent><sent id="dtb194" smilref="speechgen0002.smil#tcp223">De repente acordou, deu uma risadinha, e disse:</sent></p>
+				<p><sent id="dtb195" smilref="speechgen0002.smil#tcp224">- E eu chego a pensar que Prokofieff... </sent><sent id="dtb196" smilref="speechgen0002.smil#tcp225">Você sabe quem é Prokofieff? </sent><sent id="dtb197" smilref="speechgen0002.smil#tcp226">É um compositor. </sent><sent id="dtb198" smilref="speechgen0002.smil#tcp227">Você nunca ouviu sua música "Pedro e o Lobo"? </sent><sent smilref="speechgen0002.smil#tcp228" id="dtb199">É uma estória para crianças, muito divertida. </sent><sent smilref="speechgen0002.smil#tcp229" id="dtb200">Tem um gato que toca clarineta... </sent><sent id="dtb201" smilref="speechgen0002.smil#tcp230">Pois é: penso que é possível que ele também tenha sido um equívoco do DNA. </sent><sent smilref="speechgen0002.smil#tcp231" id="dtb202">Por vezes o DNA se engana para melhor.</sent></p>
+				<pagenum smilref="speechgen0002.smil#tcp232" page="normal" id="page17">17</pagenum>
+				<p xml:lang="pt-BR">
+					<imggroup>
+						<img id="rId1814" smilref="speechgen0002.smil#tcp233" src="O_gato_que_gostava_de_cenoura_1-image14.jpg" alt="" />
+						<caption xml:lang="pt-BR" imgref="rId1814" />
+					</imggroup>
+				</p>
+				<p xml:lang="pt-BR"><span class="normalized" smilref="speechgen0002.smil#tcp234" id="dtb203">De uma clarineta sai um arco-íris onde Gulliver está deitado.</span><pagenum page="normal" smilref="speechgen0002.smil#tcp235" id="page18">18</pagenum></p>
+				<p id="dtb204" smilref="speechgen0002.smil#tcp236">De repente Gulliver compreendeu que o professor sabia tudo sobre ele. </p>
+				<p><sent smilref="speechgen0002.smil#tcp237" id="dtb205">Sabia e compreendia. </sent><sent smilref="speechgen0002.smil#tcp238" id="dtb206">Compreendia e não queria consertá-lo, não queria torná-lo igual aos outros. </sent><sent id="dtb207" smilref="speechgen0002.smil#tcp239">Ele era amigo.</sent></p>
+				<p id="dtb208" smilref="speechgen0002.smil#tcp240">"Meu Deus!"</p>
+				<p smilref="speechgen0002.smil#tcp241" id="dtb209">- ele gritou em silêncio. </p>
+				<p><sent smilref="speechgen0002.smil#tcp242" id="dtb210">"Eu tenho um amigo! </sent><sent id="dtb211" smilref="speechgen0002.smil#tcp243">Eu tenho um amigo!" </sent></p>
+				<p><sent smilref="speechgen0002.smil#tcp244" id="dtb212">E a felicidade de ter um amigo foi tão grande que ele se pôs a chorar como nunca chorara. </sent><sent smilref="speechgen0002.smil#tcp245" id="dtb213">Ele gostava era de comer cenouras. </sent><sent id="dtb214" smilref="speechgen0002.smil#tcp246">Não queria gostar de comer nem rato nem passarinho nem peixe. </sent><sent id="dtb215" smilref="speechgen0002.smil#tcp247">Não queria ficar igual aos outros. </sent><sent smilref="speechgen0002.smil#tcp248" id="dtb216">Seu único desejo era não ter vergonha. </sent><sent id="dtb217" smilref="speechgen0002.smil#tcp249">Seu único desejo era que os outros deixassem que ele fosse o que era: um gato que gostava de cenouras! </sent></p>
+				<p id="dtb218" smilref="speechgen0002.smil#tcp250">Em resumo: ele queria ter amigos. </p>
+				<p><sent id="dtb219" smilref="speechgen0002.smil#tcp251">Porque um amigo é isso: alguém de quem não é preciso se esconder. </sent><sent id="dtb220" smilref="speechgen0002.smil#tcp252">Mas agora ele tinha um amigo. </sent><sent id="dtb221" smilref="speechgen0002.smil#tcp253">Olhou para o professor, enxugou as lágrimas de alegria e não disse nada. </sent><sent smilref="speechgen0002.smil#tcp254" id="dtb222">Não era preciso.</sent></p>
+				<p xml:lang="pt-BR">
+					<imggroup>
+						<img src="O_gato_que_gostava_de_cenoura_1-image15.jpg" id="rId1915" smilref="speechgen0002.smil#tcp255" alt="" />
+						<caption imgref="rId1915" xml:lang="pt-BR" />
+					</imggroup>
+				</p>
+				<p xml:lang="pt-BR"><span id="dtb223" smilref="speechgen0002.smil#tcp256" class="normalized">Gulliver num campo com várias cenouras à sua frente e outras num caixote.</span><pagenum page="normal" id="page19" smilref="speechgen0002.smil#tcp257">19</pagenum></p>
+				<p id="dtb224" smilref="speechgen0002.smil#tcp258">Dados biográficos</p>
+				<p smilref="speechgen0002.smil#tcp259" id="dtb225">O AUTOR</p>
+				<p id="dtb226" smilref="speechgen0002.smil#tcp260">Rubem Azevedo Alves, educador, escritor e psicanalista, doutor em Filosofia pela Universidade Princeton (EUA) e professor emérito da Universidade Estadual de Campinas (UNICAMP). </p>
+				<p><sent smilref="speechgen0002.smil#tcp261" id="dtb227">Faz magia com as palavras e possui um estilo inconfundível. </sent><sent smilref="speechgen0002.smil#tcp262" id="dtb228">Tem escrito sobre temas que navegam pelo universo da Sociologia, da Psicanálise, da Filosofia e da Teologia.</sent></p>
+				<p><sent smilref="speechgen0002.smil#tcp263" id="dtb229">O escritor é mineiro de Boa Esperança. </sent><sent id="dtb230" smilref="speechgen0002.smil#tcp264">Vive em Campinas.</sent></p>
+				<p xml:lang="pt-BR">
+					<imggroup>
+						<img src="O_gato_que_gostava_de_cenoura_1-image16.jpg" smilref="speechgen0002.smil#tcp265" id="rId2016" alt="" />
+						<caption xml:lang="pt-BR" imgref="rId2016" />
+						<caption id="dtb231" smilref="speechgen0002.smil#tcp266" imgref="rId2016" xml:lang="pt-BR">Foto de Rubem Alves.</caption>
+					</imggroup>
+				</p>
+				<p id="dtb232" smilref="speechgen0002.smil#tcp267">O ILUSTRADOR</p>
+				<p><sent id="dtb233" smilref="speechgen0002.smil#tcp268">André lanni formou-se em artes plásticas e adora trabalhar com design gráfico e ilustração. </sent><sent smilref="speechgen0002.smil#tcp269" id="dtb234">Ele adora também desenhar bichos, pessoas, monstros e um monte de outras coisas engraçadas, coloridas ou em preto e branco. </sent><sent smilref="speechgen0002.smil#tcp270" id="dtb235">Ele acha que pimentão, alface, tomate, cebola, beterraba, rúcula e cenoura dão uma bela salada.</sent></p>
+				<p xml:lang="pt-BR">
+					<imggroup>
+						<img id="rId2117" alt="" smilref="speechgen0002.smil#tcp271" src="O_gato_que_gostava_de_cenoura_1-image17.jpg" />
+						<caption xml:lang="pt-BR" imgref="rId2117" />
+					</imggroup>
+				</p>
+				<p xml:lang="pt-BR"><span smilref="speechgen0002.smil#tcp272" id="dtb236" class="normalized">Foto de André Ianni.</span><pagenum page="normal" id="page20" smilref="speechgen0002.smil#tcp273">20</pagenum></p>
+				<p smilref="speechgen0002.smil#tcp274" id="dtb237">OBRAS DO AUTOR NESTA EDITORA</p>
+				<p id="dtb238" smilref="speechgen0002.smil#tcp275">A boneca de pano</p>
+				<p id="dtb239" smilref="speechgen0002.smil#tcp276">Entre a ciência e a sapiência - o dilema da educação</p>
+				<p id="dtb240" smilref="speechgen0002.smil#tcp277">O escorpião e a rã</p>
+				<p id="dtb241" smilref="speechgen0002.smil#tcp278">Estórias de bichos</p>
+				<p smilref="speechgen0002.smil#tcp279" id="dtb242">O flautista mágico</p>
+				<p id="dtb243" smilref="speechgen0002.smil#tcp280">O gambá que não sabia sorrir</p>
+				<p smilref="speechgen0002.smil#tcp281" id="dtb244">Lagartixas e dinossauros</p>
+				<p id="dtb245" smilref="speechgen0002.smil#tcp282">A loja de brinquedos</p>
+				<p smilref="speechgen0002.smil#tcp283" id="dtb246">A menina e a pantera negra</p>
+				<p id="dtb247" smilref="speechgen0002.smil#tcp284">A menina e o pássaro encantado</p>
+				<p smilref="speechgen0002.smil#tcp285" id="dtb248">O país dos dedos gordos</p>
+				<p id="dtb249" smilref="speechgen0002.smil#tcp286">A pipa e a flor</p>
+				<p id="dtb250" smilref="speechgen0002.smil#tcp287">A porquinha do rabo esticadinho</p>
+				<p smilref="speechgen0002.smil#tcp288" id="dtb251">A toupeira que queria ver o cometa</p>
+				<pagenum smilref="speechgen0002.smil#tcp289" page="normal" id="page21">21</pagenum>
+				<p smilref="speechgen0002.smil#tcp290" id="dtb252">Edições Loyola</p>
+				<p id="dtb253" smilref="speechgen0002.smil#tcp291">Rua 1822, 347</p>
+				<p smilref="speechgen0002.smil#tcp292" id="dtb254">IPIRANGA</p>
+				<p smilref="speechgen0002.smil#tcp293" id="dtb255">SÃO PAULO - SP</p>
+				<p smilref="speechgen0002.smil#tcp294" id="dtb256">impressão</p>
+			</level1>
+		</bodymatter>
+	</book>
+</dtbook>

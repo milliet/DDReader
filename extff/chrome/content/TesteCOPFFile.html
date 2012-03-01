@@ -1,0 +1,730 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>COPFFile</title>
+
+
+	<script src="js/CPref.js" type="text/javascript"></script>
+	<script src="js/CLocale.js" type="text/javascript"></script>
+	<script src="js/CMsg.js" type="text/javascript"></script>
+	<script src="jscmd/CMsgIface.js" type="text/javascript"></script>
+	<script src="js/CUtils.js" type="text/javascript"></script>
+	<script src="js/CUtils_ff.js" type="text/javascript"></script>
+	<script src="js/CExcept.js" type="text/javascript"></script>
+	<script src="js/CTextItem.js" type="text/javascript"></script>
+	<script src="js/CTextArray.js" type="text/javascript"></script>
+	<script src="js/CTextLimits.js" type="text/javascript"></script>
+	<script src="js/CDialogs.js" type="text/javascript"></script>
+	<script src="js/CSpeak.js" type="text/javascript"></script>
+	<script src="js/CTextfileArray.js" type="text/javascript"></script>
+	<script src="js/CTextfileItem.js" type="text/javascript"></script>
+	<script src="js/CSMILFile.js" type="text/javascript"></script>
+	<script src="js/CSMILArray.js" type="text/javascript"></script>
+	<script src="js/CSMILExerc.js" type="text/javascript"></script>
+	<script src="js/CNCX.js" type="text/javascript"></script>
+	<script src="js/COPFFile.js" type="text/javascript"></script>
+	<script src="js/CCripto.js" type="text/javascript"></script> 
+	<script src="js/CMarks.js" type="text/javascript"></script>
+	<script src="js/COPFPrefs.js" type="text/javascript"></script>
+	<script src="js/CHist.js" type="text/javascript"></script>
+	<script src="jscmd/COPFControExercise.js" type="text/javascript"></script>
+	<script src="jscmd/COPFControl.js" type="text/javascript"></script>
+	<script src="js/CDlgExerciseManager.js" type="text/javascript"></script>
+	<script src="jscmd/CButtons.js" type="text/javascript"></script>
+	<script src="jscmd/CTools.js" type="text/javascript"></script>
+	<script src="jscmd/CKeys.js" type="text/javascript"></script>
+	<script src="jscmd/CmdHist.js" type="text/javascript"></script>
+	<script src="jscmd/CmdNcx.js" type="text/javascript"></script>
+	<script src="jscmd/CmdInfo.js" type="text/javascript"></script>
+	<script src="jscmd/CmdLibNdx.js" type="text/javascript"></script>
+	<script src="jscmd/CmdMain.js" type="text/javascript"></script>
+	<script src="jscmd/CmdRead.js" type="text/javascript"></script>
+	<script src="jscmd/CmdSplash.js" type="text/javascript"></script>
+	<script src="js/CFindText.js" type="text/javascript"></script>
+
+<script language="javascript" type="text/javascript">
+// <!CDATA[
+
+var opfcarregado = null;
+var noselecionadoatualmente = null;
+var CTextfileItem_atual_TXTabs_href = null; //qual arquivo de texto está na tela
+var texto_selecionadoatualmente = null;
+var textobase_selecionadoatualmente = null;
+
+var eventos_ncx = {
+	getCurrentTextTTS: function(textarray)
+	{
+		return textobase_selecionadoatualmente;
+	},
+	
+	TextfileChanged: function(textarray)
+	{
+		var frame = document.getElementById("iframetexto").contentDocument.getElementById("div_texto_iframe_texto");
+		var framedoc = document.getElementById("iframetexto").contentDocument;
+		//vamos ver se mudou o arquivo
+		if(CTextfileItem_atual_TXTabs_href != textarray.getCurrentTextfile().TXTabs_href)
+		{
+			CTextfileItem_atual_TXTabs_href = textarray.getCurrentTextfile().TXTabs_href;
+			//nao funciona se o xml nao tiver um dtd de transformacao
+			//frame.src = document.getElementById("iframetexto");
+			
+			/*
+			frame.innerHTML = " ";
+			frame.replaceChild(
+				//textarray.getCurrentTextfile().TextFilexml.documentElement.cloneNode(true),
+				textarray.getCurrentTextfile().TextFilexml.documentElement,
+				frame.childNodes.item(0) );
+			frame.innerHTML += " ";
+			*/
+			frame.innerHTML = textarray.getCurrentTextfile().TextFileraw;
+		}
+
+		if(CTextfileItem_atual_TXTabs_href)
+		{
+			try
+			{
+				if(texto_selecionadoatualmente != null)
+				{
+					var antes = texto_selecionadoatualmente.getNamedItem("class").value.toString();
+					if(antes.toString().indexOf(" ") < 0)
+					{
+						//texto_selecionadoatualmente.removeNamedItem("class");
+						texto_selecionadoatualmente.getNamedItem("class").value = "nada";
+					}
+					else
+						texto_selecionadoatualmente.getNamedItem("class").value = antes.split(" ",1);
+				}
+			} catch(e) {}
+		}
+		
+		//move o destaque
+		var elem = framedoc.getElementById(textarray.getCurrentAnchor());
+		var docum = framedoc.documentElement;
+		var precisa = false;
+		if(elem != null)
+		{
+			if(elem.offsetTop < docum.scrollTop)
+				precisa = true;
+			if(elem.offsetTop + elem.scrollHeight > docum.scrollTop + docum.clientHeight)
+				precisa = true;
+
+			if(precisa)
+				framedoc.getElementById(textarray.getCurrentAnchor()).scrollIntoView(true);
+			
+			textobase_selecionadoatualmente = framedoc.getElementById(textarray.getCurrentAnchor());
+			texto_selecionadoatualmente = framedoc.getElementById(textarray.getCurrentAnchor()).attributes;
+		
+		
+			var criar = true;
+			if(texto_selecionadoatualmente.getNamedItem)
+			if(texto_selecionadoatualmente.getNamedItem("class"))
+			{
+				texto_selecionadoatualmente.getNamedItem("class").value += " sNCXselecionado";
+				criar = false;
+			}
+			
+			if(criar)
+			{
+				var classe = document.createAttribute("class");
+				classe.value = "sNCXselecionado";
+				texto_selecionadoatualmente.setNamedItem(classe);
+			}
+		}
+		
+	},
+	
+	NCXPageChangedItem: function()
+	{
+		//ignoramos
+	},
+	
+	NCXChangedItem: function(ncx, id)
+	{
+		if(noselecionadoatualmente != null)
+			noselecionadoatualmente.getNamedItem("class").value = 
+				noselecionadoatualmente.getNamedItem("class").value.toString().split(" ",1);
+		
+		if(id == null)
+			return;
+			//note que iso e chamado antes de colocar o ncx na pagina
+		if(!document.getElementById(id))
+			return;
+		if(!document.getElementById(id).attributes)
+			return;
+		if(!document.getElementById(id).attributes.getNamedItem("class") )
+			return;
+		noselecionadoatualmente = document.getElementById(id).attributes;
+			
+		noselecionadoatualmente.getNamedItem("class").value += " sNCXselecionado";
+		document.getElementById(id).scrollIntoView(0);
+	}
+	
+}
+
+function executar_onclick() {
+	CSpeak.forceEnd();
+	document.getElementById("NUMEROENTRADASNCX").textContent = "Calculando...";
+	
+    var arquivo = document.getElementById("arquivoselecionado").value;
+    var o = new COPFFile("file:///" + arquivo, eventos_ncx, false, false, false, null, null);
+	opfcarregado =o;
+    var msg = " path : " + o.path;
+    msg += " ----  nro smils: " + o.smils.getSize();
+
+    //este aqui nao esta claro dse deve ficar aqui: ao abrir o livro, se ja tiver um ponto,deve ir para ele
+    //se nao tiver, acho que vai pro comeco mesmo....
+	o.smils.gotoStart();
+
+    var x = document.getElementById("resultado");
+    //document.getElementById("resultado").innerHTML = msg;
+    document.getElementById("resultado").textContent = msg;
+
+    
+    var ncx = o.ncx.GetMainNCX();
+		document.getElementById("ncxtestes").innerHTML = " ";
+    document.getElementById("ncxtestes").replaceChild(
+		ncx.cloneNode(true),
+		document.getElementById("ncxtestes").childNodes.item(0) );
+		
+//		alert(document.getElementById("ncxtestes").innerHTML);
+		document.getElementById("ncxtestes").innerHTML += " ";
+		
+		//para forcar a atualizar a posicao do destaque
+		o.ncx.gotoStartNCX();
+		
+		//atualiza nro entradas ncx
+		document.getElementById("NUMEROENTRADASNCX").textContent = "com " + o.ncx.GetNumberOfNavPoints() + " entradas";
+		
+}
+
+function executar_onsmilfalar()
+{
+	if(opfcarregado == null)
+	{
+		alert("Livro não carregado.");
+		return;
+	}
+	
+	opfcarregado.smils.speak();
+}
+
+
+function executar_onfalar()
+{
+	if(opfcarregado == null)
+	{
+		alert("Livro não carregado.");
+		return;
+	}
+	
+	opfcarregado.ncx.speak();
+}
+
+function executar_onproximaentrada()
+{
+	if(opfcarregado == null)
+	{
+		alert("Livro não carregado.");
+		return;
+	}
+	
+	opfcarregado.ncx.gotoNCXEntry( opfcarregado.ncx.GetCurrentNCXEntryNumber() + 1);
+}
+
+function executar_onentradaanterior()
+{
+	if(opfcarregado == null)
+	{
+		alert("Livro não carregado.");
+		return;
+	}
+	
+	opfcarregado.ncx.gotoNCXEntry( opfcarregado.ncx.GetCurrentNCXEntryNumber() - 1);
+}
+
+function executar_onparar()
+{
+	CSpeak.forceEnd();
+}
+
+function executar_onpausa()
+{
+	CSpeak.pause();
+}
+
+function executar_onresume()
+{
+	CSpeak.resume();
+}
+
+function executar_onavancar()
+{
+	CSpeak.gotoNext();
+}
+
+function executar_onvoltar()
+{
+	CSpeak.gotoPrevious();
+}
+
+function executar_ontogglepausa()
+{
+	CSpeak.pauseToggle();
+}
+
+
+function executar_smil_atualizar()
+{
+	var msg = "Nenhum livro carregado";
+	document.getElementById("conteudosmilatual").textContent = msg;
+	if(opfcarregado == null)
+		return;
+	
+	msg = "SRC do SMIL: " + opfcarregado.smils.getCurrentNodeTextSrc();
+	//msg += opfcarregado.smils.getCurrentNode().textContent;
+	msg += " - SMIL: " + opfcarregado.smils._SMILcurrElem.SMILabs_href;
+
+	document.getElementById("conteudosmilatual").textContent = msg;
+}
+
+function executar_smil_comeco()
+{
+	if(opfcarregado == null)
+	{
+		alert("Livro não carregado.");
+		return;
+	}
+	
+	opfcarregado.smils.gotoStart();
+	executar_smil_atualizar();
+}
+
+
+function executar_smil_proximaentrada()
+{
+	if(opfcarregado == null)
+	{
+		alert("Livro não carregado.");
+		return;
+	}
+	
+	opfcarregado.smils.gotoNext();
+	executar_smil_atualizar();
+}
+
+function executar_smil_entradaanterior()
+{
+	if(opfcarregado == null)
+	{
+		alert("Livro não carregado.");
+		return;
+	}
+
+	opfcarregado.smils.gotoPrevious();
+	executar_smil_atualizar();
+}
+
+function executar_onclicancx()
+{
+	if(opfcarregado == null)
+	{
+		alert("Livro não carregado.");
+		return;
+	}
+
+	var href = opfcarregado.ncx.GetCurrentScreenNCXEntryContentSrc();
+	opfcarregado.smils.gotoHref(href);
+	executar_smil_atualizar();
+}
+
+function executar_ontestegeral()
+{
+	alert(opfcarregado.ncx.GetSkipID("PAGE_NUMBER"));
+}
+
+// ]]>
+</script>
+	<style type="text/css">
+		.sNCX1
+		{
+			text-indent: 40px;
+			display: list-item;
+			background-color: #FFFFFF;
+		}
+		.sNCX2
+		{
+			text-indent: 70px;
+			display: list-item;
+			background-color: #dFdFdF;
+			}
+		.sNCX3
+		{
+			text-indent: 100px;
+			display: list-item;
+			background-color: #bFbFbF;
+			}
+		.sNCX4
+		{
+			text-indent: 130px;
+			display: list-item;
+			background-color: #9F9F9F;
+			}
+		.sNCX5
+		{
+			text-indent: 160px;
+			display: list-item;
+			background-color: #7F7F7F;
+			}
+		.sNCX6
+		{
+			background-color: #5F5F5F;
+			text-indent: 190px;
+			display: list-item;
+			}
+		.sNCX0
+		{
+			background-color: #3F3F3F;
+			text-indent: 210px;
+			display: list-item;
+			}
+
+		.sNCXselecionado
+		{
+			color: #990000;
+			}
+		#Button4
+		{
+			height: 26px;
+		}
+	</style>
+</head>
+<body>
+
+    <p>
+        Teste do COPFFile
+    </p>
+    <p>
+        Aquivo a carregar: <input id="arquivoselecionado" type="file"  size="80" 
+			/>&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;<input 
+            id="executar" type="button" value="Executar" onclick="return executar_onclick()" />&nbsp;&nbsp;&nbsp;&nbsp; <input 
+            id="executar3" type="button" value="Teste geral" 
+			onclick="return executar_ontestegeral()" /></p>
+
+<script language=javascript>
+if(document.getElementById("arquivoselecionado").value == "")
+	document.getElementById("arquivoselecionado").value="X:\\livros\\0 morals\\06-SPEECHGEN.OPF";
+</script>
+
+<span id="resultado">resultado do livro</span>
+<hr />
+Diretamente no CSpeak: 	
+<input 
+            id="Button1" type="button" value="Parar de falar" 
+	onclick="return executar_onparar()" />&nbsp;&nbsp;&nbsp;
+	
+<input 
+            id="Button2" type="button" value="Pausa" 
+	onclick="return executar_onpausa()" />&nbsp;&nbsp;&nbsp;
+	
+<input 
+            id="Button3" type="button" value="Continuar" 
+	onclick="return executar_onresume()" />&nbsp;&nbsp;&nbsp;
+	
+<input 
+            id="Button6" type="button" value="Inverter pausa" 
+	onclick="return executar_ontogglepausa()" />&nbsp;&nbsp;&nbsp;
+	
+<input 
+            id="Button4" type="button" value="Voltar" 
+	onclick="return executar_onvoltar()" />&nbsp;&nbsp;&nbsp;
+<input 
+            id="Button5" type="button" value="Avançar" 
+	onclick="return executar_onavancar()" /><br />
+<br />
+
+<hr />
+Através do SMIL:
+
+<input 
+            id="Button10" type="button" value="Atualizar" 
+	onclick="return executar_smil_atualizar()" />&nbsp;&nbsp;&nbsp;&nbsp;
+<input 
+            id="Button9" type="button" value="Começo" 
+	onclick="return executar_smil_comeco()" />&nbsp;&nbsp;&nbsp;&nbsp;
+
+<input 
+            id="Button12" type="button" value="Próxima entrada" 
+	onclick="return executar_smil_proximaentrada()" />&nbsp;&nbsp;&nbsp;&nbsp;
+
+<input 
+            id="Button11" type="button" value="Entrada anterior" 
+	onclick="return executar_smil_entradaanterior()" />&nbsp;&nbsp;&nbsp;&nbsp;
+<input 
+            id="executar2" type="button" value="Falar" 
+	onclick="return executar_onsmilfalar()" />&nbsp;&nbsp;&nbsp;&nbsp;<br />
+
+	SMIL atual:<br />
+<span 
+		id="conteudosmilatual">
+		Ainda sem dados do SMIL
+		</span>
+
+<br />
+<hr />
+Através do NCX, <span id="NUMEROENTRADASNCX">com X entradas</span>
+<input 
+            id="executar0" type="button" value="Falar" 
+	onclick="return executar_onfalar()" />&nbsp;&nbsp;&nbsp;&nbsp;
+
+<input 
+            id="Button7" type="button" value="Próxima entrada" 
+	onclick="return executar_onproximaentrada()" />&nbsp;&nbsp;&nbsp;&nbsp;
+
+<input 
+            id="Button8" type="button" value="Entrada anterior" 
+	onclick="return executar_onentradaanterior()" />&nbsp;&nbsp;&nbsp;&nbsp;
+	<br />
+	Enviando do NCX para o SMIL:
+<input 
+            id="executar1" type="button" value="Ir para entrada atual" 
+	onclick="return executar_onclicancx()" /><br />
+
+NCX do livro:<br />
+<div style="height: 220px; ">
+<div style="border-style: solid; border-width: 2px; border-color: inherit; overflow:scroll; display:inline; position:absolute; width: 95%; height: 200px; " 
+		id="ncxtestes">
+		<span class="sNCX1" >nivel 1</span>
+		<span class="sNCX2">nivel 2</span>
+		<span class="sNCX3">nivel 3</span>
+		<span class="sNCX4">nivel 4</span>
+		<span class="sNCX5">nivel 5</span>
+		<span class="sNCX6">nivel 6</span>
+		<span class="sNCX0">nivel 7</span>
+		<span class="sNCX0">nivel 8</span>
+		</div>
+</div>
+
+<hr />
+
+Texto do livro:<br />
+<div style="height: 220px; ">
+		<iframe style="border-style: solid; border-width: 2px; border-color: inherit; overflow:scroll; display:inline; position:absolute; width: 95%; height: 200px; " id="iframetexto" 
+		src="TesteCOPFFile_iframesrc.html">
+</iframe>
+</div>
+
+<br />
+<br />
+<hr />
+<script type="text/javascript" language="javascript">
+
+function executar_onmostrarmarcadores()
+{
+	if(opfcarregado == null)
+	{
+		alert("Livro não carregado.");
+		return;
+	}
+	
+	var nodelist = opfcarregado.marks.getSortedarrayBookmarks();
+	var msg = "";
+	for(var i=0;i<nodelist.length;i++)
+	{
+		var node = nodelist[i];
+		
+		msg += "<br> Marcador " + i;
+		msg += " ncxRef: ";
+		var aux = CUtils.GetXMLChildNoException(node, "ncxRef", null);
+		if(aux)
+		{
+			document.getElementById("marcadoresconv").textContent = aux.textContent;
+			msg += document.getElementById("marcadoresconv").innerHTML;
+		}
+		
+		msg += " URI: ";
+		aux = CUtils.GetXMLChildNoException(node, "URI", null);
+		if(aux)
+		{
+			document.getElementById("marcadoresconv").textContent = aux.textContent;
+			msg += document.getElementById("marcadoresconv").innerHTML;
+		}
+		
+		msg += " note: ";
+		aux = CUtils.GetXMLChildNoException(node, "note", null);
+		if(aux)
+		{
+			document.getElementById("marcadoresconv").textContent = aux.textContent;
+			msg += document.getElementById("marcadoresconv").innerHTML;
+		}
+		
+		msg += " referenceText: ";
+		aux = CUtils.GetXMLChildNoException(node, "referenceText", null);
+		if(aux)
+		{
+			document.getElementById("marcadoresconv").textContent = aux.textContent;
+			msg += document.getElementById("marcadoresconv").innerHTML;
+		}
+		
+		msg += " text: ";
+		aux = CUtils.GetXMLChildNoException(node, "note", null);
+		if(aux)
+			aux = CUtils.GetXMLChildNoException(aux, "text", null);
+		if(aux)
+		{
+			document.getElementById("marcadoresconv").textContent = aux.textContent;
+			msg += document.getElementById("marcadoresconv").innerHTML;
+		}
+	}
+	
+	document.getElementById("marcadoresconv").textContent = "";
+	document.getElementById("marcadores").innerHTML = msg;
+}
+
+function executar_onatualizarncxref()
+{
+	if(opfcarregado == null)
+	{
+		alert("Livro não carregado.");
+		return;
+	}
+	document.getElementById("ncxRef").value = opfcarregado.ncx.GetCurrentNCXRef();
+}
+
+function executar_onatualizarURI()
+{
+	if(opfcarregado == null)
+	{
+		alert("Livro não carregado.");
+		return;
+	}
+	document.getElementById("URI").value = opfcarregado.smils.GetCurrentURIMark();
+}
+
+function executar_onatualizarreferenceText()
+{
+	if(opfcarregado == null)
+	{
+		alert("Livro não carregado.");
+		return;
+	}
+	document.getElementById("referenceText").value = opfcarregado.getCurrentTextTTS().textContent;
+}
+
+function executar_onatualizarSMILFileIndex()
+{
+	if(opfcarregado == null)
+	{
+		alert("Livro não carregado.");
+		return;
+	}
+	document.getElementById("SMILFileIndex").value = opfcarregado.smils.getSMILFileIndex();
+}
+
+function executar_onatualizarSMILFileOffset()
+{
+	if(opfcarregado == null)
+	{
+		alert("Livro não carregado.");
+		return;
+	}
+	document.getElementById("SMILFileOffset").value = opfcarregado.smils.getSMILFileOffset();
+}
+
+
+function executar_oninserirmarcador()
+{
+	if(opfcarregado == null)
+	{
+		alert("Livro não carregado.");
+		return;
+	}
+	opfcarregado.marks.addBookmark(
+		document.getElementById("ncxRef").value, 
+		document.getElementById("URI").value, 
+		document.getElementById("textinput").value, 
+		document.getElementById("note").value, 
+		document.getElementById("referenceText").value,
+		document.getElementById("SMILFileIndex").value,
+		document.getElementById("SMILFileOffset").value,
+		""
+		);
+	executar_onmostrarmarcadores();
+}
+
+function executar_buscar()
+{
+	//vamos fazer a busca
+	if(opfcarregado == null)
+	{
+		alert("Livro não carregado.");
+		return;
+	}
+
+	var documento = document.getElementById("iframetexto").contentDocument;
+	var textao = document.getElementById("iframetexto").contentDocument.getElementById("div_texto_iframe_texto");
+	
+	var buscar = document.getElementById("textobusca").value;
+	var arr = CFindText_buscasimples(buscar, textao);
+	var msg = "Numero de ocorrências: " + arr.length;
+	if(arr.length > 0)
+	{
+		msg += " Primeiro href: " + arr[0].attributes.getNamedItem("smilref").value;
+		msg += " Primeiro texto: " + arr[0].textContent;
+	}
+	if(arr.length > 1)
+	{
+		msg += " Segundo href: " + arr[1].attributes.getNamedItem("smilref").value;
+		msg += " Segundo texto: " + arr[1].textContent;
+	}
+	if(arr.length > 2)
+	{
+		msg += " Terceiro href: " + arr[2].attributes.getNamedItem("smilref").value;
+		msg += " Terceiro texto: " + arr[2].textContent;
+	}
+	var buscar = document.getElementById("resbusca").textContent = msg;
+}
+
+</script>
+Marcadores: <input id="Button13" type="button" value="Mostrar marcadores" onclick="return executar_onmostrarmarcadores()" />&nbsp;&nbsp;&nbsp;&nbsp;
+<br />
+<span id="marcadores">marcadores nao atualizados</span>
+<span id="marcadoresconv" visible="false">conversao de marcadores</span>
+<br />
+<br />
+Para criar um novo marcador: <br />
+	ncxRef: <input size="60" id="ncxRef" type="text" /> <input id="Button14" type="button" value="Atualizar ncxref" onclick="return executar_onatualizarncxref()" />
+	<br />
+	URI: <input id="URI" size="60" type="text" /> <input id="Button15" type="button" 
+		value="Atualizar URI" onclick="return executar_onatualizarURI()" />
+	<br />
+	textinput (title): <input size="60" id="textinput" type="text" /> 
+	<br />
+	note (text): <input id="note" size="60" type="text" /> 
+	<br />
+	referenceText: <input size="60" id="referenceText" type="text" /> <input id="Button18" type="button" 
+		value="Atualizar referenceText" onclick="return executar_onatualizarreferenceText()" />
+		<br />
+	SMILFileIndex: <input size="60" id="SMILFileIndex" type="text" /> <input id="Button16" type="button" 
+		value="Atualizar referenceText" onclick="return executar_onatualizarSMILFileIndex()" />
+		<br />
+	SMILFileOffset: <input size="60" id="SMILFileOffset" type="text" /> <input id="Button17" type="button" 
+		value="Atualizar referenceText" onclick="return executar_onatualizarSMILFileOffset()" />
+		<br />
+ <input id="Button19" type="button" 
+		value="Inserir marcador" onclick="return executar_oninserirmarcador()" />		
+<hr />
+Busca:<p>
+		<input size="60" id="textobusca" type="text" /> <input id="Button20" type="button" 
+		value="Buscar" 
+			onclick="return executar_buscar()" /></p>
+<p>
+	Resultado da busca: <span id="resbusca">ainda nada</span></p>
+&nbsp;<hr />
+
+Fim da página.
+<br />
+
+</body>
+</html>

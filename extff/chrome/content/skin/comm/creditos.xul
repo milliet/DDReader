@@ -1,0 +1,40 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="cred.css" type="text/css"?>
+<dialog id="lidad-credits" class="windowBody"
+title="CRÉDITOS - LIDA D"
+align="top" orient="vertical"
+xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+xmlns:html="http://www.w3.org/1999/xhtml"
+buttons="cancel"
+buttonalign="center"
+buttonlabelcancel="FECHAR"
+ondialogcancel="return clickcancel();"
+ondialogaccept="return clickcancel();"
+onload="finishLoad();"
+>
+
+	<script src="../../js/CPref.js" type="text/javascript"></script>
+	<script src="../../js/CLocale.js" type="text/javascript"></script>
+	<script src="../../js/CMsg.js" type="text/javascript"></script>
+	<script src="../../jscmd/CMsgIface.js" type="text/javascript"></script>
+	<script src="../../js/CSpell.js" type="text/javascript"></script>
+	<script src="../../jscmd/CSpellMsg.js" type="text/javascript"></script>
+	<script src="../../js/CUtils.js" type="text/javascript"></script>
+	<script src="../../js/CUtils_ff.js" type="text/javascript"></script>
+	<script src="../../js/CExcept.js" type="text/javascript"></script>
+	<script src="../../js/CTextItem.js" type="text/javascript"></script>
+	<script src="../../js/CTextArray.js" type="text/javascript"></script>
+	<script src="../../js/CTextLimits.js" type="text/javascript"></script>
+	<script src="../../js/CDialogs.js" type="text/javascript"></script>
+	<script src="../../js/CDlgManager.js" type="text/javascript"></script>
+	<script src="../../js/CSpeak.js" type="text/javascript"></script>
+	<script src="../../jsdlg/creditos.js" type="text/javascript"></script>
+
+		<iframe src="../../lang/pt-br/creditos/creditos.htm" id="creditos" class="frameCreditos"/>
+		<spacer flex="1" />
+		<button dlgtype="cancel" id="creditos.botcancel" label="FECHAR"  />
+		<spacer height="10" minheight="10" maxheight="10" />
+
+
+</dialog>

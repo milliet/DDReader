@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<dialog xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" 
+xmlns:html="http://www.w3.org/1999/xhtml" class="windowBody" 
+title="DDR - Novo marcador" align="top" orient="vertical" id="lidad-markers" onload="finishLoad();"
+buttons="accept,cancel"
+buttonalign="center" 
+   buttonlabelcancel="CANCELAR"
+   buttonlabelaccept="OK"
+   ondialogaccept="return clickok();"
+	ondialogcancel="return clickcancel();"
+>
+
+	<script type="text/javascript">
+		var RunningInsideTutorial = false;
+		var RunningInsideExercises = false;
+	</script>
+	<script src="../../../js/CPref.js" type="text/javascript"></script>
+	<script src="../../../js/CLocale.js" type="text/javascript"></script>
+	<script src="../../../js/CMsg.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CMsgIface.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CSpellMsg.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils_ff.js" type="text/javascript"></script>
+	<script src="../../../js/CExcept.js" type="text/javascript"></script>
+	<script src="../../../js/CTextItem.js" type="text/javascript"></script>
+	<script src="../../../js/CTextArray.js" type="text/javascript"></script>
+	<script src="../../../js/CTextLimits.js" type="text/javascript"></script>
+	<script src="../../../js/CDialogs.js" type="text/javascript"></script>
+	<script src="../../../js/CSpeak.js" type="text/javascript"></script>
+	<script src="../../../js/CTextfileArray.js" type="text/javascript"></script>
+	<script src="../../../js/CTextfileItem.js" type="text/javascript"></script>
+	<script src="../../../js/CSMILFile.js" type="text/javascript"></script>
+	<script src="../../../js/CSMILArray.js" type="text/javascript"></script>
+	<script src="../../../js/CSMILExerc.js" type="text/javascript"></script>
+	<script src="../../../js/CNCX.js" type="text/javascript"></script>
+	<script src="../../../js/COPFFile.js" type="text/javascript"></script>
+	<script src="../../../js/CCripto.js" type="text/javascript"></script>
+	<script src="../../../js/CMarks.js" type="text/javascript"></script>
+	<script src="../../../js/COPFPrefs.js" type="text/javascript"></script>
+	<script src="../../../js/CHist.js" type="text/javascript"></script>
+	<script src="../../../js/CSpell.js" type="text/javascript"></script>
+	<script src="../../../js/CDlgManager.js" type="text/javascript"></script>
+	<script src="../../../jsdlg/Marker.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CTutorial.js" type="text/javascript"></script>
+	<html:link href="../base/css/LidaDDlgs.css" rel="stylesheet" type="text/css"/>
+
+	<vbox>
+<label id="mksLabel" class="MkLabelTitulo" value="CRIAR - EDITAR MARCADOR" />
+<hbox>
+<vbox flex="1">
+<label id="mksTitulo" control="TituloMk" class="MkCampoTitulo" value="Título: " />
+<textbox rows="2" newlines="pasteintact" class="MkTitulo" id="TituloMk" multiline="true" oninput="manager.change(this);" onfocus="manager.focoid('TituloMk');" onkeypress="manager.key(this, event);" />
+</vbox>
+</hbox>
+<hbox>
+<vbox flex="1">
+<label id="mksAnota" control="AnotaMk" class="MkCampoTitulo" value="Texto: " />
+<textbox rows="12" newlines="pasteintact" class="MkTexto" id="AnotaMk" multiline="true" oninput="manager.change(this);"  onfocus="manager.focoid('AnotaMk');" onkeypress="manager.key(this, event);" />
+</vbox>
+</hbox>
+
+	<spacer class="spacer10H" />
+	<hbox align="left">
+		<button dlgtype="accept" id="marker.botok" label="OK" onfocus="manager.foco(this);" />
+		<button dlgtype="cancel" id="marker.botcancel" label="CANCELAR" onfocus="manager.foco(this);" />
+		<button id="marker.botremove" label="REMOVER" onfocus="manager.foco(this);" oncommand="clickbutremove();" accesskey="R"  />
+	</hbox>
+<spacer class="spacer10H" />
+</vbox>
+</dialog>

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<dialog id="CopyToLibrary-dlg" class="windowBody"
+title="DDR - Copiar para biblioteca"
+align="top" orient="vertical"
+xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+xmlns:html="http://www.w3.org/1999/xhtml"
+buttons="none"
+	ondialogcancel="return clickcancel();"
+	onload="finishLoad();"
+>
+
+	<script type="text/javascript">
+		var RunningInsideTutorial = false;
+		var RunningInsideExercises = false;
+	</script>
+	<script src="../../../js/CPref.js" type="text/javascript"></script>
+	<script src="../../../js/CLocale.js" type="text/javascript"></script>
+	<script src="../../../js/CMsg.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CMsgIface.js" type="text/javascript"></script>
+	<script src="../../../js/CSpell.js" type="text/javascript"></script>
+	<script src="../../../jscmd/CSpellMsg.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils.js" type="text/javascript"></script>
+	<script src="../../../js/CUtils_ff.js" type="text/javascript"></script>
+	<script src="../../../js/CExcept.js" type="text/javascript"></script>
+	<script src="../../../js/CTextItem.js" type="text/javascript"></script>
+	<script src="../../../js/CTextArray.js" type="text/javascript"></script>
+	<script src="../../../js/CTextLimits.js" type="text/javascript"></script>
+	<script src="../../../js/CDialogs.js" type="text/javascript"></script>
+	<script src="../../../js/CDlgManager.js" type="text/javascript"></script>
+	<script src="../../../js/CSpeak.js" type="text/javascript"></script>
+	<script src="../../../jsdlg/CopyToLibrary.js" type="text/javascript"></script>
+	<html:link href="../800/css/LidaDDlgs.css" rel="stylesheet" type="text/css"/>
+	<html:link href="../1024/css/LidaDDlgs.css" rel="stylesheet" type="text/css"/>
+	<script>
+	document.styleSheets[2].disabled = CPref.interfaceRes();
+	</script>
+	<vbox id="CopyToLibrary.nao" style="display:true;">
+		<hbox align="center" class="TitBox" >
+			<label id="CopyToLibrary.nao.title" value="COPIAR PARA A BIBLIOTECA" class="LabelTitulo"  align="center" />
+		</hbox>
+
+		<label multiline="true" id="CopyToLibrary.nao.tip1" value="O livro sendo aberto não está na sua biblioteca." class="Labels"  align="center" />
+		<label multiline="true" id="CopyToLibrary.nao.tip2" value="Selecione uma opção abaixo." class="Labels"  align="center" />
+		<hbox align="center" >
+			<spacer flex="1" />
+			<vbox>
+				<spacer class="spacer20H"  />
+				<!--
+	- se nao existir um livro com o mesmo ID, pergunta: quer copiar? quer abrir do local onde está?
+	-->
+				<button id="CopyToLibrary.nao.copiar" oncommand="clickCopiar(1);" label="1 - Copiar para a biblioteca" accesskey="1" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="CopyToLibrary.nao.abrir" oncommand="clickCopiar(2);" label="2 - Abrir do local atual" accesskey="2" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="CopyToLibrary.nao.cancelar" oncommand="clickcancel();" label="Cancelar" onfocus="manager.foco(this);" />
+			</vbox>
+			<spacer flex="1" />
+		</hbox>
+
+		<spacer class="spacer20H"  />
+	</vbox>
+	<vbox id="CopyToLibrary.ja" style="display:true;">
+		<hbox align="center" class="TitBox" >
+			<label id="CopyToLibrary.ja.title" value="COPIAR PARA A BIBLIOTECA" class="LabelTitulo"  align="center" />
+		</hbox>
+
+		<label id="CopyToLibrary.ja.tip1" value="O livro sendo aberto já está na sua biblioteca." class="Labels"  align="center" />
+		<label id="CopyToLibrary.ja.tip2" value="Selecione uma opção abaixo." class="Labels"  align="center" />
+		<hbox align="center" >
+			<spacer flex="1" />
+			<vbox>
+				<spacer class="spacer20H"  />
+				<!--
+	- se já exsitir, pergunta: quer abrir o da biblioteca? quer copiar por cima? quer abrir do local onde está? 
+	-->
+				<button id="CopyToLibrary.ja.bib" oncommand="clickCopiar(3);" label="1 - Abrir da biblioteca" accesskey="1" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="CopyToLibrary.ja.abrir" oncommand="clickCopiar(2);" label="2 - Abrir do local atual" accesskey="2" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="CopyToLibrary.ja.copiar" oncommand="clickCopiar(1);" label="3 - Copiar esta versão para a biblioteca" accesskey="3" onfocus="manager.foco(this);" />
+				<spacer class="spacer20H"  />
+				<button id="CopyToLibrary.ja.cancelar" oncommand="clickcancel();" label="Cancelar" onfocus="manager.foco(this);" />
+			</vbox>
+			<spacer flex="1" />
+		</hbox>
+
+		<spacer class="spacer20H"  />
+	</vbox>
+
+</dialog>

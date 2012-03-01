@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE smil
+  PUBLIC "-//NISO//DTD dtbsmil 2005-2//EN" "http://www.daisy.org/z3986/2005/dtbsmil-2005-2.dtd">
+<smil xmlns="http://www.w3.org/2001/SMIL20/">
+	  <head>
+		    <meta content="FDNC_1049" name="dtb:uid"/>
+		    <meta content="TPB Narrator" name="dtb:generator"/>
+		    <meta content="0:18:48.270" name="dtb:totalElapsedTime"/>
+		
+	  </head>
+	  <body>
+		    <seq dur="0:00:39.111" fill="remove" id="mseq">
+		       <par id="tcp445">
+            <text id="text445" src="saida.xml#dtb528"/>
+            
+         </par>
+         <seq class="table" end="DTBuserEscape;tcs96.end" fill="remove" id="tcs84">
+            <seq class="tr" end="DTBuserEscape;tcp447.end" fill="remove" id="tcs85">
+               <par id="tcp446">
+                  <text id="text446" src="saida.xml#dtb531"/>
+                  
+               </par>
+               <par id="tcp447">
+                  <text id="text447" src="saida.xml#dtb532"/>
+                  
+               </par>
+            </seq>
+            <seq class="tr" end="DTBuserEscape;tcp449.end" fill="remove" id="tcs86">
+               <par id="tcp448">
+                  <text id="text448" src="saida.xml#dtb534"/>
+                  
+               </par>
+               <par id="tcp449">
+                  <text id="text449" src="saida.xml#dtb535"/>
+                  
+               </par>
+            </seq>
+            <seq class="tr" end="DTBuserEscape;tcp451.end" fill="remove" id="tcs87">
+               <par id="tcp450">
+                  <text id="text450" src="saida.xml#dtb537"/>
+                  
+               </par>
+               <par id="tcp451">
+                  <text id="text451" src="saida.xml#dtb538"/>
+                  
+               </par>
+            </seq>
+            <seq class="tr" end="DTBuserEscape;tcp453.end" fill="remove" id="tcs88">
+               <par id="tcp452">
+                  <text id="text452" src="saida.xml#dtb540"/>
+                  
+               </par>
+               <par id="tcp453">
+                  <text id="text453" src="saida.xml#dtb541"/>
+                  
+               </par>
+            </seq>
+            <seq class="tr" end="DTBuserEscape;tcp455.end" fill="remove" id="tcs89">
+               <par id="tcp454">
+                  <text id="text454" src="saida.xml#dtb543"/>
+                  
+               </par>
+               <par id="tcp455">
+                  <text id="text455" src="saida.xml#dtb544"/>
+                  
+               </par>
+            </seq>
+            <seq class="tr" end="DTBuserEscape;tcp457.end" fill="remove" id="tcs90">
+               <par id="tcp456">
+                  <text id="text456" src="saida.xml#dtb546"/>
+                  
+               </par>
+               <par id="tcp457">
+                  <text id="text457" src="saida.xml#dtb547"/>
+                  
+               </par>
+            </seq>
+            <seq class="tr" end="DTBuserEscape;tcp459.end" fill="remove" id="tcs91">
+               <par id="tcp458">
+                  <text id="text458" src="saida.xml#dtb549"/>
+                  
+               </par>
+               <par id="tcp459">
+                  <text id="text459" src="saida.xml#dtb550"/>
+                  
+               </par>
+            </seq>
+            <seq class="tr" end="DTBuserEscape;tcp461.end" fill="remove" id="tcs92">
+               <par id="tcp460">
+                  <text id="text460" src="saida.xml#dtb552"/>
+                  
+               </par>
+               <par id="tcp461">
+                  <text id="text461" src="saida.xml#dtb553"/>
+                  
+               </par>
+            </seq>
+            <seq class="tr" end="DTBuserEscape;tcp463.end" fill="remove" id="tcs93">
+               <par id="tcp462">
+                  <text id="text462" src="saida.xml#dtb555"/>
+                  
+               </par>
+               <par id="tcp463">
+                  <text id="text463" src="saida.xml#dtb556"/>
+                  
+               </par>
+            </seq>
+            <seq class="tr" end="DTBuserEscape;tcp465.end" fill="remove" id="tcs94">
+               <par id="tcp464">
+                  <text id="text464" src="saida.xml#dtb558"/>
+                  
+               </par>
+               <par id="tcp465">
+                  <text id="text465" src="saida.xml#dtb559"/>
+                  
+               </par>
+            </seq>
+            <seq class="tr" end="DTBuserEscape;tcp467.end" fill="remove" id="tcs95">
+               <par id="tcp466">
+                  <text id="text466" src="saida.xml#dtb561"/>
+                  
+               </par>
+               <par id="tcp467">
+                  <text id="text467" src="saida.xml#dtb562"/>
+                  
+               </par>
+            </seq>
+            <seq class="tr" end="DTBuserEscape;tcp469.end" fill="remove" id="tcs96">
+               <par id="tcp468">
+                  <text id="text468" src="saida.xml#dtb564"/>
+                  
+               </par>
+               <par id="tcp469">
+                  <text id="text469" src="saida.xml#dtb565"/>
+                  
+               </par>
+            </seq>
+         </seq>
+         <par id="tcp470">
+            <text id="text470" src="saida.xml#dtb566"/>
+            
+         </par>
+      </seq>
+	  </body>
+</smil>

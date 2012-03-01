@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>LIDA-D@caracol.com.br</em:id>
+		<em:version>1.0.RELEASE_NUMBER</em:version>
+		<em:type>2</em:type>
+		<em:unpack>true</em:unpack>
+
+		<em:targetApplication>
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>1.5</em:minVersion>
+				<em:maxVersion>9.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+
+		<!-- Front End MetaData -->
+		<em:name>DDReader</em:name>
+		<em:description>DDReader - Dorina Daisy Reader</em:description>
+		<em:creator>Pedro Milliet/Edu Perez</em:creator>
+		<em:homepageURL>http://www.caracol.com.br/ddreader</em:homepageURL>
+
+		<em:iconURL>chrome://lidad/content/skin/comm/logo.gif</em:iconURL>
+		<em:aboutURL>chrome://lidad/content/skin/comm/creditos.xul</em:aboutURL>
+		<!-- se nao estiver em https, precisa de assinatura, ou nao instala -->
+		<em:updateURL>http://www.caracol.com.br/arqs/download/update.rdf</em:updateURL>
+		<em:updateKey>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPYuZWPA4b1KBFqPUHfTyMmrKKpaali+a9QYUM/AZ9Db2U4diHqJWvAtqcqIYro4DkITsoagKwP7kzoTQAzaoJObYZ9n3pFh8bllq9RnChs6y8q1pUyR7wEyD7MlhIC5xMLP4QvkzZymxUIF4BtnmpbiX3QTTFPs0U2xLB2yUS7QIDAQAB</em:updateKey>
+		
+	</Description>
+</RDF>

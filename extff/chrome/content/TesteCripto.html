@@ -1,0 +1,200 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>teste cripto</title>
+
+	<script src="js/CPref.js" type="text/javascript"></script>
+	<script src="js/CLocale.js" type="text/javascript"></script>
+	<script src="js/CMsg.js" type="text/javascript"></script>
+	<script src="jscmd/CMsgIface.js" type="text/javascript"></script>
+	<script src="js/CUtils.js" type="text/javascript"></script>
+	<script src="js/CUtils_ff.js" type="text/javascript"></script>
+	<script src="js/CExcept.js" type="text/javascript"></script>
+	<script src="js/CTextItem.js" type="text/javascript"></script>
+	<script src="js/CTextArray.js" type="text/javascript"></script>
+	<script src="js/CTextLimits.js" type="text/javascript"></script>
+	<script src="js/CDialogs.js" type="text/javascript"></script>
+	<script src="js/CSpeak.js" type="text/javascript"></script>
+	<script src="js/CTextfileArray.js" type="text/javascript"></script>
+	<script src="js/CTextfileItem.js" type="text/javascript"></script>
+	<script src="js/CSMILFile.js" type="text/javascript"></script>
+	<script src="js/CSMILArray.js" type="text/javascript"></script>
+	<script src="js/CSMILExerc.js" type="text/javascript"></script>
+	<script src="js/CNCX.js" type="text/javascript"></script>
+	<script src="js/COPFFile.js" type="text/javascript"></script>
+	<script src="js/CCripto.js" type="text/javascript"></script> 
+	<script src="js/CMarks.js" type="text/javascript"></script>
+	<script src="js/COPFPrefs.js" type="text/javascript"></script>
+	<script src="js/CHist.js" type="text/javascript"></script>
+	<script src="jscmd/COPFControExercise.js" type="text/javascript"></script>
+	<script src="jscmd/COPFControl.js" type="text/javascript"></script>
+	<script src="js/CDlgExerciseManager.js" type="text/javascript"></script>
+	<script src="jscmd/CButtons.js" type="text/javascript"></script>
+	<script src="jscmd/CTools.js" type="text/javascript"></script>
+	<script src="jscmd/CKeys.js" type="text/javascript"></script>
+	<script src="jscmd/CmdHist.js" type="text/javascript"></script>
+	<script src="jscmd/CmdNcx.js" type="text/javascript"></script>
+	<script src="jscmd/CmdInfo.js" type="text/javascript"></script>
+	<script src="jscmd/CmdLibNdx.js" type="text/javascript"></script>
+	<script src="jscmd/CmdMain.js" type="text/javascript"></script>
+	<script src="jscmd/CmdRead.js" type="text/javascript"></script>
+	<script src="jscmd/CmdSplash.js" type="text/javascript"></script>
+
+
+
+
+<script language="javascript" type="text/javascript">
+// <!CDATA[
+
+function click_carregararq()
+{
+	document.getElementById("entrada").value = CUtils.LoadFileRaw("file:///" + document.getElementById("arqentrada").value);
+
+}
+
+function testar_onclick() {
+var entra = CUtils.LoadFileRaw("file:///" + document.getElementById("arqentrada").value);
+alert(entra.length);
+var saida = "xongás";
+var saida = __CSpeakControl._componente.descriptografar(entra, document.getElementById("senhabinhex").value);
+var saida = CCripto.DecryptText(entra, document.getElementById("senhabinhex").value);
+
+//alert(saida.length);
+
+/*
+para converter o set de caracteres da resposta:
+var fos = Components.classes["@mozilla.org/network/file-output-stream;1"].createInstance(Components.interfaces.nsIFileOutputStream);
+	var file = CUtils.GetDataFolder();
+	file.append("testedegravacaodosdados.txt");
+fos.init(file, 0x02 | 0x08 | 0x20, 0664, 0);   // write, create, truncate
+var charset = "ISO-8859-1"; // Can be any character encoding name that Mozilla supports
+var os = Components.classes["@mozilla.org/intl/converter-output-stream;1"]
+                   .createInstance(Components.interfaces.nsIConverterOutputStream);
+// This assumes that fos is the nsIOutputStream you want to write to
+os.init(fos, charset, 0, 0x0000);
+os.writeString(saida);
+os.close();
+fos.close();
+saida = CUtils.LoadFileRaw("file:///" + file.path);
+*/
+
+
+document.getElementById("saida").value = saida;
+document.getElementById("saidadentro").innerHTML = saida;
+
+}
+
+function testafirefox_onclick()
+{
+
+/*
+var chavecripto = "1C36134BAD63E0DFFB24D08FDF6902";
+var textocripto = "xongalhada";
+//var textocripto = "xo";
+
+	var ch = Components.classes["@mozilla.org/security/keyobjectfactory;1"].getService(Components.interfaces.nsIKeyObjectFactory);
+	//keyfromstring: so hmac e rc4 
+	//const   short  AES_CBC = 2
+	//const   short  HMAC = 257
+	//const short 	RC4 = 1
+	var key = ch.keyFromString(1, chavecripto);
+	var ss = Components.classes["@mozilla.org/security/streamcipher;1"].createInstance(Components.interfaces.nsIStreamCipher);
+	ss.init(key);
+	//initWithIV nao faz nenhuma diferenca, parece que nao usa o IV
+	//ss.initWithIV(key, chavecripto2.split(""), chavecripto2.length);
+	ss.updateFromString(textocripto);
+	var criptografado = ss.finish(false );
+	alert(CCripto.Binary2Binhex(criptografado));
+	
+	//vamos descriptografar
+	var ch = Components.classes["@mozilla.org/security/keyobjectfactory;1"].getService(Components.interfaces.nsIKeyObjectFactory);
+	//keyfromstring: so hmac e rc4 
+	//const   short  AES_CBC = 2
+	//const   short  HMAC = 257
+	//const short 	RC4 = 1
+	var key = ch.keyFromString(1, chavecripto);
+	var ss = Components.classes["@mozilla.org/security/streamcipher;1"].createInstance(Components.interfaces.nsIStreamCipher);
+	ss.init(key);
+	ss.updateFromString(criptografado);
+	var voltado = ss.finish(false );
+	
+	alert(voltado);
+*/
+	alert(CCripto.Binary2Binhex("kakaka"));
+	alert(CCripto.Binhex2Binary(CCripto.Binary2Binhex("asasasadasdaassad kakaka")));
+}
+
+function teste_carga_dat()
+{
+	//abrindo um arquivo
+	var txt = CUtils.LoadFileRaw("file:\\\x:\pin.dat.editado");
+	//txt = CCripto.Binary2Binhex(txt);
+	var txt2 = "";
+		txt2 += txt.substr(0, 16);
+		txt2 += "\r\n";
+		txt = txt.substr(16, txt.length);
+	while(txt != "")
+	{
+		txt2 += txt.substr(0, 32);
+		txt2 += "\r\n";
+		txt = txt.substr(32, txt.length);
+	}
+	document.getElementById("saida").value = txt2;	
+	
+}
+
+
+
+ 
+// ]]>
+</script>
+</head>
+<body>
+
+    <p>
+        Teste de criptografia</p>
+<p>
+        entrada:<br />
+        <textarea id="entrada" cols="80" name="S1" rows="5"></textarea>
+
+        <br />
+        <br />
+        saida:<br />
+        <textarea id="saida" cols="80" name="S1" rows="5"></textarea>
+        
+        <br />
+        <br />
+        senha bnhex:<br />
+	<input id="senhabinhex" type="text" value="1C36134BAD63E0DFFB24D08FDF6902D9" 
+			size="100" />
+        <br />
+        <br />
+Carregar arquivo na entrada:<br />
+	<input id="arqentrada" type="file" size="100" />
+	<br />
+	<input id="carregararq" type="button" value="carregar (muito lento)" onclick="click_carregararq()" />
+	<br />
+	
+        </p>
+<script language=javascript>
+if(document.getElementById("arqentrada").value == "")
+	document.getElementById("arqentrada").value="X:\\testecripto\\saida\\310 pags constituicao.xml";
+</script>
+
+
+
+<p>
+	<input id="testar" type="button" value="testar (carregha o arquivo e roda)" onclick="return testar_onclick()" /></p>
+<p>
+	&nbsp;
+	<input id="keyfirefox" type="button" value="teste das chaves do firefox" 
+		onclick="return testafirefox_onclick()" />&nbsp;&nbsp;&nbsp;&nbsp;
+	<input id="testecargapindat" type="button" value="teste de carga do pin.dat" 
+		onclick="return teste_carga_dat()" /></p>
+
+	<span id="saidadentro">aqui vem o texto</span>
+	
+
+</body>
+</html>
