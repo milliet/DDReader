@@ -1,1 +1,6 @@
-﻿README for DDReader
+DDReader is a DAISY books reader (DAISY 3.0) created by Pedro Milliet, Eduardo Perez and the Dorina Foundation for the Blind (from Brazil)
+It is now an addon for Firefox, but is expected to evolve into a standalone application. 
+It is available in three languages (Portuguese, Spanish and English). DDReader has a lot of features to easy the users reading experience.
+We are planning to make it available for Linux, Mac and Android platforms. The full documentation will be uploaded as soon as possible.
+If you want to join us, please send me a message (pedro.milliet@gmail.com).
+The code is mostly javascript, Xul and HTML. There is also a Dll in C to deal with the TTS bridge between Firefox and Windows SAPI5.
